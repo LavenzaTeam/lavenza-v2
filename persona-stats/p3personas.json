@@ -1438,5 +1438,182 @@
                 "level": "Level 59"
             }
         }
+    },
+    "lucia": {
+        "name": "Lucia",
+        "url": "https://megamitensei.fandom.com/wiki/Lucia",
+        "iconurl": "https://vignette.wikia.nocookie.net/megamitensei/images/3/34/Lucia.png/revision/latest/scale-to-width-down/250?cb=20161019072617",
+        "arcana": "Priestess",
+        "skillcard": "N/A",
+        "level": "Level 17",
+        "weaknesses": {
+            "inherit": "N/A",
+            "reflects": null,
+            "absorbs": null,
+            "blocks": null,
+            "resists": null,
+            "weak": null
+        },
+        "baseStats": {
+            "strength": "8",
+            "magic": "14",
+            "endurance": "12",
+            "agility": "9",
+            "luck": "12"
+        },
+        "fusionSpells": {
+            "fusionSkill": {
+                "name": "This Persona doesn't appear to have a fusion spell!",
+                "cost": null,
+                "effect": null,
+                "preRequisite": null
+            }
+        },
+        "skills": {
+            "skill1": {
+                "name": "Full Analysis",
+                "cost": "Navi",
+                "effect": "Displays detailed enemy information (stats, resistances, and skills).",
+                "level": "Innate"
+            },
+            "skill2": {
+                "name": "Support Scan",
+                "cost": "Navi",
+                "effect": "Displays all buffs and debuffs currently in effect.",
+                "level": "Level 23"
+            },
+            "skill3": {
+                "name": "Third Eye",
+                "cost": "Navi",
+                "effect": "Increases information displayed on the target (shows whether an attack will be nulled, repelled, or absorbed).",
+                "level": "Level 32"
+            },
+            "skill4": {
+                "name": "Healing Wave",
+                "cost": "Navi",
+                "effect": "Party recovers 15% HP when ascending to the next floor.",
+                "level": "Level 41"
+            }
+        }
+    },
+    "juno": {
+        "name": "Juno",
+        "url": "https://megamitensei.fandom.com/wiki/Juno",
+        "iconurl": "https://vignette.wikia.nocookie.net/megamitensei/images/4/4a/Juno.png/revision/latest/scale-to-width-down/250?cb=20080701232923",
+        "arcana": "Priestess",
+        "skillcard": "N/A",
+        "level": "Inherited from Lucia",
+        "weaknesses": {
+            "inherit": null,
+            "reflects": null,
+            "absorbs": null,
+            "blocks": null,
+            "resists": null,
+            "weak": null
+        },
+        "baseStats": {
+            "strength": null,
+            "magic": null,
+            "endurance": null,
+            "agility": null,
+            "luck": null
+        },
+        "fusionSpells": {
+            "fusionSkill": {
+                "name": "This Persona doesn't appear to have a fusion spell!",
+                "cost": null,
+                "effect": null,
+                "preRequisite": null
+            }
+        },
+        "skills": {
+            "skill1": {
+                "name": "Full Analysis",
+                "cost": "Navi",
+                "effect": "Displays detailed enemy information (stats, resistances, and skills).",
+                "level": "Innate"
+            },
+            "skill2": {
+                "name": "Support Scan",
+                "cost": "Navi",
+                "effect": "Displays all buffs and debuffs currently in effect.",
+                "level": "Level 23"
+            },
+            "skill3": {
+                "name": "Third Eye",
+                "cost": "Navi",
+                "effect": "Increases information displayed on the target (shows whether an attack will be nulled, repelled, or absorbed).",
+                "level": "Level 32"
+            },
+            "skill4": {
+                "name": "Healing Wave",
+                "cost": "Navi",
+                "effect": "Party recovers 15% HP when ascending to the next floor.",
+                "level": "Level 41"
+            },
+            "skill5": {
+                "name": "Oracle",
+                "cost": "Navi",
+                "effect": "Causes one of the following effects: 1. HP restored. 2. SP restored. 3. HP and SP restored. 4. All status ailments cured. 5. HP and SP reduced to 1.",
+                "level": "Level 50"
+            },
+            "skill6": {
+                "name": "Escape Route",
+                "cost": "Navi",
+                "effect": "Return to the entrance of Tartarus.",
+                "level": "Level 72"
+            }
+        }
+    },
+    "apsaras": {
+        "name": "Apsaras",
+        "url": "https://megamitensei.fandom.com/wiki/Apsaras",
+        "iconurl": "https://vignette.wikia.nocookie.net/megamitensei/images/6/60/ApsarasP4.png/revision/latest/scale-to-width-down/250?cb=20190426183333",
+        "arcana": "Priestess",
+        "skillcard": "Bufu (Lv 4)",
+        "level": "Level 3",
+        "weaknesses": {
+            "inherit": "Ice",
+            "reflects": null,
+            "absorbs": null,
+            "blocks": null,
+            "resists": "Ice",
+            "weak": "Slash"
+        },
+        "baseStats": {
+            "strength": "2",
+            "magic": "4",
+            "endurance": "3",
+            "agility": "2",
+            "luck": "4"
+        },
+        "fusionSpells": {
+            "fusionSkill": {
+                "name": "Cadenza",
+                "cost": "20% SP",
+                "effect": "Restores 50% HP / Evasion up (party).",
+                "preRequisite": "Orpheus + Apsaras"
+            }
+        },
+        "skills": {
+            "skill1": {
+                "name": "Bufu",
+                "cost": "4 SP",
+                "effect": "Deals light Ice damage / Freezes one foe. (10% chance)",
+                "level": "Innate"
+            },
+            "skill2": {
+                "name": "Posumudi",
+                "cost": "5 SP",
+                "effect": "Neutralizes Poison (1 ally).",
+                "level": "Level 4"
+            },
+            "skill3": {
+                "name": "Sukunda",
+                "cost": "6 SP",
+                "effect": "Decreases 1 foe's Hit/Evasion rate.",
+                "level": "Level 5"
+            }
+        }
     }
 }

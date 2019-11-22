@@ -32,6 +32,9 @@ module.exports = {
         if(personaName === "orobas") var query = persona.orobas;
         if(personaName === "rangda") var query = persona.rangda;
         if(personaName === "surt") var query = persona.surt;
+        if(personaName === "lucia") var query = persona.lucia;
+        if(personaName === "juno") var query = persona.juno;
+        if(personaName === "apsaras") var query = persona.apsaras;
 
         if(!query) return message.reply("You have entered an invalid Persona to search!");
 
