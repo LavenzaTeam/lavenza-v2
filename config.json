@@ -24,12 +24,12 @@
         "faded": "199287778226339841"
     },
     "servers": {
-        "spicybot-server": "603768645730172928",
-        "development-server": "640749553313906713",
-        "ramenshop-server": "511289361178820618"
+        "spicybotserver": "603768645730172928",
+        "developmentserver": "640749553313906713",
+        "ramenshopserver": "511289361178820618"
     },
     "inviteurl": {
-        "client-id": "639988194229878810",
-        "permissions-integer": "8"
+        "clientid": "639988194229878810",
+        "permissionsinteger": "8"
     }
 }

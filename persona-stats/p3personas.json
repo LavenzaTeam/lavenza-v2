@@ -1615,5 +1615,494 @@
                 "level": "Level 5"
             }
         }
+    },
+    "unicorn": {
+        "name": "Unicorn",
+        "url": "https://megamitensei.fandom.com/wiki/Unicorn",
+        "iconurl": "https://vignette.wikia.nocookie.net/megamitensei/images/5/53/UnicornSMT.jpg/revision/latest/scale-to-width-down/250?cb=20080801225707",
+        "arcana": "Priestess",
+        "skillcard": "Dia (Lv 12)",
+        "level": "Level 11",
+        "weaknesses": {
+            "inherit": "Recovery",
+            "reflects": null,
+            "absorbs": null,
+            "blocks": "Ice",
+            "resists": "Light",
+            "weak": "Fire"
+        },
+        "baseStats": {
+            "strength": "7",
+            "magic": "10",
+            "endurance": "8",
+            "agility": "9",
+            "luck": "6"
+        },
+        "fusionSpells": {
+            "fusionSkill": {
+                "name": "This Persona doesn't appear to have a fusion spell!",
+                "cost": null,
+                "effect": null,
+                "preRequisite": null
+            }
+        },
+        "skills": {
+            "skill1": {
+                "name": "Dia",
+                "cost": "4 SP",
+                "effect": "Slightly restores 1 ally's HP.",
+                "level": "Innate"
+            },
+            "skill2": {
+                "name": "Hama",
+                "cost": "6 SP",
+                "effect": "Light: instant kill, 1 foe. (25% chance)",
+                "level": "Innate"
+            },
+            "skill3": {
+                "name": "Poisma",
+                "cost": "5 SP",
+                "effect": "Poisons 1 foe. (25% chance)",
+                "level": "Innate"
+            },
+            "skill4": {
+                "name": "Dodge Pierce",
+                "cost": "Passive",
+                "effect": "Evasion rate doubled vs Pierce attacks.",
+                "level": "Level 12"
+            },
+            "skill5": {
+                "name": "Enradi",
+                "cost": "5 SP",
+                "effect": "Dispels Rage (1 ally).",
+                "level": "Level 13"
+            },
+            "skill6": {
+                "name": "Auto-Rakukaja",
+                "cost": "Passive",
+                "effect": "Automatic Rakukaja at the start of battle.",
+                "level": "Level 15"
+            }
+        }
+    },
+    "highPixie": {
+        "name": "High Pixie",
+        "url": "https://megamitensei.fandom.com/wiki/High_Pixie",
+        "iconurl": "https://vignette.wikia.nocookie.net/megamitensei/images/f/f5/Smt2highpixie.jpg/revision/latest/scale-to-width-down/250?cb=20140605020736",
+        "arcana": "Priestess",
+        "skillcard": "Bufula (Lv 25)",
+        "level": "Level 21",
+        "weaknesses": {
+            "inherit": "Ice",
+            "reflects": null,
+            "absorbs": null,
+            "blocks": "Ice",
+            "resists": null,
+            "weak": "Wind"
+        },
+        "baseStats": {
+            "strength": "13",
+            "magic": "18",
+            "endurance": "12",
+            "agility": "11",
+            "luck": "16"
+        },
+        "fusionSpells": {
+            "fusionSkill": {
+                "name": "This Persona doesn't appear to have a fusion spell!",
+                "cost": null,
+                "effect": null,
+                "preRequisite": null
+            }
+        },
+        "skills": {
+            "skill1": {
+                "name": "Mabufu",
+                "cost": "8 SP",
+                "effect": "Deals light Ice damage / Freezes all foes. (8% chance)",
+                "level": "Innate"
+            },
+            "skill2": {
+                "name": "Holy Arrow",
+                "cost": "9% HP",
+                "effect": "Deals light Pierce damage / Charms one foe. (25% chance)",
+                "level": "Innate"
+            },
+            "skill3": {
+                "name": "Bufula",
+                "cost": "8 SP",
+                "effect": "Deals medium Ice damage / Freezes one foe. (10% chance)",
+                "level": "Level 23"
+            },
+            "skill4": {
+                "name": "Media",
+                "cost": "8 SP",
+                "effect": "Slightly restores party's HP.",
+                "level": "Level 24"
+            },
+            "skill5": {
+                "name": "Rakukaja",
+                "cost": "6 SP",
+                "effect": "Increases 1 ally's Defense.",
+                "level": "Level 25"
+            },
+            "skill6": {
+                "name": "Trafuri",
+                "cost": "25 SP",
+                "effect": "Enables escape from most battles.",
+                "level": "Level 26"
+            }
+        }
+    },
+    "sarasvati": {
+        "name": "Sarasvati",
+        "url": "https://megamitensei.fandom.com/wiki/Sarasvati",
+        "iconurl": "https://vignette.wikia.nocookie.net/megamitensei/images/2/21/SarasvatiSMT2.jpg/revision/latest/scale-to-width-down/250?cb=20080806195340",
+        "arcana": "Priestess",
+        "skillcard": "Posumudi (Lv 30)",
+        "level": "Level 27",
+        "weaknesses": {
+            "inherit": "Ice",
+            "reflects": null,
+            "absorbs": null,
+            "blocks": "Ice",
+            "resists": null,
+            "weak": "Electricity"
+        },
+        "baseStats": {
+            "strength": "13",
+            "magic": "23",
+            "endurance": "14",
+            "agility": "20",
+            "luck": "18"
+        },
+        "fusionSpells": {
+            "fusionSkill": {
+                "name": "This Persona doesn't appear to have a fusion spell!",
+                "cost": null,
+                "effect": null,
+                "preRequisite": null
+            }
+        },
+        "skills": {
+            "skill1": {
+                "name": "Mabufu",
+                "cost": "8 SP",
+                "effect": "Deals light Ice damage / Freezes all foes. (8% chance)",
+                "level": "Innate"
+            },
+            "skill2": {
+                "name": "Posumudi",
+                "cost": "5 SP",
+                "effect": "Neutralizes Poison (1 ally).",
+                "level": "Innate"
+            },
+            "skill3": {
+                "name": "Bufula",
+                "cost": "8 SP",
+                "effect": "Deals medium Ice damage / Freezes one foe. (10% chance)",
+                "level": "Innate"
+            },
+            "skill4": {
+                "name": "Me Patra",
+                "cost": "6 SP",
+                "effect": "Dispels Panic, Fear, and Distress (party).",
+                "level": "Level 28"
+            },
+            "skill5": {
+                "name": "Ice Boost",
+                "cost": "Passive",
+                "effect": "Strengthens Ice attacks by 25%.",
+                "level": "Level 29"
+            },
+            "skill6": {
+                "name": "Dekaja",
+                "cost": "15 SP",
+                "effect": "Nullifies stat bonuses on all foes.",
+                "level": "Level 31"
+            }
+        }
+    },
+    "ganga": {
+        "name": "Ganga",
+        "url": "https://megamitensei.fandom.com/wiki/Ganga",
+        "iconurl": "https://vignette.wikia.nocookie.net/megamitensei/images/1/1c/GangaSMT.jpg/revision/latest/scale-to-width-down/300?cb=20080709040708",
+        "arcana": "Priestess",
+        "skillcard": "Diarama (Lv 40)",
+        "level": "Level 35",
+        "weaknesses": {
+            "inherit": "Ice",
+            "reflects": null,
+            "absorbs": null,
+            "blocks": "Ice",
+            "resists": null,
+            "weak": "Fire"
+        },
+        "baseStats": {
+            "strength": "18",
+            "magic": "28",
+            "endurance": "21",
+            "agility": "22",
+            "luck": "23"
+        },
+        "fusionSpells": {
+            "fusionSkill": {
+                "name": "This Persona doesn't appear to have a fusion spell!",
+                "cost": null,
+                "effect": null,
+                "preRequisite": null
+            }
+        },
+        "skills": {
+            "skill1": {
+                "name": "Bufula",
+                "cost": "8 SP",
+                "effect": "Deals medium Ice damage / Freezes one foe. (10% chance)",
+                "level": "Innate"
+            },
+            "skill2": {
+                "name": "Charmdi",
+                "cost": "5 SP",
+                "effect": "Dispels Charm (1 ally).",
+                "level": "Innate"
+            },
+            "skill3": {
+                "name": "Media",
+                "cost": "8 SP",
+                "effect": "Slightly restores party's HP.",
+                "level": "Innate"
+            },
+            "skill4": {
+                "name": "Tantarafoo",
+                "cost": "10 SP",
+                "effect": "Makes all foes Panic. (25% chance)",
+                "level": "Level 37"
+            },
+            "skill5": {
+                "name": "Diarama",
+                "cost": "8 SP",
+                "effect": "Moderately restores 1 ally's HP.",
+                "level": "Level 39"
+            },
+            "skill6": {
+                "name": "Panic Boost",
+                "cost": "Passive",
+                "effect": "Increases odds of instilling Panic by 50%.",
+                "level": "Level 40"
+            }
+        }
+    },    
+    "parvati": {
+        "name": "Parvati",
+        "url": "https://megamitensei.fandom.com/wiki/Parvati",
+        "iconurl": "https://vignette.wikia.nocookie.net/megamitensei/images/8/86/ParvatiSMT2.jpg/revision/latest/scale-to-width-down/250?cb=20080806161604",
+        "arcana": "Priestess",
+        "skillcard": "Bufudyne (Lv 54)",
+        "level": "Level 47",
+        "weaknesses": {
+            "inherit": "Ice",
+            "reflects": null,
+            "absorbs": null,
+            "blocks": "Ice",
+            "resists": null,
+            "weak": "Fire"
+        },
+        "baseStats": {
+            "strength": "24",
+            "magic": "38",
+            "endurance": "25",
+            "agility": "30",
+            "luck": "31"
+        },
+        "fusionSpells": {
+            "fusionSkill": {
+                "name": "Ardhanari",
+                "cost": "30% SP",
+                "effect": "Deals massive Fire damage to all foes.",
+                "preRequisite": "Shiva + Parvati"
+            }
+        },
+        "skills": {
+            "skill1": {
+                "name": "Bufula",
+                "cost": "8 SP",
+                "effect": "Deals medium Ice damage / Freezes one foe. (10% chance)",
+                "level": "Innate"
+            },
+            "skill2": {
+                "name": "Diarama",
+                "cost": "8 SP",
+                "effect": "Moderately restores 1 ally's HP.",
+                "level": "Innate"
+            },
+            "skill3": {
+                "name": "Marakukaja",
+                "cost": "12 SP",
+                "effect": "Increases party's Defense.",
+                "level": "Innate"
+            },
+            "skill4": {
+                "name": "Mabufula",
+                "cost": "16 SP",
+                "effect": "Deals medium Ice damage / Freezes all foes. (8% chance)",
+                "level": "Level 49"
+            },
+            "skill5": {
+                "name": "Dodge Fire",
+                "cost": "Passive",
+                "effect": "Evasion rate doubled vs Fire attacks.",
+                "level": "Level 51"
+            },
+            "skill6": {
+                "name": "Bufudyne",
+                "cost": "16 SP",
+                "effect": "Deals heavy Ice damage / Freezes one foe. (10% chance)",
+                "level": "Level 52"
+            }
+        }
+    },
+    "kikuriHime": {
+        "name": "Kikuri-Hime",
+        "url": "https://megamitensei.fandom.com/wiki/Kikuri-Hime",
+        "iconurl": "https://vignette.wikia.nocookie.net/megamitensei/images/b/b9/KikurihimeSMT.jpg/revision/latest/scale-to-width-down/250?cb=20080705235954",
+        "arcana": "Priestess",
+        "skillcard": "Invigorate 1 (Lv 57)",
+        "level": "Level 53",
+        "weaknesses": {
+            "inherit": "Recovery",
+            "reflects": "Fire",
+            "absorbs": null,
+            "blocks": null,
+            "resists": null,
+            "weak": "Ice"
+        },
+        "baseStats": {
+            "strength": "29",
+            "magic": "45",
+            "endurance": "28",
+            "agility": "30",
+            "luck": "34"
+        },
+        "fusionSpells": {
+            "fusionSkill": {
+                "name": "This Persona doesn't appear to have any fusion spells!",
+                "cost": null,
+                "effect": null,
+                "preRequisite": null
+            }
+        },
+        "skills": {
+            "skill1": {
+                "name": "Mediarama",
+                "cost": "16 SP",
+                "effect": "Moderately restores party's HP.",
+                "level": "Innate"
+            },
+            "skill2": {
+                "name": "Invigorate 1",
+                "cost": "Passive",
+                "effect": "Restores 3 SP each turn in battle.",
+                "level": "Innate"
+            },
+            "skill3": {
+                "name": "Maragion",
+                "cost": "12 SP",
+                "effect": "Deals medium Fire damage to all foes.",
+                "level": "Innate"
+            },
+            "skill4": {
+                "name": "Cool Breeze",
+                "cost": "Passive",
+                "effect": "Restores 8% HP and SP after battle.",
+                "level": "Level 55"
+            },
+            "skill5": {
+                "name": "Diarahan",
+                "cost": "20 SP",
+                "effect": "Fully restores 1 ally's HP.",
+                "level": "Level 56"
+            },
+            "skill6": {
+                "name": "Resist Ice",
+                "cost": "Passive",
+                "effect": "Reduces damage from Ice attacks.",
+                "level": "Level 58"
+            },
+            "skill7": {
+                "name": "Fire Amp",
+                "cost": "Passive",
+                "effect": "Greatly strengthens Fire attacks by 50%.",
+                "level": "Level 59"
+            }
+        }
+    },
+    "scathach": {
+        "name": "Scathach",
+        "url": "https://megamitensei.fandom.com/wiki/Scathach",
+        "iconurl": "https://vignette.wikia.nocookie.net/megamitensei/images/5/5b/1150253-scathach.png/revision/latest/scale-to-width-down/250?cb=20190328222949",
+        "arcana": "Priestess",
+        "skillcard": "Amrita (Lv 73)",
+        "level": "Level 64",
+        "weaknesses": {
+            "inherit": "Pierce",
+            "reflects": null,
+            "absorbs": null,
+            "blocks": null,
+            "resists": "Pierce, Ice, Wind, and Light",
+            "weak": "Fire"
+        },
+        "baseStats": {
+            "strength": "51",
+            "magic": "53",
+            "endurance": "29",
+            "agility": "49",
+            "luck": "40"
+        },
+        "fusionSpells": {
+            "fusionSkill": {
+                "name": "Shadow Hound",
+                "cost": "25% SP",
+                "effect": "Deals heavy Strike damage to all foes.",
+                "preRequisite": "Scathach + Cu Chulainn"
+            }
+        },
+        "skills": {
+            "skill1": {
+                "name": "Myriad Arrows",
+                "cost": "19% HP",
+                "effect": "Deals medium Pierce damage to all foes. (1-2 hits)",
+                "level": "Innate"
+            },
+            "skill2": {
+                "name": "Mabufudyne",
+                "cost": "32 SP",
+                "effect": "Deals heavy Ice damage / Freezes all foes. (8% chance)",
+                "level": "Innate"
+            },
+            "skill3": {
+                "name": "Amrita",
+                "cost": "25 SP",
+                "effect": "Cures all ailments (party).",
+                "level": "Level 66"
+            },
+            "skill4": {
+                "name": "Magarudyne",
+                "cost": "24 SP",
+                "effect": "Deals heavy Wind damage to all foes.",
+                "level": "Level 67"
+            },
+            "skill5": {
+                "name": "Power Charge",
+                "cost": "15 SP",
+                "effect": "Doubles physical damage dealt next turn. (2.5x damage)",
+                "level": "Level 69"
+            },
+            "skill6": {
+                "name": "Invigorate 3",
+                "cost": "Passive",
+                "effect": "Restores 7 SP each turn in battle.",
+                "level": "Level 72"
+            }
+        }
     }
 }

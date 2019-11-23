@@ -35,6 +35,13 @@ module.exports = {
         if(personaName === "lucia") var query = persona.lucia;
         if(personaName === "juno") var query = persona.juno;
         if(personaName === "apsaras") var query = persona.apsaras;
+        if(personaName === "unicorn") var query = persona.unicorn;
+        if(personaName === "high pixie") var query = persona.highPixie;
+        if(personaName === "sarasvati") var query = persona.sarasvati;
+        if(personaName === "ganga") var query = persona.ganga;
+        if(personaName === "parvati") var query = persona.parvati;
+        if(personaName === "kikuri-hime") var query = persona.kikuriHime;
+        if(personaName === "scathach") var query = persona.scathach;
 
         if(!query) return message.reply("You have entered an invalid Persona to search!");
 
