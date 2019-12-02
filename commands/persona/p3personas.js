@@ -346,6 +346,49 @@ module.exports = {
             var url = `https://megamitensei.fandom.com/wiki/${name}`;
             var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
         }
+        if(personaName === "take-mikazuchi"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "king_frost"){
+            var name = "King Frost";
+            var quote = "\"I'm King of the Frosts! Bow to me! Hee-know your places!\"";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/King_Frost`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "raja_naga"){
+            var name = "Raja Naga";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/Raja_Naga`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "kingu"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "barong"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "odin"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "odin_/a"){
+            var name = "Odin (The Answer)";
+            var fileName = "odinAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Odin`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
 
 
 
