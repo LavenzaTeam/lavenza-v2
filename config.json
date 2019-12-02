@@ -1,22 +1,22 @@
 {
     "prefix": ";",
     "colors": {
-        "bright-red": "#ff4a4a",
-        "dark-red": "#940303",
+        "brightred": "#ff4a4a",
+        "darkred": "#940303",
         "red": "#ff0000",
-        "bright-blue": "#00f7ff",
-        "dark-blue": "#000078",
+        "brightblue": "#00f7ff",
+        "darkblue": "#000078",
         "blue": "#0000ff",
         "yellow": "#ffff00",
         "orange": "#ffb300",
         "green": "#26ff00",
-        "bright-green": "#7bff63",
-        "dark-green": "#106b00",
+        "brightgreen": "#7bff63",
+        "darkgreen": "#106b00",
         "purple": "#8c00ff",
-        "bright-purple": "#cb5cff",
-        "dark-purple": "#3f005c",
+        "brightpurple": "#cb5cff",
+        "darkpurple": "#3f005c",
         "pink": "#ff00bb",
-        "bright-pink": "#ff45cd"
+        "brightpink": "#ff45cd"
     },
     "ids": {
         "arkane": "208779984276291585",
