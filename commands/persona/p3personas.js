@@ -457,6 +457,90 @@ module.exports = {
         }
 
         //lovers arcana
+        if(personaName === "io"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var quote = "\"Help me!!\" -Yukari"
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "isis"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "isis_/a"){
+            var name = "Isis (The Answer)";
+            var fileName = "isisAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Isis`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "pixie"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "alp"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "tam_lin"){
+            var name = "Tam Lin";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/Tam_Lin`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "narcissus"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "queen_mab"){
+            var name = "Queen Mab";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/Queen_Mab`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "saki_mitama"){
+            var name = "Saki Mitama";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/Saki_Mitama`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "titania"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var quote = "\"Are you ready?\"";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "raphael"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var quote = "\"I'm a human... Five years ago, on that day... No... I'm Raphael... My duty is to build the Millennial Kingdom by God's authority! Witness the fury of the heavens!\"";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "cybele"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "cybele_/a"){
+            var name = "Cybele (The Answer)";
+            var fileName = "cybeleAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Cybele`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+
+
+        //chariot arcana
 
 
 
