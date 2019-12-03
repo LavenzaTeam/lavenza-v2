@@ -390,6 +390,74 @@ module.exports = {
             var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
         }
 
+        //hierophant arcana
+        if(personaName === "castor"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "omoikane"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var quote = "\"Thinking about it, much time has passed since I governed over knowledge. Those who repay their debt to this country with knowledge shall gain form, becoming a ghost of national defense. If you are still a fool even after gaining knowledge, then you will learn the meaning of death.\"";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "berith"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "shiisaa"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "flauros"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "thoth"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "hokuto_seikun"){
+            var name = "Hokuto Seikun";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/Hokuto_Seikun`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "daisoujou"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var quote = "\"It is my duty to save those who have gone astray... Let me be your guide. Receive my salvation... Accept your death!\"";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "kohryu"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var quote = "\"You are a rare breed... you deserve praise for your efforts already. But you haven't come to be praised, have you? And I haven't left my post at the Confinement Chamber merely to praise you. Shall we begin?\""
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "kohryu_/a"){
+            var name = "Kohryu (The Answer)";
+            var quote = "\"You are a rare breed... you deserve praise for your efforts already. But you haven't come to be praised, have you? And I haven't left my post at the Confinement Chamber merely to praise you. Shall we begin?\""
+            var fileName = "kohryuAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Kohryu`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+
+        //lovers arcana
+
 
 
 
