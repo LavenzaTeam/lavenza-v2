@@ -538,10 +538,69 @@ module.exports = {
             var url = `https://megamitensei.fandom.com/wiki/Cybele`;
             var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
         }
-
+        
 
         //chariot arcana
-
+        if(personaName === "palladion"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "pallas_athena"){
+            var name = "Pallas Athena";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/Pallas_Athena`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "ara_mitama"){
+            var name = "Ara Mitama";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/Ara_Mitama`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "zouchouten"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "ares"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "oumitsunu"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "nata_taishi"){
+            var name = "Nata Taishi";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/Nezha`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "koumokuten"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "thor"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "thor_/a"){
+            var name = "Thor (The Answer)";
+            var fileName = "thorAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Thor`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
 
 
 
