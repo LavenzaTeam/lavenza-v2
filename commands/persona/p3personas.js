@@ -604,6 +604,82 @@ module.exports = {
         }
 
 
+        //justice arcana
+        if(personaName === "nemesis"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "kala_nemi"){
+            var name = "Kala Nemi";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/Kala_Nemi`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "kala_nemi_/a"){
+            var name = "Kala Nemi (The Answer)";
+            var fileName = kala_nemiAnswer;
+            var url = `https://megamitensei.fandom.com/wiki/Kala_Nemi`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "angel"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var quote = "\"The comfort of death will come for men and demons alike... by the guidance of the Great Will.\"";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "archangel"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "principality"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "power"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var quote = "\"I am Power. Let us together tread down the path of strife...\""
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "virtue"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "dominion"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "throne"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "melchizedek"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "melchizedek_/a"){
+            var name = "Melchizedek (The Answer)";
+            var fileName = "melchizedekAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Melchizedek`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+
 
         //final checks and sending of the embed
         if(!name){
