@@ -681,6 +681,33 @@ module.exports = {
         }
 
 
+        //hermit arcana
+        if(personaName === "yomotsu_shikome"){
+            var name = "Yomotsu Shikome";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/Yomotsu_Shikome`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "naga"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "lamia"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "mothman"){
+            var name = "Yomotsu Shikome";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/Yomotsu_Shikome`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+
+
         //final checks and sending of the embed
         if(!name){
             if(personaName.endsWith("/a")){
