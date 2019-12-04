@@ -19,7 +19,7 @@ module.exports = {
         .attachFile(img)
         .setThumbnail("attachment://logo.png")
         .addBlankField(true)
-        .addField("The Journey (Begining)", "WIP")
+        .addField("The Journey (Begining)", "[Report a data error](https://google.com)")
         .setFooter("Written by Arkane, Most info gathered from the Megami Tensei Wiki", client.users.get(config.ids.arkane).displayAvatarURL)
         .setTimestamp()
 
