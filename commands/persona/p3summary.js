@@ -15,11 +15,11 @@ module.exports = {
         .setColor(config.colors.blue)
         .setTitle("Persona 3")
         .setURL("https://megamitensei.fandom.com/wiki/Persona_3")
-        .setDescription("The following is a summary of the whole plot of Persona 3. Thus, this contains spoilers.")
+        .setDescription("The following is a summary of the whole plot of Persona 3. Thus, this contains spoilers. \n[Report a data error!](https://discord.gg/)")
         .attachFile(img)
         .setThumbnail("attachment://logo.png")
         .addBlankField(true)
-        .addField("The Journey (Begining)", "[Report a data error](https://google.com)")
+        .addField("The Journey (Begining)", "WIP")
         .setFooter("Written by Arkane, Most info gathered from the Megami Tensei Wiki", client.users.get(config.ids.arkane).displayAvatarURL)
         .setTimestamp()
 
