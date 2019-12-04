@@ -10,14 +10,19 @@ module.exports = {
         category: "persona"
     },
     run: async (client, message, args) => {
-        let img = new Attachment(`./personadata/p3/logo.png`, "logo.png")
+        var img = new Attachment(`./personadata/p3/logo.png`, "logo.png")
         let p3embed = new RichEmbed()
         .setColor(config.colors.blue)
         .setTitle("Persona 3")
+        .setURL("https://megamitensei.fandom.com/wiki/Persona_3")
         .setDescription("The following is a summary of the whole plot of Persona 3. Thus, this contains spoilers.")
+        .attachFile(img)
         .setThumbnail("attachment://logo.png")
+        .addBlankField(true)
         .addField("The Journey (Begining)", "WIP")
-        .setFooter("Written by Arkane", client.users.get(config.ids.arkane).displayAvatarURL)
+        .setFooter("Written by Arkane, Most info gathered from the Megami Tensei Wiki", client.users.get(config.ids.arkane).displayAvatarURL)
         .setTimestamp()
+
+        message.channel.send(p3embed);
     }
 }
