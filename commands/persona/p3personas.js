@@ -1,4 +1,5 @@
 const { RichEmbed, Attachment } = require("discord.js");
+const config = require("../../config.json");
 
 module.exports = {
     config: {
@@ -619,7 +620,11 @@ module.exports = {
             .attachFile(img)
             .setImage("attachment://persona.png")
             .setFooter("Info gathered from the Megami Tensei Wiki", client.user.displayAvatarURL)
-            if(quote) embed.setDescription(quote)
+            if(quote){
+                embed.setDescription(`${quote} \n[Report a data error!](${config.servers.discordinvite})`)
+            } else {
+                embed.setDescription(`[Report a data error!](${config.server.discordinvite})`)
+            }
 
         message.channel.send(embed);
     }
