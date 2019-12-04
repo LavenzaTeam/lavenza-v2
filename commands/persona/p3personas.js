@@ -623,7 +623,7 @@ module.exports = {
             if(quote){
                 embed.setDescription(`${quote} \n[Report a data error!](${config.servers.discordinvite})`)
             } else {
-                embed.setDescription(`[Report a data error!](${config.server.discordinvite})`)
+                embed.setDescription(`[Report a data error!](${config.servers.discordinvite})`)
             }
 
         message.channel.send(embed);

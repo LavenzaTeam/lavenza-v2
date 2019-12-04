@@ -19,8 +19,9 @@ module.exports = {
 
         let p3embed = new RichEmbed()
         .setTitle("Persona 3")
-        .setDescription("Below is a list of all the emulators and ROMs to play the Persona 3 games!")
+        .setDescription(`Below is a list of all the emulators and ROMs to play the Persona 3 games! \n[Report broken links!](${config.servers.discordinvite})`)
         .setColor(config.colors.blue)
+        .addBlankField(true)
         .addField("PlayStation 2 Emulator", ps2emu)
         .addField("PlayStation Portable Emulator", pspemu)
         .addField("PlayStation 3 Emulator", ps3emu)
@@ -28,8 +29,6 @@ module.exports = {
         .addField("Persona 3 FES (PS2)", p3fes)
         .addField("Persona 3 Portable (PSP)", p3p)
         .addField("Persona 3 FES (PS2 Classic on PS3)", p3ps3)
-        .addBlankField(true)
-        .addField("Note", "If one of the links decide to not work, Please join the support server and tell me in there! `;support`")
         .setTimestamp()
         .setFooter("Created by Arkane", client.users.get(config.ids.arkane).displayAvatarURL)
 
