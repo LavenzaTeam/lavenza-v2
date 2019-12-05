@@ -914,6 +914,61 @@ module.exports = {
         }
 
 
+        //death arcana
+        if(personaName === "ghoul"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "pale_rider"){
+            var name = "Pale Rider";
+            var quote = "\"A world heading towards death, and a world steeped in death. How canst thy life shine so brilliantly amidst it? Show me... thou blue knight filled to th'brim with death...!\"";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/Pale_Rider`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "loa"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "samael"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var quote = "\"I am the fearsome king, the evil conscience of God, the serpent of a red Eden... I have many names, many theories bandied about me, and no doubt much awe attached to my name... Thou still darest challenge me...?\"";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "mot"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var quote = "\"What wilt thou gain by fighting me god of death and meaninglessness? Doth more meaninglessness await a meaningless battle, or will it be answered by creation? Regardless, I shall destroy thee. On this stage where Death playeth its music, I shall scatter the embers of thy life.\"";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "alice"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var quote = "\"I want you to do just one more thing for me... Would you die for me please...?\"";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "thanatos"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "thanatos_/a"){
+            var name = "Thanatos (The Answer)";
+            var fileName = "thanatosAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Thanatos`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+
+
 
         //final checks and sending of the embed
         if(!name){
