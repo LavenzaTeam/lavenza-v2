@@ -1146,6 +1146,45 @@ module.exports = {
             var url = `https://megamitensei.fandom.com/wiki/${name}`;
             var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
         }
+        if(personaName === "kaiwan"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "ganesha"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "garuda"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var quote = "\"I am the wings of the Lord... the highest in the bright sky, whose heights no human could attain. Shallow, foolish humans, who crawl across the face of the Earth and consume all they touch... How have you come to think that I might deign to speak with you? Grovel at my feet instead, as is only natural.\"";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "kartikeya"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var quote = "\"So mother sent you here... I thought she might have. Still, I don't want to go back! Never! Why...? ...Because I'm scared. Yeah, that's right. I'm scared of my mother. Well, Mother's very kind, but... It's just that... She's just way too out there! Like she doesn't belong in this Universe! I used to be six kids! But Mother hugged us all together, and we got merged into one person. Who has that kind of power!? That's just not right! Look... Once, she accidently cut off somebody's head, and then she just replaced it with an elephant's head. My entire family is messed up! \"";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "saturnus"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "helel"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var quote = "\"Can't you see that death lies in wait on your path, ready to consume all hope...?\"";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
 
 
 
