@@ -2,8 +2,13 @@ const { prefix } = require("../../config.json");
 
 module.exports = async (client) => {
     let presences = [
-        `Fusion Calculator Soon!`,
-        `${prefix}p3`
+        "Fusion Calculator Soon!",
+        `${prefix}ping`,
+        `${prefix}invite`,
+        `${prefix}support`,
+        `${prefix}p3personas`,
+        `${prefix}summary`,
+        `${prefix}p3download`
     ]
 
     setInterval(() => {
