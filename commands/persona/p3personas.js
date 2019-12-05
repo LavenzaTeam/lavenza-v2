@@ -853,6 +853,67 @@ module.exports = {
         }
 
 
+        //hanged man arcana
+        if(personaName === "inugami"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "take-minakata"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var quote = "\"Man, what're you going on about? I've been making my own way on muscle alone since I was born. Talk is cheap. So c'mon, man, let's get to comparin' our strength! Both of my arms might be gone, but I ain't sunk so low that I'd let a human get the best of me!\"";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "orthus"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "vasuki"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "ubelluris"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "hecatoncheires"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "hell_biker"){
+            var name = "Hell Biker";
+            var quote = "\"It's Hell Biker... Don't get cocky. We're going from one side of Hell to the other, you know...\"";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/Hell_Biker`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "attis"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var quote = "\"I am Attis... Our bodies may be different, but I am you... I put myself in your care.\"";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "attis_/a"){
+            var name = "Attis (The Answer)";
+            var quote = "\"I am Attis... Our bodies may be different, but I am you... I put myself in your care.\"";
+            var fileName = "attisAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Attis`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+
+
 
         //final checks and sending of the embed
         if(!name){
