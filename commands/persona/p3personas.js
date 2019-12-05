@@ -1074,6 +1074,58 @@ module.exports = {
 
 
         //tower arcana
+        if(personaName === "eligor"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "cu_chulainn"){
+            var name = "Cu Chulainn";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/Cu_Chulainn`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "bishamonten"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "seiten_taisei"){
+            var name = "Seiten Taisei";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/Seiten_Taisei`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "masakado"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "mara"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var quote = "\"Mwahahahaha! Welcome to Mara's den! You may think you can defeat me, but I'm clearly the bigger man. Gwahahahaha! Now, then... Why don't we get this party started, hm? Ahahahahahaha!\"";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "shiva"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var quote = "\"I am Nataraja, the destroyer of all. I shall ascertain if you are worthy to face Brahman. If you cannot defeat me, then your world does not deserve to exist.\"";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "chi_you"){
+            var name = "Chi You";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/Chi_You`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+
+
         
 
 
