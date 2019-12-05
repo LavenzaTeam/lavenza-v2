@@ -703,7 +703,37 @@ module.exports = {
         if(personaName === "mothman"){
             var name = "Yomotsu Shikome";
             var fileName = personaName;
-            var url = `https://megamitensei.fandom.com/wiki/Yomotsu_Shikome`;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "taraka"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "kurama_tengu"){
+            var name = "Kurama Tengu";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/Kurama_Tengu`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "nebiros"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "kumbhanda"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "arahabaki"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
             var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
         }
 
