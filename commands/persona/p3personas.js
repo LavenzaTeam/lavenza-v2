@@ -1126,7 +1126,26 @@ module.exports = {
         }
 
 
-        
+        //star arcana
+        if(personaName === "neko_shogun"){
+            var name = "Neko Shogun";
+            var quote = "\"A prophetic Taoist god, originally known as Mao Shogun. Due to a linguistic error involving the Chinese word for cat, his name was changed to Neko Shogun.\"";
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/Neko_Shogun`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "setanta"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
+        if(personaName === "nandi"){
+            var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+            var fileName = personaName;
+            var url = `https://megamitensei.fandom.com/wiki/${name}`;
+            var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+        }
 
 
 
