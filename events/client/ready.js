@@ -9,7 +9,8 @@ module.exports = async (client) => {
         `${prefix}p3personas`,
         `${prefix}p3shadows`,
         `${prefix}p3summary`,
-        `${prefix}p3download`
+        `${prefix}p3fesfusion`,
+        `${prefix}p3pfusion`
     ]
 
     setInterval(() => {
