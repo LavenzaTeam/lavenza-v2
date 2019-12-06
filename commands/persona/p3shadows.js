@@ -15,6 +15,12 @@ module.exports = {
 
 
         //maya shadows
+        if (shadowName === "maya") {
+            var name = "Maya";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
+        }
         if (shadowName === "cowardly_maya") {
             var name = "Cowardly Maya";
             var fileName = shadowName;
@@ -27,6 +33,72 @@ module.exports = {
             var url = `https://megamitensei.fandom.com/wiki/Cowardly_Maya`;
             var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
         }
+        if (shadowName === "merciless_maya") {
+            var name = "Merciless Maya";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Merciless_Maya`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
+        }
+        if (shadowName === "merciless_maya_/a") {
+            var name = "Cowardly Maya";
+            var fileName = "merciless_mayaAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Merciless_Maya`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
+        }
+        if (shadowName === "frivolous_maya") {
+            var name = "Frivolous Maya";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Frivolous_Maya`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
+        }
+        if (shadowName === "haughty_maya") {
+            var name = "Haughty Maya";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Haughty_Maya`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
+        }
+        if (shadowName === "indolent_maya") {
+            var name = "Indolent Maya";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Indolent_Maya`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
+        }
+        if (shadowName === "insidious_maya") {
+            var name = "Insidious Maya";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Insidious_Maya`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
+        }
+        if (shadowName === "insidious_maya_/a") {
+            var name = "Insidious Maya (The Answer)";
+            var fileName = "insidious_mayaAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Insidious_Maya`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
+        }
+        if (shadowName === "ill_fated_maya") {
+            var name = "Ill Fated Maya";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Ill-fated_Maya`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
+        }
+        if (shadowName === "ill_fated_maya_/a") {
+            var name = "Ill Fated Maya (The Answer)";
+            var fileName = "ill_fated_mayaAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Ill-fated_Maya`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
+        }
+        if (shadowName === "bigoted_maya") {
+            var name = "Bigoted Maya";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Bigoted_Maya`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
+        }
+        if (shadowName === "bigoted_maya_/a") {
+            var name = "Bigoted Maya (The Answer)";
+            var fileName = "bigoted_mayaAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Bigoted_Maya`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
+        }
 
 
         let embed = new RichEmbed()
@@ -36,7 +108,7 @@ module.exports = {
         .setColor(config.colors.darkblue)
         .attachFile(img)
         .setImage("attachment://shadow.png")
-        .setFooter("Information gathered from Arantius's Fusion Calculator", client.user.displayAvatarURL)
+        .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL)
 
         return message.channel.send(embed);
     }
