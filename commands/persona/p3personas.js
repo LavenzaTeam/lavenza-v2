@@ -10,9 +10,28 @@ module.exports = {
         category: "persona"
     },
     run: async (client, message, args) => {
+        //general data parsing
         let personaName = args.join("_").toLowerCase();
         if (!personaName) return message.reply("Please specify a Persona to search!")
 
+        //sets party members name to their persona
+        if (personaName === "") personaName = "";
+        if (personaName === "yukari") personaName = "io";
+        if (personaName === "yukari_ultimate") personaName = "isis";
+        if (personaName === "junpei") personaName = "hermes";
+        if (personaName === "junpei_ultimate") personaName = "trismegistus";
+        if (personaName === "fuuka") personaName = "lucia";
+        if (personaName === "fukka_ultimate") personaName = "juno";
+        if (personaName === "mitsuru") personaName = "penthesilea";
+        if (personaName === "mitsuru_ultimate") personaName = "artemisia";
+        if (personaName === "akihiko") personaName = "polydeuces";
+        if (personaName === "akihiko_ultimate") personaName = "ceasar";
+        if (personaName === "shinjiro") personaName = "castor";
+        if (personaName === "aigis") personaName = "palladion";
+        if (personaName === "aigis_ultimate") personaName = "pallas_athena";
+        if (personaName === "ken") personaName = "nemesis";
+        if (personaName === "ken_ultimate") personaName = "kala_nemi";
+        if (personaName === "koromaru") personaName = "cerberus";
 
         //fool arcana
         if (personaName === "orpheus") {
@@ -1381,7 +1400,7 @@ module.exports = {
         let embed = new RichEmbed()
             .setTitle(name)
             .setURL(url)
-            .setColor("#00a2ff")
+            .setColor(config.colors.darkblue)
             .attachFile(img)
             .setImage("attachment://persona.png")
             .setFooter("Info gathered from the Megami Tensei Wiki", client.user.displayAvatarURL)

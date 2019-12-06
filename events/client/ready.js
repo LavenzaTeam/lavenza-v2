@@ -7,7 +7,8 @@ module.exports = async (client) => {
         `${prefix}invite`,
         `${prefix}support`,
         `${prefix}p3personas`,
-        `${prefix}summary`,
+        `${prefix}p3shadows`,
+        `${prefix}p3summary`,
         `${prefix}p3download`
     ]
 

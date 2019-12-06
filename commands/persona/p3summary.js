@@ -19,7 +19,7 @@ module.exports = {
         .attachFile(img)
         .setThumbnail("attachment://logo.png")
         .addBlankField(true)
-        .addField("The Journey (Begining)", "WIP")
+        .addField("The Journey (Begining)", "The Journey begins with you (The Protaganist) moving to a new city. You are then greeted by the `Dark Hour` while you are on your way to the dorm. The Dark Hour is a place in time between one day, and the next. A few days pass, and the dorm is attacked by a Shadow, (labled as a `Full Moon Boss`), and you awaken to the power of your Persona, `Orpheus`. However, Orpheus transforms into `Thanatos` to kill the shadow, hence awakening you to the power of the `Wild Card` which lets you hold multiple Personas in your soul. You then pass out for a few weeks.")
         .setFooter("Written by Arkane, Most info gathered from the Megami Tensei Wiki", client.users.get(config.ids.arkane).displayAvatarURL)
         .setTimestamp()
 
