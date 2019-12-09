@@ -1,12 +1,11 @@
 {
-  "name": "publicbot",
+  "name": "lavenza",
   "version": "1.0.0",
-  "description": "A multifunctional, powerful Discord Bot",
+  "description": "A Persona bot for Discord!",
   "main": "app.js",
   "dependencies": {
     "common-tags": "^1.8.0",
-    "discord.js": "^11.5.1",
-    "erela.js": "^1.0.5"
+    "discord.js": "^11.5.1"
   },
   "devDependencies": {},
   "scripts": {
