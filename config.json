@@ -32,5 +32,8 @@
     "inviteurl": {
         "clientid": "639988194229878810",
         "permissionsinteger": "8"
-    }
+    },
+    "nodes": [
+        { "host": "localhost", "port": 2333, "password": "youshallnotpass" }
+    ]
 }
