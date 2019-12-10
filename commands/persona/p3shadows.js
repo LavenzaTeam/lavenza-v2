@@ -319,6 +319,65 @@ module.exports = {
         }
 
 
+        //magus shadows
+        if (shadowName === "magical_magus") {
+            let magus = new RichEmbed()
+                .setTitle("Magical Magus")
+                .setURL("https://megamitensei.fandom.com/wiki/Magical_Magus")
+                .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                .setColor(config.colors.darkblue)
+                .attachFile(new Attachment(`./personadata/p3shadows/magical_magus.png`, "shadow.png"))
+                .setImage("attachment://shadow.png")
+                .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+            let magusBoss = new RichEmbed()
+                .setTitle("Magical Magus (Sub Boss)")
+                .setURL("https://megamitensei.fandom.com/wiki/Magical_Magus")
+                .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                .setColor(config.colors.darkblue)
+                .attachFile(new Attachment(`./personadata/p3shadows/magical_magusBoss.png`, "shadow.png"))
+                .setImage("attachment://shadow.png")
+                .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+            await message.channel.send(magus);
+            await message.channel.send(magusBoss);
+            return;
+        }
+        if (shadowName === "wondrous_magus") {
+            var name = "Wondrous Magus";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Wondrous_Magus`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
+        }
+        if (shadowName === "wondrous_magus_/a") {
+            var name = "Wondrous Magus (The Answer)";
+            var fileName = "wondrous_magusAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Wondrous_Magus`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
+        }
+        if (shadowName === "prime_magus") {
+            var name = "Prime Magus";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Prime_Magus`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
+        }
+        if (shadowName === "prime_magus_/a") {
+            var name = "Prime Magus (The Answer)";
+            var fileName = "prime_magusAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Prime_Magus`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
+        }
+        if (shadowName === "grand_magus") {
+            var name = "Grand Magus";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Grand_Magus`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
+        }
+
+
+        //tiara shadows
+
+
         //finishing checks and sending of the embed
         if (!name) {
             if (shadowName.endsWith("/a")) {
