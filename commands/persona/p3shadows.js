@@ -251,6 +251,74 @@ module.exports = {
         }
 
 
+        //table shadows
+        if (shadowName === "table") {
+            var name = "Table";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
+        }
+        if (shadowName === "laughing_table") {
+            var name = "Laughing Table";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Laughing_Table`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
+        }
+        if (shadowName === "laughing_table_/a") {
+            var name = "Laughing Table (The Answer)";
+            var fileName = "laughing_tableAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Laughing_Table`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
+        }
+        if (shadowName === "crying_table") {
+            let cry = new RichEmbed()
+                .setTitle("Crying Table")
+                .setURL("https://megamitensei.fandom.com/wiki/Crying_Table")
+                .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                .setColor(config.colors.darkblue)
+                .attachFile(new Attachment(`./personadata/p3shadows/crying_table.png`, "shadow.png"))
+                .setImage("attachment://shadow.png")
+                .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+            
+            let cryBoss = new RichEmbed()
+                .setTitle("Crying Table (Sub Boss)")
+                .setURL("https://megamitensei.fandom.com/wiki/Crying_Table")
+                .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                .setColor(config.colors.darkblue)
+                .attachFile(new Attachment(`./personadata/p3shadows/crying_tableBoss.png`, "shadow.png"))
+                .setImage("attachment://shadow.png")
+                .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+            await message.channel.send(cry);
+            await message.channel.send(cryBoss);
+            return;
+        }
+        if (shadowName === "crying_table_/a") {
+            var name = "Crying Table (The Answer)";
+            var fileName = "crying_tableAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Crying_Table`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
+        }
+        if (shadowName === "sleeping_table") {
+            var name = "Sleeping Table";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Sleeping_Table`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
+        }
+        if (shadowName === "sleeping_table_/a") {
+            var name = "Sleeping Table (The Answer)";
+            var fileName = "sleeping_tableAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Sleeping_Table`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
+        }
+        if (shadowName === "angry_table") {
+            var name = "Angry Table";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Angry_Table`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
+        }
+
+
         //finishing checks and sending of the embed
         if (!name) {
             if (shadowName.endsWith("/a")) {
