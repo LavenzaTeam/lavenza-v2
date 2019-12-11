@@ -376,6 +376,104 @@ module.exports = {
 
 
         //tiara shadows
+        if (shadowName === "tiara") {
+            var name = "Tiara";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "muttering_tiara") {
+            let mutter = new RichEmbed()
+                .setTitle("Muttering Tiara")
+                .setURL("https://megamitensei.fandom.com/wiki/Muttering_Tiara")
+                .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                .setColor(config.colors.darkblue)
+                .attachFile(new Attachment(`./personadata/p3shadows/muttering_tiara.png`, "shadow.png"))
+                .setImage("attachment://shadow.png")
+                .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+        
+            let mutterBoss1 = new RichEmbed()
+                .setTitle("Muttering Tiara (Sub Boss #1)")
+                .setURL("https://megamitensei.fandom.com/wiki/Muttering_Tiara")
+                .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                .setColor(config.colors.darkblue)
+                .attachFile(new Attachment(`./personadata/p3shadows/muttering_tiaraBoss1.png`, "shadow.png"))
+                .setImage("attachment://shadow.png")
+                .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+            let mutterBoss2 = new RichEmbed()
+                .setTitle("Muttering Tiara (Sub Boss #2)")
+                .setURL("https://megamitensei.fandom.com/wiki/Muttering_Tiara")
+                .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                .setColor(config.colors.darkblue)
+                .attachFile(new Attachment(`./personadata/p3shadows/muttering_handBoss2.png`, "shadow.png"))
+                .setImage("attachment://shadow.png")
+                .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+            let mutterVision1 = new RichEmbed()
+                .setTitle("Muttering Tiara (Vision Quest #1)")
+                .setURL("https://megamitensei.fandom.com/wiki/Muttering_Tiara")
+                .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                .setColor(config.colors.darkblue)
+                .attachFile(new Attachment(`./personadata/p3shadows/muttering_tiaraVision1.png`, "shadow.png"))
+                .setImage("attachment://shadow.png")
+                .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+            let mutterVision2 = new RichEmbed()
+                .setTitle("Muttering Tiara (Vision Quest #2)")
+                .setURL("https://megamitensei.fandom.com/wiki/Muttering_Tiara")
+                .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                .setColor(config.colors.darkblue)
+                .attachFile(new Attachment(`./personadata/p3shadows/muttering_tiaraVision2.png`, "shadow.png"))
+                .setImage("attachment://shadow.png")
+                .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+            await message.channel.send(mutter);
+            await message.channel.send(mutterBoss1);
+            await message.channel.send(mutterBoss2);
+            await message.channel.send(mutterVision1);
+            await message.channel.send(mutterVision2);
+            return;
+        }
+        if (shadowName === "muttering_tiara_/a") {
+            var name = "Muttering Tiara (The Answer)";
+            var fileName = "muttering_tiaraAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Muttering_Tiara`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "grieving_tiara") {
+            var name = "Grieving Tiara";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Grieving_Tiara`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "grieving_tiara_/a") {
+            var name = "Grieving Tiara (The Answer)";
+            var fileName = "grieving_tiaraAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Grieving_Tiara`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "writhing_tiara") {
+            var name = "Writhing Tiara";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Writhing_Tiara`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "shouting_tiara") {
+            var name = "Shouting Tiara";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Shouting_Tiara`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "shouting_tiara_/a") {
+            var name = "Shouting Tiara (The Answer)";
+            var fileName = "shouting_tiaraAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Shouting_Tiara`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+
+
+        //book shadows
         
 
 
