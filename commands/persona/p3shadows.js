@@ -376,7 +376,7 @@ module.exports = {
 
 
         //tiara shadows
-        //test #git channel
+        
 
 
         //finishing checks and sending of the embed
