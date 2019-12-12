@@ -474,7 +474,58 @@ module.exports = {
 
 
         //book shadows
-        
+        if (shadowName === "book") {
+            var name = "Book";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "spurious_book") {
+            var name = "Spurious Book";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Spurious_Book`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "spurious_book_/a") {
+            var name = "Spurious Book (The Answer)";
+            var fileName = "spurious_bookAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Spurious_Book`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "maniacal_book") {
+            var name = "Maniacal Book";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Maniacal_Book`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "maniacal_book_/a") {
+            var name = "Maniacal Book (The Answer)";
+            var fileName = "maniacal_bookAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Maniacal_Book`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "silent_book") {
+            var name = "Silent Book";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Silent_Book`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "wrathful_book") {
+            var name = "Wrathful Book";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Wrathful_Book`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "wrathful_book_/a") {
+            var name = "Wrathful Book";
+            var fileName = "wrathful_bookAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Wrathful_Book`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+
+
+        //idol shadows
+
 
 
         //finishing checks and sending of the embed
