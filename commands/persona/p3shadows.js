@@ -746,6 +746,74 @@ module.exports = {
 
 
         //beetle shadows
+        if (shadowName === "beetle") {
+            var name = "Beetle";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "grave_beetle") {
+            var name = "Grave Beetle";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Grave_Beetle`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "grave_beetle_/a") {
+            var name = "Grave Beetle (The Answer)";
+            var fileName = "grave_beetleAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Grave_Beetle`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "adamant_beetle") {
+            var name = "Adamant Beetle";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Adamant_Beetle`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "golden_beetle") {
+            let gold = new RichEmbed()
+                .setTitle("Golden Beetle")
+                .setURL("https://megamitensei.fandom.com/wiki/Golden_Beetle")
+                .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                .setColor(config.colors.darkblue)
+                .attachFile(new Attachment(`./personadata/p3shadows/golden_beetle.png`, "shadow.png"))
+                .setImage("attachment://shadow.png")
+                .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+            let goldBoss = new RichEmbed()
+                .setTitle("Golden Beetle (Sub Boss)")
+                .setURL("https://megamitensei.fandom.com/wiki/Golden_Beetle")
+                .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                .setColor(config.colors.darkblue)
+                .attachFile(new Attachment(`./personadata/p3shadows/golden_beetleBoss.png`, "shadow.png"))
+                .setImage("attachment://shadow.png")
+                .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+            await message.channel.send(gold);
+            await message.channel.send(goldBoss);
+            return;
+        }
+        if (shadowName === "golden_beetle_/a") {
+            var name = "Golden Beetle (The Answer)";
+            var fileName = "golden_beetleAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Golden_Beetle`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "emperor_beetle") {
+            var name = "Emperor Beetle";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Emperor_Beetle`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "burning_beetle") {
+            var name = "Burning Beetle";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Burning_Beetle`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+
+
+        //knight shadows
 
 
 
