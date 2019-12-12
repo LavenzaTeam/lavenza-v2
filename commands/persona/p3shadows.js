@@ -701,6 +701,51 @@ module.exports = {
 
 
         //mother shadows
+        if (shadowName === "mother") {
+            var name = "Mother";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "elegant_mother") {
+            var name = "Elegant Mother";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Elegant_Mother`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "elegant_mother_/a") {
+            var name = "Elegant Mother (The Answer)";
+            var fileName = "elegant_motherAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Elegant_Mother`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "regal_mother") {
+            var name = "Regal Mother";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Regal_Mother`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "regal_mother_/a") {
+            var name = "Regal Mother (The Answer)";
+            var fileName = "regal_motherAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Regal_Mother`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "pistil_mother") {
+            var name = "Pistil Mother";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Pistil_Mother`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "divine_mother") {
+            var name = "Divine Mother";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Divine_Mother`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+
+
+        //beetle shadows
 
 
 
