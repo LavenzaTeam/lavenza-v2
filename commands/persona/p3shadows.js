@@ -150,7 +150,7 @@ module.exports = {
                 .setURL("https://megamitensei.fandom.com/wiki/Devious_Maya#The%20Journey")
                 .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                 .setColor(config.colors.darkblue)
-                .attachFile(new Attachment(`./personadata/p3shadows/devious_mayaHanged`, "shadow.png"))
+                .attachFile(new Attachment(`./personadata/p3shadows/devious_mayaHanged.png`, "shadow.png"))
                 .setImage("attachment://shadow.png")
                 .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -159,7 +159,7 @@ module.exports = {
                 .setURL("https://megamitensei.fandom.com/wiki/Devious_Maya#Vision%20Quest")
                 .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                 .setColor(config.colors.darkblue)
-                .attachFile(new Attachment(`./personadata/p3shadows/devious_mayaVision`, "shadow.png"))
+                .attachFile(new Attachment(`./personadata/p3shadows/devious_mayaVision.png`, "shadow.png"))
                 .setImage("attachment://shadow.png")
                 .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
