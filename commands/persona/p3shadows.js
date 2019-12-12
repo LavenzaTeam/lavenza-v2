@@ -525,6 +525,63 @@ module.exports = {
 
 
         //idol shadows
+        if (shadowName === "idol") {
+            var name = "Idol";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "tranquil_idol") {
+            var name = "Tranquil Idol";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Tranquil_Idol`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "tranquil_idol_/a") {
+            var name = "Tranquil Idol (The Answer)";
+            var fileName = "tranquil_idolAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Tranquil_Idol`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "liberating_idol") {
+            var name = "Liberating Idol";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Liberating_Idol`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "liberating_idol_/a") {
+            var name = "Liberating Idol (The Answer)";
+            var fileName = "liberating_idolAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Liberating_Idol`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "ruinous_idol") {
+            var name = "Ruinous Idol";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Ruinous_Idol`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "ruinous_idol_/a") {
+            var name = "Ruinous Idol (The Answer)";
+            var fileName = "ruinous_idolAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Ruinous_Idol`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "vehement_idol") {
+            var name = "Vehement Idol";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Vehement_Idol`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "primitive_idol_/a") {
+            var name = "Primitive Idol (The Answer)";
+            var fileName = "";
+            var url = `https://megamitensei.fandom.com/wiki/Primitive_Idol`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+
+
+        //eagle shadows
 
 
 
