@@ -575,13 +575,75 @@ module.exports = {
         }
         if (shadowName === "primitive_idol_/a") {
             var name = "Primitive Idol (The Answer)";
-            var fileName = "";
+            var fileName = "primitive_idolAnswer";
             var url = `https://megamitensei.fandom.com/wiki/Primitive_Idol`;
             var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
         }
 
 
         //eagle shadows
+        if (shadowName === "eagle") {
+            var name = "Eagle";
+            var fileName = "eagle";
+            var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "venus_eagle") {
+            let venus = new RichEmbed()
+                .setTitle("Venus Eagle")
+                .setURL("https://megamitensei.fandom.com/wiki/Venus_Eagle")
+                .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                .setColor(config.colors.darkblue)
+                .attachFile(new Attachment(`./personadata/p3shadows/venus_eagle.png`, "shadow.png"))
+                .setImage("attachment://shadow.png")
+                .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+            let venusBoss = new RichEmbed()
+                .setTitle("Venus Eagle (Sub Boss)")
+                .setURL("https://megamitensei.fandom.com/wiki/Venus_Eagle")
+                .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                .setColor(config.colors.darkblue)
+                .attachFile(new Attachment(`./personadata/p3shadows/venus_eagleBoss.png`, "shadow.png"))
+                .setImage("attachment://shadow.png")
+                .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+            await message.channel.send(venus);
+            await message.channel.send(venusBoss);
+            return;
+        }
+        if (shadowName === "venus_eagle_/a") {
+            var name = "Venus Eagle (The Answer)";
+            var fileName = "venus_eagleAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Venus_Eagle`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "dark_eagle") {
+            var name = "Dark Eagle";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Dark_Eagle`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "dark_eagle_/a") {
+            var name = "Dark Eagle (The Answer)";
+            var fileName = "dark_eagleAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Dark_Eagle`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "jupiter_eagle") {
+            var name = "Jupiter Eagle";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Jupiter_Eagle`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "eternal_eagle") {
+            var name = "Eternal Eagle";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Eternal_Eagle`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+
+
+        //relic shadows
 
 
 
