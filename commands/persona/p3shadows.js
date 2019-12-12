@@ -644,13 +644,70 @@ module.exports = {
 
 
         //relic shadows
+        if (shadowName === "relic") {
+            var name = "Relic";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "change_relic") {
+            var name = "Change Relic";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Change_Relic`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "change_relic_/a") {
+            var name = "Change Relic (The Answer)";
+            var fileName = "change_relicAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Change_Relic`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "constancy_relic") {
+            var name = "Constancy Relic";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Constancy_Relic`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "constancy_relic_/a") {
+            var name = "Constancy Relic (The Answer)";
+            var fileName = "constancy_relicAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Constancy_Relic`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "creation_relic") {
+            var name = "Creation Relic";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Creation_Relic`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "creation_relic_/a") {
+            var name = "Creation Relic (The Answer)";
+            var fileName = "creation_relicAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Creation_Relic`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "growth_relic") {
+            var name = "Growth Relic";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Growth_Relic`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "affection_relic") {
+            var name = "Affection Relic";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Affection_Relic`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+
+
+        //mother shadows
 
 
 
         //finishing checks and sending of the embed
         if (!name) {
             if (shadowName.endsWith("/a")) {
-                return message.reply("This shadow doesn't appear to have a Answer variant, or you have entered an invalid Shadow name!")
+                return message.reply("This shadow doesn't appear to have an Answer variant, or you have entered an invalid Shadow name!")
             } else {
                 return message.reply("You have entered an invalid shadow name! `Note: If the shadow you are looking for only appears in 'The Answer', you must add the '/a' switch to the end of the name!`")
             }
