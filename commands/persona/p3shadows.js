@@ -811,9 +811,83 @@ module.exports = {
             var url = `https://megamitensei.fandom.com/wiki/Burning_Beetle`;
             var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
         }
-
+    
 
         //knight shadows
+        if (shadowName === "knight") {
+            var name = "Knight";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "intrepid_knight") {
+            var name = "Intrepid Knight";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Intrepid_Knight`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "intrepid_knight_/a") {
+            var name = "Intrepid Knight (The Answer)";
+            var fileName = "intrepid_knightAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Intrepid_Knight`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "avenger_knight") {
+            var name = "Avenger Knight";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Avenger_Knight`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "avenger_knight_/a") {
+            var name = "Avenger Knight (The Answer)";
+            var fileName = "avenger_knightAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Avenger_Knight`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "champion_knight") {
+            var name = "Champion Knight";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Champion_Knight`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "champion_knight_/a") {
+            var name = "Champion Knight (The Answer)";
+            var fileName = "champion_knightAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Champion_Knight`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "hell_knight") {
+            let hell = new RichEmbed()
+                .setTitle("Hell Knight")
+                .setURL("https://megamitensei.fandom.com/wiki/Hell_Knight")
+                .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                .setColor(config.colors.darkblue)
+                .attachFile(new Attachment(`./personadata/p3shadows/hell_knight.png`, "shadow.png"))
+                .setImage("attachment://shadow.png")
+                .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+            let hellBoss = new RichEmbed()
+                .setTitle("Hell Knight (Sub Boss)")
+                .setURL("https://megamitensei.fandom.com/wiki/Hell_Knight")
+                .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                .setColor(config.colors.darkblue)
+                .attachFile(new Attachment(`./personadata/p3shadows/hell_knightBoss.png`, "shadow.png"))
+                .setImage("attachment://shadow.png")
+                .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+            await message.channel.send(hell);
+            await message.channel.send(hellBoss);
+            return;
+        }
+        if (shadowName === "hell_knight_/a") {
+            var name = "Hell Knight (The Answer)";
+            var fileName = "hell_knightAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Hell_Knight`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+
+
+        //castle shadows
 
 
 
