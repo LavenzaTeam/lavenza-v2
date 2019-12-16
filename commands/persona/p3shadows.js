@@ -212,7 +212,7 @@ module.exports = {
                 .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
             let handBoss = new RichEmbed()
-                .setTitle("Dancing Hand")
+                .setTitle("Dancing Hand (Sub Boss)")
                 .setURL("https://megamitensei.fandom.com/wiki/Dancing_Hand#Sub-Boss")
                 .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                 .setColor(config.colors.darkblue)
