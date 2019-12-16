@@ -888,6 +888,57 @@ module.exports = {
 
 
         //castle shadows
+        if (shadowName === "castle") {
+            var name = "Castle";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "death_castle") {
+            var name = "Death Castle";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Death_Castle`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "death_knight_/a") {
+            var name = "Death Castle (The Answer)";
+            var fileName = "death_castleAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Death_Castle`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "solid_castle") {
+            var name = "Solid Castle";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Solid_Castle`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "solid_castle_/a") {
+            var name = "Solid Castle (The Answer)";
+            var fileName = "solid_castleAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Solid_Castle`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "power_castle") {
+            var name = "Power Castle";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Power_Castle`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "power_castle_/a") {
+            var name = "Power Castle";
+            var fileName = "power_castleAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Power_Castle`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "king_castle") {
+            var name = "King Castle";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/King_Castle`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+
+
+        //twin shadows
 
 
 
