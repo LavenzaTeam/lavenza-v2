@@ -939,6 +939,48 @@ module.exports = {
 
 
         //twin shadows
+        if (shadowName === "twins") {
+            var name = "Twins";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "trance_twins") {
+            var name = "Trance Twins";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Trance_Twins`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "trance_twins_/a") {
+            var name = "Trance Twins (The Answer)";
+            var fileName = "trance_twinsAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Trance_Twins`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "killer_twins") {
+            var name = "Killer Twins";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Killer_Twins`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "killer_twins_/a") {
+            var name = "Killer Twins (The Answer)";
+            var fileName = "killer_twinsAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Killer_Twins`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "death_twins") {
+            var name = "Death Twins";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Death_Twins`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "crazy_twins") {
+            var name = "Crazy Twins";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Crazy_Twins`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
 
 
 
