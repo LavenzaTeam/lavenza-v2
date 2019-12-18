@@ -983,6 +983,60 @@ module.exports = {
         }
 
 
+        //tower shadows
+        if (shadowName === "tower") {
+            var name = "Tower";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Personas`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "dogmatic_tower") {
+            var name = "Dogmatic Tower";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Dogmatic_Tower`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "dogmatic_tower_/a") {
+            var name = "Dogmatic Tower (The Answer)";
+            var fileName = "dogmatic_towerAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Dogmatic_Tower`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "fanatic_tower") {
+            var name = "Fanatic Tower";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Fanatic_Tower`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "fanatic_tower_/a") {
+            var name = "Fanatic Tower (The Answer)";
+            var fileName = "fanatic_towerAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Fanatic_Tower`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "apostate_tower") {
+            var name = "Apostate Tower";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Apostate_Tower`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "corrupt_tower_/a") {
+            var name = "Corrupt Tower (The Answer)";
+            var fileName = "corrupt_towerAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Corrupt_Tower`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "grudge_tower_/a") {
+            var name = "Grudge Tower (The Answer)";
+            var fileName = "grudge_towerAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Grudge_Tower`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+
+
+        //sigil shadows
+
+
 
         //finishing checks and sending of the embed
         if (!name) {
