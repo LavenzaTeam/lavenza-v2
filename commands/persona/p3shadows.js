@@ -1103,6 +1103,51 @@ module.exports = {
 
 
         //cupid shadows
+        if (shadowName === "cupid") {
+            var name = "Cupid";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "obsessed_cupid") {
+            var name = "Obsessed Cupid";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Obsessed_Cupid`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "obsessed_cupid_/a") {
+            var name = "Obsessed Cupid (The Answer)";
+            var fileName = "obsessed_cupidAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Obsessed_Cupid`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "jealous_cupid") {
+            var name = "Jealous Cupid";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Jealous_Cupid`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "jealous_cupid_/a") {
+            var name = "Jealous Cupid (The Answer)";
+            var fileName = "jealous_cupidAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Jealous_Cupid`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "devoted_cupid") {
+            var name = "Devoted Cupid";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Devoted_Cupid`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "gracious_cupid") {
+            var name = "Gracious Cupid";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Gracious_Cupid`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+
+
+        //dancer shaodws
 
 
 
