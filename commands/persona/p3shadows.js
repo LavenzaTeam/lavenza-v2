@@ -1035,6 +1035,74 @@ module.exports = {
 
 
         //sigil shadows
+        if (shadowName === "sigil") {
+            var name = "Sigil";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "blue_sigil") {
+            var name = "Blue Sigil";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Blue_Sigil`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "blue_sigil_/a") {
+            var name = "Blue Sigil (The Answer)";
+            var fileName = "blue_sigilAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Blue_Sigil`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "red_sigil") {
+            var name = "Red Sigil";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/Red_Sigil`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "red_sigil_/a") {
+            var name = "Red Sigil (The Answer)";
+            var fileName = "red_sigilAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Red_Sigil`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "green_sigil") {
+            let green = new RichEmbed()
+                .setTitle("Green Sigil")
+                .setURL("https://megamitensei.fandom.com/wiki/Green_Sigil")
+                .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                .setColor(config.colors.darkblue)
+                .attachFile(new Attachment(`./personadata/p3shadows/green_sigil.png`, "shadow.png"))
+                .setImage("attachment://shadow.png")
+                .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+            let greenPortable = new RichEmbed()
+                .setTitle("Green Sigil (Portable)")
+                .setURL("https://megamitensei.fandom.com/wiki/Green_Sigil")
+                .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                .setColor(config.colors.darkblue)
+                .attachFile(new Attachment(`./personadata/p3shadows/green_sigilPortable`, "shadow.png"))
+                .setImage("attachment://shadow.png")
+                .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+            await message.channel.send(green);
+            await message.channel.send(greenPortable);
+            return;
+        }
+        if (shadowName === "green_sigil_/a") {
+            var name = "Green Sigil (The Answer)";
+            var fileName = "green_sigilAnswer";
+            var url = `https://megamitensei.fandom.com/wiki/Green_Sigil`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+        if (shadowName === "white_sigil") {
+            var name = "White Sigil";
+            var fileName = shadowName;
+            var url = `https://megamitensei.fandom.com/wiki/White_Sigil`;
+            var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+        }
+
+
+        //cupid shadows
 
 
 
