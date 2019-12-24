@@ -1,7 +1,7 @@
 {
-  "name": "publicbot",
-  "version": "1.0.0",
-  "description": "A multifunctional, powerful Discord Bot",
+  "name": "lavenza",
+  "version": "0.1.0",
+  "description": "A Persona bot for Discord!",
   "main": "app.js",
   "dependencies": {
     "common-tags": "^1.8.0",
@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "Arkane",
   "license": "MIT"
