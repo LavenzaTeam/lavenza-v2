@@ -50,22 +50,56 @@ module.exports = {
 
 
         //sets party members name to their persona
-        if (personaName === "yukari") personaName = "io";
-        if (personaName === "yukari_ultimate") personaName = "isis";
-        if (personaName === "junpei") personaName = "hermes";
-        if (personaName === "junpei_ultimate") personaName = "trismegistus";
-        if (personaName === "fuuka") personaName = "lucia";
-        if (personaName === "fukka_ultimate") personaName = "juno";
-        if (personaName === "mitsuru") personaName = "penthesilea";
-        if (personaName === "mitsuru_ultimate") personaName = "artemisia";
-        if (personaName === "akihiko") personaName = "polydeuces";
-        if (personaName === "akihiko_ultimate") personaName = "ceasar";
-        if (personaName === "shinjiro") personaName = "castor";
-        if (personaName === "aigis") personaName = "palladion";
-        if (personaName === "aigis_ultimate") personaName = "pallas_athena";
-        if (personaName === "ken") personaName = "nemesis";
-        if (personaName === "ken_ultimate") personaName = "kala_nemi";
-        if (personaName === "koromaru") personaName = "cerberus";
+        switch (personaName) {
+        case "yukari":
+            personaName = "io";
+            break;
+        case "yukari_ultimate":
+            personaName = "isis";
+            break;
+        case "junpei":
+            personaName = "hermes";
+            break;
+        case "junpei_ultimate":
+            personaName = "trismegistus";
+            break;
+        case "fuuka":
+            personaName = "lucia";
+            break;
+        case "fukka_ultimate":
+            personaName = "juno";
+            break;
+        case "mitsuru":
+            personaName = "penthesilea";
+            break;
+        case "mitsuru_ultimate":
+            personaName = "artemisia";
+            break;
+        case "akihiko":
+            personaName = "polydeuces";
+            break;
+        case "akihiko_ultimate":
+            personaName = "ceasar";
+            break;
+        case "shinjiro":
+            personaName = "castor";
+            break;
+        case "aigis":
+            personaName = "palladion";
+            break;
+        case "aigis_ultimate":
+            personaName = "pallas_athena";
+            break;
+        case "ken":
+            personaName = "nemesis";
+            break;
+        case "ken_ultimate":
+            personaName = "kala_nemi";
+            break;
+        case "koromaru":
+            personaName = "cerberus";
+            break;
+        }
 
         //fool arcana
         switch (personaName) {
