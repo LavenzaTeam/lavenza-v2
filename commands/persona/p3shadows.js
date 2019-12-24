@@ -1152,6 +1152,97 @@ module.exports = {
 
 
             //dancer shaodws
+            case "dancer":
+                var name = "Dancer";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "soul_dancer":
+                var name = "Soul Dancer";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Soul_Dancer`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "soul_dancer_/a":
+                let soul = new RichEmbed()
+                    .setTitle("Soul Dancer (The Answer)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Soul_Dancer")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/soul_dancerAnswer.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+                
+                let soulBoss = new RichEmbed()
+                    .setTitle("Soul Dancer (The Answer, Sub Boss)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Soul_Dancer")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/soul_dancerBoss.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                await message.channel.send(soul);
+                await message.channel.send(soulBoss);
+                return;
+                break;
+            case "ardent_dancer":
+                var name = "Ardent Dancer";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Ardent_Dancer`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "natural_dancer":
+                var name = "Natural Dancer";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Natural_Dancer`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "natural_dancer_/a":
+                var name = "Natural Dancer (The Answer)";
+                var fileName = "natural_dancerAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Natural_Dancer`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "royal_dancer":
+                let royal = new RichEmbed()
+                    .setTitle("Royal Dancer")
+                    .setURL("https://megamitensei.fandom.com/wiki/Royal_Dancer")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/royal_dancer.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+                
+                let royalBoss = new RichEmbed()
+                    .setTitle("Royal Dancer (Sub Boss)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Royal_Dancer")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/royal_dancerBoss.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                await message.channel.send(royal);
+                await message.channel.send(royalBoss);
+                return;
+                break;
+            case "royal_dancer_/a":
+                var name = "Royal Dancer (The Answer)";
+                var fileName = "royal_dancerAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Royal_Dancer`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "harem_dancer_/a":
+                var name = "Harem Dancer (The Answer)";
+                var fileName = "harem_dancerAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Harem_Dancer`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+
+
+            //snake shadows
 
 
 
