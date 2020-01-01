@@ -1173,7 +1173,7 @@ module.exports = {
                     .attachFile(new Attachment(`./personadata/p3shadows/soul_dancerAnswer.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
-                
+
                 let soulBoss = new RichEmbed()
                     .setTitle("Soul Dancer (The Answer, Sub Boss)")
                     .setURL("https://megamitensei.fandom.com/wiki/Soul_Dancer")
@@ -1214,7 +1214,7 @@ module.exports = {
                     .attachFile(new Attachment(`./personadata/p3shadows/royal_dancer.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
-                
+
                 let royalBoss = new RichEmbed()
                     .setTitle("Royal Dancer (Sub Boss)")
                     .setURL("https://megamitensei.fandom.com/wiki/Royal_Dancer")
@@ -1243,6 +1243,59 @@ module.exports = {
 
 
             //snake shadows
+            case "snake":
+                var name = "Snake";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "lustful_snake":
+                var name = "Lustful Snake";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Ardent_Dancer`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "immoral_snake":
+                var name = "Immoral Snake";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Immoral_Snake`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "carnal_snake":
+                let carnal = new RichEmbed()
+                    .setTitle("Carnal Snake")
+                    .setURL("https://megamitensei.fandom.com/wiki/Carnal_Snake")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/carnal_snake.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let carnalBoss = new RichEmbed()
+                    .setTitle("Carnal Snake (Sub Boss)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Carnal_Snake")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/carnal_snakeBoss.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                await message.channel.send(carnal);
+                await message.channel.send(carnalBoss);
+                return;
+                break;
+            case "amorous_snake":
+                var name = "Amorous Snake";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Amorous_Snake`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "stoic_snake_/a":
+                var name = "Stoic Snake (The Answer)";
+                var fileName = "stoic_snakeAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Stoic_Snake`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
 
 
 
