@@ -1468,6 +1468,66 @@ module.exports = {
                 break;
 
 
+            //balance shadows
+            case "balance":
+                var name = "Balance";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "heat_balance":
+                var name = "Heat Balance";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Heat_Balance`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "heat_balance_/a":
+                var name = "Heat Balance (The Answer)";
+                var fileName = "heat_balanceAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Heat_Balance`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "sky_balance":
+                var name = "Sky Balance";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Sky_Balance`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "sky_balance_/a":
+                var name = "Sky Balance (The Answer)";
+                var fileName = "sky_balanceAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Sky_Balance`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "light_balance":
+                var name = "Light Balance";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Light_Balance`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "light_balance_/a":
+                var name = "Light Balance (The Answer)";
+                var fileName = "light_balanceAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Light_Balance`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "world_balance":
+                var name = "World Balance";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/World_Balance`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "world_balance_/a":
+                var name = "World Balance (The Answer)";
+                var fileName = "world_balanceAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/World_Balance`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+
+            
+            //sword shadows
+
+
 
         }
         //finishing checks and sending of the embed
