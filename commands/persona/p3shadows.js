@@ -1298,6 +1298,105 @@ module.exports = {
                 break;
 
 
+            //wheel shadows
+            case "wheel":
+                var name = "Wheel";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "bestial_wheel":
+                var name = "Bestial Wheel";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Bestial_Wheel`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "mach_wheel":
+                var name = "Mach Wheel";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Mach_Wheel`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "mach_wheel_/a":
+                var name = "Mach Wheel (The Answer)";
+                var fileName = "mach_wheelAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Mach_Wheel`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "brave_wheel":
+                var name = "Brave Wheel";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Brave_Wheel`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "brave_wheel_/a":
+                var name = "Brave Wheel (The Answer)";
+                var fileName = "brave_wheelAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Brave_Wheel`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "battle_wheel":
+                var name = "Battle Wheel";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Battle_Wheel`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+
+
+            //drive shadows
+            case "drive":
+                var name = "Drive";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "rampage_drive":
+                var name = "Rampage Drive";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Rampage_Drive`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "wild_drive":
+                var name = "Wild Drive";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Wild_Drive`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "wild_drive_/a":
+                var name = "Wild Drive (The Answer)";
+                var fileName = "wild_driveAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Wild_Drive`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "killer_drive":
+                var name = "Killer Drive";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Killer_Drive`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "killer_drive_/a":
+                var name = "Killer Drive (The Answer)";
+                var fileName = "killer_driveAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Killer_Drive`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "slaughter_drive":
+                var name = "Slaughter Drive";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Slaughter_Drive`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "slaughter_drive_/a":
+                var name = "Slaughter Drive (The Answer)";
+                var fileName = "slughter_driveAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Slaughter_Drive`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+
+
+            //turret shadows
+
+
 
         }
         //finishing checks and sending of the embed
