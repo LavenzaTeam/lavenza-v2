@@ -1395,6 +1395,77 @@ module.exports = {
 
 
             //turret shadows
+            case "turret":
+                var name = "Turret";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "arcane_turret":
+                let arcane = new RichEmbed()
+                    .setTitle("Arcane Turret")
+                    .setURL("https://megamitensei.fandom.com/wiki/Arcane_Turret")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/arcane_turret.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let arcaneBoss = new RichEmbed()
+                    .setTitle("Arcane Turret (Sub Boss)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Arcane_Turret")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/arcane_turretBoss.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                await message.channel.send(arcane);
+                await message.channel.send(arcaneBoss);
+                return;
+                break;
+            case "arcane_turret_/a":
+                var name = "Arcane Turret (The Answer)";
+                var fileName = "arcane_turretAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Arcane_Turret`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "scarlet_turret":
+                var name = "Scarlet Turret";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Scarlet_Turret`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "wicked_turret":
+                var name = "Wicked Turret";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Wicked_Turret`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "wicked_turret_/a":
+                var name = "Wicked Turret (The Answer)";
+                var fileName = "wicked_turretAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Wicked_Turret`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "hallowed_turret":
+                var name = "Hallowed Turret";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Hallowed_Turret`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "berserk_turret_/a":
+                var name = "Berserk Turret (The Answer)";
+                var fileName = "berserk_turretAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Barserk_Turret`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "spastic_turret_/a":
+                var name = "Spastic Turret (The Answer)";
+                var fileName = "spastic_turretAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Spastic_Turret`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
 
 
 
