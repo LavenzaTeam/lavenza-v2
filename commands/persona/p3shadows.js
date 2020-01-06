@@ -1594,6 +1594,80 @@ module.exports = {
 
 
             //giant shadows
+            case "giant":
+                var name = "Giant";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "order_giant":
+                var name = "Order Giant";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Order_Giant`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "order_giant_/a":
+                var name = "Order Giant (The Answer)";
+                var fileName = "order_giantAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Order_Giant`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "stasis_giant":
+                let stasis = new RichEmbed()
+                    .setTitle("Stasis Giant")
+                    .setURL("https://megamitensei.fandom.com/wiki/Stasis_Giant")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/stasis_giant.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensi Wiki", client.user.displayAvatarURL);
+
+                let stasisBoss = new RichEmbed()
+                    .setTitle("Stasis Giant (Sub Boss)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Stasis_Giant")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/stasis_giantBoss.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensi Wiki", client.user.displayAvatarURL);
+                await message.channel.send(stasis);
+                await message.channel.send(stasisBoss);
+                return;
+                break;
+            case "stasis_giant_/a":
+                var name = "Stasis Giant (The Answer)";
+                var fileName = "stasis_giantAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Stasis_Giant`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "harmony_giant":
+                var name = "Harmony Giant";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Harmony_Giant`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "void_giant":
+                var name = "Void Giant";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Void_Giant`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "void_giant_/a":
+                var name = "Void Giant (The Answer)";
+                var fileName = "void_giantAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Void_Giant`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "loss_giant_/a":
+                var name = "Loss Giant (The Answer)";
+                var fileName = "loss_giantAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Loss_Giant`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+
+
+            //raven shadows
+
 
 
 
