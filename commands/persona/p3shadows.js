@@ -1524,8 +1524,76 @@ module.exports = {
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
                 break;
 
-            
+
             //sword shadows
+            case "sword":
+                var name = "Sword";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "justice_sword":
+                var name = "Justice Sword";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Justice_Sword`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "justice_sword_/a":
+                var name = "Justice Sword (The Answer)";
+                var fileName = "justice_swordAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Justice_Sword`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "conviction_sword":
+                var name = "Conviction Sword";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Conviction_Sword`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "conviction_sword_/a":
+                var name = "Conviction Sword (The Answer)";
+                var fileName = "conviction_swordAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Conviction_Sword`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "judgement_sword":
+                let judgement = new RichEmbed()
+                    .setTitle("Judgement Sword")
+                    .setURL("https://megamitensei.fandom.com/wiki/Judgement_Sword")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/judgement_sword.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let judgementBoss = new RichEmbed()
+                    .setTitle("Judgement Sword (Sub Boss)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Judgement_Sword")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/judgement_swordBoss.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                await message.channel.send(judgement);
+                await message.channel.send(judgementBoss);
+                return;
+                break;
+            case "judgement_sword_/a":
+                var name = "Judgement Sword (The Answer)";
+                var fileName = "judgement_swordAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Judgement_Sword`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "doom_sword":
+                var name = "Doom Sword";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Doom_Sword`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+
+
+            //giant shadows
 
 
 
