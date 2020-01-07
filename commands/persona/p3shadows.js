@@ -1667,6 +1667,57 @@ module.exports = {
 
 
             //raven shadows
+            case "raven":
+                var name = "Raven";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "black_raven":
+                var name = "Black Raven";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Black_Raven`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "black_raven_/a":
+                var name = "Black Raven (The Answer)";
+                var fileName = "black_ravenAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Black_Raven`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "vicious_raven":
+                var name = "Vicious Raven";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Vicious_Raven`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "vicious_raven_/a":
+                var name = "Vicious Raven (The Answer)";
+                var fileName = "vicious_ravenAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Vicious_Raven`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "amenti_raven":
+                var name = "Amenti Raven";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Amenti_Raven`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "ice_raven":
+                var name = "Ice Raven";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Ice_Raven`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "ice_raven_/a":
+                var name = "Ice Raven (The Answer)";
+                var fileName = "ice_ravenAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Ice_Raven`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+
+
+            //phantom shadows
 
 
 
