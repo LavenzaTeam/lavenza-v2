@@ -1718,7 +1718,51 @@ module.exports = {
 
 
             //phantom shadows
+            case "phantom":
+                var name = "Phantom";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "phantom_mage":
+                var name = "Phantom Mage";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Phantom_Mage`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "phantom_master":
+                var name = "Phantom Master";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Phantom_Master`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "phantom_master_/a":
+                var name = "Phantom Master (The Answer)";
+                var fileName = "phantom_masterAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Phantom_Master`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "phantom_lord":
+                var name = "Phantom Lord";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Phantom_Lord`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "phantom_king":
+                var name = "Phantom King";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Phantom_King`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "phantom_hero_/a":
+                var name = "Phantom Hero (The Answer)";
+                var fileName = "phantom_heroAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Phantom_Hero`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
 
+
+            //seeker shadows
 
 
 
