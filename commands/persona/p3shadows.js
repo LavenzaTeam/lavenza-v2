@@ -1763,6 +1763,68 @@ module.exports = {
 
 
             //seeker shadows
+            case "seeker":
+                var name = "Seeker";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "death_seeker":
+                var name = "Death Seeker";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Death_Seeker`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "death_seeker_/a":
+                var name = "Death Seeker (The Answer)";
+                var fileName = "death_seekerAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Death_Seeker`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "fate_seeker":
+                var name = "Fate Seeker";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Fate_Seeker`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "noble_seeker":
+                let noble = new RichEmbed()
+                    .setTitle("Noble Seeker")
+                    .setURL("https://megamitensei.fandom.com/wiki/Noble_Seeker")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/noble_seeker.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let nobleBoss = new RichEmbed()
+                    .setTitle("Noble Seeker (Sub Boss)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Noble_Seeker")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/noble_seekerBoss.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                await message.channel.send(noble);
+                await message.channel.send(nobleBoss);
+                return;
+                break;
+            case "acheron_seeker":
+                var name = "Acheron Seeker";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Acheron_Seeker`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "acheron_seeker_/a":
+                var name = "Acheron Seeker (The Answer)";
+                var fileName = "acheron_seekerAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Acheron_Seeker`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+
+
+            //dice shadows
 
 
 
