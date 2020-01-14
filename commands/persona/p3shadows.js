@@ -1825,6 +1825,87 @@ module.exports = {
 
 
             //dice shadows
+            case "dice":
+                var name = "Dice";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "bronze_dice":
+                var name = "Bronze Dice";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Bronze_Dice`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "bronze_dice_/a":
+                var name = "Bronze Dice (The Answer)";
+                var fileName = "bronze_diceAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Bronze_Dice`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "mind_dice":
+                var name = "Mind Dice";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Mind_Dice`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "curse_dice":
+                var name = "Curse Dice";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Curse_Dice`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "curse_dice_/a":
+                var name = "Curse Dice (The Answer)";
+                var fileName = "curse_diceAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Curse_Dice`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "reckoning_dice":
+                var name = "Reckoning Dice";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Reckoning_Dice`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "iron_dice":
+                var name = "Iron Dice";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Iron_Dice`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "death_dice":
+                var name = "Death Dice";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Death_Dice`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "death_dice_/a":
+                var name = "Death Dice (The Answer)";
+                var fileName = "death_diceAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Death_Dice`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "silver_dice":
+                var name = "Silver Dice";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Silver_Dice`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "silver_dice_/a":
+                var name = "Silver Dice (The Answer)";
+                var fileName = "silver_diceAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Silver_Dice`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "platinum_dice":
+                var name = "Platinum Dice";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Platinum_Dice`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+
+
+            //sand shadows
 
 
 
