@@ -1996,7 +1996,80 @@ module.exports = {
 
 
             //gigas shadows
+            case "gigas":
+                var name = "Gigas";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "steel_gigas":
+                var name = "Steel Gigas";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Steel_Gigas`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "steel_gigas_/a":
+                var name = "Steel Gigas (The Answer)";
+                var fileName = "steel_gigasAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Steel_Gigas`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "furious_gigas":
+                let furious = new RichEmbed()
+                    .setTitle("Furious Gigas")
+                    .setURL("https://megamitensei.fandom.com/wiki/Furious_Gigas")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/furious_gigas.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
+                let furiousBoss = new RichEmbed()
+                    .setTitle("Furious Gigas (Sub Boss)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Furious_Gigas")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/furious_gigasBoss.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                await message.channel.send(furious);
+                await message.channel.send(furiousBoss);
+                return;
+                break;
+            case "furious_gigas_/a":
+                var name = "Furious Gigas (The Answer)";
+                var fileName = "furious_gigasAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Furious_Gigas`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "mythical_gigas":
+                var name = "Mythical Gigas";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Mythical_Gigas`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "mythical_gigas_/a":
+                var name = "Mythical Gigas (The Answer)";
+                var fileName = "mythical_gigasAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Mythical_Gigas`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "daring_gigas":
+                var name = "Daring Gigas";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Daring_Gigas`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "immortal_gigas_/a":
+                var name = "Immortal Gigas (The Answer)";
+                var fileName = "immortal_gigasAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Immortal_Gigas`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+
+
+            //musha shadows
 
 
         }
