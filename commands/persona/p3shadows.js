@@ -1945,6 +1945,57 @@ module.exports = {
 
 
             //beast shadows
+            case "beast":
+                var name = "Beast";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "wild_beast":
+                var name = "Wild Beast";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Wild_Beast`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "wild_beast_/a":
+                var name = "Wild Beast (The Answer)";
+                var fileName = "wild_beastAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Wild_Beast`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "enslaved_beast":
+                var name = "Enslaved Beast";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Enslaved_Beast`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "enslaved_beast_/a":
+                var name = "Enslaved Beast (The Answer)";
+                var fileName = "enslaved_beastAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Enslaved_Beast`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "mighty_beast":
+                var name = "Mighty Beast";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Mighty_Beast`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "nemean_beast":
+                var name = "Nemean Beast";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Nemean_Beast`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "el_dorado_beast_/a":
+                var name = "El Dorado Beast (The Answer)";
+                var fileName = "el_dorado_beastAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/El_Dorado_Beast`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+
+
+            //gigas shadows
 
 
 
