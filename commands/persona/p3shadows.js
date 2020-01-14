@@ -2070,6 +2070,57 @@ module.exports = {
 
 
             //musha shadows
+            case "musha":
+                var name = "Musha";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "hakurou_musha":
+                var name = "Hakurou Musha";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Hakurou_Musha`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "kaiden_musha":
+                var name = "Kaiden Musha";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Rain_End_Musha`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "kaiden_musha_/a":
+                var name = "Kaiden Musha (The Answer)";
+                var fileName = "kaiden_mushaAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Rain_End_Musha`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "onnen_musha":
+                var name = "Onnen Musha";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Raindrop_Musha`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "onnen_musha_/a":
+                var name = "Onnen Musha (The Answer)";
+                var fileName = "onnen_mushaAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Raindrop_Musha`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "tenjin_musha":
+                var name = "Tenjin Musha";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Rain_Wind_Musha`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "Tenjin_musha_/a":
+                var name = "Tenjin Musha (The Answer)";
+                var fileName = "tenjin_mushaAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Rain_Wind_Musha`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+
+
+            //minotaur shadows
 
 
         }
