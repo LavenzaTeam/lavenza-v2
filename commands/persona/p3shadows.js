@@ -1906,6 +1906,45 @@ module.exports = {
 
 
             //sand shadows
+            case "sand":
+                var name = "Sand";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "flowing_sand":
+                var name = "Flowing Sand";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Flowing_Sand`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "flowing_sand_/a":
+                var name = "Flowing Sand (The Answer)";
+                var fileName = "flowing_sandAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Flowing_Sand`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "perpetual_sand":
+                var name = "Perpetual Sand";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Flowing_Sand`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "infinite_sand":
+                var name = "Infinite Sand";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Infinite_Sand`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "eternal_sand":
+                var name = "Eternal Sand";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Eternal_Sand`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+
+
+            //beast shadows
 
 
 
