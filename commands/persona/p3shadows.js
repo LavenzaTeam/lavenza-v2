@@ -2121,6 +2121,51 @@ module.exports = {
 
 
             //minotaur shadows
+            case "minotaur":
+                var name = "Minotaur";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "minotaur_iv":
+                var name = "Minotaur IV";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Minotaur_IV`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "minotaur_iv_/a":
+                var name = "Minotaur IV (The Answer)";
+                var fileName = "minotaur_ivAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Minotaur_IV`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "minotaur_iii":
+                var name = "Minotaur III";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Minotaur_III`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "minotaur_ii":
+                var name = "Minotaur II";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Minotaur_II`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "minotaur_i":
+                var name = "Minotaur I";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Minotaur_I`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "neo_minotaur_/a":
+                var name = "Neo Minotaur (The Answer)";
+                var fileName = "neo_minotaurAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Neo_Minotaur`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+
+
+            //cyclops shadows
 
 
         }
