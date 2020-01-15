@@ -19,7 +19,7 @@ module.exports = {
 
 
             case "maya":
-                var name = "Maya";
+                var name = "Maya Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
@@ -188,7 +188,7 @@ module.exports = {
 
             //hand shadows
             case "hand":
-                var name = "Hand";
+                var name = "Hand Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
@@ -257,7 +257,7 @@ module.exports = {
 
             //table shadows
             case "table":
-                var name = "Table";
+                var name = "Table Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
@@ -324,6 +324,12 @@ module.exports = {
 
 
             //magus shadows
+            case "magus":
+                var name = "Magus Shadows";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
+                break;
             case "magical_magus":
                 let magus = new RichEmbed()
                     .setTitle("Magical Magus")
@@ -381,7 +387,7 @@ module.exports = {
 
             //tiara shadows
             case "tiara":
-                var name = "Tiara";
+                var name = "Tiara Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
@@ -479,7 +485,7 @@ module.exports = {
 
             //book shadows
             case "book":
-                var name = "Book";
+                var name = "Book Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
@@ -530,7 +536,7 @@ module.exports = {
 
             //idol shadows
             case "idol":
-                var name = "Idol";
+                var name = "Idol Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
@@ -587,7 +593,7 @@ module.exports = {
 
             //eagle shadows
             case "eagle":
-                var name = "Eagle";
+                var name = "Eagle Shadows";
                 var fileName = "eagle";
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
@@ -649,7 +655,7 @@ module.exports = {
 
             //relic shadows
             case "relic":
-                var name = "Relic";
+                var name = "Relic Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
@@ -706,7 +712,7 @@ module.exports = {
 
             //mother shadows
             case "mother":
-                var name = "Mother";
+                var name = "Mother Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
@@ -751,7 +757,7 @@ module.exports = {
 
             //beetle shadows
             case "beetle":
-                var name = "Beetle";
+                var name = "Beetle Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
@@ -819,7 +825,7 @@ module.exports = {
 
             //knight shadows
             case "knight":
-                var name = "Knight";
+                var name = "Knight Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
@@ -893,7 +899,7 @@ module.exports = {
 
             //castle shadows
             case "castle":
-                var name = "Castle";
+                var name = "Castle Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
@@ -944,7 +950,7 @@ module.exports = {
 
             //twin shadows
             case "twins":
-                var name = "Twins";
+                var name = "Twins-type Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
@@ -989,7 +995,7 @@ module.exports = {
 
             //tower shadows
             case "tower":
-                var name = "Tower";
+                var name = "Tower Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Personas`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
@@ -1040,7 +1046,7 @@ module.exports = {
 
             //sigil shadows
             case "sigil":
-                var name = "Sigil";
+                var name = "Sigil Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
@@ -1108,7 +1114,7 @@ module.exports = {
 
             //cupid shadows
             case "cupid":
-                var name = "Cupid";
+                var name = "Cupid Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
@@ -1153,7 +1159,7 @@ module.exports = {
 
             //dancer shaodws
             case "dancer":
-                var name = "Dancer";
+                var name = "Dancer Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
@@ -1244,7 +1250,7 @@ module.exports = {
 
             //snake shadows
             case "snake":
-                var name = "Snake";
+                var name = "Snake Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
@@ -1300,7 +1306,7 @@ module.exports = {
 
             //wheel shadows
             case "wheel":
-                var name = "Wheel";
+                var name = "Wheel Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
@@ -1345,7 +1351,7 @@ module.exports = {
 
             //drive shadows
             case "drive":
-                var name = "Drive";
+                var name = "Drive Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
@@ -1396,7 +1402,7 @@ module.exports = {
 
             //turret shadows
             case "turret":
-                var name = "Turret";
+                var name = "Turret Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
@@ -1470,7 +1476,7 @@ module.exports = {
 
             //balance shadows
             case "balance":
-                var name = "Balance";
+                var name = "Balance Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
@@ -1527,7 +1533,7 @@ module.exports = {
 
             //sword shadows
             case "sword":
-                var name = "Sword";
+                var name = "Sword Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
@@ -1595,7 +1601,7 @@ module.exports = {
 
             //giant shadows
             case "giant":
-                var name = "Giant";
+                var name = "Giant Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
@@ -1668,7 +1674,7 @@ module.exports = {
 
             //raven shadows
             case "raven":
-                var name = "Raven";
+                var name = "Raven Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
@@ -1719,7 +1725,7 @@ module.exports = {
 
             //phantom shadows
             case "phantom":
-                var name = "Phantom";
+                var name = "Phantom Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
@@ -1764,7 +1770,7 @@ module.exports = {
 
             //seeker shadows
             case "seeker":
-                var name = "Seeker";
+                var name = "Seeker Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
@@ -1826,7 +1832,7 @@ module.exports = {
 
             //dice shadows
             case "dice":
-                var name = "Dice";
+                var name = "Dice Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
@@ -1907,7 +1913,7 @@ module.exports = {
 
             //sand shadows
             case "sand":
-                var name = "Sand";
+                var name = "Sand Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
@@ -1946,7 +1952,7 @@ module.exports = {
 
             //beast shadows
             case "beast":
-                var name = "Beast";
+                var name = "Beast Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
@@ -1997,7 +2003,7 @@ module.exports = {
 
             //gigas shadows
             case "gigas":
-                var name = "Gigas";
+                var name = "Gigas Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
@@ -2071,7 +2077,7 @@ module.exports = {
 
             //musha shadows
             case "musha":
-                var name = "Musha";
+                var name = "Musha Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
