@@ -2122,7 +2122,7 @@ module.exports = {
 
             //minotaur shadows
             case "minotaur":
-                var name = "Minotaur";
+                var name = "Minotaur Shadows";
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
@@ -2166,6 +2166,86 @@ module.exports = {
 
 
             //cyclops shadows
+            case "cyclops":
+                var name = "Cyclops Shadows";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "mighty_cyclops":
+                var name = "Mighty Cyclops";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Mighty_Cyclops`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "mighty_cyclops_/a":
+                var name = "Mighty Cyclops (The Answer)";
+                var fileName = "mighty_cyclopsAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Mighty_Cyclops`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "mad_cyclops":
+                var name = "Mad Cyclops";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Mad_Cyclops`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "mad_cyclops_/a":
+                var name = "Mad Cyclops (The Answer)";
+                var fileName = "mad_cyclopsAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Mad_Cyclops`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "fierce_cyclops":
+                let fierce = new RichEmbed()
+                    .setTitle("Fierce Cyclops")
+                    .setURL("https://megamitensei.fandom.com/wiki/Fierce_Cyclops")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/fierce_cyclops.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let fierceBoss = new RichEmbed()
+                    .setTitle("Fierce Cyclops (Sub Boss)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Fierce_Cyclops")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/fierce_cyclopsBoss.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                await message.channel.send(fierce);
+                await message.channel.send(fierceBoss);
+                return;
+                break;
+            case "chaos_cyclops":
+                var name = "Chaos Cyclops";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Chaos_Cyclops`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "chaos_cyclops_/a":
+                var name = "Chaos Cyclops (The Answer)";
+                var fileName = "chaos_cyclopsAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Chaos_Cyclops`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "brilliant_cyclops_/a":
+                var name = "Brilliant Cyclops (The Answer)";
+                var fileName = "brilliant_cyclopsAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Brilliant_Cyclops`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "rebellious_cyclops_/a":
+                var name = "Rebellious Cyclops (The Answer)";
+                var fileName = "rebellious_cyclopsAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Rebellious_Cyclops`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+
+
+            //jotun shadows
 
 
         }
