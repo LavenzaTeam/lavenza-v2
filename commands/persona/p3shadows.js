@@ -2252,6 +2252,54 @@ module.exports = {
 
 
             //jotun shadows
+            case "jotun":
+                var name = "Jotun Shadows";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "jotun_of_power":
+                var name = "Jotun of Power";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Jotun_of_Power`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "jotun_of_power_/a":
+                var name = "Jotun of Power (The Answer)";
+                var fileName = "jotun_of_powerAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Jotun_of_Power`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "jotun_of_blood":
+                var name = "Jotun of Blood";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Jotun_of_Blood`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "jotun_of_blood_/a":
+                var name = "Jotun of Blood (The Answer)";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Jotun_of_Blood`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "jotun_of_grief":
+                var name = "Jotun of Grief";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Jotun_of_Grief`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "jotun_of_evil":
+                var name = "Jotun of Evil";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Jotun_of_Evil`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "jotun_of_evil_/a":
+                var name = "Jotun of Evil (The Answer)";
+                var fileName = "jotun_of_evilAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Jotun_of_Evil`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
 
 
         }
