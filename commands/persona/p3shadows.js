@@ -16,8 +16,22 @@ module.exports = {
 
         //maya shadows
         switch (shadowName) {
-
-
+            case "list":
+                let shadows = new RichEmbed()
+                    .setTitle("List of Persona 3 Shadows")
+                    .setURL("https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .setThumbnail(client.user.displayAvatarURL)
+                    .addField("Normal Shadow Types", "`Maya`, `Hand`, `Table`, `Magus`, `Tiara`, `Book`, `Idol`, `Eagle`, `Relic`, `Mother`, `Beetle`, `Knight`, `Castle`, `Twins`, `Tower`, `Sigil`, `Cupid`, `Dancer`, `Snake`, `Wheel`, `Drive`, `Turret`, `Balance`, `Sword`, `Giant`, `Raven`, `Phantom`, `Seeker`, `Dice`, `Sand`, `Beast`, `Gigas`, `Musha`, `Minotaur`, `Cyclops`, `Jotun`")
+                    .addField("Golden Shadows", "`Wealth Hand`, `Treasure Hand`, `Supreme Hand`, `Opulent Hand`, `Luxury Hand`, `Glorious Hand`")
+                    .addField("Full Moon Bosses", "`Arcana Priestess`, `Arcana Empress`, `Arcana Emperor`, `Arcana Hierophant`, `Arcana Lovers`, `Arcana Chariot`, `Arcana Justice`, `Arcana Justice`, `Arcana Hermit`, `Arcana Fortune`, `Arcana Strength`, `Arcana Hanged Man`, `Nyx`")
+                    .addField("Optional Bosses", "`Margaret`, `Elizabeth`, `The Reaper`")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+                
+                await message.channel.send(shadows);
+                return;
+                break;
             case "maya":
                 var name = "Maya Shadows";
                 var fileName = shadowName;
@@ -2300,6 +2314,15 @@ module.exports = {
                 var url = `https://megamitensei.fandom.com/wiki/Jotun_of_Evil`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
                 break;
+
+
+            //golden shadows
+
+
+            //full moon bosses
+
+
+            //optional bosses
 
 
         }
