@@ -2633,8 +2633,8 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
-                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarFool.png`, "shadow.png"))
-                    .setImage("attachment://shadow.png")
+                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarFool.png`, "shadow1.png"))
+                    .setImage("attachment://shadow1.png")
                     .setFooter("Page 1/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
                 let nyxMagician = new RichEmbed()
@@ -2642,8 +2642,8 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
-                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarMagician.png`, "shadow.png"))
-                    .setImage("attachment://shadow.png")
+                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarMagician.png`, "shadow2.png"))
+                    .setImage("attachment://shadow2.png")
                     .setFooter("Page 2/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
                 let nyxPriestess = new RichEmbed()
@@ -2651,8 +2651,8 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
-                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarPriestess.png`, "shadow.png"))
-                    .setImage("attachment://shadow.png")
+                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarPriestess.png`, "shadow3.png"))
+                    .setImage("attachment://shadow3.png")
                     .setFooter("Page 3/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
                 let nyxEmpress = new RichEmbed()
@@ -2660,8 +2660,8 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
-                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarEmpress.png`, "shadow.png"))
-                    .setImage("attachment://shadow.png")
+                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarEmpress.png`, "shadow4.png"))
+                    .setImage("attachment://shadow4.png")
                     .setFooter("Page 4/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
                 let nyxEmperor = new RichEmbed()
@@ -2669,8 +2669,8 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
-                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarEmperor.png`, "shadow.png"))
-                    .setImage("attachment://shadow.png")
+                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarEmperor.png`, "shadow5.png"))
+                    .setImage("attachment://shadow5.png")
                     .setFooter("Page 5/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
                 let nyxHierophant = new RichEmbed()
@@ -2678,8 +2678,8 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
-                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarHierophant.png`, "shadow.png"))
-                    .setImage("attachment://shadow.png")
+                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarHierophant.png`, "shadow6.png"))
+                    .setImage("attachment://shadow6.png")
                     .setFooter("Page 6/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
                 let nyxLovers = new RichEmbed()
@@ -2687,8 +2687,8 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
-                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarLovers.png`, "shadow.png"))
-                    .setImage("attachment://shadow.png")
+                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarLovers.png`, "shadow7.png"))
+                    .setImage("attachment://shadow7.png")
                     .setFooter("Page 7/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
                 let nyxChariot = new RichEmbed()
@@ -2696,8 +2696,8 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
-                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarChariot.png`, "shadow.png"))
-                    .setImage("attachment://shadow.png")
+                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarChariot.png`, "shadow8.png"))
+                    .setImage("attachment://shadow8.png")
                     .setFooter("Page 8/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
                 let nyxJustice = new RichEmbed()
@@ -2705,8 +2705,8 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
-                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarJustice.png`, "shadow.png"))
-                    .setImage("attachment://shadow.png")
+                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarJustice.png`, "shadow9.png"))
+                    .setImage("attachment://shadow9.png")
                     .setFooter("Page 9/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
                 let nyxHermit = new RichEmbed()
@@ -2714,8 +2714,8 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
-                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarHermit.png`, "shadow.png"))
-                    .setImage("attachment://shadow.png")
+                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarHermit.png`, "shadow10.png"))
+                    .setImage("attachment://shadow10.png")
                     .setFooter("Page 10/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
                 let nyxFortune = new RichEmbed()
@@ -2723,8 +2723,8 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
-                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarFortune.png`, "shadow.png"))
-                    .setImage("attachment://shadow.png")
+                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarFortune.png`, "shadow11.png"))
+                    .setImage("attachment://shadow11.png")
                     .setFooter("Page 11/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
                 let nyxStrength = new RichEmbed()
@@ -2732,8 +2732,8 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
-                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarStrength.png`, "shadow.png"))
-                    .setImage("attachment://shadow.png")
+                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarStrength.png`, "shadow12.png"))
+                    .setImage("attachment://shadow12.png")
                     .setFooter("Page 12/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
                 let nyxHanged = new RichEmbed()
@@ -2741,8 +2741,8 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
-                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarHanged.png`, "shadow.png"))
-                    .setImage("attachment://shadow.png")
+                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarHanged.png`, "shadow13.png"))
+                    .setImage("attachment://shadow13.png")
                     .setFooter("Page 13/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
                 let nyxDeath = new RichEmbed()
@@ -2750,8 +2750,8 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
-                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarDeath.png`, "shadow.png"))
-                    .setImage("attachment://shadow.png")
+                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarDeath.png`, "shadow14.png"))
+                    .setImage("attachment://shadow14.png")
                     .setFooter("Page 14/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
                 message.channel.send(nyxFool).then(msg => {
@@ -2763,6 +2763,10 @@ module.exports = {
                     let pageNum = 1;
 
                     forwards.on("collect", r => {
+                        if(pageNum === 14){
+                            pageNum = 15;
+                            msg.edit(nyxFool);
+                        }
                         if(pageNum === 13){
                             pageNum = 14;
                             msg.edit(nyxDeath);
@@ -2815,7 +2819,7 @@ module.exports = {
                             pageNum = 2;
                             msg.edit(nyxMagician);
                         }
-                        if(pageNum === 14){
+                        if(pageNum === 15){
                             pageNum = 1;
                             msg.edit(nyxFool);
                         }
