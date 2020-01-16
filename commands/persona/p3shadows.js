@@ -2634,7 +2634,7 @@ module.exports = {
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
                     .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarFool.png`, "shadow1.png"))
-                    .setImage("attachment://shadow1.png")
+                    .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/nyx_avatarFool.png?raw=true")
                     .setFooter("Page 1/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
                 let nyxMagician = new RichEmbed()
@@ -2643,7 +2643,7 @@ module.exports = {
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
                     .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarMagician.png`, "shadow2.png"))
-                    .setImage("attachment://shadow2.png")
+                    .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/nyx_avatarMagician.png?raw=true")
                     .setFooter("Page 2/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
                 let nyxPriestess = new RichEmbed()
@@ -2652,7 +2652,7 @@ module.exports = {
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
                     .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarPriestess.png`, "shadow3.png"))
-                    .setImage("attachment://shadow3.png")
+                    .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/nyx_avatarPriestess.png?raw=true")
                     .setFooter("Page 3/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
                 let nyxEmpress = new RichEmbed()
@@ -2661,7 +2661,7 @@ module.exports = {
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
                     .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarEmpress.png`, "shadow4.png"))
-                    .setImage("attachment://shadow4.png")
+                    .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/nyx_avatarEmpress.png?raw=true")
                     .setFooter("Page 4/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
                 let nyxEmperor = new RichEmbed()
@@ -2670,7 +2670,7 @@ module.exports = {
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
                     .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarEmperor.png`, "shadow5.png"))
-                    .setImage("attachment://shadow5.png")
+                    .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/nyx_avatarEmperor.png?raw=true")
                     .setFooter("Page 5/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
                 let nyxHierophant = new RichEmbed()
@@ -2679,7 +2679,7 @@ module.exports = {
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
                     .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarHierophant.png`, "shadow6.png"))
-                    .setImage("attachment://shadow6.png")
+                    .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/nyx_avatarHierophant.png?raw=true")
                     .setFooter("Page 6/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
                 let nyxLovers = new RichEmbed()
@@ -2688,7 +2688,7 @@ module.exports = {
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
                     .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarLovers.png`, "shadow7.png"))
-                    .setImage("attachment://shadow7.png")
+                    .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/nyx_avatarLovers.png?raw=true")
                     .setFooter("Page 7/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
                 let nyxChariot = new RichEmbed()
@@ -2697,7 +2697,7 @@ module.exports = {
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
                     .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarChariot.png`, "shadow8.png"))
-                    .setImage("attachment://shadow8.png")
+                    .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/nyx_avatarChariot.png?raw=true")
                     .setFooter("Page 8/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
                 let nyxJustice = new RichEmbed()
@@ -2706,7 +2706,7 @@ module.exports = {
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
                     .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarJustice.png`, "shadow9.png"))
-                    .setImage("attachment://shadow9.png")
+                    .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/nyx_avatarJustice.png?raw=true")
                     .setFooter("Page 9/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
                 let nyxHermit = new RichEmbed()
@@ -2715,7 +2715,7 @@ module.exports = {
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
                     .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarHermit.png`, "shadow10.png"))
-                    .setImage("attachment://shadow10.png")
+                    .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/nyx_avatarHermit.png?raw=true")
                     .setFooter("Page 10/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
                 let nyxFortune = new RichEmbed()
@@ -2724,7 +2724,7 @@ module.exports = {
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
                     .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarFortune.png`, "shadow11.png"))
-                    .setImage("attachment://shadow11.png")
+                    .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/nyx_avatarFortune.png?raw=true")
                     .setFooter("Page 11/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
                 let nyxStrength = new RichEmbed()
@@ -2733,7 +2733,7 @@ module.exports = {
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
                     .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarStrength.png`, "shadow12.png"))
-                    .setImage("attachment://shadow12.png")
+                    .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/nyx_avatarStrength.png?raw=true")
                     .setFooter("Page 12/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
                 let nyxHanged = new RichEmbed()
@@ -2742,7 +2742,7 @@ module.exports = {
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
                     .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarHanged.png`, "shadow13.png"))
-                    .setImage("attachment://shadow13.png")
+                    .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/nyx_avatarHanged.png?raw=true")
                     .setFooter("Page 13/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
                 let nyxDeath = new RichEmbed()
@@ -2751,7 +2751,7 @@ module.exports = {
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
                     .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarDeath.png`, "shadow14.png"))
-                    .setImage("attachment://shadow14.png")
+                    .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/nyx_avatarDeath.png?raw=true")
                     .setFooter("Page 14/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
                 message.channel.send(nyxFool).then(msg => {
