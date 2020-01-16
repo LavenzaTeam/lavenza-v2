@@ -28,7 +28,7 @@ module.exports = {
                     .addField("Full Moon Bosses", "`Arcana Priestess`, `Arcana Empress`, `Arcana Emperor`, `Arcana Hierophant`, `Arcana Lovers`, `Arcana Chariot`, `Arcana Justice`, `Arcana Justice`, `Arcana Hermit`, `Arcana Fortune`, `Arcana Strength`, `Arcana Hanged Man`, `Nyx`")
                     .addField("Optional Bosses", "`Margaret`, `Elizabeth`, `The Reaper`")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
-                
+
                 await message.channel.send(shadows);
                 return;
                 break;
@@ -2317,6 +2317,60 @@ module.exports = {
 
 
             //golden shadows
+            case "wealth_hand":
+                var name = "Wealth Hand";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Wealth_Hand`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "wealth_hand_/a":
+                var name = "Wealth Hand (The Answer)";
+                var fileName = "wealth_handAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Wealth_Hand`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "treasure_hand":
+                var name = "Treasure Hand";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Treasure_Hand`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "treasure_hand_/a":
+                var name = "Treasure Hand (The Answer)";
+                var fileName = "treasure_handAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Treasure_Hand`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "supreme_hand":
+                var name = "Supreme Hand";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Supreme_Hand`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "supreme_hand_/a":
+                var name = "Supreme Hand (The Answer)";
+                var fileName = "supreme_handAnswer";
+                var url = `https://megamitensei.fandom.com/wiki/Supreme_Hand`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "opulent_hand":
+                var name = "Opulent Hand";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Opulent_Hand`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "luxury_hand":
+                var name = "Luxury Hand";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Luxury_Hand`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "glorious_hand":
+                var name = "Glorious Hand";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/Glorious_Hand`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
 
 
             //full moon bosses
