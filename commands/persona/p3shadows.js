@@ -2374,6 +2374,259 @@ module.exports = {
 
 
             //full moon bosses
+            case "arcana_priestess":
+                let priestess = new RichEmbed()
+                    .setTitle("Arcana Priestess")
+                    .setURL("https://megamitensei.fandom.com/wiki/Arcana_Priestess")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/arcana_priestess.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let priestessQuest = new RichEmbed()
+                    .setTitle("Arcana Priestess (Vision Quest)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Arcana_Priestess")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/arcana_priestessQuest.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                await message.channel.send(priestess);
+                await message.channel.send(priestessQuest);
+                return;
+                break;
+            case "arcana_empress":
+                let empress = new RichEmbed()
+                    .setTitle("Arcana Empress")
+                    .setURL("https://megamitensei.fandom.com/wiki/Arcana_Empress")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/arcana_empress.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let empressQuest = new RichEmbed()
+                    .setTitle("Arcana Empress (Vision Quest)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Arcana_Empress")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/arcana_empressQuest.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                await message.channel.send(empress);
+                await message.channel.send(empressQuest);
+                return;
+                break;
+            case "arcana_emperor":
+                let emperor = new RichEmbed()
+                    .setTitle("Arcana Emperor")
+                    .setURL("https://megamitensei.fandom.com/wiki/Arcana_Emperor")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/arcana_emperor.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let emperorQuest = new RichEmbed()
+                    .setTitle("Arcana Emperor (Vision Quest)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Arcana_Emperor")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/arcana_emperorQuest.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                await message.channel.send(emperor);
+                await message.channel.send(emperorQuest);
+                return;
+                break;
+            case "arcana_hierophant":
+                let hierophant = new RichEmbed()
+                    .setTitle("Arcana Hierophant")
+                    .setURL("https://megamitensei.fandom.com/wiki/Arcana_Hierophant")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/arcana_hierophant.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let hierophantQuest = new RichEmbed()
+                    .setTitle("Arcana Hierophant (Vision Quest)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Arcana_Hierophant")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/arcana_hierophantQuest.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                await message.channel.send(hierophant);
+                await message.channel.send(hierophantQuest);
+                return;
+                break;
+            case "arcana_lovers":
+                let lovers = new RichEmbed()
+                    .setTitle("Arcana Lovers")
+                    .setURL("https://megamitensei.fandom.com/wiki/Arcana_Lovers")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/arcana_lovers.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let loversQuest = new RichEmbed()
+                    .setTitle("Arcana Lovers (Vision Quest)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Arcana_Lovers")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/arcana_loversQuest.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                await message.channel.send(lovers);
+                await message.channel.send(loversQuest);
+                return;
+                break;
+            case "arcana_chariot":
+                let chariot = new RichEmbed()
+                    .setTitle("Arcana Chariot")
+                    .setURL("https://megamitensei.fandom.com/wiki/Arcana_Chariot")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/arcana_chariot.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let chariotQuest = new RichEmbed()
+                    .setTitle("Arcana Chariot (Vision Quest)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Arcana_Chariot")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/arcana_chariotQuest.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                await message.channel.send(chariot);
+                await message.channel.send(chariotQuest);
+                return;
+                break;
+            case "arcana_justice":
+                let justice = new RichEmbed()
+                    .setTitle("Arcana Justice")
+                    .setURL("https://megamitensei.fandom.com/wiki/Arcana_Justice")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/arcana_justice.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let justiceQuest = new RichEmbed()
+                    .setTitle("Arcana Justice (Vision Quest)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Arcana_Justice")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/arcana_justiceQuest.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                await message.channel.send(justice);
+                await message.channel.send(justiceQuest);
+                return;
+                break;
+            case "arcana_hermit":
+                let hermit = new RichEmbed()
+                    .setTitle("Arcana Hermit")
+                    .setURL("https://megamitensei.fandom.com/wiki/Arcana_Hermit")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/arcana_hermit.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let hermitQuest = new RichEmbed()
+                    .setTitle("Arcana Hermit (Vision Quest)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Arcana_Hermit")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/arcana_hermitQuest.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                await message.channel.send(hermit);
+                await message.channel.send(hermitQuest);
+                return;
+                break;
+            case "arcana_fortune":
+                let fortune = new RichEmbed()
+                    .setTitle("Arcana Fortune")
+                    .setURL("https://megamitensei.fandom.com/wiki/Arcana_Fortune")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/arcana_fortune.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let fortuneQuest = new RichEmbed()
+                    .setTitle("Arcana Fortune (Vision Quest)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Arcana_Fortune")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/arcana_fortuneQuest.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                await message.channel.send(fortune);
+                await message.channel.send(fortuneQuest);
+                return;
+                break;
+            case "arcana_strength":
+                let strength = new RichEmbed()
+                    .setTitle("Arcana Strength")
+                    .setURL("https://megamitensei.fandom.com/wiki/Arcana_Strength")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/arcana_strength.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let strengthQuest = new RichEmbed()
+                    .setTitle("Arcana Strength (Vision Quest)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Arcana_Strength")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/arcana_strengthQuest.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                await message.channel.send(strength);
+                await message.channel.send(strengthQuest);
+                return;
+                break;
+            case "arcana_hanged_man":
+                let hanged = new RichEmbed()
+                    .setTitle("Arcana Hanged Man")
+                    .setURL("https://megamitensei.fandom.com/wiki/Arcana_Hanged_Man")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/arcana_hanged_man.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let hangedQuest = new RichEmbed()
+                    .setTitle("Arcana Hanged Man (Vision Quest)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Arcana_Hanged_Man")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/arcana_hanged_manQuest.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                await message.channel.send(hanged);
+                await message.channel.send(hangedQuest);
+                return;
+                break;
 
 
             //optional bosses
