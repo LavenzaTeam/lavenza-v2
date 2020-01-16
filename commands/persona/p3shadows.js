@@ -1,4 +1,4 @@
-const { RichEmbed, Attachment } = require("discord.js");
+const { RichEmbed, Attachment, ReactionCollector } = require("discord.js");
 const config = require("../../config.json");
 
 module.exports = {
@@ -2627,6 +2627,203 @@ module.exports = {
                 await message.channel.send(hangedQuest);
                 return;
                 break;
+            case "nyx":
+                let nyxFool = new RichEmbed()
+                    .setTitle("Nyx Avatar (Fool)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarFool.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Page 1/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let nyxMagician = new RichEmbed()
+                    .setTitle("Nyx Avatar (Magician)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarMagician.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Page 2/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let nyxPriestess = new RichEmbed()
+                    .setTitle("Nyx Avatar (Priestess)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarPriestess.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Page 3/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let nyxEmpress = new RichEmbed()
+                    .setTitle("Nyx Avatar (Empress)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarEmpress.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Page 4/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let nyxEmperor = new RichEmbed()
+                    .setTitle("Nyx Avatar (Emperor)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarEmperor.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Page 5/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let nyxHierophant = new RichEmbed()
+                    .setTitle("Nyx Avatar (Hierophant)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarHierophant.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Page 6/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let nyxLovers = new RichEmbed()
+                    .setTitle("Nyx Avatar (Lovers)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarLovers.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Page 7/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let nyxChariot = new RichEmbed()
+                    .setTitle("Nyx Avatar (Chariot)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarChariot.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Page 8/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let nyxJustice = new RichEmbed()
+                    .setTitle("Nyx Avatar (Justice)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarJustice.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Page 9/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let nyxHermit = new RichEmbed()
+                    .setTitle("Nyx Avatar (Hermit)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarHermit.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Page 10/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let nyxFortune = new RichEmbed()
+                    .setTitle("Nyx Avatar (Fortune)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarFortune.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Page 11/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let nyxStrength = new RichEmbed()
+                    .setTitle("Nyx Avatar (Strength)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarStrength.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Page 12/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let nyxHanged = new RichEmbed()
+                    .setTitle("Nyx Avatar (Hanged Man)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarHanged.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Page 13/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let nyxDeath = new RichEmbed()
+                    .setTitle("Nyx Avatar (Death)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/nyx_avatarDeath.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Page 14/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                message.channel.send(nyxFool).then(msg => {
+                    msg.react("◀️").then(r => { msg.react("▶️") })
+                    const backwardsFilter = (reaction, user) => reaction.emoji.name === "◀️" && user.id === message.author.id;
+                    const forwardsFilter = (reaction, user) => reaction.emoji.name === "▶️" && user.id === message.author.id;
+                    const backwards = msg.createReactionCollector(backwardsFilter, { timer: 30000 });
+                    const forwards = msg.createReactionCollector(forwardsFilter, { timer: 30000 });
+                    let pageNum = 1;
+
+                    forwards.on("collect", r => {
+                        if(pageNum === 13){
+                            pageNum = 14;
+                            msg.edit(nyxDeath);
+                        }
+                        if(pageNum === 12){
+                            pageNum = 13;
+                            msg.edit(nyxHanged);
+                        }
+                        if(pageNum === 11){
+                            pageNum = 12;
+                            msg.edit(nyxStrength);
+                        }
+                        if(pageNum === 10){
+                            pageNum = 11;
+                            msg.edit(nyxFortune);
+                        }
+                        if(pageNum === 9){
+                            pageNum = 10;
+                            msg.edit(nyxHermit);
+                        }
+                        if(pageNum === 8){
+                            pageNum = 9;
+                            msg.edit(nyxJustice);
+                        }
+                        if(pageNum === 7){
+                            pageNum = 8;
+                            msg.edit(nyxChariot);
+                        }
+                        if(pageNum === 6){
+                            pageNum = 7;
+                            msg.edit(nyxLovers);
+                        }
+                        if(pageNum === 5){
+                            pageNum = 6;
+                            msg.edit(nyxHierophant);
+                        }
+                        if(pageNum === 4){
+                            pageNum = 5;
+                            msg.edit(nyxEmperor);
+                        }
+                        if(pageNum === 3){
+                            pageNum = 4;
+                            msg.edit(nyxEmpress);
+                        }
+                        if(pageNum === 2){
+                            pageNum = 3;
+                            msg.edit(nyxPriestess);
+                        }
+                        if(pageNum === 1){
+                            pageNum = 2;
+                            msg.edit(nyxMagician);
+                        }
+                        if(pageNum === 14){
+                            pageNum = 1;
+                            msg.edit(nyxFool);
+                        }
+                    })
+                })
+                return;
+                break;
+
 
 
             //optional bosses
