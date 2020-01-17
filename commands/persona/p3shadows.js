@@ -2627,7 +2627,7 @@ module.exports = {
                 await message.channel.send(hangedQuest);
                 return;
                 break;
-            case "nyx":
+            case "nyx_avatar":
                 let nyxFool = new RichEmbed()
                     .setTitle("Nyx Avatar (Fool)")
                     .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
