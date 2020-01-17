@@ -2745,8 +2745,8 @@ module.exports = {
                     msg.react("◀️").then(r => { msg.react("▶️") })
                     const backwardsFilter = (reaction, user) => reaction.emoji.name === "◀️" && user.id === message.author.id;
                     const forwardsFilter = (reaction, user) => reaction.emoji.name === "▶️" && user.id === message.author.id;
-                    const backwards = msg.createReactionCollector(backwardsFilter, { time: 30000 });
-                    const forwards = msg.createReactionCollector(forwardsFilter, { time: 30000 });
+                    const backwards = msg.createReactionCollector(backwardsFilter, { time: 120000 });
+                    const forwards = msg.createReactionCollector(forwardsFilter, { time: 120000 });
                     let pageNum = 1;
 
                     forwards.on("collect", r => {
@@ -2964,8 +2964,8 @@ module.exports = {
                     msg.react("◀️").then(r => { msg.react("▶️") })
                     const backwardsFilter = (reaction, user) => reaction.emoji.name === "◀️" && user.id === message.author.id;
                     const forwardsFilter = (reaction, user) => reaction.emoji.name === "▶️" && user.id === message.author.id;
-                    const backwards = msg.createReactionCollector(backwardsFilter, { time: 30000 });
-                    const forwards = msg.createReactionCollector(forwardsFilter, { time: 30000 });
+                    const backwards = msg.createReactionCollector(backwardsFilter, { time: 120000 });
+                    const forwards = msg.createReactionCollector(forwardsFilter, { time: 120000 });
                     let pageNum = 1;
 
                     forwards.on("collect", r => {
