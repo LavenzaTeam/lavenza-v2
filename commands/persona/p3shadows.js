@@ -2810,6 +2810,69 @@ module.exports = {
                             msg.edit(nyxFool);
                         }
                     })
+
+                    backwards.on("collect", r => {
+                        if(pageNum === 1){
+                            pageNum = 14;
+                            msg.edit(nyxDeath);
+                        }
+                        if(pageNum === 2){
+                            pageNum = 1;
+                            msg.edit(nyxFool);
+                        }
+                        if(pageNum === 3){
+                            pageNum = 2;
+                            msg.edit(nyxMagician);
+                        }
+                        if(pageNum === 4){
+                            pageNum = 3;
+                            msg.edit(nyxPriestess);
+                        }
+                        if(pageNum === 5){
+                            pageNum = 4;
+                            msg.edit(nyxEmpress);
+                        }
+                        if(pageNum === 6){
+                            pageNum = 5;
+                            msg.edit(nyxEmperor);
+                        }
+                        if(pageNum === 7){
+                            pageNum = 6;
+                            msg.edit(nyxHierophant);
+                        }
+                        if(pageNum === 8){
+                            pageNum = 7;
+                            msg.edit(nyxLovers);
+                        }
+                        if(pageNum === 9){
+                            pageNum = 8;
+                            msg.edit(nyxChariot);
+                        }
+                        if(pageNum === 10){
+                            pageNum = 9;
+                            msg.edit(nyxJustice);
+                        }
+                        if(pageNum === 11){
+                            pageNum = 10;
+                            msg.edit(nyxHermit);
+                        }
+                        if(pageNum === 12){
+                            pageNum = 11;
+                            msg.edit(nyxFortune);
+                        }
+                        if(pageNum === 13){
+                            pageNum = 12;
+                            msg.edit(nyxStrength);
+                        }
+                        if(pageNum === 14){
+                            pageNum = 13;
+                            msg.edit(nyxHanged);
+                        }
+                        if(pageNum === 15){
+                            pageNum = 14;
+                            msg.edit(nyxDeath);
+                        }
+                    })
                 })
                 return;
                 break;
