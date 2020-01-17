@@ -26,7 +26,7 @@ module.exports = {
                     .addField("Normal Shadow Types", "`Maya`, `Hand`, `Table`, `Magus`, `Tiara`, `Book`, `Idol`, `Eagle`, `Relic`, `Mother`, `Beetle`, `Knight`, `Castle`, `Twins`, `Tower`, `Sigil`, `Cupid`, `Dancer`, `Snake`, `Wheel`, `Drive`, `Turret`, `Balance`, `Sword`, `Giant`, `Raven`, `Phantom`, `Seeker`, `Dice`, `Sand`, `Beast`, `Gigas`, `Musha`, `Minotaur`, `Cyclops`, `Jotun`")
                     .addField("Golden Shadows", "`Wealth Hand`, `Treasure Hand`, `Supreme Hand`, `Opulent Hand`, `Luxury Hand`, `Glorious Hand`")
                     .addField("Full Moon Bosses", "`Arcana Priestess`, `Arcana Empress`, `Arcana Emperor`, `Arcana Hierophant`, `Arcana Lovers`, `Arcana Chariot`, `Arcana Justice`, `Arcana Justice`, `Arcana Hermit`, `Arcana Fortune`, `Arcana Strength`, `Arcana Hanged Man`, `Nyx`")
-                    .addField("Optional Bosses", "`Margaret`, `Elizabeth`, `The Reaper`")
+                    .addField("Optional Bosses", "`Elizabeth`, `The Reaper`")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
                 await message.channel.send(shadows);
@@ -2880,6 +2880,12 @@ module.exports = {
 
 
             //optional bosses
+            case "the_reaper":
+                var name = "The Reaper";
+                var fileName = shadowName;
+                var url = `https://megamitensei.fandom.com/wiki/The_Reaper`;
+                var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
 
 
         }
