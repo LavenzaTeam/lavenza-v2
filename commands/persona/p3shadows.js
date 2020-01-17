@@ -3012,7 +3012,46 @@ module.exports = {
                     })
 
                     backwards.on("collect", r => {
-
+                        if(pageNum === 1){
+                            pageNum = 10;
+                            msg.edit(elizPixie);
+                        }
+                        if(pageNum === 2){
+                            pageNum = 1;
+                            msg.edit(elizSurt);
+                        }
+                        if(pageNum === 3){
+                            pageNum = 2;
+                            msg.edit(elizJack);
+                        }
+                        if(pageNum === 4){
+                            pageNum = 3;
+                            msg.edit(elizThor);
+                        }
+                        if(pageNum === 5){
+                            pageNum = 4;
+                            msg.edit(elizCu);
+                        }
+                        if(pageNum === 6){
+                            pageNum = 5;
+                            msg.edit(elizMetatron);
+                        }
+                        if(pageNum === 7){
+                            pageNum = 6;
+                            msg.edit(elizAlice);
+                        }
+                        if(pageNum == 8){
+                            pageNum = 7;
+                            msg.edit(elizNebiros);
+                        }
+                        if(pageNum === 9){
+                            pageNum = 8;
+                            msg.edit(elizMasakado);
+                        }
+                        if(pageNum === 10){
+                            pageNum = 9;
+                            msg.edit(elizPixie);
+                        }
                     })
                 })
                 return;
