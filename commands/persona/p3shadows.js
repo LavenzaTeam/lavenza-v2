@@ -2813,7 +2813,7 @@ module.exports = {
 
                     backwards.on("collect", r => {
                         if(pageNum === 1){
-                            pageNum = 14;
+                            pageNum = 15;
                             msg.edit(nyxDeath);
                         }
                         if(pageNum === 2){
