@@ -12,6 +12,7 @@ module.exports = {
     run: async (client, message, args) => {
         let shadowName = args.join("_").toLowerCase();
         if (!shadowName) return message.reply(`Please specify a shadow to search for! \nTo view all the shadows in the game, type \`${config.prefix}p3shadows list\``)
+        if (shadowName === "nyx") shadowName = "nyx_avatar";
 
 
         //maya shadows
@@ -2744,131 +2745,131 @@ module.exports = {
                     msg.react("◀️").then(r => { msg.react("▶️") })
                     const backwardsFilter = (reaction, user) => reaction.emoji.name === "◀️" && user.id === message.author.id;
                     const forwardsFilter = (reaction, user) => reaction.emoji.name === "▶️" && user.id === message.author.id;
-                    const backwards = msg.createReactionCollector(backwardsFilter, { timer: 30000 });
-                    const forwards = msg.createReactionCollector(forwardsFilter, { timer: 30000 });
+                    const backwards = msg.createReactionCollector(backwardsFilter, { time: 30000 });
+                    const forwards = msg.createReactionCollector(forwardsFilter, { time: 30000 });
                     let pageNum = 1;
 
                     forwards.on("collect", r => {
-                        if(pageNum === 14){
+                        if (pageNum === 14) {
                             pageNum = 15;
                             msg.edit(nyxFool);
                         }
-                        if(pageNum === 13){
+                        if (pageNum === 13) {
                             pageNum = 14;
                             msg.edit(nyxDeath);
                         }
-                        if(pageNum === 12){
+                        if (pageNum === 12) {
                             pageNum = 13;
                             msg.edit(nyxHanged);
                         }
-                        if(pageNum === 11){
+                        if (pageNum === 11) {
                             pageNum = 12;
                             msg.edit(nyxStrength);
                         }
-                        if(pageNum === 10){
+                        if (pageNum === 10) {
                             pageNum = 11;
                             msg.edit(nyxFortune);
                         }
-                        if(pageNum === 9){
+                        if (pageNum === 9) {
                             pageNum = 10;
                             msg.edit(nyxHermit);
                         }
-                        if(pageNum === 8){
+                        if (pageNum === 8) {
                             pageNum = 9;
                             msg.edit(nyxJustice);
                         }
-                        if(pageNum === 7){
+                        if (pageNum === 7) {
                             pageNum = 8;
                             msg.edit(nyxChariot);
                         }
-                        if(pageNum === 6){
+                        if (pageNum === 6) {
                             pageNum = 7;
                             msg.edit(nyxLovers);
                         }
-                        if(pageNum === 5){
+                        if (pageNum === 5) {
                             pageNum = 6;
                             msg.edit(nyxHierophant);
                         }
-                        if(pageNum === 4){
+                        if (pageNum === 4) {
                             pageNum = 5;
                             msg.edit(nyxEmperor);
                         }
-                        if(pageNum === 3){
+                        if (pageNum === 3) {
                             pageNum = 4;
                             msg.edit(nyxEmpress);
                         }
-                        if(pageNum === 2){
+                        if (pageNum === 2) {
                             pageNum = 3;
                             msg.edit(nyxPriestess);
                         }
-                        if(pageNum === 1){
+                        if (pageNum === 1) {
                             pageNum = 2;
                             msg.edit(nyxMagician);
                         }
-                        if(pageNum === 15){
+                        if (pageNum === 15) {
                             pageNum = 1;
                             msg.edit(nyxFool);
                         }
                     })
 
                     backwards.on("collect", r => {
-                        if(pageNum === 1){
+                        if (pageNum === 1) {
                             pageNum = 15;
                             msg.edit(nyxDeath);
                         }
-                        if(pageNum === 2){
+                        if (pageNum === 2) {
                             pageNum = 1;
                             msg.edit(nyxFool);
                         }
-                        if(pageNum === 3){
+                        if (pageNum === 3) {
                             pageNum = 2;
                             msg.edit(nyxMagician);
                         }
-                        if(pageNum === 4){
+                        if (pageNum === 4) {
                             pageNum = 3;
                             msg.edit(nyxPriestess);
                         }
-                        if(pageNum === 5){
+                        if (pageNum === 5) {
                             pageNum = 4;
                             msg.edit(nyxEmpress);
                         }
-                        if(pageNum === 6){
+                        if (pageNum === 6) {
                             pageNum = 5;
                             msg.edit(nyxEmperor);
                         }
-                        if(pageNum === 7){
+                        if (pageNum === 7) {
                             pageNum = 6;
                             msg.edit(nyxHierophant);
                         }
-                        if(pageNum === 8){
+                        if (pageNum === 8) {
                             pageNum = 7;
                             msg.edit(nyxLovers);
                         }
-                        if(pageNum === 9){
+                        if (pageNum === 9) {
                             pageNum = 8;
                             msg.edit(nyxChariot);
                         }
-                        if(pageNum === 10){
+                        if (pageNum === 10) {
                             pageNum = 9;
                             msg.edit(nyxJustice);
                         }
-                        if(pageNum === 11){
+                        if (pageNum === 11) {
                             pageNum = 10;
                             msg.edit(nyxHermit);
                         }
-                        if(pageNum === 12){
+                        if (pageNum === 12) {
                             pageNum = 11;
                             msg.edit(nyxFortune);
                         }
-                        if(pageNum === 13){
+                        if (pageNum === 13) {
                             pageNum = 12;
                             msg.edit(nyxStrength);
                         }
-                        if(pageNum === 14){
+                        if (pageNum === 14) {
                             pageNum = 13;
                             msg.edit(nyxHanged);
                         }
-                        if(pageNum === 15){
+                        if (pageNum === 15) {
                             pageNum = 14;
                             msg.edit(nyxDeath);
                         }
@@ -2885,6 +2886,136 @@ module.exports = {
                 var fileName = shadowName;
                 var url = `https://megamitensei.fandom.com/wiki/The_Reaper`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
+                break;
+            case "elizabeth":
+                let elizSurt = new RichEmbed()
+                    .setTitle("Elizabeth (Surt)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Elizabeth")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/elizabethSurt.png?raw=true")
+                    .setFooter("Page 1/9 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let elizJack = new RichEmbed()
+                    .setTitle("Elizabeth (Jack Frost)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Elizabeth")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/elizabethJack.png?raw=true")
+                    .setFooter("Page 2/9 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let elizThor = new RichEmbed()
+                    .setTitle("Elizabeth (Thor)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Elizabeth")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/elizabethThor.png?raw=true")
+                    .setFooter("Page 3/9 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let elizCu = new RichEmbed()
+                    .setTitle("Elizabeth (Cu Chulainn)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Elizabeth")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/elizabethCu.png?raw=true")
+                    .setFooter("Page 4/9 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let elizMetatron = new RichEmbed()
+                    .setTitle("Elizabeth (Metatron)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Elizabeth")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/elizabethMetatron.png?raw=true")
+                    .setFooter("Page 5/9 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let elizAlice = new RichEmbed()
+                    .setTitle("Elizabeth (Alice)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Elizabeth")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/elizabethAlice.png?raw=true")
+                    .setFooter("Page 6/9 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let elizNebiros = new RichEmbed()
+                    .setTitle("Elizabeth (Nebiros)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Elizabeth")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/elizabethNebiros.png?raw=true")
+                    .setFooter("Page 7/9 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let elizMasakado = new RichEmbed()
+                    .setTitle("Elizabeth (Masakado)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Elizabeth")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/elizabethMasakado.png?raw=true")
+                    .setFooter("Page 8/9 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let elizPixie = new RichEmbed()
+                    .setTitle("Elizabeth (Pixie)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Elizabeth")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/elizabethPixie.png?raw=true")
+                    .setFooter("Page 9/9 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                message.channel.send(elizSurt).then(msg => {
+                    msg.react("◀️").then(r => { msg.react("▶️") })
+                    const backwardsFilter = (reaction, user) => reaction.emoji.name === "◀️" && user.id === message.author.id;
+                    const forwardsFilter = (reaction, user) => reaction.emoji.name === "▶️" && user.id === message.author.id;
+                    const backwards = msg.createReactionCollector(backwardsFilter, { time: 30000 });
+                    const forwards = msg.createReactionCollector(forwardsFilter, { time: 30000 });
+                    let pageNum = 1;
+
+                    forwards.on("collect", r => {
+                        if(pageNum === 9){
+                            pageNum = 10;
+                            msg.edit(elizSurt);
+                        }
+                        if(pageNum === 8){
+                            pageNum = 9;
+                            msg.edit(elizPixie);
+                        }
+                        if(pageNum === 7){
+                            pageNum = 8;
+                            msg.edit(elizMasakado);
+                        }
+                        if(pageNum === 6){
+                            pageNum = 7;
+                            msg.edit(elizNebiros);
+                        }
+                        if(pageNum === 5){
+                            pageNum = 6;
+                            msg.edit(elizAlice);
+                        }
+                        if(pageNum === 4){
+                            pageNum = 5;
+                            msg.edit(elizMetatron);
+                        }
+                        if(pageNum === 3){
+                            pageNum = 4;
+                            msg.edit(elizCu);
+                        }
+                        if(pageNum === 2){
+                            pageNum = 3;
+                            msg.edit(elizThor);
+                        }
+                        if(pageNum === 1){
+                            pageNum = 2;
+                            msg.edit(elizJack);
+                        }
+                        if(pageNum === 10){
+                            pageNum = 1;
+                            msg.edit(elizSurt);
+                        }
+                    })
+
+                    backwards.on("collect", r => {
+
+                    })
+                })
+                return;
                 break;
 
 
