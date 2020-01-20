@@ -16,7 +16,7 @@ module.exports = {
 
         //argument checking
         if(!voiceChannel) return message.reply("You must be in a Voice Channel to use this command!");
-        let url = "https://www.youtube.com/watch?v=zOWJqNPeifU";
+        let url = "https://www.youtube.com/watch?v=_rlHOwZmCm4";
         if(!url) return message.reply("No URL provided!");
 
         //validation checking
