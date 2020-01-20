@@ -55,7 +55,7 @@ module.exports = {
             data.dispatcher.guildID = data.guildID;
 
             data.dispatcher.once("end", function() {
-                finish(client, message, args, this)
+                finish(client, message, args, data)
             });
         }
 
