@@ -15,7 +15,7 @@ module.exports = {
         if(!voiceChannel) return message.reply("You must be in a Voice Channel to use this command!");
         message.reply("Joining your Voice Channel! Playing Keep your Faith!");
         voiceChannel.join().then(connection => {
-            const dispatcher = connection.playOpusStream(await ytdl("https://www.youtube.com/watch?v=xTH2g1JQxXc&list=PL1Ujbrns4Hh55A7xfDrrk_AXC3I_Bbkyx&index=24"));
+            const dispatcher = connection.playOpusStream(ytdl("https://www.youtube.com/watch?v=xTH2g1JQxXc&list=PL1Ujbrns4Hh55A7xfDrrk_AXC3I_Bbkyx&index=24"));
             dispatcher.on("end", () => voiceChannel.leave());
         })
     }
