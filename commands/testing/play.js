@@ -16,7 +16,7 @@ module.exports = {
 
         //argument checking
         if(!voiceChannel) return message.reply("You must be in a Voice Channel to use this command!");
-        let url = "https://www.youtube.com/watch?v=Kbw6hF7tHns";
+        let url = "https://www.youtube.com/watch?v=zOWJqNPeifU";
         if(!url) return message.reply("No URL provided!");
 
         //validation checking
@@ -44,7 +44,8 @@ module.exports = {
         //the function that plays the music
         async function playSong(messageChannel, voiceConnection, voiceChannel) {
             const stream = ytdl(musicURLs[0], { filter: "audioonly" });
-            const dispatcher = voiceConnection.playStream(stream)
+            const dispatcher = voiceConnection.playStream(stream);
+            message.channel.send(`Now playing: ${info.title}`);
         }
     }
 }
