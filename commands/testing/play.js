@@ -16,7 +16,7 @@ module.exports = {
         message.reply("Joining your Voice Channel! Playing Keep your Faith!");
         voiceChannel.join().then(connection => {
             const url = "https://www.youtube.com/watch?v=xTH2g1JQxXc&list=PL1Ujbrns4Hh55A7xfDrrk_AXC3I_Bbkyx&index=24";
-            connection.playOpusStream(await ytdl(url), { type: "opus" });
+            connection.playOpusStream(ytdl(url));
         })
     }
 }
