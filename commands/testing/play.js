@@ -16,7 +16,6 @@ module.exports = {
 
         //argument checking
         if(!voiceChannel) return message.reply("You must be in a Voice Channel to use this command!");
-        if(message.guild.me.voiceChannel !== voiceChannel) return message.reply("You are not currently in the same Voice Channel as me!")
         let url = "https://www.youtube.com/watch?v=Kbw6hF7tHns";
         if(!url) return message.reply("No URL provided!");
 
