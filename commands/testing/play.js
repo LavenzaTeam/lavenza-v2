@@ -46,6 +46,18 @@ module.exports = {
             const stream = ytdl(musicURLs[0], { filter: "audioonly" });
             const dispatcher = voiceConnection.playStream(stream);
             message.channel.send(`Now playing: ${info.title}`);
+
+            dispatcher.on("end", () => {
+                musicURLs.shift();
+
+                if(musicURLs.length == 0){
+                    voiceChannel.leave();
+                } else {
+                    setTimeout(() => {
+                        playSong(messageChannel, voiceConnection, voiceChannel);
+                    }, 5000);
+                }
+            })
         }
     }
 }
