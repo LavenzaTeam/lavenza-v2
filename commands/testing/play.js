@@ -1,4 +1,5 @@
 const ytdl = require("ytdl-core");
+var musicURLs = [];
 
 module.exports = {
     config: {
@@ -15,6 +16,7 @@ module.exports = {
 
         //argument checking
         if(!voiceChannel) return message.reply("You must be in a Voice Channel to use this command!");
+        if(message.guild.me.voiceChannel !== voiceChannel) return message.reply("You are not currently in the same Voice Channel as me!")
         let url = "https://www.youtube.com/watch?v=Kbw6hF7tHns";
         if(!url) return message.reply("No URL provided!");
 
@@ -25,51 +27,25 @@ module.exports = {
         //get info
         let info = await ytdl.getInfo(url);
 
-        //creates and stores some variables for later usage
-        let data = active.get(message.guild.id) || {};
-        if(!data.connection) data.connection = await message.member.voiceChannel.join();
-        if(!data.queue) data.queue = [];
-        data.guildID = message.guild.id;
+        //push data to the array
+        musicURLs.push(url);
 
-        //basic info for the map
-        data.queue.push({
-            songTitle: info.title,
-            requester: message.author.tag,
-            url: url,
-            announceChannel: message.channel.id
-        });
-        
-        //creates a data dispactcher and plays the audio 
-        if(!data.dispatcher) play(client, message, args, data, active);
-        else {
-            message.channel.send(`Added to queue: **${info.title}** | Requested by: **${message.author.id}**`);
-        }
-
-        //update the map
-        active.set(message.guild.id, data);
-
-        async function play(client, message, args, data, active){
-            client.channels.get(data.queue[0].announceChannel).send(`Now Playing: **${data.queue[0].songTitle}** | Requested by: **${data.queue[0].requester}**`);
-
-            data.dispatcher = await data.connection.playStream(ytdl(data.queue[0].url, { filter: "audioonly" }));
-            data.dispatcher.guildID = data.guildID;
-
-            data.dispatcher.once("end", function() {
-                finish(client, message, args, data)
-            });
-        }
-
-        function finish(client, message, args, dispactcher) {
-            let fetched = active.get(dispactcher.guildID);
-            fetched.queue.shift();
-            if(fetched.queue.length > 0) {
-                active.set(dispactcher.guildID, fetched)
-                play(client, message, args, fetched)
-            } else {
-                active.delete(dispactcher.guildID);
-                let vc = client.guilds.get(dispactcher.guildID).me.voiceChannel;
-                if(vc) vc.leave();
+        //checks if the bot is currently in a voice channel and plays music
+        if(message.guild.me.voiceChannel) {
+            message.channel.send(`Song added to queue! **${info.title}**`);
+        } else {
+            try {
+                const voiceConnection = await voiceChannel.join();
+                await playSong(message.channel, voiceConnection, voiceChannel);
+            } catch (e) {
+                console.log(e.stack);
             }
+        }
+
+        //the function that plays the music
+        async function playSong(messageChannel, voiceConnection, voiceChannel) {
+            const stream = ytdl(musicURLs[0], { filter: "audioonly" });
+            const dispatcher = voiceConnection.playStream(stream)
         }
     }
 }
