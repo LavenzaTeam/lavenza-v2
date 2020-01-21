@@ -9,6 +9,6 @@ module.exports = async (client, message) => {
 
     if(!message.content.startsWith(prefix)) return;
     let commandfile = client.commands.get(cmd) || client.commands.get(client.aliases.get(cmd))
-    if(commandfile) console.log(`Command used: ${cmd}`);
+    if(commandfile) console.log(`Command used: ${cmd}, with Arguments: ${args}`);
     if(commandfile) commandfile.run(client, message, args);
 }
