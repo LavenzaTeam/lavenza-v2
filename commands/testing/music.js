@@ -14,6 +14,7 @@ module.exports = {
             //generic checks and definitions
             if (message.channel.type !== "text") return message.reply("Error, non valid text channel!");
             const { voiceChannel } = message.member;
+            const messageChannel = message.channel;
 
             //argument checking
             if (!voiceChannel) return message.reply("You must be in a Voice Channel to use this command!");
@@ -68,7 +69,7 @@ module.exports = {
         async function playSong(messageChannel, voiceConnection, voiceChannel) {
             const stream = ytdl(musicURLs[0], { filter: "audioonly" });
             const dispatcher = voiceConnection.playStream(stream);
-            messageChannel.send(`Now playing: **${info.title}**`);
+            message.channel.send(`Now playing: **${info.title}**`);
 
             dispatcher.on("end", () => {
                 musicURLs.shift();
