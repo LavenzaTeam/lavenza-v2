@@ -41,25 +41,6 @@ module.exports = {
                     console.log(e.stack);
                 }
             }
-
-            //the function that plays the music
-            async function playSong(messageChannel, voiceConnection, voiceChannel) {
-                const stream = ytdl(musicURLs[0], { filter: "audioonly" });
-                const dispatcher = voiceConnection.playStream(stream);
-                message.channel.send(`Now playing: **${info.title}**`);
-
-                dispatcher.on("end", () => {
-                    musicURLs.shift();
-
-                    if (musicURLs.length == 0) {
-                        voiceChannel.leave();
-                    } else {
-                        setTimeout(() => {
-                            playSong(messageChannel, voiceConnection, voiceChannel);
-                        }, 5000);
-                    }
-                })
-            }
         }
 
         if (args[0] === "leave") {
@@ -69,6 +50,7 @@ module.exports = {
             if (message.guild.me.voiceChannelID !== message.member.voiceChannelID) return message.reply("Sorry, You are not currently connected to the same Voice Channel as me!")
 
             //leaving the voice channel
+            dispatcher.end();
             message.guild.me.voiceChannel.leave();
             message.reply("I have left your current Voice Channel!");
         }
@@ -81,6 +63,25 @@ module.exports = {
 
         if (args[0] === "queue") {
             message.reply("Viewing the Queue is not currently a functionality that I have!");
+        }
+
+        //the function that plays the music
+        async function playSong(messageChannel, voiceConnection, voiceChannel) {
+            const stream = ytdl(musicURLs[0], { filter: "audioonly" });
+            const dispatcher = voiceConnection.playStream(stream);
+            message.channel.send(`Now playing: **${info.title}**`);
+
+            dispatcher.on("end", () => {
+                musicURLs.shift();
+
+                if (musicURLs.length == 0) {
+                    voiceChannel.leave();
+                } else {
+                    setTimeout(() => {
+                        playSong(messageChannel, voiceConnection, voiceChannel);
+                    }, 5000);
+                }
+            });
         }
     }
 }
