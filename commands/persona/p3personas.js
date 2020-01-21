@@ -12,7 +12,7 @@ module.exports = {
     run: async (client, message, args) => {
         //general data parsing
         let personaName = args.join("_").toLowerCase();
-        if (!personaName) return message.reply("Please specify a Persona to search!")
+        if (!personaName) return message.reply(`Please specify a Persona to search! \`To view a list of all valid Persona's, ${prefix}p3personas list\``)
 
         //list of every persona
         if (personaName === "list") {
