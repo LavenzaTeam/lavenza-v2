@@ -52,6 +52,7 @@ module.exports = {
 
             //leaving the voice channel
             message.guild.me.voiceChannel.leave();
+            dispatcher.end();
             message.reply("I have left your current Voice Channel!");
         }
 
@@ -68,7 +69,7 @@ module.exports = {
         //the function that plays the music
         async function playSong(messageChannel, voiceConnection, voiceChannel, info) {
             const stream = ytdl(musicURLs[0], { filter: "audioonly" });
-            const dispatcher = voiceConnection.playStream(stream);
+            var dispatcher = voiceConnection.playStream(stream);
             message.channel.send(`Now playing: **${info.title}**`);
 
             dispatcher.on("end", () => {
