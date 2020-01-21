@@ -50,7 +50,6 @@ module.exports = {
             if (message.guild.me.voiceChannelID !== message.member.voiceChannelID) return message.reply("Sorry, You are not currently connected to the same Voice Channel as me!")
 
             //leaving the voice channel
-            dispatcher.end();
             message.guild.me.voiceChannel.leave();
             message.reply("I have left your current Voice Channel!");
         }
@@ -70,6 +69,7 @@ module.exports = {
             const stream = ytdl(musicURLs[0], { filter: "audioonly" });
             const dispatcher = voiceConnection.playStream(stream);
             message.channel.send(`Now playing: **${info.title}**`);
+            if(!voiceConnection) dispatcher.end(); 
 
             dispatcher.on("end", () => {
                 musicURLs.shift();
@@ -78,6 +78,7 @@ module.exports = {
                     voiceChannel.leave();
                 } else {
                     setTimeout(() => {
+                        if(!voiceConnection) return dispatcher.end();
                         playSong(messageChannel, voiceConnection, voiceChannel);
                     }, 5000);
                 }
