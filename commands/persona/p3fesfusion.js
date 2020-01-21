@@ -49,7 +49,7 @@ module.exports = {
             .addField("Combination #3", result3)
             .addField("Combination #4", result4)
             .addField("Combination #5", result5)
-            .setFooter("Information gathered from Arantius's P3 FES Fusion Calculator", client.user.displayAvatarURL);
+            .setFooter("Information gathered from Arantius's Persona 3 FES Fusion Calculator", client.user.displayAvatarURL);
 
         //checks to see if the not variable is defined, if it is, display the variable, if it isn't, don't display it
         if(note) {
