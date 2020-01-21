@@ -74,7 +74,9 @@ module.exports = {
         }
 
         if (args[0] === "skip") {
-            message.reply("Skipping is not currently a functionality that I have!");
+            message.reply("Skipping is a WIP feature!");
+            musicURLs.shift();
+            playSong(messageChannel, voiceConnection, voiceChannel);
         }
 
         if (args[0] === "queue") {
