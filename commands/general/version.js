@@ -11,7 +11,7 @@ module.exports = {
     run: async (client, message, args) => {
         await message.channel.send(`${client.user.username} is currently on version ${package.version}`);
         await message.channel.send(`Below is a list of all of the dependencies that ${client.user.username} uses:`);
-        await message.channel.send(package.dependencies);
+        await message.channel.send(JSON.stringify(package.dependencies));
         return;
     }
 }
