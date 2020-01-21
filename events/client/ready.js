@@ -28,6 +28,5 @@ module.exports = async (client) => {
     console.log(`${client.user.username} is online!`);
     console.log(`${client.user.username} is currently in ${client.guilds.size} servers!`);
     console.log(`${client.user.username} is currently in version ${package.version}`);
-    console.log(package.dependencies);
-    console.log(`${client.user.username} uses the following packages: common-tags ${package.dependencies.common-tags}`)
+    console.log(`${client.user.username} uses the following packages: ${package.dependencies}`);
 }
