@@ -37,7 +37,7 @@ module.exports = {
             } else {
                 try {
                     const voiceConnection = await voiceChannel.join();
-                    await playSong(message.channel, voiceConnection, voiceChannel);
+                    await playSong(message.channel, voiceConnection, voiceChannel, info);
                 } catch (e) {
                     console.log(e.stack);
                 }
@@ -66,7 +66,7 @@ module.exports = {
         }
 
         //the function that plays the music
-        async function playSong(messageChannel, voiceConnection, voiceChannel) {
+        async function playSong(messageChannel, voiceConnection, voiceChannel, info) {
             const stream = ytdl(musicURLs[0], { filter: "audioonly" });
             const dispatcher = voiceConnection.playStream(stream);
             message.channel.send(`Now playing: **${info.title}**`);
@@ -79,7 +79,7 @@ module.exports = {
                 } else {
                     setTimeout(() => {
                         if(!voiceConnection) return dispatcher.end();
-                        playSong(messageChannel, voiceConnection, voiceChannel);
+                        playSong(messageChannel, voiceConnection, voiceChannel, info);
                     }, 5000);
                 }
             });
