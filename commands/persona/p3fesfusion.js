@@ -26,8 +26,9 @@ module.exports = {
             //fool arcana
             case "orpheus":
                 var name = "Orpheus";
+                var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Orpheus";
                 var note = "Orpheus is the starting Persona of the protagonist.";
-                var result1 = "25,534¥ | Legion (22/Fool) and Slime (12/Fool)";
+                var result1 = "25,534¥ | [Legion](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Legion) (22/Fool) and [Slime](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Slime) (12/Fool)";
                 var result2 = "No Result";
                 var result3 = "No Result";
                 var result4 = "No Result";
@@ -41,6 +42,7 @@ module.exports = {
         //creates the embed using all of the defined variables above and sends it to the current channel
         let embed = new RichEmbed()
             .setTitle(name)
+            .setURL(url)
             .setColor(config.colors.darkblue)
             .addField("Combination #1", result1)
             .addField("Combination #2", result2)
