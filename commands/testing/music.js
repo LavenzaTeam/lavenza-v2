@@ -13,7 +13,7 @@ module.exports = {
         if (args[0] === "play") {
             //generic checks and definitions
             if (message.channel.type !== "text") return message.reply("Error, non valid text channel!");
-            const { voiceChannel } = message.member;
+            var { voiceChannel } = message.member;
             const messageChannel = message.channel;
 
             //argument checking
@@ -26,7 +26,7 @@ module.exports = {
             if (!validate) return message.reply("Please input a valid YouTube URL!");
 
             //get info
-            let info = await ytdl.getInfo(url);
+            var info = await ytdl.getInfo(url);
 
             //push data to the array
             musicURLs.push(url);
@@ -36,7 +36,7 @@ module.exports = {
                 message.channel.send(`Song added to queue! **${info.title}**`);
             } else {
                 try {
-                    const voiceConnection = await voiceChannel.join();
+                    var voiceConnection = await voiceChannel.join();
                     await playSong(message.channel, voiceConnection, voiceChannel, info);
                 } catch (e) {
                     console.log(e.stack);
@@ -58,7 +58,7 @@ module.exports = {
         if (args[0] === "skip") {
             message.reply("Skipping is a WIP feature!");
             musicURLs.shift();
-            playSong(voiceConnection, voiceChannel);
+            playSong(voiceConnection, voiceChannel, info);
         }
 
         if (args[0] === "queue") {
