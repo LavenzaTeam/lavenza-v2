@@ -78,7 +78,11 @@ module.exports = {
                     voiceChannel.leave();
                 } else {
                     setTimeout(() => {
-                        if(!voiceConnection) return dispatcher.end();
+                        if(!voiceConnection) {
+                            musicURLs.forEach(m => {
+                                dispatcher.end();
+                            });
+                        }
                         playSong(messageChannel, voiceConnection, voiceChannel, info);
                     }, 5000);
                 }
