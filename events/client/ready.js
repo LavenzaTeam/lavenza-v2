@@ -1,4 +1,5 @@
 const { prefix } = require("../../config.json");
+const package = require("../../package.json");
 
 module.exports = async (client) => {
     let presences = [
@@ -25,4 +26,8 @@ module.exports = async (client) => {
         client.user.setPresence({ game: { name: `${prefix}help | ${presences[presence]}`}, status: "dnd" });
     }, 60000)
     console.log(`${client.user.username} is online!`);
+    console.log(`${client.user.username} is currently in ${client.guilds.size} servers!`);
+    console.log(`${client.user.username} is currently in version ${package.version}`);
+    console.log(package.dependencies);
+    console.log(`${client.user.username} uses the following packages: common-tags ${package.dependencies.common-tags}`)
 }
