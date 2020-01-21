@@ -28,5 +28,6 @@ module.exports = async (client) => {
     console.log(`${client.user.username} is online!`);
     console.log(`${client.user.username} is currently in ${client.guilds.size} servers!`);
     console.log(`${client.user.username} is currently in version ${package.version}`);
-    console.log(`${client.user.username} uses the following packages: ${package.dependencies}`);
+    console.log(`${client.user.username} uses the following packages:`);
+    console.log(package.dependencies);
 }
