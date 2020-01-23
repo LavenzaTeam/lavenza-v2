@@ -16,16 +16,17 @@ module.exports = {
         //checks if you pinged somebody, if you did, it displays their avatar, otherwise, it displays you avatar
         if (aUser) {
             var userURL = aUser.user.avatarURL;
-            var image = new Attachment(userURL);
+            var image = new Attachment(userURL, "image.png");
         } else {
             var yourURL = message.author.avatarURL;
-            var image = new Attachment(yourURL);
+            var image = new Attachment(yourURL, "image.png");
         }
 
         let embed = new RichEmbed()
             .setTitle(aUser)
             .setDescription(`${aUser}'s Discord Avatar`)
-            .setImage(image)
+            .attachFile(image)
+            .setImage("attachment://image.png")
             .setFooter(`Data requested by ${message.author.name}`, message.author.displayAvatarURL);
 
         //stops the code in its tracks
