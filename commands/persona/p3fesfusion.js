@@ -61,14 +61,14 @@ module.exports = {
             .addField("Combination #5", result5)
             .setFooter("Information gathered from Arantius's Persona 3 FES Fusion Calculator", client.user.displayAvatarURL);
 
-        //checks to see if the not variable is defined, if it is, display the variable, if it isn't, don't display it
+        //checks to see if the note variable is defined, if it is, display the variable, if it isn't, don't display it
         if (note) {
             embed.setDescription(`${note} \n[Report a data error!](${config.servers.discordinvite})`)
         } else {
             embed.setDescription(`[Report a data error!](${config.servers.discordinvite})`)
         }
 
-        //sends the embed too the current channel
+        //sends the embed to the current channel
         return message.channel.send(embed);
     }
 }

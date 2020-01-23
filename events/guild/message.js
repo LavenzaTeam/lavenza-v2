@@ -2,7 +2,7 @@ const { prefix } = require("../../config.json");
 
 module.exports = async (client, message) => {
     if(message.author.bot) return;
-    if(message.channel.type === 'dm') return;
+    if(message.channel.type === 'dm') return message.reply("I can only be used in a Discord Server. Retard.");
 
     let args = message.content.slice(prefix.length).trim().split(/ +/g)
     let cmd = args.shift().toLowerCase();
