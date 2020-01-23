@@ -7,7 +7,7 @@ module.exports = {
         aliases: [],
         description: "Evaluates code and performs it directly from discord",
         usage: "<code>",
-        category: "misc"
+        category: "general"
     },
     run: async (client, message, args) => {
         //checks if the authors id is equal to arkanes id
