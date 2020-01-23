@@ -18,16 +18,17 @@ module.exports = {
             var userURL = aUser.user.avatarURL;
             var image = new Attachment(userURL, "image.png");
         } else {
+            aUser = message.member;
             var yourURL = message.author.avatarURL;
             var image = new Attachment(yourURL, "image.png");
         }
 
         let embed = new RichEmbed()
-            .setTitle(aUser)
-            .setDescription(`${aUser}'s Discord Avatar`)
+            .setTitle(aUser.user.username)
+            .setDescription(`${aUser.user.username}'s Discord Avatar`)
             .attachFile(image)
             .setImage("attachment://image.png")
-            .setFooter(`Data requested by ${message.author.name}`, message.author.displayAvatarURL);
+            .setFooter(`Data requested by ${message.author.username}`, message.author.displayAvatarURL);
 
         //stops the code in its tracks
         return message.channel.send(embed);
