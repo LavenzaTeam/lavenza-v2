@@ -1,8 +1,3 @@
-let p3pcommand = client.commands.get("p3personas");
-let p3scommand = client.commands.get("p3shadows");
-let p3ffcommand = client.commands.get("p3fesfusion");
-let p3pfcommand = client.commands.get("p3pfusion");
-
 module.exports = {
     config: {
         name: "p3",
@@ -12,6 +7,10 @@ module.exports = {
         category: "persona"
     },
     run: async (client, message, args) => {
+        let p3pcommand = client.commands.get("p3personas");
+        let p3scommand = client.commands.get("p3shadows");
+        let p3ffcommand = client.commands.get("p3fesfusion");
+        let p3pfcommand = client.commands.get("p3pfusion");
         let variable = args.join("_").toLowerCase();
 
         if (variable === "orpheus") {
