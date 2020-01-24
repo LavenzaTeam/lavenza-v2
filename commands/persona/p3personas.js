@@ -1,5 +1,6 @@
 const { RichEmbed, Attachment } = require("discord.js");
 const config = require("../../config.json");
+const { persona } = require("./p3.js");
 
 module.exports = {
     config: {
@@ -12,6 +13,7 @@ module.exports = {
     run: async (client, message, args) => {
         //general data parsing
         let personaName = args.join("_").toLowerCase();
+        if (persona) personaName = persona;
         if (!personaName) return message.reply(`Please specify a Persona to search! \`To view a list of all valid Persona's, ${prefix}p3personas list\``)
 
         //list of every persona
