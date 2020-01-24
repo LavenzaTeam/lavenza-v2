@@ -16,7 +16,6 @@ module.exports = {
         if (variable === "orpheus") {
             var persona = variable;
             p3pcommand.run(client, message, args, persona);
-            //module.exports = { persona: persona };
         }
     }
 }
