@@ -1,3 +1,8 @@
+let p3pcommand = client.commands.get("p3personas");
+let p3scommand = client.commands.get("p3shadows");
+let p3ffcommand = client.commands.get("p3fesfusion");
+let p3pfcommand = client.commands.get("p3pfusion");
+
 module.exports = {
     config: {
         name: "p3",
@@ -11,7 +16,8 @@ module.exports = {
 
         if (variable === "orpheus") {
             var persona = variable;
-            module.exports = { persona: persona };
+            p3pcommand.run(client, message, args, persona);
+            //module.exports = { persona: persona };
         }
     }
 }

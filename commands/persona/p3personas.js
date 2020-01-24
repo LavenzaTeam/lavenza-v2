@@ -1,6 +1,5 @@
 const { RichEmbed, Attachment } = require("discord.js");
 const config = require("../../config.json");
-const { persona } = require("./p3.js");
 
 module.exports = {
     config: {
@@ -10,7 +9,7 @@ module.exports = {
         usage: "<persona> (/a)",
         category: "persona"
     },
-    run: async (client, message, args) => {
+    run: async (client, message, args, persona) => {
         //general data parsing
         let personaName = args.join("_").toLowerCase();
         if (persona) personaName = persona;
