@@ -9,21 +9,22 @@ module.exports = {
         usage: "<persona>",
         category: "persona"
     },
-    run: async (client, message, args) => {
+    run: async (client, message, args, persona) => {
         message.reply("Fusion is a lengthy process that will not be perfected for a while! Bear that in mind while using the fusion commands!");
 
         //data parsing
         let personaName = args.join("_").toLowerCase();
-        if(!personaName) return message.reply(`You must specify a Persona to search. To view a list of Persona's, type \`${config.prefix}p3pfusion list\`!`)
-    
+        if (persona) personaName = persona;
+        if (!personaName) return message.reply(`You must specify a Persona to search. To view a list of Persona's, type \`${config.prefix}p3pfusion list\`!`)
+
         //checks if the user provided the "list" argument
-        if(personaName === "list") {
+        if (personaName === "list") {
             return message.reply("The Persona list is currently unavaliable! Check back later!");
         }
 
-        switch(personaName) {
+        switch (personaName) {
             case "":
-                
+
                 break;
             case "":
 
@@ -31,7 +32,7 @@ module.exports = {
         }
 
         //checks if the "name" variable was declared and assigned to a value, if it was then it skips this, if it wasnt, it stops the code and displays this message
-        if(!name) return message.reply(`You have entered an invalid Persona name! Type \`${config.prefix}p3pfusion list\` for a list of all valid Persona names!`);
+        if (!name) return message.reply(`You have entered an invalid Persona name! Type \`${config.prefix}p3pfusion list\` for a list of all valid Persona names!`);
 
         //creates and sends the embed using the data from above
         let embed = new RichEmbed()
@@ -46,7 +47,7 @@ module.exports = {
             .setFooter("Information gathered from Arantius's P3P Fusion Calculator", client.user.displayAvatarURL);
 
         //checks to see if the "note" variable is defined, if it is, display it, if not, display another thing
-        if(note) {
+        if (note) {
             embed.setDescription(`${note} \n[Report a data error!](${config.servers.discordinvite})`);
         } else {
             embed.setDescription(`[Report a data error!](${config.servers.discordinvite})`);

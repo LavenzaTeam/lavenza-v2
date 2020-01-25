@@ -9,8 +9,9 @@ module.exports = {
         usage: "<shadow> (/a)",
         category: "persona"
     },
-    run: async (client, message, args) => {
+    run: async (client, message, args, shadow) => {
         let shadowName = args.join("_").toLowerCase();
+        if (shadow) shadowName = shadow;
         if (!shadowName) return message.reply(`Please specify a shadow to search for! \nTo view all the shadows in the game, type \`${config.prefix}p3shadows list\``)
         if (shadowName === "nyx") shadowName = "nyx_avatar";
 
@@ -2969,86 +2970,86 @@ module.exports = {
                     let pageNum = 1;
 
                     forwards.on("collect", r => {
-                        if(pageNum === 9){
+                        if (pageNum === 9) {
                             pageNum = 10;
                             msg.edit(elizSurt);
                         }
-                        if(pageNum === 8){
+                        if (pageNum === 8) {
                             pageNum = 9;
                             msg.edit(elizPixie);
                         }
-                        if(pageNum === 7){
+                        if (pageNum === 7) {
                             pageNum = 8;
                             msg.edit(elizMasakado);
                         }
-                        if(pageNum === 6){
+                        if (pageNum === 6) {
                             pageNum = 7;
                             msg.edit(elizNebiros);
                         }
-                        if(pageNum === 5){
+                        if (pageNum === 5) {
                             pageNum = 6;
                             msg.edit(elizAlice);
                         }
-                        if(pageNum === 4){
+                        if (pageNum === 4) {
                             pageNum = 5;
                             msg.edit(elizMetatron);
                         }
-                        if(pageNum === 3){
+                        if (pageNum === 3) {
                             pageNum = 4;
                             msg.edit(elizCu);
                         }
-                        if(pageNum === 2){
+                        if (pageNum === 2) {
                             pageNum = 3;
                             msg.edit(elizThor);
                         }
-                        if(pageNum === 1){
+                        if (pageNum === 1) {
                             pageNum = 2;
                             msg.edit(elizJack);
                         }
-                        if(pageNum === 10){
+                        if (pageNum === 10) {
                             pageNum = 1;
                             msg.edit(elizSurt);
                         }
                     })
 
                     backwards.on("collect", r => {
-                        if(pageNum === 1){
+                        if (pageNum === 1) {
                             pageNum = 10;
                             msg.edit(elizPixie);
                         }
-                        if(pageNum === 2){
+                        if (pageNum === 2) {
                             pageNum = 1;
                             msg.edit(elizSurt);
                         }
-                        if(pageNum === 3){
+                        if (pageNum === 3) {
                             pageNum = 2;
                             msg.edit(elizJack);
                         }
-                        if(pageNum === 4){
+                        if (pageNum === 4) {
                             pageNum = 3;
                             msg.edit(elizThor);
                         }
-                        if(pageNum === 5){
+                        if (pageNum === 5) {
                             pageNum = 4;
                             msg.edit(elizCu);
                         }
-                        if(pageNum === 6){
+                        if (pageNum === 6) {
                             pageNum = 5;
                             msg.edit(elizMetatron);
                         }
-                        if(pageNum === 7){
+                        if (pageNum === 7) {
                             pageNum = 6;
                             msg.edit(elizAlice);
                         }
-                        if(pageNum == 8){
+                        if (pageNum == 8) {
                             pageNum = 7;
                             msg.edit(elizNebiros);
                         }
-                        if(pageNum === 9){
+                        if (pageNum === 9) {
                             pageNum = 8;
                             msg.edit(elizMasakado);
                         }
-                        if(pageNum === 10){
+                        if (pageNum === 10) {
                             pageNum = 9;
                             msg.edit(elizPixie);
                         }

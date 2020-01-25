@@ -13,9 +13,38 @@ module.exports = {
         let p3pfcommand = client.commands.get("p3pfusion");
         let variable = args.join("_").toLowerCase();
 
+        //p3personas command file
+        //fool arcana
         if (variable === "orpheus") {
             var persona = variable;
             p3pcommand.run(client, message, args, persona);
+            return;
+        }
+
+        //p3shadows command file
+        //maya shadows
+        if (variable === "") {
+            var shadow = variable;
+            p3scommand.run(client, message, args, shadow);
+            return;
+        }
+
+
+        //p3fesfusion command file
+        //fool arcana
+        if (variable === "") {
+            var persona = variable;
+            p3ffcommand.run(client, message, args, persona);
+            return;
+        }
+
+
+        //p3pfusion command file
+        //fool arcana
+        if (variable === "") {
+            var persona = variable;
+            p3pfcommand.run(client, message, args, persona);
+            return;
         }
     }
 }
