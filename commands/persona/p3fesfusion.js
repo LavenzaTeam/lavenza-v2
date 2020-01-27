@@ -15,6 +15,7 @@ module.exports = {
         //general data parsing and error checking
         let personaName = args.join("_").toLowerCase();
         if (persona) personaName = persona;
+        if (personaName.endsWith("/f")) personaName.slice(0, 3);
         if (!personaName) return message.reply(`Please specify a Persona to search! To view a list of all Persona's, type \`${config.prefix}p3fesfusion list\``);
 
         //checks if the user entered the list argument
