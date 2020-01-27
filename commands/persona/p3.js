@@ -32,9 +32,10 @@ module.exports = {
 
         //p3fesfusion command file
         //fool arcana
-        if (variable === "orpheus /f") {
+        if (variable === "orpheus_/f") {
             var persona = variable;
             p3ffcommand.run(client, message, args, persona);
+            return;
         }
 
 
