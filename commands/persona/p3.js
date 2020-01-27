@@ -37,6 +37,11 @@ module.exports = {
             p3ffcommand.run(client, message, args, persona);
             return;
         }
+        if (variable === "slime_/f") {
+            var persona = variable;
+            p3ffcommand.run(client, message, args, persona);
+            return;
+        }
 
 
         //p3pfusion command file
