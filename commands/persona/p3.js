@@ -35,7 +35,6 @@ module.exports = {
         if (variable === "orpheus /f") {
             var persona = variable;
             p3ffcommand.run(client, message, args, persona);
-            return;
         }
 
 
