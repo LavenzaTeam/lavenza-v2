@@ -14,42 +14,52 @@ module.exports = {
         let variable = args.join("_").toLowerCase();
 
         //p3personas command file
-        //fool arcana
-        if (variable === "orpheus") {
-            var persona = variable;
-            p3pcommand.run(client, message, args, persona);
-            return;
+        switch (variable) {
+            //fool arcana
+            case "orpheus":
+                var persona = variable;
+                p3pcommand.run(client, message, args, persona);
+                break;
+                return;
+
         }
 
         //p3shadows command file
-        //maya shadows
-        if (variable === "") {
-            var shadow = variable;
-            p3scommand.run(client, message, args, shadow);
-            return;
-        }
+        switch (variable) {
+            //maya shadows
+            case "":
+                var shadow = variable;
+                p3scommand.run(client, message, args, shadow);
+                break;
+                return;
 
+        }
 
         //p3fesfusion command file
-        //fool arcana
-        if (variable === "orpheus_/f") {
-            var persona = variable;
-            p3ffcommand.run(client, message, args, persona);
-            return;
-        }
-        if (variable === "slime_/f") {
-            var persona = variable;
-            p3ffcommand.run(client, message, args, persona);
-            return;
-        }
+        switch (variable) {
+            //fool arcana
+            case "orpheus_/f":
+                var persona = variable;
+                p3ffcommand.run(client, message, args, persona);
+                break;
+                return;
+            case "slime_/f":
+                var persona = variable;
+                p3ffcommand.run(client, message, args, persona);
+                break;
+                return;
 
+        }
 
         //p3pfusion command file
-        //fool arcana
-        if (variable === "") {
-            var persona = variable;
-            p3pfcommand.run(client, message, args, persona);
-            return;
+        switch (variable) {
+            //fool arcana
+            case "":
+                var persona = variable;
+                p3pfcommand.run(client, message, args, persona);
+                break;
+                return;
+
         }
     }
 }
