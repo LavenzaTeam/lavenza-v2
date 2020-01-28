@@ -65,6 +65,19 @@ module.exports = {
                 var result3 = "No Fusion Found"
                 var result4 = "No Fusion Found"
                 var result5 = "No Fusion Found"
+                break;
+            case "ose":
+                var name = "Ose";
+                var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ose";
+                var note = "";
+                var result1 = "39,867 ¥ | [Narcissus](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Narcissus) (20/Lovers), [Ares](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ares) (19/Chariot), [Gurr](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Gurr) (15/Moon)";
+                var result2 = "40,515 ¥ | [High Pixie](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/High%20Pixie) (21/Priestess), [Hua Po](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Hua%20Po) (20/Magician), [Berith](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Berith) (13/Heriophant)";
+                var result3 = "40,830 ¥ | [Hua Po](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Hua%20Po) (20/Magician), [Ares](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ares) (19/Chariot), [Rakshasa](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Rakshasa) (16/Strength)";
+                var result4 = "41,001 ¥	| [Vetala](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Vetala) (24/Devil), [Principality](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Principality) (16/Justice), [Pyro Jack](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Pyro%20Jack) (14/Magician)";
+                var result5 = "41,100 ¥ | [High Pixie](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/High%20Pixie) (21/Priestess), [Ares](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ares) (19/Chariot), [Oberon](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Oberon) (15/Emperor)";
+                break;
+            case 
+                
         }
 
         //checks if the user entered a valid persona name by checking if the "name" variable was defined
