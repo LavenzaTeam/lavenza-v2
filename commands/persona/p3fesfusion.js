@@ -109,8 +109,16 @@ module.exports = {
             case "orpheus_telos":
                 var name = "Orpheus Telos";
                 var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Orpheus%20Telos";
-                var note = "";
+                var note = "Requires all Social Links to be maxed!";
                 var result1 = "[Messiah](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Messiah) (90/Judgement), [Helel](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Helel) (88/Star), [Metatron](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Metatron) (87/Aeon), [Chi You](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Chi%20You) (86/Tower), [Asura](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Asura) (85/Sun), [Thanatos](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Thanatos) (64/Death)";
+                var result2 = "No Fusion Found"
+                var result3 = "No Fusion Found"
+                var result4 = "No Fusion Found"
+                var result5 = "No Fusion Found"
+                break;
+            case "nekomata":
+                var name = "Nekomata";
+                var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nekomata";
         }       
 
         //checks if the user entered a valid persona name by checking if the "name" variable was defined
