@@ -101,6 +101,10 @@ module.exports = {
                 var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Susano-o";
                 var note = "Requires the Fool social link to be maxed out!"
                 var result1 = "294,123 ¥ | [Loki](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Loki), (58/Fool), [Decarabia](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Decarabia) (50/Fool), [Ose](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ose) (44/Fool), [Black Frost](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Black%20Frost) (34/Fool), [Legion](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Legion) (22/Fool), [Orpheus](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Orpheus) (1/Fool)";
+                var result2 = "Fusion Not Found";
+                var result3 = "Fusion Not Found";
+                var result4 = "Fusion Not Found";
+                var result5 = "Fusion Not Found";
         }       
 
         //checks if the user entered a valid persona name by checking if the "name" variable was defined
