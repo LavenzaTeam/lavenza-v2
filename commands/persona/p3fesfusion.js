@@ -99,7 +99,7 @@ module.exports = {
             case "susano-o":
                 var name = "Susano-o";
                 var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Susano-o";
-                var note = "Requires the Fool social link to be maxed out."
+                var note = "Requires the Fool social link to be maxed out!"
         }       
 
         //checks if the user entered a valid persona name by checking if the "name" variable was defined
