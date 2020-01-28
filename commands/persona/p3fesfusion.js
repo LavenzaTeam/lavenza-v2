@@ -105,6 +105,8 @@ module.exports = {
                 var result3 = "Fusion Not Found";
                 var result4 = "Fusion Not Found";
                 var result5 = "Fusion Not Found";
+                break;
+            case "orpheus_telos":
         }       
 
         //checks if the user entered a valid persona name by checking if the "name" variable was defined
