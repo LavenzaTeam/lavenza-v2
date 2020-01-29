@@ -20,7 +20,7 @@ module.exports = {
         switch (shadowName) {
             case "list":
                 let shadows = new RichEmbed()
-                    .setTitle("List of Persona 3 Shadows")
+                    .setTitle("List of Persona 3 FES/Portable Shadows")
                     .setURL("https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
