@@ -2,7 +2,7 @@ module.exports = {
     config: {
         name: "p3",
         aliases: [],
-        description: "A command that tries to condense all of the other Persona 3 commands into one command.",
+        description: "A command that tries to condense all of the other Persona 3 commands into one command. `/a` will give you the answer variant, `/f` will get you the FES Fusion of a Persona, and `/p` will give you the Portable Fusion of a Persona. Note that you may only append one switch at a time.",
         usage: "<persona/shadow> (/a) (/f) (/p)",
         category: "persona"
     },
@@ -11,55 +11,43 @@ module.exports = {
         let p3scommand = client.commands.get("p3shadows");
         let p3ffcommand = client.commands.get("p3fesfusion");
         let p3pfcommand = client.commands.get("p3pfusion");
-        let variable = args.join("_").toLowerCase();
+        let query = args.join("_").toLowerCase();
+
+        //checks for the "list" argument
+        if (query === "list") {
+            return message.reply("The list for the `P3` command is currently a Work in Progress! Check back soon!");
+        }
 
         //p3personas command file
-        switch (variable) {
+        switch (query) {
             //fool arcana
             case "orpheus":
-                var persona = variable;
-                p3pcommand.run(client, message, args, persona);
+                p3pcommand.run(client, message, args, query);
                 break;
-                return;
-
         }
 
         //p3shadows command file
-        switch (variable) {
+        switch (query) {
             //maya shadows
-            case "":
-                var shadow = variable;
-                p3scommand.run(client, message, args, shadow);
+            case "maya":
+                p3scommand.run(client, message, args, query);
                 break;
-                return;
-
         }
 
         //p3fesfusion command file
-        switch (variable) {
+        switch (query) {
             //fool arcana
             case "orpheus_/f":
-                var persona = variable;
-                p3ffcommand.run(client, message, args, persona);
+                p3ffcommand.run(client, message, args, query);
                 break;
-                return;
-            case "slime_/f":
-                var persona = variable;
-                p3ffcommand.run(client, message, args, persona);
-                break;
-                return;
-
         }
 
         //p3pfusion command file
-        switch (variable) {
+        switch (query) {
             //fool arcana
-            case "":
-                var persona = variable;
-                p3pfcommand.run(client, message, args, persona);
+            case "orpheus_/p":
+                p3pfcommand.run(client, message, args, query);
                 break;
-                return;
-
         }
     }
 }

@@ -9,9 +9,9 @@ module.exports = {
         usage: "<shadow> (/a)",
         category: "persona"
     },
-    run: async (client, message, args, shadow) => {
+    run: async (client, message, args, query) => {
         let shadowName = args.join("_").toLowerCase();
-        if (shadow) shadowName = shadow;
+        if (query) shadowName = query;
         if (!shadowName) return message.reply(`Please specify a shadow to search for! \nTo view all the shadows in the game, type \`${config.prefix}p3shadows list\``)
         if (shadowName === "nyx") shadowName = "nyx_avatar";
 
