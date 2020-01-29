@@ -9,12 +9,12 @@ module.exports = {
         usage: "<persona>",
         category: "persona"
     },
-    run: async (client, message, args, persona) => {
+    run: async (client, message, args, query) => {
         message.reply("Fusion is a lengthy process that will not be perfected for a while! Bear that in mind while using the fusion commands!");
 
         //general data parsing and error checking
         let personaName = args.join("_").toLowerCase();
-        if (persona) personaName = persona;
+        if (query) personaName = query;
         if (personaName.endsWith("/f")) personaName = personaName.slice(0, -3);
         console.log(personaName);
         if (!personaName) return message.reply(`Please specify a Persona to search! To view a list of all Persona's, type \`${config.prefix}p3fesfusion list\``);

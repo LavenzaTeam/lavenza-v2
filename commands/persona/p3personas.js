@@ -9,10 +9,10 @@ module.exports = {
         usage: "<persona> (/a)",
         category: "persona"
     },
-    run: async (client, message, args, persona) => {
+    run: async (client, message, args, query) => {
         //general data parsing
         let personaName = args.join("_").toLowerCase();
-        if (persona) personaName = persona;
+        if (query) personaName = query;
         if (!personaName) return message.reply(`Please specify a Persona to search! \`To view a list of all valid Persona's, ${prefix}p3personas list\``)
 
         //list of every persona

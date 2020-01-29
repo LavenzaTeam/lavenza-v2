@@ -11,55 +11,18 @@ module.exports = {
         let p3scommand = client.commands.get("p3shadows");
         let p3ffcommand = client.commands.get("p3fesfusion");
         let p3pfcommand = client.commands.get("p3pfusion");
-        let variable = args.join("_").toLowerCase();
+        let query = args.join("_").toLowerCase();
 
         //p3personas command file
-        switch (variable) {
-            //fool arcana
-            case "orpheus":
-                var persona = variable;
-                p3pcommand.run(client, message, args, persona);
-                break;
-                return;
-
-        }
+        if(query === "orpheus") p3pcommand.run(client, message, args, query);
 
         //p3shadows command file
-        switch (variable) {
-            //maya shadows
-            case "":
-                var shadow = variable;
-                p3scommand.run(client, message, args, shadow);
-                break;
-                return;
-
-        }
+        if(query === "maya") p3scommand.run(client, message, args, query);
 
         //p3fesfusion command file
-        switch (variable) {
-            //fool arcana
-            case "orpheus_/f":
-                var persona = variable;
-                p3ffcommand.run(client, message, args, persona);
-                break;
-                return;
-            case "slime_/f":
-                var persona = variable;
-                p3ffcommand.run(client, message, args, persona);
-                break;
-                return;
-
-        }
+        if(query === "orpheus_/f") p3ffcommand.run(client, message, args, query);
 
         //p3pfusion command file
-        switch (variable) {
-            //fool arcana
-            case "":
-                var persona = variable;
-                p3pfcommand.run(client, message, args, persona);
-                break;
-                return;
-
-        }
+        if(query === "orpheus_/p") p3pfcommand.run(client, message, args, query);
     }
 }
