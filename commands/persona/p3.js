@@ -2,7 +2,7 @@ module.exports = {
     config: {
         name: "p3",
         aliases: [],
-        description: "A command that tries to condense all of the other Persona 3 commands into one command.",
+        description: "A command that tries to condense all of the other Persona 3 commands into one command. `/a` will give you the answer variant, `/f` will get you the FES Fusion of a Persona, and `/p` will give you the Portable Fusion of a Persona. Note that you may only append one switch at a time.",
         usage: "<persona/shadow> (/a) (/f) (/p)",
         category: "persona"
     },
