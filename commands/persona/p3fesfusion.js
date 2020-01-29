@@ -51,7 +51,7 @@ module.exports = {
                 .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL)
                 .setTimestamp();
 
-            return message.reply(list);
+            return message.channel.send(list);
         }
 
         //switch case loop checking what 
