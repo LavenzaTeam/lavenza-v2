@@ -26,7 +26,7 @@ module.exports = {
                 .addField("Priestess Arcana", "`Lucia`, `Juno`, `Apsaras`, `Unicorn`, `High Pixie`, `Sarasvati`, `Ganga`, `Parvati`, `Kikuri-hime`, `Scathach`")
                 .addField("Empress Arcana", "`Penthesilea`, `Artemisia`, `Leanan Sidhe`, `Yaksini`, `Lakshmi`, `Hariti`, `Gabriel`, `Mother Harlot`, `Skadi`, `Alilat`")
                 .addField("Emperor Arcana", "`Polydeuces`, `Ceasar`, `Forneus`, `Oberon`, `Take-Mikazuchi`, `King Frost`, `Raja Naga`, `Kingu`, `Barong`, `Odin`")
-                .addField("Hierophant Arcana", "`Castor`, `Omoikane`, `Berith`, `Shiisaa`, `Flauros`, `Thoth`, `Hokuto Seikun`, `Daisoujou`, `Kohryu`")
+                .addField("Hierophant Arcana", "`Castor`, `Psyche`, `Omoikane`, `Berith`, `Shiisaa`, `Flauros`, `Thoth`, `Hokuto Seikun`, `Daisoujou`, `Kohryu`")
                 .addField("Lovers Arcana", "`Io`, `Isis`, `Pixie`, `Alp`, `Tam Lin`, `Narcissus`, `Queen Mab`, `Saki Mitama`, `Titania`, `Raphael`, `Cybele`")
                 .addField("Chariot Arcana", "`Palladion`, `Pallas Athena`, `Ara Mitama`, `Chimera`, `Zouchouten`, `Ares`, `Oumitsunu`, `Nata Taishi`, `Koumokuten`, `Thor`")
                 .addField("Justice Arcana", "`Nemesis`, `Kala Nemi`, `Angel`, `Archangel`, `Principality`, `Power`, `Virtue`, `Dominion`, `Throne`, `Melchizedek`")
@@ -99,6 +99,9 @@ module.exports = {
                 break;
             case "koromaru":
                 personaName = "cerberus";
+                break;
+            case "metis":
+                personaName = "psyche";
                 break;
         }
 
@@ -484,6 +487,12 @@ module.exports = {
 
             //hierophant arcana
             case "castor":
+                var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
+                var fileName = personaName;
+                var url = `https://megamitensei.fandom.com/wiki/${name}`;
+                var img = new Attachment(`./personadata/p3/${fileName}.png`, "persona.png");
+                break;
+            case "psyche":
                 var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
                 var fileName = personaName;
                 var url = `https://megamitensei.fandom.com/wiki/${name}`;
