@@ -169,7 +169,7 @@ module.exports = {
             case "hua_po":
                 var name = "Hua Po";
                 var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Hua%20Po";
-                var note = "Requires an item from the Elizabeth/Theo Requests!";
+                var note = "Requires an item from the Elizabeth Requests!";
                 var result1 = "18,375¥ | [Unicorn](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Unicorn) (11/Priestess), [Inugami](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Inugami) (10/Hanged Man), [Chimera](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Chimera) (9/Chariot)";
                 var result2 = "18,375¥ | [Unicorn](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Unicorn) (11/Priestess), [Inugami](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Inugami) (10/Hanged Man), [Yomotsu Shikome](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Yomotsu%20Shikome) (9/Hermit)";
                 var result3 = "18,483¥ | [Unicorn](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Unicorn) (11/Priestess), [Valkyrie](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Valkyrie) (11/Strength), [Lilim](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Lilim) (8/Devil)";
