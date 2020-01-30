@@ -20,14 +20,14 @@ module.exports = {
         switch (shadowName) {
             case "list":
                 let shadows = new RichEmbed()
-                    .setTitle("List of Persona 3 Shadows")
+                    .setTitle("List of Persona 3 FES/Portable Shadows")
                     .setURL("https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.darkblue)
                     .setThumbnail(client.user.displayAvatarURL)
                     .addField("Normal Shadow Types", "`Maya`, `Hand`, `Table`, `Magus`, `Tiara`, `Book`, `Idol`, `Eagle`, `Relic`, `Mother`, `Beetle`, `Knight`, `Castle`, `Twins`, `Tower`, `Sigil`, `Cupid`, `Dancer`, `Snake`, `Wheel`, `Drive`, `Turret`, `Balance`, `Sword`, `Giant`, `Raven`, `Phantom`, `Seeker`, `Dice`, `Sand`, `Beast`, `Gigas`, `Musha`, `Minotaur`, `Cyclops`, `Jotun`")
                     .addField("Golden Shadows", "`Wealth Hand`, `Treasure Hand`, `Supreme Hand`, `Opulent Hand`, `Luxury Hand`, `Glorious Hand`")
-                    .addField("Full Moon Bosses", "`Arcana Priestess`, `Arcana Empress`, `Arcana Emperor`, `Arcana Hierophant`, `Arcana Lovers`, `Arcana Chariot`, `Arcana Justice`, `Arcana Justice`, `Arcana Hermit`, `Arcana Fortune`, `Arcana Strength`, `Arcana Hanged Man`, `Nyx`")
+                    .addField("Full Moon Bosses", "`Arcana Priestess`, `Arcana Empress`, `Arcana Emperor`, `Arcana Hierophant`, `Arcana Lovers`, `Arcana Chariot`, `Arcana Justice`, `Arcana Justice`, `Arcana Hermit`, `Arcana Fortune`, `Arcana Strength`, `Arcana Hanged Man`, `Nyx`, `Erebus`")
                     .addField("Optional Bosses", "`Elizabeth`, `The Reaper`")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -2876,6 +2876,29 @@ module.exports = {
                         }
                     })
                 })
+                return;
+                break;
+            case "erebus":
+                let erebus = new RichEmbed()
+                    .setTitle("Erebus")
+                    .setURL("https://megamitensei.fandom.com/wiki/Erebus")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/erebus.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                let erebusCharging = new RichEmbed()
+                    .setTitle("Erebus (Charging)")
+                    .setURL("https://megamitensei.fandom.com/wiki/Erebus")
+                    .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
+                    .setColor(config.colors.darkblue)
+                    .attachFile(new Attachment(`./personadata/p3shadows/erebusCharging.png`, "shadow.png"))
+                    .setImage("attachment://shadow.png")
+                    .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
+
+                await message.channel.send(erebus);
+                await message.channel.send(erebusCharging);
                 return;
                 break;
 
