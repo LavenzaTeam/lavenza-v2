@@ -162,6 +162,7 @@ module.exports = {
                 var note = "";
                 var result1 = "6,958¥ | [Ara Mitama](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ara%20Mitama) (6/Chariot), [Angel](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Angel) (4/Justice)";
                 var result2 = "6,958¥ | [Omoikane](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Omoikane) (7/Hierophant), [Alp](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Alp) (6/Lovers)";
+                var result3 = "8,236¥ | [Chimera](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Chimera) (9/Chariot), [Apsaras](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Apsaras) (3/Priestess)";  
         }       
 
         //checks if the user entered a valid persona name by checking if the "name" variable was defined
