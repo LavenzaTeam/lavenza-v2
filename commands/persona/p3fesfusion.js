@@ -167,12 +167,16 @@ module.exports = {
                 var result5 = "8,551¥ | [Chimera](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Chimera) (9/Chariot), [Angel](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Angel) (4/Justice)";
                 break;
             case "hua_po":
-                var name = "Hua Po"
-                var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Hua%20Po"
-                var note = "Requires an item from the Elizabeth/Theo Requests!"
+                var name = "Hua Po";
+                var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Hua%20Po";
+                var note = "Requires an item from the Elizabeth/Theo Requests!";
                 var result1 = "18,375¥ | [Unicorn](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Unicorn) (11/Priestess), [Inugami](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Inugami) (10/Hanged Man), [Chimera](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Chimera) (9/Chariot)";
-                var result2 = "18,375¥ | [Unicorn](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Unicorn) (11/Priestess), [Inugami](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Inugami) (10/Hanged Man), [Yomotsu Shikome](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Yomotsu%20Shikome)";
-                var result3
+                var result2 = "18,375¥ | [Unicorn](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Unicorn) (11/Priestess), [Inugami](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Inugami) (10/Hanged Man), [Yomotsu Shikome](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Yomotsu%20Shikome) (9/Hermit)";
+                var result3 = "18,483¥ | [Unicorn](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Unicorn) (11/Priestess), [Valkyrie](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Valkyrie) (11/Strength), [Lilim](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Lilim) (8/Devil)";
+                var result4 = "18,699¥ | [Slime](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Slime) (12/Fool), [Valkyrie](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Valkyrie) (11/Strength), [Omoikane](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Omoikane) (7/Hierophant)";
+                var result5 = "18,699¥ | [Slime](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Slime) (12/Fool), [Valkyrie](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Valkyrie) (11/Strength), [Forneus](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Forneus) (7/Emperor)";
+                break;
+
         }       
 
         //checks if the user entered a valid persona name by checking if the "name" variable was defined
