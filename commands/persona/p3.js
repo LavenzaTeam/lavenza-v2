@@ -168,6 +168,38 @@ module.exports = {
                 break;
 
             //preistess arcana
+            case "lucia":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "juno":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "apsaras":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "unicorn":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "high_pixie":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "sarasvati":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "ganga":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "parvati":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "kikuri-hime":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "scathach":
+                p3pcommand.run(client, message, args, query);
+                break;
+
+            //empress arcana
         }
 
         //p3shadows command file
