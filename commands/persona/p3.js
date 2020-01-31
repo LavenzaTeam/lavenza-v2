@@ -200,6 +200,522 @@ module.exports = {
                 break;
 
             //empress arcana
+            case "penthesilea":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "artemisia":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "leanan_sidhe":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "yaksini":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "lakshmi":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "hariti":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "gabriel":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "mother_harlot":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "skadi":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "alilat":
+                p3pcommand.run(client, message, args, query);
+                break;
+
+            //emperor arcana
+            case "polydeuces":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "ceasar":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "forneus":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "oberon":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "take-mikazuchi":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "king_frost":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "raja_naga":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "kingu":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "barong":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "odin":
+                p3pcommand.run(client, message, args, query);
+                break;
+
+            //hierophant arcana
+            case "castor":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "omoikane":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "berith":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "shiisaa":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "flauros":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "thoth":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "hokuto_seikun":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "daisoujou":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "kohryu":
+                p3pcommand.run(client, message, args, query);
+                break;
+
+            //lovers arcana
+            case "io":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "isis":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "pixie":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "alp":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "tam_lin":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "narcissus":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "queen_mab":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "saki_mitama":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "titania":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "raphael":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "cybele":
+                p3pcommand.run(client, message, args, query);
+                break;
+
+            //chariot arcana
+            case "palladion":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "pallas_athena":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "ara_mitama":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "chimera":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "zouchouten":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "ares":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "oumitsunu":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "nata_taishi":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "koumokuten":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "thor":
+                p3pcommand.run(client, message, args, query);
+                break;
+
+            //justice arcana
+            case "nemesis":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "kala-nemi":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "angel":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "archangel":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "principality":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "power":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "virtue":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "dominion":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "throne":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "melchizedek":
+                p3pcommand.run(client, message, args, query);
+                break;
+
+            //hermit arcana
+            case "yomostu_shikome":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "naga":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "lamia":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "mothman":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "taraka":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "kurama_tengu":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "nebiros":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "kumbhanda":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "arahabaki":
+                p3pcommand.run(client, message, args, query);
+                break;
+
+            //fortune arcana
+            case "fortuna":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "empusa":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "kusi_mitama":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "clotho":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "lachesis":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "atropos":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "norn":
+                p3pcommand.run(client, message, args, query);
+                break;
+
+            //strength arcana
+            case "cerberus":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "valkyrie":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "rakshasa":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "titan":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "jikokuten":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "hanuman":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "narasimha":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "kali":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "siegfried":
+                p3pcommand.run(client, message, args, query);
+                break;
+
+            //hanged man arcana
+            case "inugami":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "take-minakata":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "orthus":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "vasuki":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "ubelluris":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "hecatoncheires":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "hell_biker":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "attis":
+                p3pcommand.run(client, message, args, query);
+                break;
+
+            //death arcana
+            case "ghoul":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "pale_rider":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "loa":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "samael":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "mot":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "alice":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "thanatos":
+                p3pcommand.run(client, message, args, query);
+                break;
+
+            //temperance arcana
+            case "nigi_mitama":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "mithra":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "genbu":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "seiryuu":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "okuninushi":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "sukazu":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "byakko":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "yurlungur":
+                p3pcommand.run(client, message, args, query);
+                break;
+
+            //devil arcana
+            case "lilim":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "mokoi":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "vetala":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "incubus":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "succubus":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "pazuzu":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "lilith":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "abaddon":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "beelzebub":
+                p3pcommand.run(client, message, args, query);
+                break;
+
+            //tower arcana
+            case "eligor":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "cu_chulainn":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "bishamonten":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "seiten_taisei":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "masakado":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "mara":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "shiva":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "chi_you":
+                p3pcommand.run(client, message, args, query);
+                break;
+
+            //star arcana
+            case "neko_shogun":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "setanta":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "nandi":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "kaiwan":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "ganesha":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "garuda":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "kartikeya":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "saturnus":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "helel":
+                p3pcommand.run(client, message, args, query);
+                break;
+
+            //moon arcana
+            case "gurr":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "yamatano-orochi":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "girimehkala":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "dionysus":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "chernobog":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "seth":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "baal_zebul":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "sandalphon":
+                p3pcommand.run(client, message, args, query);
+                break;
+
+            //sun arcana
+            case "yatagarasu":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "quetzalcoatl":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "jatayu":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "horus":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "suparna":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "vishnu":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "asura":
+                p3pcommand.run(client, message, args, query);
+                break;
+
+            //judgement arcana
+            case "anubis":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "trumpeter":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "michael":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "satan":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "lucifer":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "messiah":
+                p3pcommand.run(client, message, args, query);
+                break;
+
+            //aeon arcana
+            case "uriel":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "nidhoggr":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "ananta":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "atavaka":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "metatron":
+                p3pcommand.run(client, message, args, query);
+                break;
         }
 
         //p3shadows command file
