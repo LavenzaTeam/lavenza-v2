@@ -6,7 +6,7 @@ module.exports = {
         aliases: [],
         description: "View all of the versioning information about the bot",
         usage: "",
-        category: "general"
+        category: "info"
     },
     run: async (client, message, args) => {
         await message.channel.send(`${client.user.username} is currently on version ${package.version}`);

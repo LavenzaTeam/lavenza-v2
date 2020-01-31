@@ -4,7 +4,7 @@ module.exports = {
         aliases: ["pong", "test", "latency"],
         description: "A command to test latency as well as a test command",
         usage: "",
-        category: "general"
+        category: "info"
     },
     run: async (client, message, args) => {
         message.reply("Pong!");

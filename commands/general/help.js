@@ -9,7 +9,7 @@ module.exports = {
         aliases: ["h", "commands"],
         description: "The help command",
         usage: "(command)",
-        category: "misc"
+        category: "general"
     },
     run: async (client, message, args) => {
         //im not gonna explain this, you don't need to fuck with this anyways
