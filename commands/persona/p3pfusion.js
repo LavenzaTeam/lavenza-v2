@@ -23,6 +23,7 @@ module.exports = {
             let list = new RichEmbed()
                 .setTitle("Persona 3 Portable Personas")
                 .seuURL("https://megamitensei.fandom.com/wiki/List_of_Persona_3_Portable_Personas")
+                .setColor(config.colors.p3blue)
                 .setDescription(`Below is a list of all FUSABLE Personas in Persona 3 Portable. To view the recipes for a specified Persona, use one of the following commands: \`${config.prefix}p3 <personaName> /p\` or \`${config.prefix}p3pfusion <personaName>\``)
                 .addField("Fool Arcana", "`Orpheus`, `Slime`, `Legion`, `Black Frost`, `Ose`, `Decarabia`, `Loki`, `Susano-o`, `Orpheus Telos`")
                 .addField("Magician Arcana", "`Nekomata`, `Jack Frost`, `Pyro Jack`, `Hua Po`, `Sati`, `Orobas`, `Rangda`, `Surt`")

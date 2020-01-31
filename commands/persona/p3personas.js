@@ -20,6 +20,7 @@ module.exports = {
             let list = new RichEmbed()
                 .setTitle("Persona 3 FES/Portable Personas")
                 .setURL("https://megamitensei.fandom.com/wiki/List_of_Persona_3_Portable_Personas")
+                .setColor(config.colors.p3blue)
                 .setDescription(`Below is a list of every single Persona in the Persona 3 games! \nTo view the information about a specified Persona, run the command \`${config.prefix}p3personas <persona name>\` \n[Report a Data Error!](${config.servers.discordinvite})`)
                 .addField("Fool Arcana", "`Orpheus`, `Slime`, `Legion`, `Black Frost`, `Ose`, `Decarabia`, `Loki`, `Susano-o`, `Orpheus Telos`")
                 .addField("Magician Arcana", "`Hermes`, `Trismegistus`, `Nekomata`, `Jack Frost`, `Pyro Jack`, `Hua Po`, `Sati`, `Orobas`, `Rangda`, `Surt`")
