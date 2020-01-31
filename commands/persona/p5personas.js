@@ -26,7 +26,7 @@ module.exports = {
             case "arsene":
                 var name = personaName.charAt(0).toUpperCase() + personaName.slice(1);
                 var fileName = personaName;
-                //var note = "\"I am the great thief, Arsene! You need my help once more...? Very well, use my power wisely.\"";
+                //var quote = "\"I am the great thief, Arsene! You need my help once more...? Very well, use my power wisely.\"";
                 var url = `https://megamitensei.fandom.com/wiki/${name}`;
                 var img = new Attachment(`./personadata/p5/${fileName}.png`, "persona.png")
                 break;
@@ -44,10 +44,10 @@ module.exports = {
             .setImage("attachment://persona.png")
             .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL)
 
-        if (!note) {
-            embed.setDescription(`[Report a data error!](${config.servers.discordinvite})`)
+        if (quote) {
+            embed.setDescription(`${quote} \n[Report a data error!](${config.servers.discordinvite})`)
         } else {
-            embed.setDescription(`${note} \n[Report a data error!](${config.servers.discordinvite})`)
+            embed.setDescription(`[Report a data error!](${config.servers.discordinvite})`)
         }
 
         return message.channel.send(embed);
