@@ -186,7 +186,7 @@ module.exports = {
         let embed = new RichEmbed()
             .setTitle(name)
             .setURL(url)
-            .setColor(config.colors.darkblue)
+            .setColor(config.colors.p3blue)
             .addField("Combination #1", result1)
             .addField("Combination #2", result2)
             .addField("Combination #3", result3)

@@ -51,7 +51,7 @@ module.exports = {
                 .setTitle("List of Persona 3 FES/Portable Shadows")
                 .setURL("https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows")
                 .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
-                .setColor(config.colors.darkblue)
+                .setColor(config.colors.p3blue)
                 .setThumbnail(client.user.displayAvatarURL)
                 .addField("Normal Shadow Types", "`Maya`, `Hand`, `Table`, `Magus`, `Tiara`, `Book`, `Idol`, `Eagle`, `Relic`, `Mother`, `Beetle`, `Knight`, `Castle`, `Twins`, `Tower`, `Sigil`, `Cupid`, `Dancer`, `Snake`, `Wheel`, `Drive`, `Turret`, `Balance`, `Sword`, `Giant`, `Raven`, `Phantom`, `Seeker`, `Dice`, `Sand`, `Beast`, `Gigas`, `Musha`, `Minotaur`, `Cyclops`, `Jotun`")
                 .addField("Golden Shadows", "`Wealth Hand`, `Treasure Hand`, `Supreme Hand`, `Opulent Hand`, `Luxury Hand`, `Glorious Hand`")

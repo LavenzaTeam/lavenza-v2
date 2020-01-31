@@ -1445,7 +1445,7 @@ module.exports = {
         let embed = new RichEmbed()
             .setTitle(name)
             .setURL(url)
-            .setColor(config.colors.darkblue)
+            .setColor(config.colors.p3blue)
             .attachFile(img)
             .setImage("attachment://persona.png")
             .setFooter("Info gathered from the Megami Tensei Wiki", client.user.displayAvatarURL)
