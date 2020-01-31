@@ -1,4 +1,5 @@
 const config = require("../../config.json");
+const { RichEmbed } = require("discord.js");
 
 module.exports = {
     config: {
@@ -10,6 +11,12 @@ module.exports = {
     },
     run: async (client, message, args) => {
         let inviteurl = `https://discordapp.com/api/oauth2/authorize?client_id=${config.inviteurl.clientid}&permissions=${config.inviteurl.permissionsinteger}&scope=bot`;
-        return message.reply(`Here is a link to invite me to your server! \n${inviteurl}`);
+
+        let inviteEmbed = new RichEmbed()
+            .setTitle(`Click here to invite ${client.user.username} to your server!`)
+            .setURL(inviteurl)
+            .setColor(config.colors.darkblue);
+
+        return message.channel.send(inviteEmbed);
     }
 }
