@@ -28,8 +28,7 @@ module.exports = {
                 const dir = client.commands.filter(c => c.config.category === category)
                 const capitalise = category.slice(0, 1).toUpperCase() + category.slice(1)
                 try {
-                    console.log(dir.map(c => c.config.name));
-                    embed.addField(`> ❯ ${capitalise} [${dir.size}]:`, dir.map(c => `\`${c.config.name}\``).join(" "))
+                    embed.addField(`> ❯ ${capitalise} [${dir.size}]:`, dir.map(c => `\`${c.config.name}\``).delete("p3personas").join(" "))
                 } catch(e) {
                     console.log(e)
                 }
