@@ -1,3 +1,6 @@
+const { RichEmbed } = require("discord.js");
+const config = require("../../config.json");
+
 module.exports = {
     config: {
         name: "p3",
