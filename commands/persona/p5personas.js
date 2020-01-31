@@ -34,6 +34,7 @@ module.exports = {
 
         //checks if the user specified a valid persona by checking if the name variable was defined
         if (!name) return message.reply("You have entered an invalid Persona name!");
+        var quote = "";
 
         //creates the embed and sends it
         let embed = new RichEmbed()
