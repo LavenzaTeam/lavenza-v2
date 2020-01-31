@@ -17,7 +17,9 @@
         "darkpurple": "#3f005c",
         "pink": "#ff00bb",
         "brightpink": "#ff45cd",
-        "p3blue": "#009acd"
+        "p3blue": "#009acd",
+        "p4gold": "#ffff00",
+        "p5red": "#eb2a2a"
     },
     "ids": {
         "arkane": "208779984276291585",
