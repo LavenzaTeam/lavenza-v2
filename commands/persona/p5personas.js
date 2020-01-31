@@ -44,9 +44,9 @@ module.exports = {
             .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL)
 
         if (!note) {
-            embed.setDescription(`${note} \n[Report a data error!](${config.servers.discordinvite})`)
-        } else {
             embed.setDescription(`[Report a data error!](${config.servers.discordinvite})`)
+        } else {
+            embed.setDescription(`${note} \n[Report a data error!](${config.servers.discordinvite})`)
         }
 
         return message.channel.send(embed);
