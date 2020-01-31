@@ -146,6 +146,8 @@ module.exports = {
                 var result4 = "No Fusion Found"
                 var result5 = "No Fusion Found"
                 break;
+
+            //magician arcana
             case "nekomata":
                 var name = "Nekomata";
                 var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nekomata";
