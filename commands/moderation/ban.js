@@ -20,7 +20,7 @@ module.exports = {
         //checks if they are trying to ban themselves
         if(banned.id === message.author.id) return message.reply("Can't ban yourself, sorry");
         //checks if the person banning the person has permission to ban people
-        if(!message.member.hasPermission("BAN_MEMBERS")) return message.reply("I need the Ban Members permission in order to do that!");
+        if(!message.member.hasPermission("BAN_MEMBERS")) return message.reply("No.");
         //slices the id of the person to ban off of the rest of the arguments and joins the rest of the arguments together
         let banreason = args.join(" ").slice(22);
         //checks if the person specified a reason for banning said person
