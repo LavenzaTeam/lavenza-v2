@@ -19,12 +19,12 @@ module.exports = {
                 .setTitle("List of Commands")
                 .setDescription(`Below is a list of commands for ${client.user.username}! To view more info about a specific command, type \`${config.prefix}help <command>\``)
                 .setColor(config.colors.darkblue)
-                .addField("> General Commands", "`help`, `helpv2`, `invite`, `support`")
-                .addField("> Info Commands", "`ping`, `version`")
-                .addField("> Fun Commands", "`avatar`")
-                .addField("> Moderation Commands", "`kick`, `ban`, `clear`")
-                .addField("> Persona Commands", "`p3`, `p3fesfusion`, `p3personas`, `p3pfusion`, `p3shadows`")
-                .addField("> Beta Commands", "`music`")
+                .addField("> General Commands [4]", "`help`, `helpv2`, `invite`, `support`")
+                .addField("> Info Commands [2]", "`ping`, `version`")
+                .addField("> Fun Commands [1]", "`avatar`")
+                .addField("> Moderation Commands [3]", "`kick`, `ban`, `clear`")
+                .addField("> Persona Commands [5]", "`p3`, `p3fesfusion`, `p3personas`, `p3pfusion`, `p3shadows`")
+                .addField("> Beta Commands [1]", "`music`")
                 .setFooter("Bot created by: Arkane, QueenofPiking, and CoolStalker", client.user.displayAvatarURL)
                 .setTimestamp();
 
