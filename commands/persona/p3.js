@@ -71,30 +71,30 @@ module.exports = {
                 let pageNum = 1;
 
                 forwards.on("collect", r => {
-                    if(pageNum === 2){
+                    if (pageNum === 2) {
                         pageNum = 0;
                         msg.edit(personalist);
                     }
-                    if(pageNum === 1){
+                    if (pageNum === 1) {
                         pageNum = 2;
                         msg.edit(shadowlist);
                     }
-                    if(pageNum === 0){
+                    if (pageNum === 0) {
                         pageNum = 1;
                         msg.edit(personalist);
                     }
                 });
 
                 backwards.on("collect", r => {
-                    if(pageNum === 1){
+                    if (pageNum === 1) {
                         pageNum = 0;
                         msg.edit(shadowlist);
                     }
-                    if(pageNum === 2){
+                    if (pageNum === 2) {
                         pageNum = 1;
                         msg.edit(personalist);
                     }
-                    if(pageNum === 0){
+                    if (pageNum === 0) {
                         pageNum = 2;
                         msg.edit(shadowlist);
                     }
@@ -110,6 +110,32 @@ module.exports = {
             case "orpheus":
                 p3pcommand.run(client, message, args, query);
                 break;
+            case "slime":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "legion":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "black_frost":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "ose":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "decarabia":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "loki":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "susano-o":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "orpheus_telos":
+                p3pcommand.run(client, message, args, query);
+                break;
+
+            //magician arcana
         }
 
         //p3shadows command file
