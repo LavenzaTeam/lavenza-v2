@@ -136,6 +136,38 @@ module.exports = {
                 break;
 
             //magician arcana
+            case "hermes":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "trismegistus":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "nekomata":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "jack_frost":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "pyro_jack":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "hua_po":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "sati":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "orobas":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "rangda":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "surt":
+                p3pcommand.run(client, message, args, query);
+                break;
+
+            //preistess arcana
         }
 
         //p3shadows command file
