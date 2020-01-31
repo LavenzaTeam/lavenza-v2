@@ -43,7 +43,7 @@ module.exports = {
             .setImage("attachment://persona.png")
             .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL)
 
-        if (note) {
+        if (!note) {
             embed.setDescription(`${note} \n[Report a data error!](${config.servers.discordinvite})`)
         } else {
             embed.setDescription(`[Report a data error!](${config.servers.discordinvite})`)
