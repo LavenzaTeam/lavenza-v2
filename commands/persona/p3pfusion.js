@@ -15,6 +15,7 @@ module.exports = {
         //data parsing
         let personaName = args.join("_").toLowerCase();
         if (query) personaName = query;
+        if (personaName.endsWith("/p")) personaName = personaName.slice(0, -3);
         if (!personaName) return message.reply(`You must specify a Persona to search. To view a list of Persona's, type \`${config.prefix}p3pfusion list\`!`)
 
         //checks if the user provided the "list" argument
@@ -89,7 +90,7 @@ module.exports = {
             .addField("Combination #3", result3)
             .addField("Combination #4", result4)
             .addField("Combination #5", result5)
-            .setFooter("Information gathered from Arantius's P3P Fusion Calculator", client.user.displayAvatarURL);
+            .setFooter("Information gathered from Arantius's Persona 3 Portable Fusion Calculator", client.user.displayAvatarURL);
 
         //checks to see if the "note" variable is defined, if it is, display it, if not, display another thing
         if (note) {
