@@ -910,6 +910,24 @@ module.exports = {
             case "magus":
                 p3scommand.run(client, message, args, query);
                 break;
+            case "magical_magus":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "wondrous_magus":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "wondrous_magus_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "prime_magus":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "prime_magus_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "grand_magus":
+                p3scommand.run(client, message, args, query);
+                break;
         }
 
         //p3fesfusion command file
