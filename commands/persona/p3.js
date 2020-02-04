@@ -1063,6 +1063,29 @@ module.exports = {
                 break;
 
             //mother shadows
+            case "mother":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "elegant_mother":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "elegant_mother_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "regal_mother":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "regal_mother_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "pistil_mother":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "divine_mother":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //beetle shadows
         }
 
         //p3fesfusion command file
