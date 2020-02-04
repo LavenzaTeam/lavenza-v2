@@ -884,6 +884,208 @@ module.exports = {
             case "table":
                 p3scommand.run(client, message, args, query);
                 break;
+            case "laughing_table":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "laughing_table_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "crying_table":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "crying_table_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "sleeping_table":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "sleeping_table_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "angry_table":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //magus shadows
+            case "magus":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "magical_magus":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "wondrous_magus":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "wondrous_magus_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "prime_magus":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "prime_magus_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "grand_magus":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //tiara shadows
+            case "tiara":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "muttering_tiara":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "muttering_tiara_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "grieving_tiara":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "grieving_tiara_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "writhing_tiara":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "shouting_tiara":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "shouting_tiara_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //book shadows
+            case "book":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "spurious_book":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "spurious_book_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "maniacal_book":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "maniacal_book_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "silent_book":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "wrathful_book":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "wrathful_book_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //idol shadows
+            case "idol":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "tranquil_idol":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "tranquil_idol_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "liberating_idol":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "liberating_idol_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "ruinous_idol":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "ruinous_idol_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "vehement_idol":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "primitive_idol_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //eagle shadows
+            case "eagle":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "venus_eagle":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "venus_eagle_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "dark_eagle":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "dark_eagle_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "jupiter_eagle":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "eternal_eagle":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //relic shadows
+            case "relic":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "change_relic":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "change_relic_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "constancy_relic":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "constancy_relic_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "creation_relic":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "creation_relic_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "growth_relic":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "affection_relic":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //mother shadows
+            case "mother":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "elegant_mother":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "elegant_mother_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "regal_mother":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "regal_mother_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "pistil_mother":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "divine_mother":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //beetle shadows
         }
 
         //p3fesfusion command file
