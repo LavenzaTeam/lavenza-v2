@@ -884,6 +884,32 @@ module.exports = {
             case "table":
                 p3scommand.run(client, message, args, query);
                 break;
+            case "laughing_table":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "laughing_table_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "crying_table":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "crying_table_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "sleeping_table":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "sleeping_table_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "angry_table":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //magus shadows
+            case "magus":
+                p3scommand.run(client, message, args, query);
+                break;
         }
 
         //p3fesfusion command file
