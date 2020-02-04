@@ -193,8 +193,29 @@ module.exports = {
                 var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Orobas"
                 var note = "";
                 var result1 = "40,929¥ | [Sati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Sati) (28/Magician), [Pyro Jack](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Pyro%20Jack) (14/Magician), [Jack Frost](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Jack%20Frost) (8/Magician)";
-                var result2 = "45,762¥ | [Sati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Sati) (28/Magician), [Hua Po](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Hua%20Po) (20/Magician), ["
-
+                var result2 = "45,762¥ | [Sati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Sati) (28/Magician), [Hua Po](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Hua%20Po) (20/Magician), [Nekomata](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nekomata) (5/Magician)";
+                var result3 = "47,193¥ | [Sati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Sati) (28/Magician), [Hua Po](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Hua%20Po) (20/Magician), [Jack Frost](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Jack%20Frost) (8/Magician)";
+                var result4 = "51,513¥ | [Sati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Sati) (28/Magician), [Hua Po](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Hua%20Po) (20/Magician), [Pyro Jack](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Pyro%20Jack) (14/Magician)";
+                var result5 = "53,740¥ | [Kusi Mitama](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Kusi%20Mitama) (29/Fortune), [Sarasvati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Sarasvati) (27/Priestess)";
+                break;
+                var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Rangda";
+                var note = "";
+                var result1 = "67,938¥ | [Orobas](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Orobas) (34/Magician), [Sati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Sati) (28/Magician), [Nekomata](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nekomata) (5/Magician)";
+                var result2 = "69,369¥ | [Orobas](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Orobas) (34/Magician), [Sati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Sati) (28/Magician), [Jack Frost](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Jack%20Frost) (8/Magician)";
+                var result3 = "73,689¥ | [Orobas](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Orobas) (34/Magician), [Sati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Sati) (28/Magician), [Pyro Jack](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Pyro%20Jack) (14/Magician)";
+                var result4 = "76,636¥ | [Saki Mitama](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Saki%20Mitama) (39/Lovers), [Kusi Mitama](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Kusi%20Mitama) [29/Fortune]";
+                var result5 = "77,599¥ | [Nata Taishi](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nata%20Taishi) (37/Chariot), [Virtue](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Virtue) (32/Justice)";
+                break;
+            case "surt":
+                var name = "Surt";
+            var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Surt";
+            var note = "Requires the Magician Social Link to be maxed!";
+            var result1 = "91,482¥ | [Rangda](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Rangda) (40/Magician), [Orobas](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Orobas) (34/Magician), [Nekomata](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nekomata) (5/Magician)";
+            var result2 = "92,913¥ | [Rangda](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Rangda) (40/Magician), [Orobas](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Orobas) (34/Magician), [Jack Frost](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Jack%20Frost) (8/Magician)";
+            var result3 = "97,233¥ | [Rangda](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Rangda) (40/Magician), [Orobas](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Orobas) (34/Magician), [Pyro Jack](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Pyro%20Jack) (14/Magician)";
+            var result4 = "100,828¥ | [Thoth](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Thoth) (41/Hierophant), [Saki Mitama](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Saki%20Mitama) (39/Lovers)";
+            var result5 = "100,990¥ | [Girimehkala](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Girimehkala) (42/Moon), [Taraka](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Taraka) (38/Hermit)";
+            break;
         }       
 
         //checks if the user entered a valid persona name by checking if the "name" variable was defined
