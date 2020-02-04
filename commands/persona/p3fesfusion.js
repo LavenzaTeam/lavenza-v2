@@ -147,7 +147,7 @@ module.exports = {
                 var result5 = "No Fusion Found"
                 break;
 
-            //magician arcana
+                // Magican Arcana 
             case "nekomata":
                 var name = "Nekomata";
                 var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nekomata";
@@ -193,6 +193,7 @@ module.exports = {
                 var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Orobas"
                 var note = "";
                 var result1 = "40,929¥ | [Sati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Sati) (28/Magician), [Pyro Jack](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Pyro%20Jack) (14/Magician), [Jack Frost](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Jack%20Frost) (8/Magician)";
+                var result2 = "45,762¥ | [Sati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Sati) (28/Magician), [Hua Po](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Hua%20Po) (20/Magician), ["
 
         }       
 
