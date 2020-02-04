@@ -1034,6 +1034,35 @@ module.exports = {
                 break;
 
             //relic shadows
+            case "relic":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "change_relic":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "change_relic_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "constancy_relic":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "constancy_relic_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "creation_relic":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "creation_relic_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "growth_relic":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "affection_relic":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //mother shadows
         }
 
         //p3fesfusion command file
