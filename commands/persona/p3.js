@@ -855,6 +855,35 @@ module.exports = {
                 break;
 
             //hand shadows
+            case "hand":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "magic_hand":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "magic_hand_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "dancing_hand":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "dancing_hand_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "killing_hand":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "killing_hand_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "almighty_hand":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //table shadows
+            case "table":
+                p3scommand.run(client, message, args, query);
+                break;
         }
 
         //p3fesfusion command file
