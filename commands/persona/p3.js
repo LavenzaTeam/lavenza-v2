@@ -724,6 +724,74 @@ module.exports = {
             case "maya":
                 p3scommand.run(client, message, args, query);
                 break;
+            case "cowardly_maya":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "cowardly_maya_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "merciless_maya":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "merciless_maya_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "frivolous_maya":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "haughty_maya":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "indolent_maya":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "insidious_maya":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "insidious_maya_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "ill_fated_maya":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "ill_fated_maya_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "bigoted_maya":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "bigoted_maya_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "desirous_maya":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "desirous_maya_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "imprudent_maya":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "imprudent_maya_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "visceral_maya":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "visceral_maya_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "devious_maya":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "devious_maya_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "conceited_maya_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //hand shadows
         }
 
         //p3fesfusion command file
