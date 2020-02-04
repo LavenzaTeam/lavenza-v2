@@ -261,7 +261,7 @@ module.exports = {
                 var name = "Ganga";
                 var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ganga"
                 var note = "";
-                var result1 = ""
+                var result1 = "44,700¥ | [Sarasvati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Sarasvati) (27/Priestess), [High Pixie](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/High%20Pixie) (21/Priestess), [Apsaras](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Apsaras) (3/Priestess)";
 
         }
 
