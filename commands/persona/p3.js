@@ -928,6 +928,60 @@ module.exports = {
             case "grand_magus":
                 p3scommand.run(client, message, args, query);
                 break;
+
+            //tiara shadows
+            case "tiara":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "muttering_tiara":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "muttering_tiara_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "grieving_tiara":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "grieving_tiara_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "writhing_tiara":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "shouting_tiara":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "shouting_tiara_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //book shadows
+            case "book":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "spurious_book":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "spurious_book_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "maniacal_book":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "maniacal_book_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "silent_book":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "wrathful_book":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "wrathful_book_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //idol shadows
         }
 
         //p3fesfusion command file
