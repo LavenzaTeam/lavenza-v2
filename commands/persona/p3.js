@@ -110,7 +110,13 @@ module.exports = {
             case "orpheus":
                 p3pcommand.run(client, message, args, query);
                 break;
+            case "orpheus_/a":
+                p3pcommand.run(client, message, args, query);
+                break;
             case "slime":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "slime_/a":
                 p3pcommand.run(client, message, args, query);
                 break;
             case "legion":
@@ -142,6 +148,9 @@ module.exports = {
             case "trismegistus":
                 p3pcommand.run(client, message, args, query);
                 break;
+            case "trismegistus_/a":
+                p3pcommand.run(client, message, args, query);
+                break;
             case "nekomata":
                 p3pcommand.run(client, message, args, query);
                 break;
@@ -151,7 +160,13 @@ module.exports = {
             case "pyro_jack":
                 p3pcommand.run(client, message, args, query);
                 break;
+            case "pyro_jack_/a":
+                p3pcommand.run(client, message, args, query);
+                break;
             case "hua_po":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "hua_po_/a":
                 p3pcommand.run(client, message, args, query);
                 break;
             case "sati":
@@ -166,12 +181,18 @@ module.exports = {
             case "surt":
                 p3pcommand.run(client, message, args, query);
                 break;
+            case "surt_/a":
+                p3pcommand.run(client, message, args, query);
+                break;
 
             //preistess arcana
             case "lucia":
                 p3pcommand.run(client, message, args, query);
                 break;
             case "juno":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "juno_/a":
                 p3pcommand.run(client, message, args, query);
                 break;
             case "apsaras":
@@ -192,6 +213,9 @@ module.exports = {
             case "parvati":
                 p3pcommand.run(client, message, args, query);
                 break;
+            case "parvati_/a":
+                p3pcommand.run(client, message, args, query);
+                break;
             case "kikuri-hime":
                 p3pcommand.run(client, message, args, query);
                 break;
@@ -204,6 +228,9 @@ module.exports = {
                 p3pcommand.run(client, message, args, query);
                 break;
             case "artemisia":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "artemisia_/a":
                 p3pcommand.run(client, message, args, query);
                 break;
             case "leanan_sidhe":
@@ -238,6 +265,9 @@ module.exports = {
             case "ceasar":
                 p3pcommand.run(client, message, args, query);
                 break;
+            case "ceasar_/a":
+                p3pcommand.run(client, message, args, query);
+                break;
             case "forneus":
                 p3pcommand.run(client, message, args, query);
                 break;
@@ -260,6 +290,9 @@ module.exports = {
                 p3pcommand.run(client, message, args, query);
                 break;
             case "odin":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "odin_/a":
                 p3pcommand.run(client, message, args, query);
                 break;
 
@@ -291,12 +324,18 @@ module.exports = {
             case "kohryu":
                 p3pcommand.run(client, message, args, query);
                 break;
+            case "kohryu_/a":
+                p3pcommand.run(client, message, args, query);
+                break;
 
             //lovers arcana
             case "io":
                 p3pcommand.run(client, message, args, query);
                 break;
             case "isis":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "isis_/a":
                 p3pcommand.run(client, message, args, query);
                 break;
             case "pixie":
@@ -324,6 +363,9 @@ module.exports = {
                 p3pcommand.run(client, message, args, query);
                 break;
             case "cybele":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "cybele_/a":
                 p3pcommand.run(client, message, args, query);
                 break;
 
@@ -358,12 +400,18 @@ module.exports = {
             case "thor":
                 p3pcommand.run(client, message, args, query);
                 break;
+            case "thor_/a":
+                p3pcommand.run(client, message, args, query);
+                break;
 
             //justice arcana
             case "nemesis":
                 p3pcommand.run(client, message, args, query);
                 break;
-            case "kala-nemi":
+            case "kala_nemi":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "kala_nemi_/a":
                 p3pcommand.run(client, message, args, query);
                 break;
             case "angel":
@@ -388,6 +436,9 @@ module.exports = {
                 p3pcommand.run(client, message, args, query);
                 break;
             case "melchizedek":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "melchizedek_/a":
                 p3pcommand.run(client, message, args, query);
                 break;
 
@@ -447,6 +498,9 @@ module.exports = {
             case "cerberus":
                 p3pcommand.run(client, message, args, query);
                 break;
+            case "cerberus_/a":
+                p3pcommand.run(client, message, args, query);
+                break;
             case "valkyrie":
                 p3pcommand.run(client, message, args, query);
                 break;
@@ -469,6 +523,9 @@ module.exports = {
                 p3pcommand.run(client, message, args, query);
                 break;
             case "siegfried":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "siegfried_/a":
                 p3pcommand.run(client, message, args, query);
                 break;
 
@@ -497,6 +554,9 @@ module.exports = {
             case "attis":
                 p3pcommand.run(client, message, args, query);
                 break;
+            case "attis_/a":
+                p3pcommand.run(client, message, args, query);
+                break;
 
             //death arcana
             case "ghoul":
@@ -518,6 +578,9 @@ module.exports = {
                 p3pcommand.run(client, message, args, query);
                 break;
             case "thanatos":
+                p3pcommand.run(client, message, args, query);
+                break;
+            case "thanatos_/a":
                 p3pcommand.run(client, message, args, query);
                 break;
 
@@ -722,6 +785,103 @@ module.exports = {
         switch (query) {
             //maya shadows
             case "maya":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "cowardly_maya":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "cowardly_maya_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "merciless_maya":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "merciless_maya_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "frivolous_maya":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "haughty_maya":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "indolent_maya":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "insidious_maya":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "insidious_maya_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "ill_fated_maya":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "ill_fated_maya_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "bigoted_maya":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "bigoted_maya_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "desirous_maya":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "desirous_maya_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "imprudent_maya":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "imprudent_maya_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "visceral_maya":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "visceral_maya_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "devious_maya":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "devious_maya_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "conceited_maya_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //hand shadows
+            case "hand":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "magic_hand":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "magic_hand_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "dancing_hand":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "dancing_hand_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "killing_hand":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "killing_hand_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "almighty_hand":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //table shadows
+            case "table":
                 p3scommand.run(client, message, args, query);
                 break;
         }

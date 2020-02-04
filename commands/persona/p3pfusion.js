@@ -55,6 +55,16 @@ module.exports = {
         }
 
         switch (personaName) {
+            // case "template":
+            //     var name = "";
+            //     var url = "";
+            //     var note = "";
+            //     var result1 = "";
+            //     var result2 = "";
+            //     var result3 = "";
+            //     var result4 = "";
+            //     var result5 = "";
+            //     break;
             case "orpheus":
                 var name = "Orpheus";
                 var url = "https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Orpheus"
