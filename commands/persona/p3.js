@@ -1011,6 +1011,29 @@ module.exports = {
                 break;
 
             //eagle shadows
+            case "eagle":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "venus_eagle":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "venus_eagle_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "dark_eagle":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "dark_eagle_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "jupiter_eagle":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "eternal_eagle":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //relic shadows
         }
 
         //p3fesfusion command file
