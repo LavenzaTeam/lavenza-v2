@@ -982,6 +982,35 @@ module.exports = {
                 break;
 
             //idol shadows
+            case "idol":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "tranquil_idol":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "tranquil_idol_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "liberating_idol":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "liberating_idol_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "ruinous_idol":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "ruinous_idol_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "vehement_idol":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "primitive_idol_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //eagle shadows
         }
 
         //p3fesfusion command file
