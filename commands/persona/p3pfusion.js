@@ -95,6 +95,7 @@ module.exports = {
             .setTitle(name)
             .setURL(url)
             .setColor(config.colors.p3blue)
+            .addBlankField(true)
             .addField("Combination #1", result1)
             .addField("Combination #2", result2)
             .addField("Combination #3", result3)
