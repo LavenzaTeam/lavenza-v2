@@ -1216,6 +1216,32 @@ module.exports = {
                 break;
 
             //sigil shadows
+            case "sigil":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "blue_sigil":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "blue_sigil_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "red_sigil":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "red_sigil_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "green_sigil":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "green_sigil_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "white_sigil":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //cupid shadows
         }
 
         //p3fesfusion command file
