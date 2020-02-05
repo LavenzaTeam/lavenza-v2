@@ -1167,6 +1167,176 @@ module.exports = {
                 break;
 
             //twins shadows
+            case "twins":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "trance_twins":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "trance_twins_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "killer_twins":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "killer_twins_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "death_twins":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "crazy_twins":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //tower shadows
+            case "tower":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "dogmatic_tower":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "dogmatic_tower_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "fanatic_tower":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "fanatic_tower_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "apostate_tower":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "corrupt_tower_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "grudge_tower_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //sigil shadows
+            case "sigil":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "blue_sigil":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "blue_sigil_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "red_sigil":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "red_sigil_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "green_sigil":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "green_sigil_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "white_sigil":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //cupid shadows
+            case "cupid":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "obsessed_cupid":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "obsessed_cupid_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "jealous_cupid":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "jealous_cupid_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "devoted_cupid":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "gracious_cupid":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //dancer shadows
+            case "dancer":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "soul_dancer":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "soul_dancer_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "ardent_dancer":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "natural_dancer":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "natural_dancer_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "royal_dancer":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "royal_dancer_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "harem_dancer_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //snake shadows
+            case "snake":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "lustful_snake":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "immoral_snake":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "carnal_snake":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "amorous_snake":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "stoic_snake_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //wheel shadows
+            case "wheel":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "bestial_wheel":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "mach_wheel":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "mach_wheel_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "brave_wheel":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "brave_wheel_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "battle_wheel":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //drive shadows
         }
 
         //p3fesfusion command file
