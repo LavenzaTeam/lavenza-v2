@@ -1363,6 +1363,35 @@ module.exports = {
                 break;
 
             //turret shadows
+            case "turret":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "arcane_turret":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "arcane_turret_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "scarlet_turret":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "wicked_turret":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "wicked_turret_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "hallowed_turret":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "berserk_turret_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "spastic_turret_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //balance shadows
         }
 
         //p3fesfusion command file
