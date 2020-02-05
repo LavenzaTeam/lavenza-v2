@@ -1086,6 +1086,30 @@ module.exports = {
                 break;
 
             //beetle shadows
+            case "beetle":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "grave_beetle":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "grave_beetle_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "adamant_beetle":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "golden_beetle":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "golden_beetle_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "emperor_beetle":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "burning_beetle":
+                p3scommand.run(client, message, args, query);
+                break;
         }
 
         //p3fesfusion command file
