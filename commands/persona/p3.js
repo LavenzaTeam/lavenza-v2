@@ -1713,6 +1713,38 @@ module.exports = {
                 break;
 
             //cyclops shadows
+            case "cyclops":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "mighty_cyclops":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "mighty_cyclops_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "mad_cyclops":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "mad_cyclops_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "fierce_cyclops":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "chaos_cyclops":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "chaos_cyclops_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "brilliant_cyclops_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "rebellious_cyclops_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //jotun shadows
         }
 
         //p3fesfusion command file
