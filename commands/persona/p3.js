@@ -1525,6 +1525,29 @@ module.exports = {
                 break;
 
             //seeker shadows
+            case "seeker":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "death_seeker":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "death_seeker_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "fate_seeker":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "noble_seeker":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "acheron_seeker":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "acheron_seeker_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //dice shadows
         }
 
         //p3fesfusion command file
