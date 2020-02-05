@@ -1771,6 +1771,35 @@ module.exports = {
                 break;
 
             //golden shadows
+            case "wealth_hand":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "wealth_hand_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "treasure_hand":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "treasure_hand_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "supreme_hand":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "supreme_hand_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "opulent_hand":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "luxury_hand":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "glorious_hand":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //full moon bosses
         }
 
         //p3fesfusion command file
