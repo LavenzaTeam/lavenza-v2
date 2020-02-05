@@ -1502,6 +1502,29 @@ module.exports = {
                 break;
 
             //phantom shadows
+            case "phantom":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "phantom_mage":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "phantom_master":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "phantom_master_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "phantom_lord":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "phantom_king":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "phantom_hero_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //seeker shadows
         }
 
         //p3fesfusion command file
