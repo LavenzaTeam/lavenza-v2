@@ -1548,6 +1548,47 @@ module.exports = {
                 break;
 
             //dice shadows
+            case "dice":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "bronze_dice":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "bronze_dice_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "mind_dice":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "curse_dice":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "curse_dice_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "reckoning_dice":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "iron_dice":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "death_dice":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "death_dice_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "silver_dice":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "silver_dice_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "platinum_dice":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //sand shadows
         }
 
         //p3fesfusion command file
