@@ -1337,6 +1337,32 @@ module.exports = {
                 break;
 
             //drive shadows
+            case "drive":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "rampage_drive":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "wild_drive":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "wild_drive_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "killer_drive":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "killer_drive_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "slaughter_drive":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "slaughter_drive_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //turret shadows
         }
 
         //p3fesfusion command file
