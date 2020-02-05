@@ -1689,7 +1689,30 @@ module.exports = {
                 p3scommand.run(client, message, args, query);
                 break;
 
-            //minotuar shadows
+            //minotaur shadows
+            case "minotaur":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "minotaur_iv":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "minotaur_iv_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "minotaur_iii":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "minotaur_ii":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "minotaur_i":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "neo_minotaur_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //cyclops shadows
         }
 
         //p3fesfusion command file
