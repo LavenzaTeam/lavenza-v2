@@ -1392,6 +1392,35 @@ module.exports = {
                 break;
 
             //balance shadows
+            case "balance":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "heat_balance":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "heat_balance_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "sky_balance":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "sky_balance_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "light_balance":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "light_balance_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "world_balance":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "world_balance_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //sword shadows
         }
 
         //p3fesfusion command file
