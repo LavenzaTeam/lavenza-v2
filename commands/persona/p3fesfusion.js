@@ -259,9 +259,47 @@ module.exports = {
                 break;
             case "ganga":
                 var name = "Ganga";
-                var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ganga"
+                var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ganga";
                 var note = "";
                 var result1 = "44,700¥ | [Sarasvati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Sarasvati) (27/Priestess), [High Pixie](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/High%20Pixie) (21/Priestess), [Apsaras](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Apsaras) (3/Priestess)";
+                var result2 = "48,732¥ | [Sarasvati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Sarasvati) (27/Priestess), [High Pixie](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/High%20Pixie) (21/Priestess), [Unicorn](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Unicorn) (11/Priestess)";
+                var result3 = "50,518¥ | [Sati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Sati) (28/Magician), [Yamatano-orochi](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Yamatano-orochi) (26/Moon)";
+                var result4 = "51,814¥ | [Mothman](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Mothman) (32/Hermit), [Legion](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Legion) (22/Fool)";
+                var result5 = "52,183¥ | [Jikokuten](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Jikokuten) (29/Strength), [Shiisaa](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Shiisaa) (26/Hierophant";
+                break;
+            case "parvati":
+                var name = "Parvati";
+                var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Parvati"
+                var note = "";
+                var result1 = "67,632¥ | [Ganga](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ganga) (35/Priestess), [Sarasvati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Sarasvati) (27/Priestess), [Apsaras](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Apsaras) (3/Priestess)";
+                var result2 = "71,664¥ | [Ganga](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ganga) (35/Priestess), [Sarasvati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Sarasvati) (27/Priestess), [Unicorn](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Unicorn) (11/Priestess)";
+                var result3 = "79,480¥ | [Hanuman](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Hanuman) (37/Strength), [Flauros](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Flauros) (33/Hierophant)";
+                var result4 = "79,750¥ | [Taraka](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Taraka) (38/Hermit), [Virtue](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Virtue) (32/Justice)";
+                var result5 = "79,750¥ | [Vasuki](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Vasuki) (38/Hanged Man), [Virtue](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Virtue) (32/Justice)";
+                break;
+            case "kikuri_hime":
+                var name = "Kikuri-Hime";
+                var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Kikuri-hime";
+                var note = "";
+                var result1 = "109,644¥ | [Parvati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Parvati) (47/Priestess), [Sarasvati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Sarasvati) (27/Priestess), [High Pixie](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/High%20Pixie) (21/Priestess)";
+                var result2 = "110,112¥ | [Parvati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Parvati) (47/Priestess), [Ganga](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ganga) (35/Priestess), [Asparas](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Apsaras) (3/Priestess)";
+                var result3 = "114,144¥ | [Parvati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Parvati) (47/Priestess), [Ganga](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ganga) (35/Priestess), [Unicorn](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Unicorn) (11/Priestess)";
+                var result4 = "124,044¥ | [Parvati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Parvati) (47/Priestess), [Ganga](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ganga) (35/Priestess), [High Pixie](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/High%20Pixie) (21/Priestess)";
+                var result5 = "132,576¥ | [Parvati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Parvati) (47/Priestess), [Ganga](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ganga) (35/Priestess), [Sarasvati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Sarasvati) (27/Priestess)";
+                break;
+            case "scathach":
+                var name = "Scathach";
+                var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Scathach";
+                var note = "Requires the Priestess social link to be maxed!";
+                var result1 = "155,148¥ | [Kikuri-Hime](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Kikuri-hime) (53/Priestess), [Parvati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Parvati) (47/Priestess), [Asparas](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Apsaras) (3/Priestess)";
+                var result2 = "159,180¥ | [Kikuri-Hime](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Kikuri-hime) (53/Priestess), [Parvati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Parvati) (47/Priestess), [Unicorn](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Unicorn) (11/Priestess)";
+                var result3 = "169,080¥ | [Kikuri-Hime](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Kikuri-hime) (53/Priestess), [Parvati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Parvati) (47/Priestess), [High Pixie](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/High%20Pixie) (21/Priestess)";
+                var result4 = "169,822¥ | [Kumbhanda](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Kumbhanda) (56/Hermit), [Decarabia](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Decarabia) (50/Fool)";
+                var result5 = "170,686¥ | [Loki](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Loki) (58/Fool) [Titania](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Titania) (48/Lovers)";
+                break;
+            // End of Priestess / Start of Empress
+            case "leanan sidhe":
+                
 
         }
 
