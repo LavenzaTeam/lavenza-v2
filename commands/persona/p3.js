@@ -1800,6 +1800,47 @@ module.exports = {
                 break;
 
             //full moon bosses
+            case "arcana_priestess":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "arcana_empress":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "arcana_emperor":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "arcana_hierophant":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "arcana_lovers":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "arcana_chariot":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "arcana_justice":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "arcana_hermit":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "arcana_fortune":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "arcana_strength":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "arcana_hanged_man":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "nyx_avatar":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "erebus":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //optional bosses
         }
 
         //p3fesfusion command file
