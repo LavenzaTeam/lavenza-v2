@@ -1110,6 +1110,37 @@ module.exports = {
             case "burning_beetle":
                 p3scommand.run(client, message, args, query);
                 break;
+
+            //knight shadows
+            case "knight":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "intrepid_knight":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "intrepid_knight_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "avenger_knight":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "avenger_knight_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "champion_knight":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "champion_knight_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "hell_knight":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "hell_knight_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //castle shadows
         }
 
         //p3fesfusion command file
