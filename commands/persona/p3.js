@@ -1265,6 +1265,35 @@ module.exports = {
                 break;
 
             //dancer shadows
+            case "dancer":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "soul_dancer":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "soul_dancer_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "ardent_dancer":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "natural_dancer":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "natural_dancer_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "royal_dancer":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "royal_dancer_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "harem_dancer_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //snake shadows
         }
 
         //p3fesfusion command file
