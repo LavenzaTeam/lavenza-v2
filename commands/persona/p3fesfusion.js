@@ -299,7 +299,7 @@ module.exports = {
                 break;
             // End of Priestess / Start of Empress
             case "leanan sidhe":
-                
+
 
         }
 
