@@ -1589,6 +1589,26 @@ module.exports = {
                 break;
 
             //sand shadows
+            case "sand":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "flowing_sand":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "flowing_sand_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "perpetual_sand":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "infinite_sand":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "eternal_sand":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //beast shadows
         }
 
         //p3fesfusion command file
