@@ -1841,6 +1841,12 @@ module.exports = {
                 break;
 
             //optional bosses
+            case "the_reaper":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "elizabeth":
+                p3scommand.run(client, message, args, query);
+                break;
         }
 
         //p3fesfusion command file
