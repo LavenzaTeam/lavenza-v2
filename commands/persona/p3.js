@@ -1609,6 +1609,61 @@ module.exports = {
                 break;
 
             //beast shadows
+            case "beast":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "wild_beast":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "wild_beast_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "enslaved_beast":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "enslaved_beast_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "mighty_beast":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "nemean_beast":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "el_dorado_beast_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //gigas shadows
+            case "gigas":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "steel_gigas":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "steel_gigas_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "furious_gigas":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "furious_gigas_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "mythical_gigas":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "mythical_gigas_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "daring_gigas":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "immortal_gigas_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //musha shadows
         }
 
         //p3fesfusion command file
