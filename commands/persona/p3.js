@@ -1745,6 +1745,32 @@ module.exports = {
                 break;
 
             //jotun shadows
+            case "jotun":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "jotun_of_power":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "jotun_of_power_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "jotun_of_blood":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "jotun_of_blood_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "jotun_of_grief":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "jotun_of_evil":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "jotun_of_evil_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //golden shadows
         }
 
         //p3fesfusion command file
