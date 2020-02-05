@@ -2134,7 +2134,7 @@ module.exports = {
                 var url = `https://megamitensei.fandom.com/wiki/Rain_Wind_Musha`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
                 break;
-            case "Tenjin_musha_/a":
+            case "tenjin_musha_/a":
                 var name = "Tenjin Musha (The Answer)";
                 var fileName = "tenjin_mushaAnswer";
                 var url = `https://megamitensei.fandom.com/wiki/Rain_Wind_Musha`;

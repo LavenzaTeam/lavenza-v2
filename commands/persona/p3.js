@@ -1664,6 +1664,32 @@ module.exports = {
                 break;
 
             //musha shadows
+            case "musha":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "hakurou_musha":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "kaiden_musha":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "kaiden_musha_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "onnen_musha":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "onnen_musha_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "tenjin_musha":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "tenjin_musha_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //minotuar shadows
         }
 
         //p3fesfusion command file
