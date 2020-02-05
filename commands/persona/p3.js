@@ -1167,6 +1167,55 @@ module.exports = {
                 break;
 
             //twins shadows
+            case "twins":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "trance_twins":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "trance_twins_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "killer_twins":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "killer_twins_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "death_twins":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "crazy_twins":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //tower shadows
+            case "tower":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "dogmatic_tower":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "dogmatic_tower_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "fanatic_tower":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "fanatic_tower_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "apostate_tower":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "corrupt_tower_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "grudge_tower_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //sigil shadows
         }
 
         //p3fesfusion command file
