@@ -1447,6 +1447,35 @@ module.exports = {
                 break;
 
             //giant shadows
+            case "giant":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "order_giant":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "order_giant_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "stasis_giant":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "stasis_giant_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "harmony_giant":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "void_giant":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "void_giant_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "loss_giant_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //raven shadows
         }
 
         //p3fesfusion command file
