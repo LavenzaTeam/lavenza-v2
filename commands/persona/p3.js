@@ -1421,6 +1421,32 @@ module.exports = {
                 break;
 
             //sword shadows
+            case "sword":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "justice_sword":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "justice_sword_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "conviction_sword":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "conviction_sword_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "judgement_sword":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "judgement_sword_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "doom_sword":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //giant shadows
         }
 
         //p3fesfusion command file
