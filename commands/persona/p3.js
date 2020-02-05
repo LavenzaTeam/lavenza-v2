@@ -1141,6 +1141,32 @@ module.exports = {
                 break;
 
             //castle shadows
+            case "castle":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "death_castle":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "death_castle_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "solid_castle":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "solid_castle_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "power_castle":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "power_castle_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "king_castle":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //twins shadows
         }
 
         //p3fesfusion command file

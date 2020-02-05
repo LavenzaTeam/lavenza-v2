@@ -926,7 +926,7 @@ module.exports = {
                 var url = `https://megamitensei.fandom.com/wiki/Death_Castle`;
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
                 break;
-            case "death_knight_/a":
+            case "death_castle_/a":
                 var name = "Death Castle (The Answer)";
                 var fileName = "death_castleAnswer";
                 var url = `https://megamitensei.fandom.com/wiki/Death_Castle`;
