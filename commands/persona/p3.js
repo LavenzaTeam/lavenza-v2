@@ -1294,6 +1294,26 @@ module.exports = {
                 break;
 
             //snake shadows
+            case "snake":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "lustful_snake":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "immoral_snake":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "carnal_snake":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "amorous_snake":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "stoic_snake_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //wheel shadows
         }
 
         //p3fesfusion command file
