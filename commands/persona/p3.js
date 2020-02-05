@@ -1476,6 +1476,32 @@ module.exports = {
                 break;
 
             //raven shadows
+            case "raven":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "black_raven":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "black_raven_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "vicious_raven":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "vicious_raven_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "amenti_raven":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "ice_raven":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "ice_raven_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //phantom shadows
         }
 
         //p3fesfusion command file
