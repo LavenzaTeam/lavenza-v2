@@ -1242,6 +1242,29 @@ module.exports = {
                 break;
 
             //cupid shadows
+            case "cupid":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "obsessed_cupid":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "obsessed_cupid_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "jealous_cupid":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "jealous_cupid_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "devoted_cupid":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "gracious_cupid":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //dancer shadows
         }
 
         //p3fesfusion command file
