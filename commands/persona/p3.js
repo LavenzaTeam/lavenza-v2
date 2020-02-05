@@ -1314,6 +1314,29 @@ module.exports = {
                 break;
 
             //wheel shadows
+            case "wheel":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "bestial_wheel":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "mach_wheel":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "mach_wheel_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "brave_wheel":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "brave_wheel_/a":
+                p3scommand.run(client, message, args, query);
+                break;
+            case "battle_wheel":
+                p3scommand.run(client, message, args, query);
+                break;
+
+            //drive shadows
         }
 
         //p3fesfusion command file
