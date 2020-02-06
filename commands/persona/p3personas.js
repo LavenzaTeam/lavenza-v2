@@ -4,7 +4,7 @@ const config = require("../../config.json");
 module.exports = {
     config: {
         name: "p3personas",
-        aliases: ["persona3personas", "p3p"],
+        aliases: [],
         description: "Views Persona data on a specified Persona",
         usage: "<persona> (/a)",
         category: "persona"
