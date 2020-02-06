@@ -5,7 +5,7 @@ module.exports = {
     config: {
         name: "p5personas",
         aliases: ["p5p", "persona5personas"],
-        description: "",
+        description: "Displays data for every Persona in Persona 5!",
         usage: "<persona>",
         category: "persona"
     },
