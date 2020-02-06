@@ -9,7 +9,7 @@ module.exports = {
         usage: "<shadow>",
         category: "persona"
     },
-    run: async (client, message, args) => {
+    run: async (client, message, args, query) => {
         //general data parsing
         let shadowName = args.join("_").toLowerCase();
         if(query) shadowName = query;
