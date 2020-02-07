@@ -38,7 +38,7 @@ module.exports = {
         //p5fusion command file
         switch (query) {
             case "arsene_/f":
-                p5pcommand.run(client, message, args, query);
+                p5fcommand.run(client, message, args, query);
                 break;
         }
     }
