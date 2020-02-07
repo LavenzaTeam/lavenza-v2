@@ -15,6 +15,7 @@ module.exports = {
         if (query) personaName = query;
         if (personaName.endsWith("/f")) personaName = personaName.slice(0, -3);
         if (!personaName) return message.reply(`You have entered an invalid Persona name! To view a loist of all Persona's, type \`${config.prefix}p5fusion list\`!`);
+        console.log(personaName);
 
         //checks if the user specified the list variable
         if (personaName === "list") {
