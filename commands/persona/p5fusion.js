@@ -41,7 +41,7 @@ module.exports = {
 
         //checks if the name variable was defined
         if (!name) return message.reply(`You have entered an invalid Persona name! To view a list of Persona's, type \`${config.prefix}p5fusion list\`!`);
-        var note;
+        var note = "";
 
         //creates the embed and sends it
         let embed = new RichEmbed()
