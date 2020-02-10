@@ -2969,6 +2969,6 @@ module.exports = {
                 return;
         }
 
-        message.channel.send("Hey Developer Guy! I made it down the list without erroring. Funny thing is, this is an error message because if the user entered an invalid argument, nothing would happen. So, you should like, fix that, just incase you know!");
+        message.reply(`You have entered an invalid Persona/Shadow name! \nTo view a list of all valid Persona/Shadows, check \`${config.prefix}p3 list\``);
     }
 }
