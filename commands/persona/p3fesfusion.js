@@ -372,6 +372,12 @@ module.exports = {
                 var name = "Aliat";
                 var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Alilat";
                 var note = "Requires the Empress social link to be maxed out!";
+                var result1 = "371,404¥ | [Asura](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Asura) (85/Sun), [Ananta](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ananta) (75/Aeon)";
+                var result2 = "375,454¥ | [Orpheus Telos](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Orpheus%20Telos) (90/Fool), [Suparna](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Suparna) (70/Sun)";
+                var result3 = "375,607¥ | [Asura](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Asura) (85/Sun), [Susano-o](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Susano-o) (76/Fool)";
+                var result4 = "392,959¥ | [Asura](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Asura) (85/Sun), [Atavaka](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Atavaka) (80/Aeon)";
+                var result5 = "393,715¥ | [Metatron](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Metatron) (87/Aeon), [Vishnu](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Vishnu) (78/Sun)";
+                break;
                 
                 
                 
