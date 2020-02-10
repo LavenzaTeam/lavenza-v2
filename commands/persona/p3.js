@@ -1881,6 +1881,32 @@ module.exports = {
                 break;
 
             //magician arcana
+            case "nekomata_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "jack_frost_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "pyro_jack_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "hua_po_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "sati_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "orobas_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "rangda_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "surt_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+
+            //priestess arcana
         }
 
         //p3pfusion command file
