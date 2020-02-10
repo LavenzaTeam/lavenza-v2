@@ -1855,6 +1855,32 @@ module.exports = {
             case "orpheus_/f":
                 p3ffcommand.run(client, message, args, query);
                 break;
+            case "slime_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "legion_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "black_frost_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "ose_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "decarabia_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "loki_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "susano-o_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "orpheus_telos_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+
+            //magician arcana
         }
 
         //p3pfusion command file
