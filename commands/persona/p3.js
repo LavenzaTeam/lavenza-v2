@@ -2409,6 +2409,32 @@ module.exports = {
             case "orpheus_/p":
                 p3pfcommand.run(client, message, args, query);
                 break;
+            case "slime_/p":
+                p3pfcommand.run(client, message, args, query);
+                break;
+            case "legion_/p":
+                p3pfcommand.run(client, message, args, query);
+                break;
+            case "black_frost_/p":
+                p3pfcommand.run(client, message, args, query);
+                break;
+            case "ose_/p":
+                p3pfcommand.run(client, message, args, query);
+                break;
+            case "decarabia_/p":
+                p3pfcommand.run(client, message, args, query);
+                break;
+            case "loki_/p":
+                p3pfcommand.run(client, message, args, query);
+                break;
+            case "susano-o_/p":
+                p3pfcommand.run(client, message, args, query);
+                break;
+            case "orpheus_telos_/p":
+                p3pfcommand.run(client, message, args, query);
+                break;
+
+            //magician arcana
         }
     }
 }
