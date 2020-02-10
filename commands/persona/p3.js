@@ -1907,6 +1907,58 @@ module.exports = {
                 break;
 
             //priestess arcana
+            case "apsaras_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "unicorn_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "high_pixie_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "sarasvati_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "ganga_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "parvati_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "kikuri_hime_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "scathach_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+
+            //empress arcana
+            case "leanan_sidhe_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+                case "yaksini_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+                case "laksmi_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+                case "hariti_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+                case "gabriel_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+                case "mother_harlot_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+                case "skadi_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+                case "alilat_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+
+            //emperor arcana
         }
 
         //p3pfusion command file
