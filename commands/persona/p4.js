@@ -22,6 +22,7 @@ module.exports = {
             return message.reply("The list of Persona 4 and Persona 4 The Golden Persona's and Shadows is currently unavaliable! Check back soon!");
         }
 
+        //checks if the user specified 2 switches and if they did, move the 2 variables around so that they can be used effectivley
         if (query.includes("/f")) {
             if (query.includes("/g")) {
                 query = query.slice(0, -6);
@@ -50,6 +51,7 @@ module.exports = {
                 break;
         }
 
+        //p4gfcommand
         switch (query) {
             case "izanagi_/f_/g":
                 p4gfcommand.run(client, message, args, query);
