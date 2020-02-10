@@ -22,8 +22,11 @@ module.exports = {
             return message.reply("The list of Persona 4 and Persona 4 The Golden Persona's and Shadows is currently unavaliable! Check back soon!");
         }
 
-        if(query.includes("/f")) {
-            console.log("String includes /f");
+        if (query.includes("/f")) {
+            if (query.includes("/g")) {
+                query = query.slice(0, -6);
+                query = `${query}_/f_/g`
+            }
         }
 
         //p4pcommand file
@@ -48,7 +51,7 @@ module.exports = {
         }
 
         switch (query) {
-            case "izanagi_/g_/f":
+            case "izanagi_/f_/g":
                 p4gfcommand.run(client, message, args, query);
                 break;
         }
