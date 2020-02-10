@@ -13,7 +13,7 @@ module.exports = {
         //general data parsing
         let personaName = args.join("_").toLowerCase();
         if (query) personaName = query;
-        if (personaName.endsWith("/f")) personaName = personaName.slice(0, -3);
+        if (personaName.includes("/f")) personaName = personaName.slice(0, -6);
 
         //checks if a persona was specified by the user
         if (!personaName) return message.reply(`You have not specified a Persona! Check \`${config.prefix}p4gfusion list\` for a list of valid Persona's!`);
