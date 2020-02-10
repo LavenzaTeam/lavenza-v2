@@ -1855,6 +1855,58 @@ module.exports = {
             case "orpheus_/f":
                 p3ffcommand.run(client, message, args, query);
                 break;
+            case "slime_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "legion_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "black_frost_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "ose_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "decarabia_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "loki_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "susano-o_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "orpheus_telos_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+
+            //magician arcana
+            case "nekomata_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "jack_frost_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "pyro_jack_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "hua_po_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "sati_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "orobas_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "rangda_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+            case "surt_/f":
+                p3ffcommand.run(client, message, args, query);
+                break;
+
+            //priestess arcana
         }
 
         //p3pfusion command file
