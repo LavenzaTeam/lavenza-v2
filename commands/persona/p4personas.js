@@ -36,7 +36,7 @@ module.exports = {
 
         //checks if the name variable was specified in the switch case statement loop
         if (!name) return message.reply(`You have entered an invalid Persona name! Check \`${config.prefix}p4personas list\` for a list of all valid Persona's!`);
-        var quote = "";
+        if (!quote) var quote = "";
 
         //creates the embed with all the values specified in the switch case statement loop
         let embed = new RichEmbed()
