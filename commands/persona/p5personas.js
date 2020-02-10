@@ -40,16 +40,11 @@ module.exports = {
         let embed = new RichEmbed()
             .setTitle(name)
             .setURL(url)
+            .setDescription(`${quote} \n[Report a data error!](${config.servers.discordinvite})`)
             .setColor(config.colors.p5red)
             .attachFile(img)
             .setImage("attachment://persona.png")
             .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL)
-
-        if (quote) {
-            embed.setDescription(`${quote} \n[Report a data error!](${config.servers.discordinvite})`)
-        } else {
-            embed.setDescription(`[Report a data error!](${config.servers.discordinvite})`)
-        }
 
         return message.channel.send(embed);
     }
