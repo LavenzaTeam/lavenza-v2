@@ -3,8 +3,8 @@ const config = require("../../config.json");
 
 module.exports = {
     config: {
-        name: "p4fusion",
-        aliases: ["p4f"],
+        name: "p4gfusion",
+        aliases: ["p4gf"],
         description: "A command that sends data for every fusion in Persona 4 The Golden",
         usage: "<persona>",
         category: "persona"
