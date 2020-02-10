@@ -328,6 +328,51 @@ module.exports = {
                 var result4 = "157,294¥ | [Bishamonten](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Bishamonten) (60/Tower), [Rangda](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Rangda) (40/Magician)";
                 var result5 = "157,771¥ | [Loki](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Loki) (58/Fool), [Quetzalcoatl](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Quetzalcoatl) (43/Sun)";
                 break;
+            case "hariti":
+                var name = "Hariti";
+                var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Hariti";
+                var note = "";
+                var result1 = "197,335¥ | [Chernobog](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Chernobog) (58/Moon), [Byakko](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Byakko) (57/Temperance)";
+                var result2 = "198,478¥ | [Seth](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Seth) (66/Moon), [Titania](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Titania) (48/Lovers)";
+                var result3 = "198,478¥ | [Seth](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Seth) (66/Moon), [Ubelluris](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ubelluris) (48/Hanged Man)";
+                var result4 = "198,955¥ | [Horus](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Horus) (63/Sun), [Barong](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Barong) (52/Emperor)";
+                var result5 = "199,603¥ | [Scatchach](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Scathach) (64/Priestess), [Suzaku](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Suzaku) (51/Temperance)";
+                break;
+            case "gabriel":
+                var name = "Gabriel";
+                var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Gabriel";
+                var note = "";
+                var result1 = "230,140¥ | [Nidhoggr](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nidhoggr) (69/Aeon), [Jatayu](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Jatayu) (55/Sun)";
+                var result2 = "232,075¥ | [Attis](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Attis) (67/Hanged Man), [Chernobog](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Chernobog) (58/Moon)";
+                var result3 = "234,496¥ | [Horus](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Horus) (63/Sun), [Uriel](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Uriel) (63/Aeon)";
+                var result4 = "234,883¥ | [Baal Zebul](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Baal%20Zebul) (71/Moon), [Hecatoncheries](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Hecatoncheires)(54/Hanged Man)";
+                var result5 = "234,982¥ | [Seth](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Seth) (66/Moon), [Hell Biker](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Hell%20Biker) (60/Hanged Man)";
+                break;
+            case "mother_harlot":
+                var name = "Mother Harlot";
+                var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Mother%20Harlot";
+                var note = "";
+                var result1 = "278,992¥ | [Baal Zebul](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Baal%20Zebul) (71/Moon), [Attis](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Attis) (67/Hanged Man)";
+                var result2 = "280,126¥ | [Sandalphon](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Sandalphon) (74/Moon), [Yurlungur](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Yurlungur) (64/Temperance)";
+                var result3 = "280,720¥ | [Ananta](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ananta) (75/Aeon), [Horus](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Horus) (63/Sun)";
+                var result4 = "282,655¥ | [Suparna](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Suparna) (70/Sun), [Nidhoggr](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nidhoggr) (69/Aeon)";
+                var result5 = "282,763¥ | [Baal Zebul](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Baal%20Zebul) (71/Moon), [Cybele](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Cybele) (68/Lovers)";
+                break;
+            case "skadi":
+                var name = "Skadi";
+                var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Skadi";
+                var note = "";
+                var result1 = "325,180¥ | [Asura](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Asura) (85/Moon), [Uriel](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Uriel) (63/Aeon)";
+                var result2 = "328,294¥ | [Atavaka](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Atavaka) (80/Aeon), [Suparna](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Suparna) (70/Sun)";
+                var result3 = "334,419¥ | [Mother Harlot](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Mother%20Harlot) (74/Empress), [Gabriel](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Gabriel) (69/Empress), [Leanan Sidhe](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Leanan%20Sidhe) (33/Empress)";
+                var result4 = "334,720¥ | [Metatron](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Metatron) (87/Aeon), [Horus](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Horus) (63/Sun)";
+                var result5 = "338,275¥ | [Metatron](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Metatron) (87/Aeon), [Scatchach](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Scathach) (64/Priestess)";
+                break;
+            case "aliat":
+                var name = "Aliat";
+                var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Alilat";
+                var note = "Requires the Empress social link to be maxed out!";
+                
                 
                 
 
