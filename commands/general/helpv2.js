@@ -23,8 +23,7 @@ module.exports = {
                 .addField("> Info Commands [2]", "`ping`, `version`")
                 .addField("> Fun Commands [1]", "`avatar`")
                 .addField("> Moderation Commands [3]", "`kick`, `ban`, `clear`")
-                .addField("> Persona Commands [5]", "`p3`, `p3fesfusion`, `p3personas`, `p3pfusion`, `p3shadows`")
-                .addField("> Beta Commands [1]", "`music`")
+                .addField("> Persona Commands [3]", "`p3`, `p3fesfusion`, `p3pfusion`")
                 .setFooter("Bot created by: Arkane, QueenofPiking, and CoolStalker", client.user.displayAvatarURL)
                 .setTimestamp();
 

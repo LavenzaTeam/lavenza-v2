@@ -1,6 +1,6 @@
 {
   "name": "lavenza",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "A Persona bot for Discord!",
   "main": "app.js",
   "repository": "github:ArkaneOnline/lavenza",
@@ -15,6 +15,6 @@
   "scripts": {
     "start": "node app.js"
   },
-  "author": "Arkane",
+  "author": "Arkane, QueenofPiking, and CoolStalker",
   "license": "MIT"
 }
