@@ -37,9 +37,9 @@ module.exports = {
                         .setColor(config.colors.purple)
                         .setThumbnail(client.user.displayAvatarURL)
                         .setDescription("A command that tells you about other commands!")
-                        .addField("Usage", `${config.prefix}help (command)`)
+                        .addField("Usage", `\`${config.prefix}help (command)\``)
                         .addField("Category", "General")
-                        .addField("Aliases", `${config.prefix}hv2`)
+                        .addField("Aliases", `\`${config.prefix}hv2\``)
                         .setFooter("<> = required | () = optional", client.user.displayAvatarURL)
                         .setTimestamp();
                     break;
