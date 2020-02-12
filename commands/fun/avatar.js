@@ -4,7 +4,7 @@ const config = require("discord.js");
 module.exports = {
     config: {
         name: "avatar",
-        aliases: ["pfp", "profilepic"],
+        aliases: ["pfp"],
         description: "Sends an image of your profile picture!",
         usage: "(@user)",
         category: "fun"
