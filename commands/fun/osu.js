@@ -18,7 +18,7 @@ module.exports = {
         };
 
         let embed = new RichEmbed()
-            .setImage(`http://lemmmy.pw/osusig/sig.php?colour=hexffcc22&uname=${args.split(" ")[0]}&mode=${mod[args.split(" ")[1]]}&pp=0&flagshadow&flagstroke&darkheader&avatarrounding=4&onlineindicator=2&xpbar`)
+            .setImage(`http://lemmmy.pw/osusig/sig.php?colour=hexffcc22&uname=NiflOnline&mode=${mod[args.split(" ")[1]]}&pp=0&flagshadow&flagstroke&darkheader&avatarrounding=4&onlineindicator=2&xpbar`)
 
         return message.channel.send(embed);
     }
