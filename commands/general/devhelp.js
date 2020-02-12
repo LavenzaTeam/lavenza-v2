@@ -12,13 +12,18 @@ module.exports = {
         category: "general"
     },
     run: async (client, message, args) => {
+        let devs = config.ids;
+        devs.forEach(dev => {
+            if (!message.author.id === dev) return;
+        });
+
         //im not gonna explain this, you don't need to fuck with this anyways
         const embed = new RichEmbed()
             .setColor(config.colors.purple)
             .setAuthor(`${message.guild.me.displayName} Help`, message.guild.iconURL)
             .setThumbnail(client.user.displayAvatarURL)
 
-        if(!args[0]) {
+        if (!args[0]) {
             const categories = readdirSync("./commands/")
 
             embed.setDescription(`These are the available commands for ${message.guild.me.displayName}\nMy prefix is: **${config.prefix}**\nYou can view more details about a specific command with \`${config.prefix}help <command>\``)
@@ -29,7 +34,7 @@ module.exports = {
                 const capitalise = category.slice(0, 1).toUpperCase() + category.slice(1)
                 try {
                     embed.addField(`> ❯ ${capitalise} [${dir.size}]:`, dir.map(c => `\`${c.config.name}\``).join(" "))
-                } catch(e) {
+                } catch (e) {
                     console.log(e)
                 }
             })
@@ -37,7 +42,7 @@ module.exports = {
             return message.channel.send(embed)
         } else {
             let command = client.commands.get(client.aliases.get(args[0].toLowerCase()) || args[0].toLowerCase())
-            if(!command) return message.channel.send(embed.setTitle("Invalid Command.").setDescription(`Do \`${config.prefix}help\` for the list of the commands.`))
+            if (!command) return message.channel.send(embed.setTitle("Invalid Command.").setDescription(`Do \`${config.prefix}help\` for the list of the commands.`))
             command = command.config
 
             embed.setDescription(stripIndents`My prefix is: \`${config.prefix}\`\n
