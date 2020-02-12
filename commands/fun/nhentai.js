@@ -7,7 +7,7 @@ module.exports = {
         category: "fun"
     },
     run: async (client, message, args) => {
-        let baseurl = "https://nhentai.net/";
+        let baseurl = "https://nhentai.net/g/";
         let sauce = Math.floor(Math.random() * 300000) + 1;
         message.channel.send("Generating link...").then(msg => {
             msg.edit(`URL Generated! \n${baseurl}${sauce}`);
