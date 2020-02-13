@@ -12,10 +12,8 @@ module.exports = {
         category: "general"
     },
     run: async (client, message, args) => {
-        let devs = config.ids;
-        devs.forEach(dev => {
-            if (!message.author.id === dev) return;
-        });
+        let dev = config.ids;
+        if(message.author.id !== dev.arkane || dev.pike || dev.coolstalker) return message.reply("Test works chief.");
 
         //im not gonna explain this, you don't need to fuck with this anyways
         const embed = new RichEmbed()
