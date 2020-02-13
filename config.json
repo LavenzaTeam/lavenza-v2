@@ -27,13 +27,12 @@
         "coolstalker": "185912729452806144"
     },
     "servers": {
-        "spicybotserver": "603768645730172928",
-        "developmentserver": "640749553313906713",
-        "ramenshopserver": "511289361178820618",
+        "supportServer": "640749553313906713",
+        "metaverseServer": "650885407352815616",
         "discordinvite": "https://discord.io/lavenza"
     },
     "inviteurl": {
         "clientid": "639988194229878810",
-        "permissionsinteger": "8"
+        "permissionsinteger": "37604544"
     }
 }
