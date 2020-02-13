@@ -12,10 +12,6 @@ module.exports = {
         category: "general"
     },
     run: async (client, message, args) => {
-        let dev = config.ids;
-        if(message.author.id !== dev.arkane || dev.pike || dev.coolstalker || "empty"){
-            if ("empty") return message.reply("Command only usable by developers.");
-        }
 
         //im not gonna explain this, you don't need to fuck with this anyways
         const embed = new RichEmbed()
