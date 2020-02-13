@@ -20,9 +20,8 @@ module.exports = {
                 .setThumbnail(client.user.displayAvatarURL)
                 .setDescription(`Below is a list of commands for ${client.user.username}! To view more info about a specific command, type \`${config.prefix}help <command>\``)
                 .setColor(config.colors.darkblue)
-                .addField("> General Commands [3]", "`help`, `invite`, `support`")
+                .addField("> General Commands [4]", "`help`, `invite`, `support`, `avatar`")
                 .addField("> Info Commands [2]", "`ping`, `version`")
-                .addField("> Fun Commands [1]", "`avatar`")
                 .addField("> Persona Commands [1]", "`p3`")
                 .setFooter("Bot created by: Arkane, QueenofPiking, and CoolStalker", client.user.displayAvatarURL)
                 .setTimestamp();
