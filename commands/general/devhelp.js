@@ -7,13 +7,13 @@ module.exports = {
     config: {
         name: "devhelp",
         aliases: ["dh", "devcommands"],
-        description: "The help command",
+        description: "The developer help command",
         usage: "(command)",
         category: "general"
     },
     run: async (client, message, args) => {
         let dev = config.ids;
-        if(!message.author.id !== dev.arkane || dev.pike || dev.coolstalker) return message.reply("Test works chief.");
+        if(message.author.id !== dev.arkane) return message.reply("Command only usable by developers.");
 
         //im not gonna explain this, you don't need to fuck with this anyways
         const embed = new RichEmbed()
