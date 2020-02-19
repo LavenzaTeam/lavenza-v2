@@ -10,11 +10,6 @@ module.exports = {
         category: "general"
     },
     run: async (client, message, args) => {
-        let embed = new RichEmbed()
-        .setTitle("Click Here to join the Support Server!")
-        .setURL(config.servers.discordinvite)
-        .setColor(config.colors.darkblue);
-
-        message.channel.send(embed);
+        return await message.channel.send("https://lavenza.tk/support");
     }
 }

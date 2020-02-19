@@ -20,7 +20,7 @@ module.exports = {
                 .setThumbnail(client.user.displayAvatarURL)
                 .setDescription(`Below is a list of commands for ${client.user.username}! To view more info about a specific command, type \`${config.prefix}help <command>\``)
                 .setColor(config.colors.darkblue)
-                .addField("> General Commands [4]", "`help`, `invite`, `support`, `avatar`")
+                .addField("> General Commands [4]", "`help`, `invite`, `support`, `patreon`, `avatar`")
                 .addField("> Info Commands [2]", "`ping`, `version`")
                 .addField("> Persona Commands [1]", "`p3`")
                 .setFooter("Bot created by: Arkane, QueenofPiking, and CoolStalker", client.user.displayAvatarURL)
@@ -60,6 +60,18 @@ module.exports = {
                         .setThumbnail(client.user.displayAvatarURL)
                         .setDescription("Provides you with a link to the Lavenza Support server!")
                         .addField("Usage", `\`${config.prefix}support\``)
+                        .addField("Category", "General")
+                        .addField("Aliases", `None!`)
+                        .setFooter("<> = required | () = optional", client.user.displayAvatarURL)
+                        .setTimestamp();
+                    break;
+                case "patreon":
+                    var embed = new RichEmbed()
+                        .setTitle("Patreon Command")
+                        .setColor(config.colors.purple)
+                        .setThumbnail(client.user.displayAvatarURL)
+                        .setDescription("Sends a link to the Patreon page")
+                        .addField("Usage", `\`${config.prefix}patreon\``)
                         .addField("Category", "General")
                         .addField("Aliases", `None!`)
                         .setFooter("<> = required | () = optional", client.user.displayAvatarURL)
