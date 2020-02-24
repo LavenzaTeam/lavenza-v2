@@ -7,7 +7,7 @@ module.exports = {
         aliases: ["pfp"],
         description: "Sends an image of your profile picture!",
         usage: "(@user)",
-        category: "fun"
+        category: "general"
     },
     run: async (client, message, args) => {
         //stores the user that you pinged in a variable
