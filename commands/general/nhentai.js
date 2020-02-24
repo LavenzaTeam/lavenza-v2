@@ -4,7 +4,7 @@ module.exports = {
         aliases: [],
         description: "A command the generates a random nhentai link and sends it in chat",
         usage: "",
-        category: "fun"
+        category: "general"
     },
     run: async (client, message, args) => {
         let baseurl = "https://nhentai.net/g/";
