@@ -509,6 +509,17 @@ module.exports = {
                 var result4 = "73,360¥	| [Nandi](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nandi) (39/Star), [Queen Mab](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Queen%20Mab) (27/Lovers)";
                 var result5 = "74,431¥	| [Vasuki](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Vasuki) (38/Hanged Man), [Genbu](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Genbu) (29/Temperance)";
                 break;
+            case "hokuto_seikun":
+                var name = "Hokuto Seikun";
+                var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Hokuto%20Seikun";
+                var note = "";
+                var result1 = "92,760¥ | [Thoth](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Thoth) (41/Hierophant), [Flauros](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Flauros) (33/Hierophant), [Omoikane](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Omoikane) (7/Hierophant)"
+                var result2 = "96,756¥ | [Thoth](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Thoth) (41/Hierophant), [Flauros](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Flauros) (33/Hierophant), [Berith](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Berith) (13/Hierophant)";
+                var result3 = "105,454¥ | [Dominion](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Dominion) (42/Justice), [Rangda](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Rangda) (40/Magician)";
+                var result4 = "105,616¥ | [Quetzalcoatl](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Quetzalcoatl) (43/Sun), [Saki Mitama](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Saki%20Mitama) (39/Lovers)";
+                var result5 = "105,886¥ | [Okuninushi](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Okuninushi) (44/Temperance), [Vasuki](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Vasuki) (38/Hanged Man)";
+                break;
+                
 
 
 
