@@ -519,7 +519,26 @@ module.exports = {
                 var result4 = "105,616¥ | [Quetzalcoatl](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Quetzalcoatl) (43/Sun), [Saki Mitama](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Saki%20Mitama) (39/Lovers)";
                 var result5 = "105,886¥ | [Okuninushi](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Okuninushi) (44/Temperance), [Vasuki](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Vasuki) (38/Hanged Man)";
                 break;
-                
+            case "daisoujou":
+                var name = "Daisoujou";
+                var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Daisoujou";
+                var note = "";
+                var result1 = "106,045¥ | [Saki Mitama](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Saki%20Mitama) (39/Lovers), [Kusi Mitama](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Kusi%20Mitama) (29/Fortune), [Mithra](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Mithra) (22/Temperance), [Nigi Mitama](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nigi%20Mitama) (12/Temperance), [Ara Mitama](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ara%20Mitama) (6/Chariot)";
+                var result2 = "Fusion Not Found!";
+                var result3 = "Fusion Not Found!";
+                var result4 = "Fusion Not Found!";
+                var result5 = "Fusion Not Found!";
+                break;
+            case "kohryu":
+                var name = "Kohryu";
+                var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Kohryu";
+                var note = "Requires the Hierophant Social Link to be maxed!"
+                var result1 = "246,035¥ | [Byakko](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Byakko) (57/Temperance), [Suzaku](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Suzaku) (51/Temperance), [Seiryuu](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Seiryuu) (36/Temperance), [Genbu](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Genbu) (29/Temperance)";
+                var result2 = "Fusion Not Found!";
+                var result3 = "Fusion Not Found!";
+                var result4 = "Fusion Not Found!";
+                var result5 = "Fusion Not Found!";
+                break;
 
 
 
