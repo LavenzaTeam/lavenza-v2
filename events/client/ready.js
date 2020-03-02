@@ -15,6 +15,7 @@ module.exports = async (client) => {
         const presence = Math.floor(Math.random() * (presences.length - 1) + 1);
         client.user.setPresence({ game: { name: `${prefix}help | ${presences[presence]}`}, status: "dnd" });
     }, 60000)
+    client.user.setAvatar("https://lavenza.tk/assets/bot_avatar.png").then(user => console.log("Avatar synced with website avatar: bot_avatar.png"));
     console.log(`${client.user.username} is online!`);
     console.log(`${client.user.username} is currently in ${client.guilds.size} servers!`);
     console.log(`${client.user.username} is currently in version ${package.version}`);
