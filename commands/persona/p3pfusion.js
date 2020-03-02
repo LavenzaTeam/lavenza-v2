@@ -732,6 +732,7 @@ module.exports = {
                 break;
 
             //justice arcana
+            //gpg key test, remove when you start coding again lol
             // case "template":
             //     var name = "";
             //     var url = "";
