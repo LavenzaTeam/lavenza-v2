@@ -732,6 +732,7 @@ module.exports = {
                 break;
 
             //justice arcana
+            //signed commit?
             // case "template":
             //     var name = "";
             //     var url = "";
