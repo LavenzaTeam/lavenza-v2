@@ -7,7 +7,7 @@ module.exports = async (client, message) => {
         .setColor(colors.darkblue);
 
     if(message.author.bot) return;
-    if(message.channel.type === 'dm') return message.send(messageEmbed);
+    if(message.channel.type === 'dm') return message.channel.send(messageEmbed);
 
     let args = message.content.slice(prefix.length).trim().split(/ +/g)
     let cmd = args.shift().toLowerCase();
