@@ -14,7 +14,7 @@ module.exports = {
     run: async (client, message, args) => {
 
         //im not gonna explain this, you don't need to fuck with this anyways
-        const embed = new RichEmbed()
+        const embed = new MessageEmbed()
             .setColor(config.colors.purple)
             .setAuthor(`${message.guild.me.displayName} Help`, message.guild.iconURL)
             .setThumbnail(client.user.displayAvatarURL)
