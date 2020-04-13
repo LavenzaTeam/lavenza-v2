@@ -1,8 +1,13 @@
-const { prefix } = require("../../config.json");
+const { prefix, colors } = require("../../config.json");
+const { RichEmbed } = require("discord.js");
 
 module.exports = async (client, message) => {
+    let messageEmbed = new RichEmbed()
+        .setDescription(`Hello! I unfortunately cannot be used in DMs. \nYou can however [invite me](https://lavenza.tk/invite) to your own server. \nYou can also take a look at [our server](https://lavenza.tk/discord) if you don't feel like adding it to your own server!`)
+        .setColor(colors.darkblue);
+
     if(message.author.bot) return;
-    if(message.channel.type === 'dm') return message.reply("I can only be used in a Discord Server. Retard.");
+    if(message.channel.type === 'dm') return message.send();
 
     let args = message.content.slice(prefix.length).trim().split(/ +/g)
     let cmd = args.shift().toLowerCase();

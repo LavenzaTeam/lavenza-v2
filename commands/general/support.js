@@ -10,6 +10,6 @@ module.exports = {
         category: "general"
     },
     run: async (client, message, args) => {
-        return await message.channel.send("https://lavenza.tk/support");
+        return await message.channel.send("https://lavenza.tk/discord");
     }
 }
