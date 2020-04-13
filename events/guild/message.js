@@ -1,5 +1,5 @@
 const { prefix, colors } = require("../../config.json");
-const { RichEmbed } = require("discord.js");
+const { MessageEmbed } = require("discord.js");
 
 module.exports = async (client, message) => {
     let messageEmbed = new MessageEmbed()

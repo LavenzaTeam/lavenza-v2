@@ -1,4 +1,4 @@
-const { RichEmbed } = require("discord.js");
+const { MessageEmbed } = require("discord.js");
 const config = require("../../config.json");
 const { readdirSync } = require("fs")
 const { stripIndents } = require("common-tags");
