@@ -2,7 +2,7 @@ const { prefix, colors } = require("../../config.json");
 const { RichEmbed } = require("discord.js");
 
 module.exports = async (client, message) => {
-    let messageEmbed = new RichEmbed()
+    let messageEmbed = new MessageEmbed()
         .setDescription(`Hello! I unfortunately cannot be used in DMs. \nYou can however [invite me](https://lavenza.tk/invite) to your own server. \nYou can also take a look at [our server](https://lavenza.tk/discord) if you don't feel like adding it to your own server!`)
         .setColor(colors.darkblue);
 
