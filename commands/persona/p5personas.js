@@ -1,5 +1,5 @@
 const config = require("../../config.json");
-const { MessageEmbed, Attachment } = require("discord.js");
+const { MessageEmbed, MessageAttachment } = require("discord.js");
 
 module.exports = {
     config: {
@@ -28,7 +28,7 @@ module.exports = {
                 var fileName = personaName;
                 //var quote = "\"I am the great thief, Arsene! You need my help once more...? Very well, use my power wisely.\"";
                 var url = `https://megamitensei.fandom.com/wiki/${name}`;
-                var img = new Attachment(`./personadata/p5/${fileName}.png`, "persona.png")
+                var img = new MessageAttachment(`./personadata/p5/${fileName}.png`, "persona.png")
                 break;
         }
 

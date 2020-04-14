@@ -1,5 +1,5 @@
 const config = require("../../config.json");
-const { Attachment, MessageEmbed } = require("discord.js");
+const { MessageAttachment, MessageEmbed } = require("discord.js");
 
 module.exports = {
     config: {
@@ -28,7 +28,7 @@ module.exports = {
                 var realName = "Jack O'Lantern";
                 var fileName = shadowName;
                 var url = "https://megamitensei.fandom.com/wiki/Pyro_Jack";
-                var img = new Attachment(`./personadata/p5shadows/${fileName}.png`, "shadow.png");
+                var img = new MessageAttachment(`./personadata/p5shadows/${fileName}.png`, "shadow.png");
                 break;
         }
 

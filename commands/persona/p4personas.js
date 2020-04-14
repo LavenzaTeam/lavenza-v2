@@ -1,4 +1,4 @@
-const { Attachment, MessageEmbed } = require("discord.js")
+const { MessageAttachment, MessageEmbed } = require("discord.js")
 const config = require("../../config.json");
 
 module.exports = {
@@ -30,7 +30,7 @@ module.exports = {
                 var fileName = personaName;
                 var quote = "\"I am thou, thou art I. The time has come. Open thy eyes and call forth what is within.\""
                 var url = `https://megamitensei.fandom.com/wiki/${name}`;
-                var img = new Attachment(`./personadata/p4/${fileName}.png`, "persona.png")
+                var img = new MessageAttachment(`./personadata/p4/${fileName}.png`, "persona.png")
                 break;
         }
 

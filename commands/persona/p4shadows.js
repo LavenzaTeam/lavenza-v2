@@ -1,4 +1,4 @@
-const { Attachment, MessageEmbed } = require("discord.js");
+const { MessageAttachment, MessageEmbed } = require("discord.js");
 const config = require("../../config.json");
 
 module.exports = {
@@ -27,7 +27,7 @@ module.exports = {
                 var name = "Selfish Basalt";
                 var fileName = shadowName;
                 var url = "https://megamitensei.fandom.com/wiki/Selfish_Basalt";
-                var img = new Attachment(`./personadata/p4shadows/${fileName}.png`, "shadow.png");
+                var img = new MessageAttachment(`./personadata/p4shadows/${fileName}.png`, "shadow.png");
                 break;
         }
 
