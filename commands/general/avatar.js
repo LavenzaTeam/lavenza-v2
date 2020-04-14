@@ -26,7 +26,7 @@ module.exports = {
         let embed = new MessageEmbed()
             .setTitle(aUser.user.username)
             .setDescription(`${aUser.user.username}'s Discord Avatar`)
-            .attachFile(image)
+            .attachFiles(image)
             .setImage("attachment://image.png")
             .setFooter(`Data requested by ${message.author.username}`, message.author.displayAvatarURL);
 

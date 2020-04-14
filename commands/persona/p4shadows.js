@@ -40,7 +40,7 @@ module.exports = {
             .setURL(url)
             .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
             .setColor(config.colors.p4gold)
-            .attachFile(img)
+            .attachFiles(img)
             .setImage("attachment://shadow.png")
             .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 

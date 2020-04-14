@@ -161,7 +161,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Devious_Maya#The%20Journey")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/devious_maya.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/devious_maya.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -170,7 +170,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Devious_Maya#The%20Journey")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/devious_mayaHanged.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/devious_mayaHanged.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -179,7 +179,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Devious_Maya#Vision%20Quest")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/devious_mayaVision.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/devious_mayaVision.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -227,7 +227,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Dancing_Hand#The%20Journey")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/dancing_hand.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/dancing_hand.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -236,7 +236,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Dancing_Hand#Sub-Boss")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/dancing_handBoss.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/dancing_handBoss.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -296,7 +296,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Crying_Table")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/crying_table.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/crying_table.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -305,7 +305,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Crying_Table")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/crying_tableBoss.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/crying_tableBoss.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -352,7 +352,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Magical_Magus")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/magical_magus.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/magical_magus.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -361,7 +361,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Magical_Magus")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/magical_magusBoss.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/magical_magusBoss.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -414,7 +414,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Muttering_Tiara")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/muttering_tiara.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/muttering_tiara.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -423,7 +423,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Muttering_Tiara")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/muttering_tiaraBoss1.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/muttering_tiaraBoss1.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -432,7 +432,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Muttering_Tiara")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/muttering_handBoss2.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/muttering_handBoss2.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -441,7 +441,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Muttering_Tiara")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/muttering_tiaraVision1.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/muttering_tiaraVision1.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -450,7 +450,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Muttering_Tiara")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/muttering_tiaraVision2.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/muttering_tiaraVision2.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -620,7 +620,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Venus_Eagle")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/venus_eagle.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/venus_eagle.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -629,7 +629,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Venus_Eagle")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/venus_eagleBoss.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/venus_eagleBoss.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -802,7 +802,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Golden_Beetle")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/golden_beetle.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/golden_beetle.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -811,7 +811,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Golden_Beetle")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/golden_beetleBoss.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/golden_beetleBoss.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -888,7 +888,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Hell_Knight")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/hell_knight.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/hell_knight.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -897,7 +897,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Hell_Knight")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/hell_knightBoss.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/hell_knightBoss.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -1097,7 +1097,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Green_Sigil")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/green_sigil.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/green_sigil.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -1106,7 +1106,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Green_Sigil")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/green_sigilPortable`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/green_sigilPortable`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -1192,7 +1192,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Soul_Dancer")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/soul_dancerAnswer.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/soul_dancerAnswer.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -1201,7 +1201,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Soul_Dancer")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/soul_dancerBoss.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/soul_dancerBoss.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -1233,7 +1233,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Royal_Dancer")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/royal_dancer.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/royal_dancer.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -1242,7 +1242,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Royal_Dancer")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/royal_dancerBoss.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/royal_dancerBoss.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -1289,7 +1289,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Carnal_Snake")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/carnal_snake.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/carnal_snake.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -1298,7 +1298,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Carnal_Snake")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/carnal_snakeBoss.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/carnal_snakeBoss.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -1429,7 +1429,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Arcane_Turret")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/arcane_turret.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/arcane_turret.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -1438,7 +1438,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Arcane_Turret")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/arcane_turretBoss.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/arcane_turretBoss.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -1584,7 +1584,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Judgement_Sword")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/judgement_sword.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/judgement_sword.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -1593,7 +1593,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Judgement_Sword")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/judgement_swordBoss.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/judgement_swordBoss.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -1640,7 +1640,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Stasis_Giant")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/stasis_giant.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/stasis_giant.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensi Wiki", client.user.displayAvatarURL);
 
@@ -1649,7 +1649,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Stasis_Giant")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/stasis_giantBoss.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/stasis_giantBoss.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensi Wiki", client.user.displayAvatarURL);
                 await message.channel.send(stasis);
@@ -1815,7 +1815,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Noble_Seeker")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/noble_seeker.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/noble_seeker.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -1824,7 +1824,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Noble_Seeker")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/noble_seekerBoss.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/noble_seekerBoss.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -2042,7 +2042,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Furious_Gigas")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/furious_gigas.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/furious_gigas.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -2051,7 +2051,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Furious_Gigas")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/furious_gigasBoss.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/furious_gigasBoss.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -2224,7 +2224,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Fierce_Cyclops")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/fierce_cyclops.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/fierce_cyclops.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -2233,7 +2233,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Fierce_Cyclops")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/fierce_cyclopsBoss.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/fierce_cyclopsBoss.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -2382,7 +2382,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Priestess")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/arcana_priestess.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/arcana_priestess.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -2391,7 +2391,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Priestess")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/arcana_priestessQuest.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/arcana_priestessQuest.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -2405,7 +2405,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Empress")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/arcana_empress.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/arcana_empress.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -2414,7 +2414,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Empress")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/arcana_empressQuest.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/arcana_empressQuest.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -2428,7 +2428,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Emperor")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/arcana_emperor.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/arcana_emperor.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -2437,7 +2437,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Emperor")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/arcana_emperorQuest.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/arcana_emperorQuest.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -2451,7 +2451,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Hierophant")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/arcana_hierophant.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/arcana_hierophant.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -2460,7 +2460,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Hierophant")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/arcana_hierophantQuest.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/arcana_hierophantQuest.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -2474,7 +2474,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Lovers")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/arcana_lovers.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/arcana_lovers.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -2483,7 +2483,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Lovers")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/arcana_loversQuest.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/arcana_loversQuest.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -2497,7 +2497,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Chariot")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/arcana_chariot.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/arcana_chariot.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -2506,7 +2506,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Chariot")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/arcana_chariotQuest.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/arcana_chariotQuest.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -2520,7 +2520,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Justice")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/arcana_justice.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/arcana_justice.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -2529,7 +2529,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Justice")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/arcana_justiceQuest.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/arcana_justiceQuest.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -2543,7 +2543,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Hermit")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/arcana_hermit.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/arcana_hermit.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -2552,7 +2552,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Hermit")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/arcana_hermitQuest.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/arcana_hermitQuest.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -2566,7 +2566,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Fortune")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/arcana_fortune.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/arcana_fortune.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -2575,7 +2575,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Fortune")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/arcana_fortuneQuest.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/arcana_fortuneQuest.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -2589,7 +2589,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Strength")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/arcana_strength.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/arcana_strength.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -2598,7 +2598,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Strength")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/arcana_strengthQuest.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/arcana_strengthQuest.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -2612,7 +2612,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Hanged_Man")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/arcana_hanged_man.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/arcana_hanged_man.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -2621,7 +2621,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Hanged_Man")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/arcana_hanged_manQuest.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/arcana_hanged_manQuest.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -2884,7 +2884,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Erebus")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/erebus.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/erebus.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -2893,7 +2893,7 @@ module.exports = {
                     .setURL("https://megamitensei.fandom.com/wiki/Erebus")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
                     .setColor(config.colors.p3blue)
-                    .attachFile(new MessageAttachment(`./personadata/p3shadows/erebusCharging.png`, "shadow.png"))
+                    .attachFiles(new MessageAttachment(`./personadata/p3shadows/erebusCharging.png`, "shadow.png"))
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
@@ -3097,7 +3097,7 @@ module.exports = {
             .setURL(url)
             .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
             .setColor(config.colors.p3blue)
-            .attachFile(img)
+            .attachFiles(img)
             .setImage("attachment://shadow.png")
             .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
