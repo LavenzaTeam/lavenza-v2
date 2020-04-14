@@ -15,11 +15,11 @@ module.exports = {
 
         //checks if you pinged somebody, if you did, it displays their avatar, otherwise, it displays you avatar
         if (aUser) {
-            var userURL = aUser.user.avatarURL;
+            var userURL = aUser.user.avatar;
             var image = new MessageAttachment(userURL, "image.png");
         } else {
             aUser = message.member;
-            var yourURL = message.author.avatarURL;
+            var yourURL = message.author.avatar;
             var image = new MessageAttachment(yourURL, "image.png");
         }
 
