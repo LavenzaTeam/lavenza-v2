@@ -1,3 +1,5 @@
+const { WebSocketManager } = require("discord.js");
+
 module.exports = {
     config: {
         name: "ping",
@@ -11,6 +13,6 @@ module.exports = {
         const m = await message.channel.send("Ping?");
 
         //edits the message and displays latency from the client to discord, and the client to the API
-        m.edit(`🏓 \n Latency is ${m.createdTimestamp - message.createdTimestamp}ms \n API Latency is ${Math.round(client.ping)}ms`);
+        m.edit(`🏓 \n Latency is ${m.createdTimestamp - message.createdTimestamp}ms \n API Latency is ${Math.round(WebSocketManager.ping)}ms`);
     }
 }
