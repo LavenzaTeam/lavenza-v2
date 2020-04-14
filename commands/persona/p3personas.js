@@ -1447,7 +1447,7 @@ module.exports = {
             .setTitle(name)
             .setURL(url)
             .setColor(config.colors.p3blue)
-            .attachFile(img)
+            .attachFiles(img)
             .setImage("attachment://persona.png")
             .setFooter("Info gathered from the Megami Tensei Wiki", client.user.displayAvatarURL)
         if (quote) {
