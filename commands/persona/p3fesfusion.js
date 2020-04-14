@@ -1,5 +1,5 @@
 const config = require("../../config.json");
-const { RichEmbed } = require("discord.js");
+const { MessageEmbed } = require("discord.js");
 
 module.exports = {
     config: {
@@ -22,7 +22,7 @@ module.exports = {
         if (personaName === "list") {
             message.reply("The Persona Fusion is not currently finished. Many of these names will not work when running the command. Check back soon™️!");
 
-            let list = new RichEmbed()
+            let list = new MessageEmbed()
                 .setTitle("Persona 3 FES Personas")
                 .setURL("https://megamitensei.fandom.com/wiki/List_of_Persona_3_FES_Personas")
                 .setDescription(`Below is a list of all of the FUSABLE Persona's in Persona 3: FES. To view the fusion recipe, use one of the following commands, \`${config.prefix}p3fesfusion <personaName>\` or \`${config.prefix}p3 <personaName> /f\``)
@@ -838,7 +838,7 @@ module.exports = {
         if (!name) return message.reply(`You have entered an invalid Persona name! Check \`${config.prefix}p3fesfusion list\` for a full list of Persona's`);
 
         //creates the embed using all of the defined variables above and sends it to the current channel
-        let embed = new RichEmbed()
+        let embed = new MessageEmbed()
             .setTitle(name)
             .setURL(url)
             .setColor(config.colors.p3blue)

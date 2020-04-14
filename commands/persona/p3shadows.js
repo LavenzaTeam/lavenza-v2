@@ -1,4 +1,4 @@
-const { RichEmbed, Attachment, ReactionCollector } = require("discord.js");
+const { MessageEmbed, Attachment, ReactionCollector } = require("discord.js");
 const config = require("../../config.json");
 
 module.exports = {
@@ -19,7 +19,7 @@ module.exports = {
         //maya shadows
         switch (shadowName) {
             case "list":
-                let shadows = new RichEmbed()
+                let shadows = new MessageEmbed()
                     .setTitle("List of Persona 3 FES/Portable Shadows")
                     .setURL("https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -156,7 +156,7 @@ module.exports = {
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
                 break;
             case "devious_maya":
-                let devious = new RichEmbed()
+                let devious = new MessageEmbed()
                     .setTitle("Devious Maya")
                     .setURL("https://megamitensei.fandom.com/wiki/Devious_Maya#The%20Journey")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -165,7 +165,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let deviousHanged = new RichEmbed()
+                let deviousHanged = new MessageEmbed()
                     .setTitle("Devious Maya (Hanged Man)")
                     .setURL("https://megamitensei.fandom.com/wiki/Devious_Maya#The%20Journey")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -174,7 +174,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let deviousVision = new RichEmbed()
+                let deviousVision = new MessageEmbed()
                     .setTitle("Devious Maya (Vision Quest)")
                     .setURL("https://megamitensei.fandom.com/wiki/Devious_Maya#Vision%20Quest")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -222,7 +222,7 @@ module.exports = {
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
                 break;
             case "dancing_hand":
-                let hand = new RichEmbed()
+                let hand = new MessageEmbed()
                     .setTitle("Dancing Hand")
                     .setURL("https://megamitensei.fandom.com/wiki/Dancing_Hand#The%20Journey")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -231,7 +231,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let handBoss = new RichEmbed()
+                let handBoss = new MessageEmbed()
                     .setTitle("Dancing Hand (Sub Boss)")
                     .setURL("https://megamitensei.fandom.com/wiki/Dancing_Hand#Sub-Boss")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -291,7 +291,7 @@ module.exports = {
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
                 break;
             case "crying_table":
-                let cry = new RichEmbed()
+                let cry = new MessageEmbed()
                     .setTitle("Crying Table")
                     .setURL("https://megamitensei.fandom.com/wiki/Crying_Table")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -300,7 +300,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let cryBoss = new RichEmbed()
+                let cryBoss = new MessageEmbed()
                     .setTitle("Crying Table (Sub Boss)")
                     .setURL("https://megamitensei.fandom.com/wiki/Crying_Table")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -347,7 +347,7 @@ module.exports = {
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png");
                 break;
             case "magical_magus":
-                let magus = new RichEmbed()
+                let magus = new MessageEmbed()
                     .setTitle("Magical Magus")
                     .setURL("https://megamitensei.fandom.com/wiki/Magical_Magus")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -356,7 +356,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let magusBoss = new RichEmbed()
+                let magusBoss = new MessageEmbed()
                     .setTitle("Magical Magus (Sub Boss)")
                     .setURL("https://megamitensei.fandom.com/wiki/Magical_Magus")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -409,7 +409,7 @@ module.exports = {
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
                 break;
             case "muttering_tiara":
-                let mutter = new RichEmbed()
+                let mutter = new MessageEmbed()
                     .setTitle("Muttering Tiara")
                     .setURL("https://megamitensei.fandom.com/wiki/Muttering_Tiara")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -418,7 +418,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let mutterBoss1 = new RichEmbed()
+                let mutterBoss1 = new MessageEmbed()
                     .setTitle("Muttering Tiara (Sub Boss #1)")
                     .setURL("https://megamitensei.fandom.com/wiki/Muttering_Tiara")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -427,7 +427,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let mutterBoss2 = new RichEmbed()
+                let mutterBoss2 = new MessageEmbed()
                     .setTitle("Muttering Tiara (Sub Boss #2)")
                     .setURL("https://megamitensei.fandom.com/wiki/Muttering_Tiara")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -436,7 +436,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let mutterVision1 = new RichEmbed()
+                let mutterVision1 = new MessageEmbed()
                     .setTitle("Muttering Tiara (Vision Quest #1)")
                     .setURL("https://megamitensei.fandom.com/wiki/Muttering_Tiara")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -445,7 +445,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let mutterVision2 = new RichEmbed()
+                let mutterVision2 = new MessageEmbed()
                     .setTitle("Muttering Tiara (Vision Quest #2)")
                     .setURL("https://megamitensei.fandom.com/wiki/Muttering_Tiara")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -615,7 +615,7 @@ module.exports = {
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
                 break;
             case "venus_eagle":
-                let venus = new RichEmbed()
+                let venus = new MessageEmbed()
                     .setTitle("Venus Eagle")
                     .setURL("https://megamitensei.fandom.com/wiki/Venus_Eagle")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -624,7 +624,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let venusBoss = new RichEmbed()
+                let venusBoss = new MessageEmbed()
                     .setTitle("Venus Eagle (Sub Boss)")
                     .setURL("https://megamitensei.fandom.com/wiki/Venus_Eagle")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -797,7 +797,7 @@ module.exports = {
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
                 break;
             case "golden_beetle":
-                let gold = new RichEmbed()
+                let gold = new MessageEmbed()
                     .setTitle("Golden Beetle")
                     .setURL("https://megamitensei.fandom.com/wiki/Golden_Beetle")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -806,7 +806,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let goldBoss = new RichEmbed()
+                let goldBoss = new MessageEmbed()
                     .setTitle("Golden Beetle (Sub Boss)")
                     .setURL("https://megamitensei.fandom.com/wiki/Golden_Beetle")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -883,7 +883,7 @@ module.exports = {
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
                 break;
             case "hell_knight":
-                let hell = new RichEmbed()
+                let hell = new MessageEmbed()
                     .setTitle("Hell Knight")
                     .setURL("https://megamitensei.fandom.com/wiki/Hell_Knight")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -892,7 +892,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let hellBoss = new RichEmbed()
+                let hellBoss = new MessageEmbed()
                     .setTitle("Hell Knight (Sub Boss)")
                     .setURL("https://megamitensei.fandom.com/wiki/Hell_Knight")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -1092,7 +1092,7 @@ module.exports = {
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
                 break;
             case "green_sigil":
-                let green = new RichEmbed()
+                let green = new MessageEmbed()
                     .setTitle("Green Sigil")
                     .setURL("https://megamitensei.fandom.com/wiki/Green_Sigil")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -1101,7 +1101,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let greenPortable = new RichEmbed()
+                let greenPortable = new MessageEmbed()
                     .setTitle("Green Sigil (Portable)")
                     .setURL("https://megamitensei.fandom.com/wiki/Green_Sigil")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -1187,7 +1187,7 @@ module.exports = {
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
                 break;
             case "soul_dancer_/a":
-                let soul = new RichEmbed()
+                let soul = new MessageEmbed()
                     .setTitle("Soul Dancer (The Answer)")
                     .setURL("https://megamitensei.fandom.com/wiki/Soul_Dancer")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -1196,7 +1196,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let soulBoss = new RichEmbed()
+                let soulBoss = new MessageEmbed()
                     .setTitle("Soul Dancer (The Answer, Sub Boss)")
                     .setURL("https://megamitensei.fandom.com/wiki/Soul_Dancer")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -1228,7 +1228,7 @@ module.exports = {
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
                 break;
             case "royal_dancer":
-                let royal = new RichEmbed()
+                let royal = new MessageEmbed()
                     .setTitle("Royal Dancer")
                     .setURL("https://megamitensei.fandom.com/wiki/Royal_Dancer")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -1237,7 +1237,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let royalBoss = new RichEmbed()
+                let royalBoss = new MessageEmbed()
                     .setTitle("Royal Dancer (Sub Boss)")
                     .setURL("https://megamitensei.fandom.com/wiki/Royal_Dancer")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -1284,7 +1284,7 @@ module.exports = {
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
                 break;
             case "carnal_snake":
-                let carnal = new RichEmbed()
+                let carnal = new MessageEmbed()
                     .setTitle("Carnal Snake")
                     .setURL("https://megamitensei.fandom.com/wiki/Carnal_Snake")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -1293,7 +1293,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let carnalBoss = new RichEmbed()
+                let carnalBoss = new MessageEmbed()
                     .setTitle("Carnal Snake (Sub Boss)")
                     .setURL("https://megamitensei.fandom.com/wiki/Carnal_Snake")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -1424,7 +1424,7 @@ module.exports = {
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
                 break;
             case "arcane_turret":
-                let arcane = new RichEmbed()
+                let arcane = new MessageEmbed()
                     .setTitle("Arcane Turret")
                     .setURL("https://megamitensei.fandom.com/wiki/Arcane_Turret")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -1433,7 +1433,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let arcaneBoss = new RichEmbed()
+                let arcaneBoss = new MessageEmbed()
                     .setTitle("Arcane Turret (Sub Boss)")
                     .setURL("https://megamitensei.fandom.com/wiki/Arcane_Turret")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -1579,7 +1579,7 @@ module.exports = {
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
                 break;
             case "judgement_sword":
-                let judgement = new RichEmbed()
+                let judgement = new MessageEmbed()
                     .setTitle("Judgement Sword")
                     .setURL("https://megamitensei.fandom.com/wiki/Judgement_Sword")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -1588,7 +1588,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let judgementBoss = new RichEmbed()
+                let judgementBoss = new MessageEmbed()
                     .setTitle("Judgement Sword (Sub Boss)")
                     .setURL("https://megamitensei.fandom.com/wiki/Judgement_Sword")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -1635,7 +1635,7 @@ module.exports = {
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
                 break;
             case "stasis_giant":
-                let stasis = new RichEmbed()
+                let stasis = new MessageEmbed()
                     .setTitle("Stasis Giant")
                     .setURL("https://megamitensei.fandom.com/wiki/Stasis_Giant")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -1644,7 +1644,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensi Wiki", client.user.displayAvatarURL);
 
-                let stasisBoss = new RichEmbed()
+                let stasisBoss = new MessageEmbed()
                     .setTitle("Stasis Giant (Sub Boss)")
                     .setURL("https://megamitensei.fandom.com/wiki/Stasis_Giant")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -1810,7 +1810,7 @@ module.exports = {
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
                 break;
             case "noble_seeker":
-                let noble = new RichEmbed()
+                let noble = new MessageEmbed()
                     .setTitle("Noble Seeker")
                     .setURL("https://megamitensei.fandom.com/wiki/Noble_Seeker")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -1819,7 +1819,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let nobleBoss = new RichEmbed()
+                let nobleBoss = new MessageEmbed()
                     .setTitle("Noble Seeker (Sub Boss)")
                     .setURL("https://megamitensei.fandom.com/wiki/Noble_Seeker")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2037,7 +2037,7 @@ module.exports = {
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
                 break;
             case "furious_gigas":
-                let furious = new RichEmbed()
+                let furious = new MessageEmbed()
                     .setTitle("Furious Gigas")
                     .setURL("https://megamitensei.fandom.com/wiki/Furious_Gigas")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2046,7 +2046,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let furiousBoss = new RichEmbed()
+                let furiousBoss = new MessageEmbed()
                     .setTitle("Furious Gigas (Sub Boss)")
                     .setURL("https://megamitensei.fandom.com/wiki/Furious_Gigas")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2219,7 +2219,7 @@ module.exports = {
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
                 break;
             case "fierce_cyclops":
-                let fierce = new RichEmbed()
+                let fierce = new MessageEmbed()
                     .setTitle("Fierce Cyclops")
                     .setURL("https://megamitensei.fandom.com/wiki/Fierce_Cyclops")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2228,7 +2228,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let fierceBoss = new RichEmbed()
+                let fierceBoss = new MessageEmbed()
                     .setTitle("Fierce Cyclops (Sub Boss)")
                     .setURL("https://megamitensei.fandom.com/wiki/Fierce_Cyclops")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2377,7 +2377,7 @@ module.exports = {
 
             //full moon bosses
             case "arcana_priestess":
-                let priestess = new RichEmbed()
+                let priestess = new MessageEmbed()
                     .setTitle("Arcana Priestess")
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Priestess")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2386,7 +2386,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let priestessQuest = new RichEmbed()
+                let priestessQuest = new MessageEmbed()
                     .setTitle("Arcana Priestess (Vision Quest)")
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Priestess")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2400,7 +2400,7 @@ module.exports = {
                 return;
                 break;
             case "arcana_empress":
-                let empress = new RichEmbed()
+                let empress = new MessageEmbed()
                     .setTitle("Arcana Empress")
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Empress")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2409,7 +2409,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let empressQuest = new RichEmbed()
+                let empressQuest = new MessageEmbed()
                     .setTitle("Arcana Empress (Vision Quest)")
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Empress")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2423,7 +2423,7 @@ module.exports = {
                 return;
                 break;
             case "arcana_emperor":
-                let emperor = new RichEmbed()
+                let emperor = new MessageEmbed()
                     .setTitle("Arcana Emperor")
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Emperor")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2432,7 +2432,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let emperorQuest = new RichEmbed()
+                let emperorQuest = new MessageEmbed()
                     .setTitle("Arcana Emperor (Vision Quest)")
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Emperor")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2446,7 +2446,7 @@ module.exports = {
                 return;
                 break;
             case "arcana_hierophant":
-                let hierophant = new RichEmbed()
+                let hierophant = new MessageEmbed()
                     .setTitle("Arcana Hierophant")
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Hierophant")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2455,7 +2455,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let hierophantQuest = new RichEmbed()
+                let hierophantQuest = new MessageEmbed()
                     .setTitle("Arcana Hierophant (Vision Quest)")
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Hierophant")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2469,7 +2469,7 @@ module.exports = {
                 return;
                 break;
             case "arcana_lovers":
-                let lovers = new RichEmbed()
+                let lovers = new MessageEmbed()
                     .setTitle("Arcana Lovers")
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Lovers")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2478,7 +2478,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let loversQuest = new RichEmbed()
+                let loversQuest = new MessageEmbed()
                     .setTitle("Arcana Lovers (Vision Quest)")
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Lovers")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2492,7 +2492,7 @@ module.exports = {
                 return;
                 break;
             case "arcana_chariot":
-                let chariot = new RichEmbed()
+                let chariot = new MessageEmbed()
                     .setTitle("Arcana Chariot")
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Chariot")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2501,7 +2501,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let chariotQuest = new RichEmbed()
+                let chariotQuest = new MessageEmbed()
                     .setTitle("Arcana Chariot (Vision Quest)")
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Chariot")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2515,7 +2515,7 @@ module.exports = {
                 return;
                 break;
             case "arcana_justice":
-                let justice = new RichEmbed()
+                let justice = new MessageEmbed()
                     .setTitle("Arcana Justice")
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Justice")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2524,7 +2524,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let justiceQuest = new RichEmbed()
+                let justiceQuest = new MessageEmbed()
                     .setTitle("Arcana Justice (Vision Quest)")
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Justice")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2538,7 +2538,7 @@ module.exports = {
                 return;
                 break;
             case "arcana_hermit":
-                let hermit = new RichEmbed()
+                let hermit = new MessageEmbed()
                     .setTitle("Arcana Hermit")
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Hermit")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2547,7 +2547,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let hermitQuest = new RichEmbed()
+                let hermitQuest = new MessageEmbed()
                     .setTitle("Arcana Hermit (Vision Quest)")
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Hermit")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2561,7 +2561,7 @@ module.exports = {
                 return;
                 break;
             case "arcana_fortune":
-                let fortune = new RichEmbed()
+                let fortune = new MessageEmbed()
                     .setTitle("Arcana Fortune")
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Fortune")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2570,7 +2570,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let fortuneQuest = new RichEmbed()
+                let fortuneQuest = new MessageEmbed()
                     .setTitle("Arcana Fortune (Vision Quest)")
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Fortune")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2584,7 +2584,7 @@ module.exports = {
                 return;
                 break;
             case "arcana_strength":
-                let strength = new RichEmbed()
+                let strength = new MessageEmbed()
                     .setTitle("Arcana Strength")
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Strength")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2593,7 +2593,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let strengthQuest = new RichEmbed()
+                let strengthQuest = new MessageEmbed()
                     .setTitle("Arcana Strength (Vision Quest)")
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Strength")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2607,7 +2607,7 @@ module.exports = {
                 return;
                 break;
             case "arcana_hanged_man":
-                let hanged = new RichEmbed()
+                let hanged = new MessageEmbed()
                     .setTitle("Arcana Hanged Man")
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Hanged_Man")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2616,7 +2616,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let hangedQuest = new RichEmbed()
+                let hangedQuest = new MessageEmbed()
                     .setTitle("Arcana Hanged Man (Vision Quest)")
                     .setURL("https://megamitensei.fandom.com/wiki/Arcana_Hanged_Man")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2630,7 +2630,7 @@ module.exports = {
                 return;
                 break;
             case "nyx_avatar":
-                let nyxFool = new RichEmbed()
+                let nyxFool = new MessageEmbed()
                     .setTitle("Nyx Avatar (Fool)")
                     .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2638,7 +2638,7 @@ module.exports = {
                     .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/nyx_avatarFool.png?raw=true")
                     .setFooter("Page 1/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let nyxMagician = new RichEmbed()
+                let nyxMagician = new MessageEmbed()
                     .setTitle("Nyx Avatar (Magician)")
                     .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2646,7 +2646,7 @@ module.exports = {
                     .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/nyx_avatarMagician.png?raw=true")
                     .setFooter("Page 2/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let nyxPriestess = new RichEmbed()
+                let nyxPriestess = new MessageEmbed()
                     .setTitle("Nyx Avatar (Priestess)")
                     .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2654,7 +2654,7 @@ module.exports = {
                     .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/nyx_avatarPriestess.png?raw=true")
                     .setFooter("Page 3/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let nyxEmpress = new RichEmbed()
+                let nyxEmpress = new MessageEmbed()
                     .setTitle("Nyx Avatar (Empress)")
                     .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2662,7 +2662,7 @@ module.exports = {
                     .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/nyx_avatarEmpress.png?raw=true")
                     .setFooter("Page 4/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let nyxEmperor = new RichEmbed()
+                let nyxEmperor = new MessageEmbed()
                     .setTitle("Nyx Avatar (Emperor)")
                     .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2670,7 +2670,7 @@ module.exports = {
                     .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/nyx_avatarEmperor.png?raw=true")
                     .setFooter("Page 5/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let nyxHierophant = new RichEmbed()
+                let nyxHierophant = new MessageEmbed()
                     .setTitle("Nyx Avatar (Hierophant)")
                     .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2678,7 +2678,7 @@ module.exports = {
                     .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/nyx_avatarHierophant.png?raw=true")
                     .setFooter("Page 6/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let nyxLovers = new RichEmbed()
+                let nyxLovers = new MessageEmbed()
                     .setTitle("Nyx Avatar (Lovers)")
                     .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2686,7 +2686,7 @@ module.exports = {
                     .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/nyx_avatarLovers.png?raw=true")
                     .setFooter("Page 7/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let nyxChariot = new RichEmbed()
+                let nyxChariot = new MessageEmbed()
                     .setTitle("Nyx Avatar (Chariot)")
                     .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2694,7 +2694,7 @@ module.exports = {
                     .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/nyx_avatarChariot.png?raw=true")
                     .setFooter("Page 8/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let nyxJustice = new RichEmbed()
+                let nyxJustice = new MessageEmbed()
                     .setTitle("Nyx Avatar (Justice)")
                     .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2702,7 +2702,7 @@ module.exports = {
                     .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/nyx_avatarJustice.png?raw=true")
                     .setFooter("Page 9/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let nyxHermit = new RichEmbed()
+                let nyxHermit = new MessageEmbed()
                     .setTitle("Nyx Avatar (Hermit)")
                     .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2710,7 +2710,7 @@ module.exports = {
                     .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/nyx_avatarHermit.png?raw=true")
                     .setFooter("Page 10/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let nyxFortune = new RichEmbed()
+                let nyxFortune = new MessageEmbed()
                     .setTitle("Nyx Avatar (Fortune)")
                     .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2718,7 +2718,7 @@ module.exports = {
                     .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/nyx_avatarFortune.png?raw=true")
                     .setFooter("Page 11/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let nyxStrength = new RichEmbed()
+                let nyxStrength = new MessageEmbed()
                     .setTitle("Nyx Avatar (Strength)")
                     .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2726,7 +2726,7 @@ module.exports = {
                     .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/nyx_avatarStrength.png?raw=true")
                     .setFooter("Page 12/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let nyxHanged = new RichEmbed()
+                let nyxHanged = new MessageEmbed()
                     .setTitle("Nyx Avatar (Hanged Man)")
                     .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2734,7 +2734,7 @@ module.exports = {
                     .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/nyx_avatarHanged.png?raw=true")
                     .setFooter("Page 13/14 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let nyxDeath = new RichEmbed()
+                let nyxDeath = new MessageEmbed()
                     .setTitle("Nyx Avatar (Death)")
                     .setURL("https://megamitensei.fandom.com/wiki/Nyx_Avatar")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2879,7 +2879,7 @@ module.exports = {
                 return;
                 break;
             case "erebus":
-                let erebus = new RichEmbed()
+                let erebus = new MessageEmbed()
                     .setTitle("Erebus")
                     .setURL("https://megamitensei.fandom.com/wiki/Erebus")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2888,7 +2888,7 @@ module.exports = {
                     .setImage("attachment://shadow.png")
                     .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let erebusCharging = new RichEmbed()
+                let erebusCharging = new MessageEmbed()
                     .setTitle("Erebus (Charging)")
                     .setURL("https://megamitensei.fandom.com/wiki/Erebus")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2912,7 +2912,7 @@ module.exports = {
                 var img = new Attachment(`./personadata/p3shadows/${fileName}.png`, "shadow.png")
                 break;
             case "elizabeth":
-                let elizSurt = new RichEmbed()
+                let elizSurt = new MessageEmbed()
                     .setTitle("Elizabeth (Surt)")
                     .setURL("https://megamitensei.fandom.com/wiki/Elizabeth")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2920,7 +2920,7 @@ module.exports = {
                     .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/elizabethSurt.png?raw=true")
                     .setFooter("Page 1/9 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let elizJack = new RichEmbed()
+                let elizJack = new MessageEmbed()
                     .setTitle("Elizabeth (Jack Frost)")
                     .setURL("https://megamitensei.fandom.com/wiki/Elizabeth")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2928,7 +2928,7 @@ module.exports = {
                     .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/elizabethJack.png?raw=true")
                     .setFooter("Page 2/9 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let elizThor = new RichEmbed()
+                let elizThor = new MessageEmbed()
                     .setTitle("Elizabeth (Thor)")
                     .setURL("https://megamitensei.fandom.com/wiki/Elizabeth")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2936,7 +2936,7 @@ module.exports = {
                     .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/elizabethThor.png?raw=true")
                     .setFooter("Page 3/9 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let elizCu = new RichEmbed()
+                let elizCu = new MessageEmbed()
                     .setTitle("Elizabeth (Cu Chulainn)")
                     .setURL("https://megamitensei.fandom.com/wiki/Elizabeth")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2944,7 +2944,7 @@ module.exports = {
                     .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/elizabethCu.png?raw=true")
                     .setFooter("Page 4/9 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let elizMetatron = new RichEmbed()
+                let elizMetatron = new MessageEmbed()
                     .setTitle("Elizabeth (Metatron)")
                     .setURL("https://megamitensei.fandom.com/wiki/Elizabeth")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2952,7 +2952,7 @@ module.exports = {
                     .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/elizabethMetatron.png?raw=true")
                     .setFooter("Page 5/9 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let elizAlice = new RichEmbed()
+                let elizAlice = new MessageEmbed()
                     .setTitle("Elizabeth (Alice)")
                     .setURL("https://megamitensei.fandom.com/wiki/Elizabeth")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2960,7 +2960,7 @@ module.exports = {
                     .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/elizabethAlice.png?raw=true")
                     .setFooter("Page 6/9 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let elizNebiros = new RichEmbed()
+                let elizNebiros = new MessageEmbed()
                     .setTitle("Elizabeth (Nebiros)")
                     .setURL("https://megamitensei.fandom.com/wiki/Elizabeth")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2968,7 +2968,7 @@ module.exports = {
                     .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/elizabethNebiros.png?raw=true")
                     .setFooter("Page 7/9 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let elizMasakado = new RichEmbed()
+                let elizMasakado = new MessageEmbed()
                     .setTitle("Elizabeth (Masakado)")
                     .setURL("https://megamitensei.fandom.com/wiki/Elizabeth")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -2976,7 +2976,7 @@ module.exports = {
                     .setImage("https://github.com/ArkaneOnline/lavenza/blob/master/personadata/p3shadows/elizabethMasakado.png?raw=true")
                     .setFooter("Page 8/9 | Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL);
 
-                let elizPixie = new RichEmbed()
+                let elizPixie = new MessageEmbed()
                     .setTitle("Elizabeth (Pixie)")
                     .setURL("https://megamitensei.fandom.com/wiki/Elizabeth")
                     .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)
@@ -3092,7 +3092,7 @@ module.exports = {
             }
         }
 
-        let embed = new RichEmbed()
+        let embed = new MessageEmbed()
             .setTitle(name)
             .setURL(url)
             .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)

@@ -1,4 +1,4 @@
-const { Attachment, RichEmbed } = require("discord.js");
+const { Attachment, MessageEmbed } = require("discord.js");
 const config = require("../../config.json");
 
 module.exports = {
@@ -35,7 +35,7 @@ module.exports = {
         if (!name) return message.reply("You have entered an invalid Shadow name! Please check your spelling and try again!");
 
         //creates the embed and sends it
-        let embed = new RichEmbed()
+        let embed = new MessageEmbed()
             .setTitle(name)
             .setURL(url)
             .setDescription(`[Report a Data Error!](${config.servers.discordinvite})`)

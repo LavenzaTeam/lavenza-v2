@@ -1,5 +1,5 @@
 const config = require("../../config.json");
-const { RichEmbed } = require("discord.js");
+const { MessageEmbed } = require("discord.js");
 
 module.exports = {
     config: {
@@ -44,7 +44,7 @@ module.exports = {
         var note = "";
 
         //creates the embed and sends it
-        let embed = new RichEmbed()
+        let embed = new MessageEmbed()
             .setTitle(name)
             .setURL(url)
             .setColor(config.colors.p5red)

@@ -1,4 +1,4 @@
-const { RichEmbed, Attachment } = require("discord.js");
+const { MessageEmbed, Attachment } = require("discord.js");
 const config = require("../../config.json");
 
 module.exports = {
@@ -17,7 +17,7 @@ module.exports = {
 
         //list of every persona
         if (personaName === "list") {
-            let list = new RichEmbed()
+            let list = new MessageEmbed()
                 .setTitle("Persona 3 FES/Portable Personas")
                 .setURL("https://megamitensei.fandom.com/wiki/List_of_Persona_3_Portable_Personas")
                 .setColor(config.colors.p3blue)
@@ -1443,7 +1443,7 @@ module.exports = {
                 return message.reply("You entered an invalid Persona name!");
             }
         }
-        let embed = new RichEmbed()
+        let embed = new MessageEmbed()
             .setTitle(name)
             .setURL(url)
             .setColor(config.colors.p3blue)

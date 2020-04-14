@@ -1,4 +1,4 @@
-const { RichEmbed, Attachment } = require("discord.js");
+const { MessageEmbed, Attachment } = require("discord.js");
 const config = require("discord.js");
 
 module.exports = {
@@ -23,7 +23,7 @@ module.exports = {
             var image = new Attachment(yourURL, "image.png");
         }
 
-        let embed = new RichEmbed()
+        let embed = new MessageEmbed()
             .setTitle(aUser.user.username)
             .setDescription(`${aUser.user.username}'s Discord Avatar`)
             .attachFile(image)

@@ -1,4 +1,4 @@
-const { RichEmbed } = require("discord.js");
+const { MessageEmbed } = require("discord.js");
 const config = require("../../config.json");
 
 module.exports = {
@@ -18,7 +18,7 @@ module.exports = {
 
         //checks for the "list" argument
         if (query === "list") {
-            let personalist = new RichEmbed()
+            let personalist = new MessageEmbed()
                 .setTitle("Persona 3 FES/Portable Personas")
                 .setURL("https://megamitensei.fandom.com/wiki/List_of_Persona_3_Portable_Personas")
                 .setColor(config.colors.p3blue)
@@ -49,7 +49,7 @@ module.exports = {
                 .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL)
                 .setTimestamp();
 
-            let shadowlist = new RichEmbed()
+            let shadowlist = new MessageEmbed()
                 .setTitle("List of Persona 3 FES/Portable Shadows")
                 .setURL("https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows")
                 .setDescription(`Below is a list of every Shadow in the Persona 3 Games! \nTo view the information about a specified shadow, run the command \`${config.prefix}p3 <shadow name>\` \n[Report a Data Error!](${config.servers.discordinvite})`)

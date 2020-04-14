@@ -1,4 +1,4 @@
-const { RichEmbed } = require("discord.js");
+const { MessageEmbed } = require("discord.js");
 const config = require("../../config.json");
 
 module.exports = {
@@ -43,7 +43,7 @@ module.exports = {
         if (!note) var note = "";
 
         //creates the embed with all the variables above
-        let embed = new RichEmbed()
+        let embed = new MessageEmbed()
             .setTitle(name)
             .setURL(url)
             .setColor(config.colors.p4gold)

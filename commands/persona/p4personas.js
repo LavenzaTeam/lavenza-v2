@@ -1,4 +1,4 @@
-const { Attachment, RichEmbed } = require("discord.js")
+const { Attachment, MessageEmbed } = require("discord.js")
 const config = require("../../config.json");
 
 module.exports = {
@@ -39,7 +39,7 @@ module.exports = {
         if (!quote) var quote = "";
 
         //creates the embed with all the values specified in the switch case statement loop
-        let embed = new RichEmbed()
+        let embed = new MessageEmbed()
             .setTitle(name)
             .setURL(url)
             .setDescription(`${quote} \n[Report a data error!](${config.servers.discordinvite})`)

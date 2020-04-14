@@ -1,5 +1,5 @@
 const config = require("../../config.json");
-const { RichEmbed } = require("discord.js");
+const { MessageEmbed } = require("discord.js");
 
 module.exports = {
     config: {
@@ -21,7 +21,7 @@ module.exports = {
         //checks if the user provided the "list" argument
         if (personaName === "list") {
             message.reply("Although the list below is complete, the rest of the command is not, and therefor, most of these Personas will not work. Check back later for more updates!");
-            let list = new RichEmbed()
+            let list = new MessageEmbed()
                 .setTitle("Persona 3 Portable Personas")
                 .seuURL("https://megamitensei.fandom.com/wiki/List_of_Persona_3_Portable_Personas")
                 .setColor(config.colors.p3blue)
@@ -1076,7 +1076,7 @@ module.exports = {
         if (!name) return message.reply(`You have entered an invalid Persona name! Type \`${config.prefix}p3pfusion list\` for a list of all valid Persona names!`);
 
         //creates and sends the embed using the data from above
-        let embed = new RichEmbed()
+        let embed = new MessageEmbed()
             .setTitle(name)
             .setURL(url)
             .setColor(config.colors.p3blue)

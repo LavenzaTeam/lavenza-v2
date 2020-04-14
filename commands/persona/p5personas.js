@@ -1,5 +1,5 @@
 const config = require("../../config.json");
-const { RichEmbed, Attachment } = require("discord.js");
+const { MessageEmbed, Attachment } = require("discord.js");
 
 module.exports = {
     config: {
@@ -37,7 +37,7 @@ module.exports = {
         if (!quote) var quote = "";
 
         //creates the embed and sends it
-        let embed = new RichEmbed()
+        let embed = new MessageEmbed()
             .setTitle(name)
             .setURL(url)
             .setDescription(`${quote} \n[Report a data error!](${config.servers.discordinvite})`)

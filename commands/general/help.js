@@ -1,5 +1,5 @@
 const config = require("../../config.json");
-const { RichEmbed } = require("discord.js");
+const { MessageEmbed } = require("discord.js");
 
 module.exports = {
     config: {
@@ -15,7 +15,7 @@ module.exports = {
 
         //checks if the user specified a command
         if (!command) {
-            let helpEmbed = new RichEmbed()
+            let helpEmbed = new MessageEmbed()
                 .setTitle("List of Commands")
                 .setThumbnail(client.user.displayAvatarURL)
                 .setDescription(`Below is a list of commands for ${client.user.username}! To view more info about a specific command, type \`${config.prefix}help <command>\``)
@@ -30,7 +30,7 @@ module.exports = {
         } else {
             switch (command) {
                 case "help":
-                    var embed = new RichEmbed()
+                    var embed = new MessageEmbed()
                         .setTitle("Help Command")
                         .setColor(config.colors.purple)
                         .setThumbnail(client.user.displayAvatarURL)
@@ -42,7 +42,7 @@ module.exports = {
                         .setTimestamp();
                     break;
                 case "invite":
-                    var embed = new RichEmbed()
+                    var embed = new MessageEmbed()
                         .setTitle("Invite Command")
                         .setColor(config.colors.purple)
                         .setThumbnail(client.user.displayAvatarURL)
@@ -54,7 +54,7 @@ module.exports = {
                         .setTimestamp();
                     break;
                 case "support":
-                    var embed = new RichEmbed()
+                    var embed = new MessageEmbed()
                         .setTitle("Support Command")
                         .setColor(config.colors.purple)
                         .setThumbnail(client.user.displayAvatarURL)
@@ -66,7 +66,7 @@ module.exports = {
                         .setTimestamp();
                     break;
                 case "patreon":
-                    var embed = new RichEmbed()
+                    var embed = new MessageEmbed()
                         .setTitle("Patreon Command")
                         .setColor(config.colors.purple)
                         .setThumbnail(client.user.displayAvatarURL)
@@ -78,7 +78,7 @@ module.exports = {
                         .setTimestamp();
                     break;
                 case "ping":
-                    var embed = new RichEmbed()
+                    var embed = new MessageEmbed()
                         .setTitle("Ping Command")
                         .setColor(config.colors.purple)
                         .setThumbnail(client.user.displayAvatarURL)
@@ -90,7 +90,7 @@ module.exports = {
                         .setTimestamp();
                     break;
                 case "version":
-                    var embed = new RichEmbed()
+                    var embed = new MessageEmbed()
                         .setTitle("Version Command")
                         .setColor(config.colors.purple)
                         .setThumbnail(client.user.displayAvatarURL)
@@ -102,7 +102,7 @@ module.exports = {
                         .setTimestamp();
                     break;
                 case "avatar":
-                    var embed = new RichEmbed()
+                    var embed = new MessageEmbed()
                         .setTitle("Avatar Command")
                         .setColor(config.colors.purple)
                         .setThumbnail(client.user.displayAvatarURL)
@@ -114,7 +114,7 @@ module.exports = {
                         .setTimestamp();
                     break;
                 case "ban":
-                    var embed = new RichEmbed()
+                    var embed = new MessageEmbed()
                         .setTitle("Ban Command")
                         .setColor(config.colors.purple)
                         .setThumbnail(client.user.displayAvatarURL)
@@ -126,7 +126,7 @@ module.exports = {
                         .setTimestamp();
                     break;
                 case "kick":
-                    var embed = new RichEmbed()
+                    var embed = new MessageEmbed()
                         .setTitle("Kick Command")
                         .setColor(config.colors.purple)
                         .setThumbnail(client.user.displayAvatarURL)
@@ -138,7 +138,7 @@ module.exports = {
                         .setTimestamp();
                     break;
                 case "clear":
-                    var embed = new RichEmbed()
+                    var embed = new MessageEmbed()
                         .setTitle("Clear Command")
                         .setColor(config.colors.purple)
                         .setThumbnail(client.user.displayAvatarURL)
@@ -150,7 +150,7 @@ module.exports = {
                         .setTimestamp();
                     break;
                 case "p3":
-                    var embed = new RichEmbed()
+                    var embed = new MessageEmbed()
                         .setTitle("P3 Command")
                         .setColor(config.colors.purple)
                         .setThumbnail(client.user.displayAvatarURL)
