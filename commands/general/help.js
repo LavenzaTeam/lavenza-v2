@@ -21,7 +21,6 @@ module.exports = {
                 .setDescription(`Below is a list of commands for ${client.user.username}! To view more info about a specific command, type \`${config.prefix}help <command>\``)
                 .setColor(config.colors.darkblue)
                 .addField("> General Commands [4]", "`help`, `invite`, `support`, `patreon`, `avatar`")
-                .addField("> Info Commands [2]", "`ping`, `version`")
                 .addField("> Persona Commands [1]", "`p3`")
                 .setFooter("Bot created by: Arkane, QueenofPiking, and CoolStalker", client.user.displayAvatarURL)
                 .setTimestamp();
@@ -73,78 +72,6 @@ module.exports = {
                         .setDescription("Sends a link to the Patreon page")
                         .addField("Usage", `\`${config.prefix}patreon\``)
                         .addField("Category", "General")
-                        .addField("Aliases", `None!`)
-                        .setFooter("<> = required | () = optional", client.user.displayAvatarURL)
-                        .setTimestamp();
-                    break;
-                case "ping":
-                    var embed = new MessageEmbed()
-                        .setTitle("Ping Command")
-                        .setColor(config.colors.purple)
-                        .setThumbnail(client.user.displayAvatarURL)
-                        .setDescription("A command to test latency as well as a test command!")
-                        .addField("Usage", `\`${config.prefix}ping\``)
-                        .addField("Category", "Info")
-                        .addField("Aliases", `\`${config.prefix}pong\`, \`${config.prefix}latency\``)
-                        .setFooter("<> = required | () = optional", client.user.displayAvatarURL)
-                        .setTimestamp();
-                    break;
-                case "version":
-                    var embed = new MessageEmbed()
-                        .setTitle("Version Command")
-                        .setColor(config.colors.purple)
-                        .setThumbnail(client.user.displayAvatarURL)
-                        .setDescription("View all of the versioning information about the bot!")
-                        .addField("Usage", `\`${config.prefix}version\``)
-                        .addField("Category", "Info")
-                        .addField("Aliases", `None!`)
-                        .setFooter("<> = required | () = optional", client.user.displayAvatarURL)
-                        .setTimestamp();
-                    break;
-                case "avatar":
-                    var embed = new MessageEmbed()
-                        .setTitle("Avatar Command")
-                        .setColor(config.colors.purple)
-                        .setThumbnail(client.user.displayAvatarURL)
-                        .setDescription("Sends an image of your profile picture!")
-                        .addField("Usage", `\`${config.prefix}avatar (@user)\``)
-                        .addField("Category", "Fun")
-                        .addField("Aliases", `\`${config.prefix}pfp\``)
-                        .setFooter("<> = required | () = optional", client.user.displayAvatarURL)
-                        .setTimestamp();
-                    break;
-                case "ban":
-                    var embed = new MessageEmbed()
-                        .setTitle("Ban Command")
-                        .setColor(config.colors.purple)
-                        .setThumbnail(client.user.displayAvatarURL)
-                        .setDescription("Bans a user on the spot!")
-                        .addField("Usage", `\`${config.prefix}ban <@user> <reason>\``)
-                        .addField("Category", "Moderation")
-                        .addField("Aliases", `None!`)
-                        .setFooter("<> = required | () = optional", client.user.displayAvatarURL)
-                        .setTimestamp();
-                    break;
-                case "kick":
-                    var embed = new MessageEmbed()
-                        .setTitle("Kick Command")
-                        .setColor(config.colors.purple)
-                        .setThumbnail(client.user.displayAvatarURL)
-                        .setDescription("Kicks a user from the server on the spot!")
-                        .addField("Usage", `\`${config.prefix}kick <@user> <reason>\``)
-                        .addField("Category", "Moderation")
-                        .addField("Aliases", `None!`)
-                        .setFooter("<> = required | () = optional", client.user.displayAvatarURL)
-                        .setTimestamp();
-                    break;
-                case "clear":
-                    var embed = new MessageEmbed()
-                        .setTitle("Clear Command")
-                        .setColor(config.colors.purple)
-                        .setThumbnail(client.user.displayAvatarURL)
-                        .setDescription("Lets people with the manage messages permission delete messages in bulk!")
-                        .addField("Usage", `\`${config.prefix}clear <number>\``)
-                        .addField("Category", "Moderation")
                         .addField("Aliases", `None!`)
                         .setFooter("<> = required | () = optional", client.user.displayAvatarURL)
                         .setTimestamp();
