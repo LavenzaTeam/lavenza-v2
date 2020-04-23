@@ -2,20 +2,7 @@ const { prefix } = require("../../config.json");
 const package = require("../../package.json");
 
 module.exports = async (client) => {
-    let presences = [
-        `${prefix}p3`,
-        `Version ${package.version}`,
-        `Currently serving ${client.guilds.size} servers!`,
-        `${client.users.size} people reading the compendium!`,
-        `${prefix}invite`,
-        `${prefix}support`
-    ]
-
-    setInterval(() => {
-        const presence = Math.floor(Math.random() * (presences.length - 1) + 1);
-        client.user.setPresence({ game: { name: `${prefix}help | ${presences[presence]}`}, status: "dnd" });
-    }, 60000)
-    client.user.setAvatar("https://lavenza.tk/assets/bot_avatar.png").then(user => console.log("Avatar synced with website avatar: bot_avatar.png"));
+    client.user.setPresence({ activity: { name: `${prefix}help | Early Access Build.`}, status: "dnd" });
     console.log(`${client.user.username} is online!`);
     console.log(`${client.user.username} is currently in ${client.guilds.size} servers!`);
     console.log(`${client.user.username} is currently in version ${package.version}`);
