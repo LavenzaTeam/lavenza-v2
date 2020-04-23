@@ -3,7 +3,7 @@ const config = require("../../config.json");
 
 module.exports = {
     config: {
-        name: "support",
+        name: "discord",
         aliases: [],
         description: "Provides you with a link to the Lavenza Support server!",
         usage: "",
