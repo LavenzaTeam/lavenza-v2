@@ -22,7 +22,7 @@ module.exports = {
                 .setColor(config.colors.darkblue)
                 .addField("> General Commands [4]", "`help`, `invite`, `support`, `patreon`, `avatar`")
                 .addField("> Persona Commands [1]", "`p3`")
-                .setFooter("Bot created by: Arkane and QueenofPiking", `${client.user.displayAvatarURL}`)
+                .setFooter("Bot created by: Arkane and QueenofPiking", client.user.displayAvatarURL())
                 .setTimestamp();
 
             return message.channel.send(helpEmbed);
@@ -37,7 +37,7 @@ module.exports = {
                         .addField("Usage", `\`${config.prefix}help (command)\``)
                         .addField("Category", "General")
                         .addField("Aliases", `\`${config.prefix}h\`, \`${config.prefix}commands\``)
-                        .setFooter("<> = required | () = optional", client.user.avatarURL)
+                        .setFooter("<> = required | () = optional", client.user.avatarURL())
                         .setTimestamp();
                     break;
                 case "invite":
@@ -49,7 +49,7 @@ module.exports = {
                         .addField("Usage", `\`${config.prefix}invite\``)
                         .addField("Category", "General")
                         .addField("Aliases", `\`${config.prefix}addme\`, \`${config.prefix}join\``)
-                        .setFooter("<> = required | () = optional", client.user.avatarURL)
+                        .setFooter("<> = required | () = optional", client.user.avatarURL())
                         .setTimestamp();
                     break;
                 case "support":
@@ -61,7 +61,7 @@ module.exports = {
                         .addField("Usage", `\`${config.prefix}support\``)
                         .addField("Category", "General")
                         .addField("Aliases", `None!`)
-                        .setFooter("<> = required | () = optional", client.user.avatarURL)
+                        .setFooter("<> = required | () = optional", client.user.avatarURL())
                         .setTimestamp();
                     break;
                 case "patreon":
@@ -73,7 +73,7 @@ module.exports = {
                         .addField("Usage", `\`${config.prefix}patreon\``)
                         .addField("Category", "General")
                         .addField("Aliases", `None!`)
-                        .setFooter("<> = required | () = optional", client.user.avatarURL)
+                        .setFooter("<> = required | () = optional", client.user.avatarURL())
                         .setTimestamp();
                     break;
                 case "p3":
@@ -85,7 +85,7 @@ module.exports = {
                         .addField("Usage", `\`${config.prefix}p3 <persona/shadow> (/a) (/f) (/p)\``)
                         .addField("Category", "Persona")
                         .addField("Aliases", `None!`)
-                        .setFooter("<> = required | () = optional", client.user.avatarURL)
+                        .setFooter("<> = required | () = optional", client.user.avatarURL())
                         .setTimestamp();
                     break;
             }
