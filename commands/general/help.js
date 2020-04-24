@@ -22,7 +22,8 @@ module.exports = {
                 .setColor(config.colors.darkblue)
                 .addField("> General Commands [4]", "`help`, `invite`, `support`, `patreon`, `avatar`")
                 .addField("> Persona Commands [1]", "`p3`")
-                .setFooter("Bot created by: Arkane, QueenofPiking, and CoolStalker", client.user.displayAvatarURL)
+                .setFooter("Bot created by: Arkane, QueenofPiking, and CoolStalker", [client.user.displayAvatarURL])
+                .setTimestamp();
 
             return message.channel.send(helpEmbed);
         } else {
