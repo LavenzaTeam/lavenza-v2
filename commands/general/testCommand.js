@@ -9,7 +9,7 @@ module.exports = {
         category: "general"
     },
     run: async (client, message, args) => {
-        let url = client.user.displayAvatarURL;
+        let url = client.user.displayAvatarURL();
         return message.reply(`yes ${url}`);
     }
 }
