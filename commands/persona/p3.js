@@ -46,7 +46,7 @@ module.exports = {
                 .addField("Sun Arcana", "`Yatagarasu`, `Quetzalcoatl`, `Jatayu`, `Horus`, `Suparna`, `Vishnu`, `Asura`")
                 .addField("Judgement Arcana", "`Anubis`, `Trumpeter`, `Michael`, `Satan`, `Lucifer`, `Messiah`")
                 .addField("Aeon Arcana", "`Uriel`, `Nidhoggr`, `Ananta`, `Atavaka`, `Metatron`")
-                .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL)
+                .setFooter("Information gathered from the Megami Tensei Wiki", client.user.avatarURL())
                 .setTimestamp();
 
             let shadowlist = new MessageEmbed()
@@ -59,7 +59,7 @@ module.exports = {
                 .addField("Golden Shadows", "`Wealth Hand`, `Treasure Hand`, `Supreme Hand`, `Opulent Hand`, `Luxury Hand`, `Glorious Hand`")
                 .addField("Full Moon Bosses", "`Arcana Priestess`, `Arcana Empress`, `Arcana Emperor`, `Arcana Hierophant`, `Arcana Lovers`, `Arcana Chariot`, `Arcana Justice`, `Arcana Justice`, `Arcana Hermit`, `Arcana Fortune`, `Arcana Strength`, `Arcana Hanged Man`, `Nyx`, `Erebus`")
                 .addField("Optional Bosses", "`Elizabeth`, `The Reaper`")
-                .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL)
+                .setFooter("Information gathered from the Megami Tensei Wiki", client.user.avatarURL())
                 .setTimestamp();
 
             message.channel.send(personalist).then(msg => {
