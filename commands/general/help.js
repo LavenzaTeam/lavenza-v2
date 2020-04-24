@@ -22,7 +22,7 @@ module.exports = {
                 .setColor(config.colors.darkblue)
                 .addField("> General Commands [4]", "`help`, `invite`, `support`, `patreon`, `avatar`")
                 .addField("> Persona Commands [1]", "`p3`")
-                .setFooter("Bot created by: Arkane and QueenofPiking", "https://cdn.discordapp.com/avatars/639988194229878810/c6a8a6e83c6541925362104d12a54020.png?size=2048")
+                .setFooter("Bot created by: Arkane and QueenofPiking", `${client.user.displayAvatarURL}`)
                 .setTimestamp();
 
             return message.channel.send(helpEmbed);
