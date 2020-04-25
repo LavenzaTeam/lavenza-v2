@@ -48,7 +48,7 @@ module.exports = {
                 .addField("Sun Arcana", "`Yatagarasu`, `Quetzalcoatl`, `Jatayu`, `Horus`, `Suparna`, `Vishnu`, `Asura`")
                 .addField("Judgement Arcana", "`Anubis`, `Trumpeter`, `Michael`, `Satan`, `Lucifer`, `Messiah`")
                 .addField("Aeon Arcana", "`Uriel`, `Nidhoggr`, `Ananta`, `Atavaka`, `Metatron`")
-                .setFooter("Information gathered from the Megami Tensei Wiki", client.user.displayAvatarURL)
+                .setFooter("Information gathered from the Megami Tensei Wiki", client.user.avatarURL())
                 .setTimestamp();
 
             return message.channel.send(list);
@@ -1060,6 +1060,88 @@ module.exports = {
                 break;
 
             //hanged man arcana
+            case "inugami":
+                var name = "Inugami";
+                var url = "https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Inugami";
+                var note = "";
+                var result1 = "8,758¥ | [Lilim](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Lilim) (8/Devil), [Ara Mitama](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Ara%20Mitama) (6/Chariot)";
+                var result2 = "8,943¥ | [Alp](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Alp) (6/Lovers), [Apsaras](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Apsaras) (3/Priestess), [Orpheus](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Orpheus) (1/Fool)";
+                var result3 = "9,100¥ | [Valkyrie](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Valkyrie) (11/Strength), [Orpheus](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Orpheus) (1/Fool)";
+                var result4 = "10,351¥ | [Chimera](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Chimera) (9/Chariot), [Lilim](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Lilim) (8/Devil)";
+                var result5 = "10,743¥ | [Yomotsu Shikome](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Yomotsu%20Shikome) (9/Hermit), [Apsaras](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Apsaras) (3/Priestess), [Pixie](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Pixie) (2/Lovers)";
+                break;
+            case "take_minakata":
+                var name = "Take-minakata";
+                var url = "https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Take-minakata";
+                var note = "";
+                var result1 = "12,111¥ | [Yomotsu Shikome](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Yomotsu%20Shikome) (9/Hermit), [Alp](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Alp) (6/Lovers), [Apsaras](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Apsaras) (3/Priestess)";
+                var result2 = "12,111¥ | [Yomotsu Shikome](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Yomotsu%20Shikome) (9/Hermit), [Ara Mitama](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Ara%20Mitama) (6/Chariot), [Apsaras](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Apsaras) (3/Priestess)";
+                var result3 = "12,327¥ | [Yomotsu Shikome](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Yomotsu%20Shikome) (9/Hermit), [Omoikane](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Omoikane) (7/Hierophant), [Pixie](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Pixie) (2/Lovers)";
+                var result4 = "12,327¥ | [Archangel](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Archangel) (10/Justice), [Nekomata](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Nekomata) (5/Magician), [Apsaras](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Apsaras) (3/Priestes)";
+                var result5 = "12,327¥ | [Yomotsu Shikome](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Yomotsu%20Shikome) (9/Hermit), [Forneus](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Forneus) (7/Emperor), [Pixie](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Pixie) (2/Lovers)";
+                break;
+            case "orthrus":
+                var name = "Orthrus";
+                var url = "https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Orthrus";
+                var note = "";
+                var result1 = "34,750¥ | [Yamatano-orochi](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Yamatano-orochi) (26/Moon), [Rakshasa](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Rakshasa) (16/Strength)";
+                var result2 = "35,011¥ | [Vetala](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Vetala) (24/Devil), [Ares](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Ares) (19/Chariot)";
+                var result3 = "36,978¥ | [Hua Po](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Hua%20Po) (20/Magician), [Ghoul](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Ghoul) (18/Death), [Berith](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Berith) (13/Hierophant)";
+                var result4 = "37,302¥ | [Narcissus](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Narcissus) (20/Lovers), [Neko Shogun](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Neko%20Shogun) (19/Star), [Slime](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Slime) (12/Fool)";
+                var result5 = "37,302¥ | [Mithra](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Mithra) (22/Temperance), [Oberon](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Oberon) (15/Emperor), [Zouchouten](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Zouchouten) (14/Chariot)";
+                break;
+            case "vasuki":
+                var name = "Vasuki";
+                var url = "https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Vasuki";
+                var note = "";
+                var result1 = "56,971¥ | [Black Frost](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Black%20Frost) (34/Fool), [Titan](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Titan) (23/Strength)";
+                var result2 = "58,735¥ | [King Frost](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/King%20Frost) (30/Emperor), [Jikokuten](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Jikokuten) (29/Strength)";
+                var result3 = "58,735¥ | [King Frost](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/King%20Frost) (30/Emperor), [Genbu](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Genbu) (29/Temperance)";
+                var result4 = "59,662¥ | [Raja Naga](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Raja%20Naga) (36/Emperor), [Mithra](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Mithra) (22/Temperance)";
+                var result5 = "60,508¥ | [Loa](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Loa) (31/Death), [Jikokuten](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Jikokuten) (29/Strength)";
+                break;
+            case "ubelluris":
+                var name = "Ubelluris";
+                var url = "https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Ubelluris";
+                var note = "";
+                var result1 = "89,466¥ | [Vasuki](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Vasuki) (38/Hanged Man), [Orthrus](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Orthrus) (28/Hanged Man), [Take-minakata](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Take-minakata) (21/Hanged Man)";
+                var result2 = "93,790¥ | [Okuninushi](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Okuninushi) (44/Temperance), [Mothman](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Mothman) (32/Hermit)";
+                var result3 = "95,131¥ | [Koumokuten](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Koumokuten) (43/Chariot), [Incubus](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Incubus) (34/Devil)";
+                var result4 = "95,302¥ | [Narashima](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Narasimha) (46/Strength), [King Frost](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/King%20Frost) (30/Emperor)";
+                var result5 = "97,075¥ | [Narashima](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Narasimha) (46/Strength), [Loa](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Loa) (31/Death)";
+                break;
+            case "hecatoncheires":
+                var name = "Hecatoncheires";
+                var url = "https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Hecatoncheires";
+                var note = "";
+                var result1 = "122,433¥ | [Ubelluris](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Ubelluris) (48/Hanged Man), [Vasuki](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Vasuki) (38/Hanged Man), [Inugami](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Inugami) (10/Hanged Man)";
+                var result2 = "133,026¥ | [Ubelluris](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Ubelluris) (48/Hanged Man), [Vasuki](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Vasuki) (38/Hanged Man), [Take-minakata](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Take-minakata) (21/Hanged Man)";
+                var result3 = "141,022¥ | [Decarabia](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Decarabia) (50/Fool), [Narashima](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Narasimha) (46/Strength)";
+                var result4 = "141,670¥ | [Barong](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Barong) (52/Emperor), [Okuninushi](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Okuninushi) (44/Temperance)";
+                var result5 = "142,156¥ | [Thor](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Thor) (53/Chariot), [Succubus](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Succubus) (43/Devil)";
+                break;
+            case "hell_biker":
+                var name = "Hell Biker";
+                var url = "https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Hell%20Biker";
+                var note = "Requires an item from one of Elizabeth's requests!";
+                var result1 = "164,193¥ | [Hecatoncheires](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Hecatoncheires) (54/Hanged Man), [Ubelluris](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Ubelluris) (48/Hanged Man), [Inugami](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Inugami) (10/Hanged Man)";
+                var result2 = "174,786¥ | [Hecatoncheires](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Hecatoncheires) (54/Hanged Man), [Ubelluris](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Ubelluris) (48/Hanged Man), [Take-minakata](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Take-minakata) (21/Hanged Man)";
+                var result3 = "175,852¥ | [Odin](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Odin) (57/Emperor), [Suzaku](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Suzaku) (51/Temperance)";
+                var result4 = "178,759¥ | [Laksmi](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Laksmi) (57/Empress), [Surt](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Surt) (52/Magician)";
+                var result5 = "178,759¥ | [Byakko](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Byakko) (57/Temperance), [Barong](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Barong) (52/Emperor)";
+                break;
+            case "attis":
+                var name = "Attis";
+                var url = "https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Attis";
+                var note = "Requires the Hanged Man Social Link to be maxed out!";
+                var result1 = "165,976¥ | [Ubelluris](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Ubelluris) (48/Hanged Man), [Vasuki](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Vasuki) (38/Hanged Man), [Orthrus](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Orthrus) (28/Hanged Man), [Take-minakata](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Take-minakata) (21/Hanged Man), [Inugami](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Inugami) (10/Hanged Man)";
+                var result2 = "No Result.";
+                var result3 = "No Result.";
+                var result4 = "No Result.";
+                var result5 = "No Result.";
+                break;
+
+            //death arcana
             // case "template":
             //     var name = "";
             //     var url = "";
@@ -1085,7 +1167,7 @@ module.exports = {
             .addField("Combination #3", result3)
             .addField("Combination #4", result4)
             .addField("Combination #5", result5)
-            .setFooter("Information gathered from Arantius's Persona 3 Portable Fusion Calculator", client.user.displayAvatarURL);
+            .setFooter("Information gathered from Arantius's Persona 3 Portable Fusion Calculator", client.user.avatarURL());
 
         //checks to see if the "note" variable is defined, if it is, display it, if not, display another thing
         if (note) {
