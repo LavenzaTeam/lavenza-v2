@@ -701,7 +701,7 @@ module.exports = {
                 var result4 = "115,548 ¥ | [Koumokuten](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Koumokuten) (43/Chariot), [Nata Taishi](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nata%20Taishi) (37/Chariot), [Ares](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ares) (19/Chariot";
                 var result5 = "116,326 ¥ | [Dionysus](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Dionysus) (48/Moon), [Clotho](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Clotho) (38/Fortune)";
                 break;
-            // End of Chariot
+            // End of Chariot / Start of Justice
             case "angel":
                 var name = "Angel";
                 var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Angel";
@@ -782,6 +782,7 @@ module.exports = {
                 var result4 = "156,039¥ | [Throne](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Throne) (51/Justice), [Dominion](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Dominion) (42/Justice), [Power](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Power) (25/Justice)";
                 var result5 = "157,816¥ | [Kikuri-Hime](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Kikuri-hime) (53/Priestess), [Kaiwan](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Kaiwan) (49/Star)";
                 break;
+            //End of Justice / Start of Hermit
             case "":
                 var name = "";
                 var url = "";
