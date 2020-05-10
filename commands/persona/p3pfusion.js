@@ -1424,7 +1424,7 @@ module.exports = {
                 var note = "";
                 var result1 = "281,841¥ | [Chernobog](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Chernobog) (58/Moon), [Kumbhanda](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Kumbhanda) (56/Hermit), [Atropos](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Atropos) (54/Fortune)";
                 var result2 = "282,003¥ | [Chernobog](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Chernobog) (58/Moon), [Odin](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Odin) (57/Emperor), [Kikuri-hime](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Kikuri-hime) (53/Priestess)";
-                var result3 = "282,003¥ | [Anubis](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Anubis) (59/Judgment), [Kali](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Kali) (55/Strength), [Hecatoncheires](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Hecatoncheires) (54/Hanged Man)";
+                var result3 = "282,003¥ | [Anubis](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Anubis) (59/Judgement), [Kali](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Kali) (55/Strength), [Hecatoncheires](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Hecatoncheires) (54/Hanged Man)";
                 var result4 = "282,651¥ | [Lilith](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Lilith) (61/Devil), [Atropos](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Atropos) (54/Fortune), [Daisoujou](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Daisoujou) (53/Hierophant)";
                 var result5 = "282,651¥ | [Melchizedek](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Melchizedek) (59/Justice), [Ganesha](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Ganesha) (58/Star), [Suzaku](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Suzaku) (51/Temperance)";
                 break;
@@ -1716,6 +1716,68 @@ module.exports = {
                 break;
 
             //judgement arcana
+            case "anubis":
+                var name = "Anubis";
+                var url = "https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Anubis";
+                var note = "";
+                var result1 = "17,439¥ | [Gurr](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Gurr) (15/Moon), [Ara Mitama](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Ara%20Mitama) (6/Chariot), [Nekomata](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Nekomata) (5/Magician)";
+                var result2 = "17,547¥ | [Gurr](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Gurr) (15/Moon), [Forneus](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Forneus) (7/Emperor), [Angel](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Angel) (4/Justice)";
+                var result3 = "18,870¥ | [Gurr](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Gurr) (15/Moon), [Jack Frost](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Jack%20Frost) (8/Magician), [Ara Mitama](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Ara%20Mitama) (6/Chariot)";
+                var result4 = "19,032¥ | [Gurr](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Gurr) (15/Moon), [Chimera](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Chimera) (9/Chariot), [Nekomata](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Nekomata) (5/Magician)";
+                var result5 = "19,671¥ | [Gurr](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Gurr) (15/Moon), [Inugami](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Inugami) (10/Hanged Man), [Nekomata](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Nekomata) (5/Magician)";
+                break;
+            case "trumpeter":
+                var name = "Trumpeter";
+                var url = "https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Trumpeter";
+                var note = "";
+                var result1 = "254,755¥ | [Michael](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Michael) (72/Judgement), [Anubis](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Anubis) (59/Judgement)";
+                var result2 = "273,282¥ | [Bishamonten](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Bishamonten) (60/Tower), [Thor](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Thor) (53/Chariot), [Surt](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Surt) (52/Magician)";
+                var result3 = "274,848¥ | [Uriel](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Uriel) (63/Aeon), [Throne](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Throne) (51/Justice), [Suzaku](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Suzaku) (51/Temperance)";
+                var result4 = "274,902¥ | [Horus](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Horus) (63/Sun), [Surt](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Surt) (52/Magician), [Yaksini](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Yaksini) (50/Magician)";
+                var result5 = "274,902¥ | [Bishamonten](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Bishamonten) (60/Tower), [Chernobog](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Chernobog) (58/Moon), [Parvati](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Parvati) (47/Priestess)";
+                break;
+            case "michael":
+                var name = "Michael";
+                var url = "https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Michael";
+                var note = "";
+                var result1 = "305,020¥ | [Satan](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Satan) (79/Judgement), [Trumpeter](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Trumpeter) (65/Judgement)";
+                var result2 = "330,796¥ | [Lucifer](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Lucifer) (89/Judgement), [Anubis](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Anubis) (59/Judgement)";
+                var result3 = "331,278¥ | [Thanatos](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Thanatos) (64/Death), [Bishamonten](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Bishamonten) (60/Tower), [Siegfried](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Siegfried) (59/Strength)";
+                var result4 = "331,278¥ | [Horus](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Horus) (63/Sun), [Hariti](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Hariti) (62/Empress), [Ganesha](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Ganesha) (58/Star)";
+                var result5 = "331,278¥ | [Uriel](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Uriel) (63/Aeon), [Norn](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Norn) (62/Fortune), [Ganesha](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Ganesha) (58/Star)";
+                break;
+            case "satan":
+                var name = "Satan";
+                var url = "https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Satan";
+                var note = "";
+                var result1 = "406,743¥ | [Nidhoggr](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Nidhoggr) (69/Aeon), [Abaddon](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Abaddon) (68/Devil), [Attis](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Attis) (67/Hanged Man)";
+                var result2 = "407,391¥ | [Baal Zebul](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Baal%20Zebul) (71/Moon), [Gabriel](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Gabriel) (69/Empress), [Thanatos](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Thanatos) (64/Death)";
+                var result3 = "407,715¥ | [Baal Zebul](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Baal%20Zebul) (71/Moon), [Kartikeya](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Kartikeya) (70/Star), [Uriel](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Uriel) (63/Aeon)";
+                var result4 = "407,823¥ | [Masakado](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Masakado) (73/Tower), [Attis](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Attis) (67/Hanged Man), [Thanatos](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Thanatos) (64/Death)";
+                var result5 = "407,823¥ | [Masakado](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Masakado) (73/Tower), [Seiten Taisei](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Seiten%20Taisei) (67/Tower), [Yurlungur](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Yurlungur) (64/Temperance)";
+                break;
+            case "lucifer":
+                var name = "Lucifer";
+                var url = "https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Lucifer";
+                var note = "";
+                var result1 = "771,766¥ | [Helel](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Helel) (88/Star), [Beelzebub](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Beelzebub) (81/Devil), [Satan](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Satan) (79/Judgement), [Abaddon](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Abaddon) (68/Devil), [Samael](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Samael) (37/Death)";
+                var result2 = "No Result.";
+                var result3 = "No Result.";
+                var result4 = "No Result.";
+                var result5 = "No Result.";
+                break;
+            case "messiah":
+                var name = "Messiah";
+                var url = "https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Messiah";
+                var note = "Requires the Judgement Social Link to be maxed out!";
+                var result1 = "123,103¥ | [Thanatos](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Thanatos) (64/Death), [Orpheus](https://arantius.github.io/persona-fusion-calculator/3portable.html#/persona/Orpheus) (1/Fool)";
+                var result2 = "No Result.";
+                var result3 = "No Result.";
+                var result4 = "No Result.";
+                var result5 = "No Result.";
+                break;
+
+            //aeon arcana
             // case "template":
             //     var name = "";
             //     var url = "";
