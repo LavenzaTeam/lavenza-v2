@@ -46,7 +46,7 @@ module.exports = {
                 .addField("Sun Arcana", "`Yatagarasu`, `Quetzalcoatl`, `Jatayu`, `Horus`, `Suparna`, `Vishnu`, `Asura`")
                 .addField("Judgement Arcana", "`Anubis`, `Trumpeter`, `Michael`, `Satan`, `Lucifer`, `Messiah`")
                 .addField("Aeon Arcana", "`Uriel`, `Nidhoggr`, `Ananta`, `Atavaka`, `Metatron`")
-                .setFooter("Information gathered from the Megami Tensei Wiki", client.user.avatarURL())
+                .setFooter("Information gathered from the Megami Tensei Wiki | (Page 1/3)", client.user.avatarURL())
                 .setTimestamp();
 
             let shadowlist = new MessageEmbed()
@@ -59,7 +59,7 @@ module.exports = {
                 .addField("Golden Shadows", "`Wealth Hand`, `Treasure Hand`, `Supreme Hand`, `Opulent Hand`, `Luxury Hand`, `Glorious Hand`")
                 .addField("Full Moon Bosses", "`Arcana Priestess`, `Arcana Empress`, `Arcana Emperor`, `Arcana Hierophant`, `Arcana Lovers`, `Arcana Chariot`, `Arcana Justice`, `Arcana Justice`, `Arcana Hermit`, `Arcana Fortune`, `Arcana Strength`, `Arcana Hanged Man`, `Nyx`, `Erebus`")
                 .addField("Optional Bosses", "`Elizabeth`, `The Reaper`")
-                .setFooter("Information gathered from the Megami Tensei Wiki", client.user.avatarURL())
+                .setFooter("Information gathered from the Megami Tensei Wiki | (Page 2/3)", client.user.avatarURL())
                 .setTimestamp();
 
             let socaillinklist = new MessageEmbed()
@@ -70,7 +70,7 @@ module.exports = {
                 .setThumbnail(client.user.avatarURL())
                 .addField("Male MC Social Links", "`SEES`, `Kanji Tomochika`, `Fuuka Yamagishi`, `Mitsuru Kirijou`, `Hidetoshi Odagiri`, `Bunkichi/Mitsuko Kitamura`, `Yukari Takeba`, `Kazushi Miyamoto`, `Chihiro Fushimi`, `Maya`, `Keisuke Hiraga`, `Yuko Nishiwaki`, `Maiko Oohashi`, `Pharos`, `Bebe`, `Tanaka`, `Mutatsu`, `Mamoru Hayase`, `Nozomi Suemitsu`, `Akinari Kamiki`, `Aigis`")
                 .addField("Female MC Social Links", "`SEES`, `Junpei Iori`, `Fuuka Yamagishi`, `Mitsuru Kirijo`, `Hidetoshi Odagiri`, `Bunkichi/Mitsuko Kitamura`, `Yukari Takeba`, `Rio Iwasaki`, `Ken Amada`, `Saori Hasegawa`, `Ryoji Mochizuki`, `Koromaru`, `Maiko Oohashi`, `Pharos`, `Bebe`, `Tanaka`, `Mutatsu`, `Akihiko Sanada`, `Shinjiro Aragaki`, `Akinari Kamiki`, `Aigis`")
-                .setFooter("Information gathered from the Megami Tensei Wiki", client.user.avatarURL())
+                .setFooter("Information gathered from the Megami Tensei Wiki | (Page 3/3)", client.user.avatarURL())
                 .setTimestamp();
 
             message.channel.send(personalist).then(msg => {
@@ -82,9 +82,13 @@ module.exports = {
                 let pageNum = 1;
 
                 forwards.on("collect", r => {
-                    if (pageNum === 2) {
+                    if (pageNum === 3) {
                         pageNum = 0;
                         msg.edit(personalist);
+                    }
+                    if (pageNum === 2) {
+                        pageNum = 3;
+                        msg.edit(socaillinklist);
                     }
                     if (pageNum === 1) {
                         pageNum = 2;
@@ -99,15 +103,19 @@ module.exports = {
                 backwards.on("collect", r => {
                     if (pageNum === 1) {
                         pageNum = 0;
-                        msg.edit(shadowlist);
+                        msg.edit(sociallinklist);
                     }
                     if (pageNum === 2) {
                         pageNum = 1;
                         msg.edit(personalist);
                     }
-                    if (pageNum === 0) {
+                    if (pageNum === 3) {
                         pageNum = 2;
                         msg.edit(shadowlist);
+                    }
+                    if (pageNum === 0) {
+                        pageNum = 3;
+                        msg.edit(socaillinklist);
                     }
                 });
             })
