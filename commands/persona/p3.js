@@ -22,7 +22,7 @@ module.exports = {
                 .setTitle("Persona 3 FES/Portable Personas")
                 .setURL("https://megamitensei.fandom.com/wiki/List_of_Persona_3_Portable_Personas")
                 .setColor(config.colors.p3blue)
-                .setThumbnail(client.user.displayAvatarURL)
+                .setThumbnail(client.user.avatarURL())
                 .setDescription(`Below is a list of every single Persona in the Persona 3 games! \nTo view the information about a specified Persona, run the command \`${config.prefix}p3 <persona name>\` \nTo view the fusion information for a specified Persona, run the command \`${config.prefix}p3 <persona name> /f \` or \`/p\` \n[Report a Data Error!](${config.servers.discordinvite})`)
                 .addField("Fool Arcana", "`Orpheus`, `Slime`, `Legion`, `Black Frost`, `Ose`, `Decarabia`, `Loki`, `Susano-o`, `Orpheus Telos`")
                 .addField("Magician Arcana", "`Hermes`, `Trismegistus`, `Nekomata`, `Jack Frost`, `Pyro Jack`, `Hua Po`, `Sati`, `Orobas`, `Rangda`, `Surt`")
@@ -54,11 +54,22 @@ module.exports = {
                 .setURL("https://megamitensei.fandom.com/wiki/List_of_Persona_3_Shadows")
                 .setDescription(`Below is a list of every Shadow in the Persona 3 Games! \nTo view the information about a specified shadow, run the command \`${config.prefix}p3 <shadow name>\` \n[Report a Data Error!](${config.servers.discordinvite})`)
                 .setColor(config.colors.p3blue)
-                .setThumbnail(client.user.displayAvatarURL)
+                .setThumbnail(client.user.avatarURL())
                 .addField("Normal Shadow Types", "`Maya`, `Hand`, `Table`, `Magus`, `Tiara`, `Book`, `Idol`, `Eagle`, `Relic`, `Mother`, `Beetle`, `Knight`, `Castle`, `Twins`, `Tower`, `Sigil`, `Cupid`, `Dancer`, `Snake`, `Wheel`, `Drive`, `Turret`, `Balance`, `Sword`, `Giant`, `Raven`, `Phantom`, `Seeker`, `Dice`, `Sand`, `Beast`, `Gigas`, `Musha`, `Minotaur`, `Cyclops`, `Jotun`")
                 .addField("Golden Shadows", "`Wealth Hand`, `Treasure Hand`, `Supreme Hand`, `Opulent Hand`, `Luxury Hand`, `Glorious Hand`")
                 .addField("Full Moon Bosses", "`Arcana Priestess`, `Arcana Empress`, `Arcana Emperor`, `Arcana Hierophant`, `Arcana Lovers`, `Arcana Chariot`, `Arcana Justice`, `Arcana Justice`, `Arcana Hermit`, `Arcana Fortune`, `Arcana Strength`, `Arcana Hanged Man`, `Nyx`, `Erebus`")
                 .addField("Optional Bosses", "`Elizabeth`, `The Reaper`")
+                .setFooter("Information gathered from the Megami Tensei Wiki", client.user.avatarURL())
+                .setTimestamp();
+
+            let socaillinklist = new MessageEmbed()
+                .setTitle("List of Persona 3 FES/Portable Social Links")
+                .setURL("https://megamitensei.fandom.com/wiki/Social_Link")
+                .setDescription(`Below is a list of every Socail Link in the Persona 3 games. \nTo view the information about a specified Social Link, run the command \`${config.prefix}p3 <social link> /sl\` \n[Report a Data Error!](${config.servers.discordinvite})`)
+                .setColor(config.colors.p3blue)
+                .setThumbnail(client.user.avatarURL())
+                .addField("Male MC Social Links", "`SEES`, `Kanji Tomochika`, `Fuuka Yamagishi`, `Mitsuru Kirijou`, `Hidetoshi Odagiri`, `Bunkichi/Mitsuko Kitamura`, `Yukari Takeba`, `Kazushi Miyamoto`, `Chihiro Fushimi`, `Maya`, `Keisuke Hiraga`, `Yuko Nishiwaki`, `Maiko Oohashi`, `Pharos`, `Bebe`, `Tanaka`, `Mutatsu`, `Mamoru Hayase`, `Nozomi Suemitsu`, `Akinari Kamiki`, `Aigis`")
+                .addField("Female MC Social Links", "`SEES`, `Junpei Iori`, `Fuuka Yamagishi`, `Mitsuru Kirijo`, `Hidetoshi Odagiri`, `Bunkichi/Mitsuko Kitamura`, `Yukari Takeba`, `Rio Iwasaki`, `Ken Amada`, `Saori Hasegawa`, `Ryoji Mochizuki`, `Koromaru`, `Maiko Oohashi`, `Pharos`, `Bebe`, `Tanaka`, `Mutatsu`, `Akihiko Sanada`, `Shinjiro Aragaki`, `Akinari Kamiki`, `Aigis`")
                 .setFooter("Information gathered from the Megami Tensei Wiki", client.user.avatarURL())
                 .setTimestamp();
 
