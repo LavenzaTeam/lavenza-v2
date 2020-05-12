@@ -103,7 +103,7 @@ module.exports = {
                 backwards.on("collect", r => {
                     if (pageNum === 1) {
                         pageNum = 0;
-                        msg.edit(sociallinklist);
+                        msg.edit(socaillinklist);
                     }
                     if (pageNum === 2) {
                         pageNum = 1;
