@@ -103,7 +103,7 @@ module.exports = {
                 var result1 = "39,867¥ | [Narcissus](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Narcissus) (20/Lovers), [Ares](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ares) (19/Chariot), [Gurr](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Gurr) (15/Moon)";
                 var result2 = "40,515¥ | [High Pixie](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/High%20Pixie) (21/Priestess), [Hua Po](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Hua%20Po) (20/Magician), [Berith](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Berith) (13/Hierophant)";
                 var result3 = "40,830¥ | [Hua Po](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Hua%20Po) (20/Magician), [Ares](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ares) (19/Chariot), [Rakshasa](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Rakshasa) (16/Strength)";
-                var result4 = "41,001¥	| [Vetala](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Vetala) (24/Devil), [Principality](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Principality) (16/Justice), [Pyro Jack](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Pyro%20Jack) (14/Magician)";
+                var result4 = "41,001¥ | [Vetala](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Vetala) (24/Devil), [Principality](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Principality) (16/Justice), [Pyro Jack](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Pyro%20Jack) (14/Magician)";
                 var result5 = "41,100¥ | [High Pixie](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/High%20Pixie) (21/Priestess), [Ares](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ares) (19/Chariot), [Oberon](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Oberon) (15/Emperor)";
                 break;
             case "decarabia":
@@ -499,21 +499,21 @@ module.exports = {
                 var name = "Flauros";
                 var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Flauros";
                 var note = "";
-                var result1 = "49,015 ¥ | [Sati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Sati) (28/Magician), [Power](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Power) (25/Justice)";
-                var result2 = "49,294 ¥ | [Virtue](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Power) (32/Justice), [Hua Po](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Hua%20Po) (20/Magician)";
-                var result3 = "53,110 ¥	| [Black Frost](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Black%20Frost) (34/Fool), [Hua Po](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Hua%20Po) (20/Magician)";
-                var result4 = "53,740 ¥	| [Jikokuten](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Jikokuten) (29/Strength), [Queen Mab](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Queen%20Mab) (27/Lovers)";
-                var result5 = "54,177 ¥	| [Take-Mikazuchi](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Take-mikazuchi) (24/Emperor), [Legion](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Legion) (22/Fool), [Narcissus](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Narcissus) (20/Lovers)";
+                var result1 = "49,015¥ | [Sati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Sati) (28/Magician), [Power](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Power) (25/Justice)";
+                var result2 = "49,294¥ | [Virtue](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Power) (32/Justice), [Hua Po](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Hua%20Po) (20/Magician)";
+                var result3 = "53,110¥ | [Black Frost](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Black%20Frost) (34/Fool), [Hua Po](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Hua%20Po) (20/Magician)";
+                var result4 = "53,740¥ | [Jikokuten](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Jikokuten) (29/Strength), [Queen Mab](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Queen%20Mab) (27/Lovers)";
+                var result5 = "54,177¥ | [Take-Mikazuchi](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Take-mikazuchi) (24/Emperor), [Legion](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Legion) (22/Fool), [Narcissus](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Narcissus) (20/Lovers)";
                 break;
             case "thoth":
                 var name = "Thoth";
                 var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Thoth";
                 var note = "Requires an item from the Elizabeth's Requests!";
-                var result1 = "63,735¥  | [Flauros](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Flauros) (33/Hierophant), [Shiisaa](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Shiisaa) (26/Hierophant), [Omoikane](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Omoikane) (7/Hierophant)";
-                var result2 = "67,731¥	| [Flauros](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Flauros) (33/Hierophant), [Shiisaa](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Shiisaa) (26/Hierophant), [Berith](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Berith) (13/Hierophant)";
-                var result3 = "71,470¥	| [Orobas](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Orobas) (34/Magician), [Virtue](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Virtue) (32/Justice)";
-                var result4 = "73,360¥	| [Nandi](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nandi) (39/Star), [Queen Mab](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Queen%20Mab) (27/Lovers)";
-                var result5 = "74,431¥	| [Vasuki](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Vasuki) (38/Hanged Man), [Genbu](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Genbu) (29/Temperance)";
+                var result1 = "63,735¥ | [Flauros](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Flauros) (33/Hierophant), [Shiisaa](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Shiisaa) (26/Hierophant), [Omoikane](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Omoikane) (7/Hierophant)";
+                var result2 = "67,731¥ | [Flauros](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Flauros) (33/Hierophant), [Shiisaa](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Shiisaa) (26/Hierophant), [Berith](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Berith) (13/Hierophant)";
+                var result3 = "71,470¥ | [Orobas](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Orobas) (34/Magician), [Virtue](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Virtue) (32/Justice)";
+                var result4 = "73,360¥ | [Nandi](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nandi) (39/Star), [Queen Mab](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Queen%20Mab) (27/Lovers)";
+                var result5 = "74,431¥ | [Vasuki](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Vasuki) (38/Hanged Man), [Genbu](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Genbu) (29/Temperance)";
                 break;
             case "hokuto_seikun":
                 var name = "Hokuto Seikun";
@@ -693,21 +693,21 @@ module.exports = {
                 var name = "Koumokuten";
                 var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Koumokuten";
                 var note = "";
-                var result1 = "77,874 ¥	[Nata Taishi](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nata%20Taishi) (37/Chariot), [Oumitsunu](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Oumitsunu) (30/Chariot), [Ara Mitama](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ara%20Mitama) (6/Chariot)";
-                var result2 = "79,467 ¥	[Nata Taishi](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nata%20Taishi) (37/Chariot), [Oumitsunu](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Oumitsunu) (30/Chariot), [Chimera](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Chimera) (9/Chariot)";
-                var result3 = "83,202 ¥	[Nata Taishi](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nata%20Taishi) (37/Chariot), [Oumitsunu](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Oumitsunu) (30/Chariot), [Zouchouten](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Zouchouten) (14/Chariot)";
-                var result4 = "88,287 ¥	[Nata Taishi](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nata%20Taishi) (37/Chariot), [Oumitsunu](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Oumitsunu) (30/Chariot), [Ares](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ares) (19/Chariot)";
-                var result5 = "89,803 ¥	[Saki Mitama](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Saki%20Mitama) (39/Lovers), [Raja Naga](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Raja%20Naga) (36/Emperor)";
+                var result1 = "77,874¥ | [Nata Taishi](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nata%20Taishi) (37/Chariot), [Oumitsunu](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Oumitsunu) (30/Chariot), [Ara Mitama](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ara%20Mitama) (6/Chariot)";
+                var result2 = "79,467¥ | [Nata Taishi](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nata%20Taishi) (37/Chariot), [Oumitsunu](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Oumitsunu) (30/Chariot), [Chimera](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Chimera) (9/Chariot)";
+                var result3 = "83,202¥ | [Nata Taishi](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nata%20Taishi) (37/Chariot), [Oumitsunu](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Oumitsunu) (30/Chariot), [Zouchouten](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Zouchouten) (14/Chariot)";
+                var result4 = "88,287¥ | [Nata Taishi](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nata%20Taishi) (37/Chariot), [Oumitsunu](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Oumitsunu) (30/Chariot), [Ares](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ares) (19/Chariot)";
+                var result5 = "89,803¥ | [Saki Mitama](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Saki%20Mitama) (39/Lovers), [Raja Naga](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Raja%20Naga) (36/Emperor)";
                 break;
             case "thor":
                 var name = "Thor";
                 var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Thor";
                 var note = "Requires the Chariot social link to be maxed!";
-                var result1 = "105,135 ¥ | [Koumokuten](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Koumokuten) (43/Chariot), [Nata Taishi](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nata%20Taishi) (37/Chariot), [Ara Mitama](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ara%20Mitama) (6/Chariot)";
-                var result2 = "106,728 ¥ | [Koumokuten](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Koumokuten) (43/Chariot), [Nata Taishi](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nata%20Taishi) (37/Chariot), [Chimera](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Chimera) (9/Chariot)";
-                var result3 = "106,728 ¥ | [Koumokuten](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Koumokuten) (43/Chariot), [Nata Taishi](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nata%20Taishi) (37/Chariot), [Zouchouten](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Zouchouten) (14/Chariot)";
-                var result4 = "115,548 ¥ | [Koumokuten](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Koumokuten) (43/Chariot), [Nata Taishi](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nata%20Taishi) (37/Chariot), [Ares](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ares) (19/Chariot";
-                var result5 = "116,326 ¥ | [Dionysus](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Dionysus) (48/Moon), [Clotho](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Clotho) (38/Fortune)";
+                var result1 = "105,135¥ | [Koumokuten](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Koumokuten) (43/Chariot), [Nata Taishi](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nata%20Taishi) (37/Chariot), [Ara Mitama](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ara%20Mitama) (6/Chariot)";
+                var result2 = "106,728¥ | [Koumokuten](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Koumokuten) (43/Chariot), [Nata Taishi](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nata%20Taishi) (37/Chariot), [Chimera](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Chimera) (9/Chariot)";
+                var result3 = "106,728¥ | [Koumokuten](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Koumokuten) (43/Chariot), [Nata Taishi](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nata%20Taishi) (37/Chariot), [Zouchouten](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Zouchouten) (14/Chariot)";
+                var result4 = "115,548¥ | [Koumokuten](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Koumokuten) (43/Chariot), [Nata Taishi](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nata%20Taishi) (37/Chariot), [Ares](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ares) (19/Chariot";
+                var result5 = "116,326¥ | [Dionysus](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Dionysus) (48/Moon), [Clotho](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Clotho) (38/Fortune)";
                 break;
 
             // End of Chariot / Start of Justice
@@ -715,8 +715,8 @@ module.exports = {
                 var name = "Angel";
                 var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Angel";
                 var note = "";
-                var result1 = "5,068¥ [Apsaras](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Apsaras) (3/Priestess), [Orpheus](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Orpheus) (1/Fool)";
-                var result2 = "17,182¥ [Principality](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Principality) (16/Justice), [Archangel](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Archangel) (10/Justice)";
+                var result1 = "5,068¥ | [Apsaras](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Apsaras) (3/Priestess), [Orpheus](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Orpheus) (1/Fool)";
+                var result2 = "17,182¥ | [Principality](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Principality) (16/Justice), [Archangel](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Archangel) (10/Justice)";
                 var result3 = "No Fusion Found!";
                 var result4 = "No Fusion Found!";
                 var result5 = "No Fusion Found!";
@@ -793,66 +793,108 @@ module.exports = {
                 break;
 
             //End of Justice / Start of Hermit
-            case "":
-                var name = "";
-                var url = "";
+            case "yomotsu_shikome":
+                var name = "Yomotsu Shikome";
+                var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Yomotsu%20Shikome";
                 var note = "";
-                var result1 = "";
-                var result2 = "";
-                var result3 = "";
-                var result4 = "";
-                var result5 = "";
+                var result1 = "6,652¥ | [Omoikane](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Omoikane) (7/Hierophant), [Orpheus](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Orpheus) (1/Fool)";
+                var result2 = "7,183¥ | [Lilim](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Lilim) (8/Devil), [Orpheus](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Orpheus) (1/Fool)";
+                var result3 = "7,804¥ | [Omoikane](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Omoikane) (7/Hierophant), [Nekomata](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nekomata) (5/Magician)";
+                var result4 = "8,227¥ | [Forneus](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Forneus) (7/Emperor), [Ara Mitama](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ara%20Mitama) (6/Chariot)";
+                var result5 = "8,614¥ | [Inugami](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Inugami) (10/Hanged Man), [Pixie](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Pixie) (2/Lovers)";
                 break;
-            case "":
-                var name = "";
-                var url = "";
+            case "naga":
+                var name = "Naga";
+                var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Naga";
                 var note = "";
-                var result1 = "";
-                var result2 = "";
-                var result3 = "";
-                var result4 = "";
-                var result5 = "";
+                var result1 = "10,995¥ | [Omoikane](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Omoikane) (7/Hierophant), [Alp](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Alp) (6/Lovers), [Apsaras](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Apsaras) (3/Priestess)";
+                var result2 = "10,995¥ | [Omoikane](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Omoikane) (7/Hierophant), [Ara Mitama](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ara%20Mitama) (6/Chariot), [Apsaras](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Apsaras) (3/Priestess)";
+                var result3 = "11,310¥ | [Omoikane](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Omoikane) (7/Hierophant), [Ara Mitama](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ara%20Mitama) (6/Chariot), [Angel](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Angel) (4/Justice)";
+                var result4 = "11,418¥ | [Jack Frost](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Jack%20Frost) (8/Magician), [Nekomata](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nekomata) (5/Magician), [Angel](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Angel) (4/Justice)";
+                var result5 = "11,490¥ | [Inugami](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Inugami) (10/Hanged Man), [Angel](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Angel) (4/Justice), [Orpheus](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Orpheus) (1/Fool)";
                 break;
-            case "":
-                var name = "";
-                var url = "";
+            case "lamia":
+                var name = "Lamia";
+                var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Lamia";
                 var note = "";
-                var result1 = "";
-                var result2 = "";
-                var result3 = "";
-                var result4 = "";
-                var result5 = "";
+                var result1 = "24,400¥ | [Ares](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ares) (19/Chariot), [Oberon](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Oberon) (15/Emperor)";
+                var result2 = "25,692¥ | [Naga](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Naga) (17/Hermit), [Unicorn](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Unicorn) (11/Priestess), [Valkyrie](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Valkyrie) (11/Strength)";
+                var result3 = "25,908¥ | [Fortuna](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Fortuna) (17/Fortune), [Berith](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Berith) (13/Hierophant), [Yomotsu Shikome](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Yomotsu%20Shikome) (9/Hermit)";
+                var result4 = "26,128¥ | [Titan](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Titan) (23/Strength), [Unicorn](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Unicorn) (11/Priestess)";
+                var result5 = "26,178¥ | [Fortuna](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Fortuna) (17/Fortune), [Zouchouten](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Zouchouten) (14/Chariot), [Jack Frost](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Jack%20Frost) (8/Magician)";
                 break;
-            case "":
-                var name = "";
-                var url = "";
+            case "mothman":
+                var name = "Mothman";
+                var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Mothman";
                 var note = "";
-                var result1 = "";
-                var result2 = "";
-                var result3 = "";
-                var result4 = "";
-                var result5 = "";
+                var result1 = "44,560¥ | [Sarasvati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Sarasvati) (27/Priestess), [Titan](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Titan) (23/Strength)";
+                var result2 = "45,208¥ | [Jikokuten](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Jikokuten) (29/Strength), [High Pixie](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/High%20Pixie) (21/Priestess)";
+                var result3 = "45,208¥ | [Jikokuten](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Jikokuten) (29/Strength), [Take-minakata](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Take-minakata) (21/Hanged Man)";
+                var result4 = "46,171¥ | [Orthrus](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Orthrus) (28/Hanged Man), [Titan](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Titan) (23/Strength)";
+                var result5 = "46,927¥ | [King Frost](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/King%20Frost) (30/Emperor), [Take-minakata](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Take-minakata) (21/Hanged Man)";
                 break;
+            case "taraka":
+                var name = "Taraka";
+                var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Taraka";
+                var note = "";
+                var result1 = "61,467¥ | [Mothman](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Mothman) (32/Hermit), [Lamia](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Lamia) (25/Hermit), [Yomotsu Shikome](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Yomotsu%20Shikome) (9/Hermit)";
+                var result2 = "68,091¥ | [Mothman](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Mothman) (32/Hermit), [Lamia](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Lamia) (25/Hermit), [Naga](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Naga) (17/Hermit)";
+                var result3 = "68,140¥ | [Ganga](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ganga) (25/Priestess), [Jikokuten](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Jikokuten) (29/Strength)";
+                var result4 = "68,518¥ | [Raja Naga](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Raja%20Naga) (36/Emperor), [Orthrus](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Orthrus) (28/Hanged Man)";
+                var result5 = "69,004¥ | [Hanuman](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Hanuman) (37/Strength), [Sarasvati](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Sarasvati) (27/Priestess)";
+                break;
+            case "kurama_tengu":
+                var name = "Kurama Tengu";
+                var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Kurama%20Tengu";
+                var note = "";
+                var result1 = "85,218¥ | [Taraka](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Taraka) (38/Hermit), [Mothman](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Mothman) (32/Hermit), [Yomotsu Shikome](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Yomotsu%20Shikome) (9/Hermit)";
+                var result2 = "91,842¥ | [Taraka](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Taraka) (38/Hermit), [Mothman](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Mothman) (32/Hermit), [Naga](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Naga) (17/Hermit)";
+                var result3 = "94,051¥ | [Saki Mitama](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Saki%20Mitama) (39/Lovers), [Vasuki](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Vasuki) (38/Hanged Man)";
+                var result4 = "95,131¥ | [Succubus](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Succubus) (43/Devil), [Black Frost](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Black%20Frost) (34/Fool)";
+                var result5 = "95,302¥ | [Kingu](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Kingu) (46/Emperor), [Oumitsunu](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Oumitsunu) (30/Chariot)";
+                break;
+            case "nebiros":
+                var name = "Nebiros";
+                var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nebiros";
+                var note = "Requires an item from one of Elizabeth's requests!";
+                var result1 = "111,354¥ | [Kurama Tengu](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Kurama%20Tengu) (44/Hermit), [Taraka](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Taraka) (38/Hermit), [Yomotsu Shikome](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Yomotsu%20Shikome) (9/Hermit)";
+                var result2 = "117,978¥ | [Kurama Tengu](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Kurama%20Tengu) (44/Hermit), [Taraka](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Taraka) (38/Hermit), [Naga](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Naga) (17/Hermit)";
+                var result3 = "122,563¥ | [Kingu](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Kingu) (46/Emperor), [Koumokuten](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Koumokuten) (43/Chariot)";
+                var result4 = "125,479¥ | [Barong](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Barong) (52/Emperor), [Nata Taishi](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nata%20Taishi) (37/Chariot)";
+                var result5 = "126,343¥ | [Thor](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Thor) (53/Chariot), [Raja Naga](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Raja%20Naga) (36/Emperor)";
+                break;
+            case "kumbhanda":
+                var name = "Kumbhanda";
+                var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Kumbhanda";
+                var note = "";
+                var result1 = "141,378¥ | [Nebiros](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nebiros) (50/Hermit), [Kurama Tengu](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Kurama%20Tengu) (44/Hermit), [Yomotsu Shikome](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Yomotsu%20Shikome) ()";
+                var result2 = "148,002¥ | [Nebiros](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Nebiros) (50/Hermit), [Kurama Tengu](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Kurama%20Tengu) (44/Hermit), [Naga](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Naga) (17/Hermit)";
+                var result3 = "152,110¥ | [Barong](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Barong) (52/Emperor), [Ubelluris](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Ubelluris) (48/Hanged Man)";
+                var result4 = "152,758¥ | [Hecatoncheires](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Hecatoncheires) (54/Hanged Man), [Kingu](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Kingu) (46/Emperor)";
+                var result5 = "152,758¥ | [Hecatoncheires](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Hecatoncheires) (54/Hnaged Man), [Narasimha](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Narasimha) (46/Strength)";
+                break;
+            case "arahabaki":
+                var name = "Arahabaki";
+                var url = "https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Arahabaki";
+                var note = "";
+                var result1 = "165,683¥ | [Kikuri-hime](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Kikuri-hime) (53/Priestess), [Okuninushi](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Okuninushi) (44/Temperance), [Take-minakata](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Take-minakata) (21/Hanged Man), [Omoikane](https://arantius.com/misc/persona-3-fes-fusion-calculator/#/persona/Omoikane) (7/Hierophant)";
+                var result2 = "No Fusion Found!";
+                var result3 = "No Fusion Found!";
+                var result4 = "No Fusion Found!";
+                var result5 = "No Fusion Found!";
+                break;
+
+            // End of Hermit / Start of Fortune
             // case "":
             //     var name = "";
             //     var url = "";
             //     var note = "";
-            //     var result1 = "";
-            //     var result2 = "";
-            //     var result3 = "";
-            //     var result4 = "";
-            //     var result5 = "";
+            //     var result1 = " | []() (), []() (), []() ()";
+            //     var result2 = " | []() (), []() (), []() ()";
+            //     var result3 = " | []() (), []() (), []() ()";
+            //     var result4 = " | []() (), []() (), []() ()";
+            //     var result5 = " | []() (), []() (), []() ()";
             //     break;
-
-
-
-
-
-
-
-
-
-
         }
 
         //checks if the user entered a valid persona name by checking if the "name" variable was defined
