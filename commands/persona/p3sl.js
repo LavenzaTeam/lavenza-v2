@@ -21,8 +21,8 @@ module.exports = {
 
         switch(slname) {
             case "kenji_tomochika":
-                let kenji1 = new MessageEmbed()
-                    .setTitle("Kenji Tomochika Rank 1")
+                let kenjiMale = new MessageEmbed()
+                    .setTitle("Kenji Tomochika Male Route")
                     .setColor(config.colors)
                 break;
         }
