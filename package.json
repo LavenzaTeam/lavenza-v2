@@ -7,6 +7,7 @@
   "dependencies": {
     "common-tags": "^1.8.0",
     "discord.js": "^12.1.1",
+    "twit": "^2.2.11",
     "util": "^0.12.1"
   },
   "devDependencies": {},
