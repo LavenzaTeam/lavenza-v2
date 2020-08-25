@@ -68,7 +68,7 @@ module.exports = {
                 .setDescription(`Below is a list of every Socail Link in the Persona 3 games. \nTo view the information about a specified Social Link, run the command \`${config.prefix}p3 <social link> /sl\` \n[Report a Data Error!](${config.servers.discordinvite})`)
                 .setColor(config.colors.p3blue)
                 .setThumbnail(client.user.avatarURL())
-                .addField("Male MC Social Links", "`SEES`, `Kanji Tomochika`, `Fuuka Yamagishi`, `Mitsuru Kirijou`, `Hidetoshi Odagiri`, `Bunkichi/Mitsuko Kitamura`, `Yukari Takeba`, `Kazushi Miyamoto`, `Chihiro Fushimi`, `Maya`, `Keisuke Hiraga`, `Yuko Nishiwaki`, `Maiko Oohashi`, `Pharos`, `Bebe`, `Tanaka`, `Mutatsu`, `Mamoru Hayase`, `Nozomi Suemitsu`, `Akinari Kamiki`, `Aigis`")
+                .addField("Male MC Social Links", "`SEES`, `Kenji Tomochika`, `Fuuka Yamagishi`, `Mitsuru Kirijou`, `Hidetoshi Odagiri`, `Bunkichi/Mitsuko Kitamura`, `Yukari Takeba`, `Kazushi Miyamoto`, `Chihiro Fushimi`, `Maya`, `Keisuke Hiraga`, `Yuko Nishiwaki`, `Maiko Oohashi`, `Pharos`, `Bebe`, `Tanaka`, `Mutatsu`, `Mamoru Hayase`, `Nozomi Suemitsu`, `Akinari Kamiki`, `Aigis`")
                 .addField("Female MC Social Links", "`SEES`, `Junpei Iori`, `Fuuka Yamagishi`, `Mitsuru Kirijo`, `Hidetoshi Odagiri`, `Bunkichi/Mitsuko Kitamura`, `Yukari Takeba`, `Rio Iwasaki`, `Ken Amada`, `Saori Hasegawa`, `Ryoji Mochizuki`, `Koromaru`, `Maiko Oohashi`, `Pharos`, `Bebe`, `Tanaka`, `Mutatsu`, `Akihiko Sanada`, `Shinjiro Aragaki`, `Akinari Kamiki`, `Aigis`")
                 .setFooter("Information gathered from the Megami Tensei Wiki | (Page 3/3)", client.user.avatarURL())
                 .setTimestamp();
