@@ -1,6 +1,9 @@
 const { Client, Collection } = require("discord.js");
 const client = new Client();
 
+["commands", "aliases"].forEach(x => client[x] = new Collection());
+["command", "event"].forEach(x => require(`./handlers/${x}`)(client));
+
 //twitter integration
 //twitter configuration
 const Twitter = require("twit");
@@ -23,8 +26,5 @@ stream.on("tweet", tweet => {
     client.channels.cache.get(destinationChannelID).send(twitterMessage);
 })
 //end twitter integration
-
-["commands", "aliases"].forEach(x => client[x] = new Collection());
-["command", "event"].forEach(x => require(`./handlers/${x}`)(client));
 
 client.login(process.env.DISCORD_TOKEN);
