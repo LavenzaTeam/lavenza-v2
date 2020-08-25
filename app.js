@@ -22,6 +22,12 @@ const stream = twitterClient.stream("statuses/filter", {
 });
 
 stream.on("tweet", tweet => {
+    if (tweet.retweeted_status
+        || tweet.in_reply_to_status_id
+        || tweet.in_reply_to_status_id_str
+        || tweet.in_reply_to_user_id
+        || tweet.in_reply_to_user_id_str
+        || tweet.in_reply_to_screen_name) return;
     const twitterMessage = `https://twitter.com/${tweet.user.screen_name}/status/${tweet.id_str}`
     client.channels.cache.get(destinationChannelID).send(twitterMessage);
 })
