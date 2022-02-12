@@ -1,19 +1,18 @@
 {
-  "name": "lavenza",
-  "version": "0.3.3",
-  "description": "A Persona bot for Discord!",
-  "main": "app.js",
-  "repository": "github:ArkaneOnline/lavenza",
-  "dependencies": {
-    "common-tags": "^1.8.0",
-    "discord.js": "^12.1.1",
-    "twit": "^2.2.11",
-    "util": "^0.12.1"
-  },
-  "devDependencies": {},
+  "name": "projectamethyst",
+  "version": "1.0.0",
+  "description": "A Discord Bot.",
+  "main": "app.ts",
   "scripts": {
-    "start": "node app.js"
+    "start": "ts-node app.ts"
   },
-  "author": "Arkane, QueenofPiking, and CoolStalker",
-  "license": "MIT"
+  "keywords": [],
+  "author": "Arkane",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "mongoose": "^6.2.1",
+    "wokcommands": "^1.5.3"
+  }
 }
