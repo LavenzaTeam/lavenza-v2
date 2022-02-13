@@ -1,8 +1,12 @@
 {
-    "personas": {
-
+    "persona": {
+        "arsene": {
+            "name": "Arsène",
+            "url": "https://megamitensei.fandom.com/wiki/Arsène#Persona_(P5R)",
+            "img": "./personaData/assets/p5r/persona/arsene.png"
+        }
     },
-    "shadows": {
+    "shadow": {
 
     },
     "fusion": {
