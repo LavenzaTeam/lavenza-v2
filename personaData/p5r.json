@@ -4,12 +4,30 @@
             "name": "Arsène",
             "url": "https://megamitensei.fandom.com/wiki/Arsène#Persona_(P5R)",
             "img": "./personaData/assets/p5r/persona/arsene.png"
+        },
+        "obariyon": {
+            "name": "Obariyon",
+            "url":"https://megamitensei.fandom.com/wiki/Obariyon#Persona_(P5R)",
+            "img": "./personaData/assets/p5r/persona/obariyon.png"
         }
     },
     "shadow": {
-
+        "obariyon": {
+            "name": "Obariyon",
+            "url":"https://megamitensei.fandom.com/wiki/Obariyon#Shadow_(P5R)",
+            "img": "./personaData/assets/p5r/shadow/obariyon.png"
+        }
     },
     "fusion": {
-        
+        "arsene": {
+            "name": "Arsène",
+            "url": "https://chinhodado.github.io/persona5_calculator/indexRoyal.html#/persona/Arsene",
+            "img": "./personaData/assets/p5r/fusion/arsene.png"
+        },
+        "obariyon": {
+            "name": "Obariyon",
+            "url":"https://chinhodado.github.io/persona5_calculator/indexRoyal.html#/persona/Obariyon",
+            "img": "./personaData/assets/p5r/fusion/obariyon.png"
+        }
     }
 }

@@ -57,10 +57,12 @@ export default {
             let attachment = new MessageAttachment(p5r[type][itemname].img, "img.png");
 
             let P5REmbed = new MessageEmbed()
-                .setTitle(p5r[type][itemname].name)
+                .setTitle(`${p5r[type][itemname].name} (${type.charAt(0).toUpperCase() + type.slice(1)})`)
                 .setURL(p5r[type][itemname].url)
                 .setDescription("[Report an error!](https://lavenza.tk/discord)")
                 .setImage("attachment://img.png");
+
+            if (type === "fusion") P5REmbed.setDescription("This calculation assumes that you have every DLC persona. If you don't own all DLC personas, please click the link to configure the DLCs you own correctly. \n[Report an error!](https://lavenza.tk/discord)")
 
             message.reply({
                 embeds: [P5REmbed],
@@ -81,10 +83,12 @@ export default {
             let attachment = new MessageAttachment(p5r[type][itemname].img, "img.png");
 
             let P5REmbed = new MessageEmbed()
-                .setTitle(p5r[type][itemname].name)
+                .setTitle(`${p5r[type][itemname].name} (${type.charAt(0).toUpperCase() + type.slice(1)})`)
                 .setURL(p5r[type][itemname].url)
                 .setDescription("[Report an error!](https://lavenza.tk/discord)")
                 .setImage("attachment://img.png");
+
+            if (type === "fusion") P5REmbed.setDescription("This calculation assumes that you have every DLC persona. If you don't own all DLC personas, please click the link to configure the DLCs you own correctly. \n[Report an error!](https://lavenza.tk/discord)")
 
             interaction.reply({
                 embeds: [P5REmbed],
