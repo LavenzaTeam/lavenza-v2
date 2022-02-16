@@ -1,7 +1,7 @@
 {
-  "name": "projectamethyst",
+  "name": "lavenza",
   "version": "1.0.0",
-  "description": "A Discord Bot.",
+  "description": "The First public Persona Comendium Discord Bot.",
   "main": "app.ts",
   "scripts": {
     "start": "ts-node app.ts"
