@@ -33,7 +33,7 @@ client.on("ready", () => {
         ]
     }).setDefaultPrefix(";");
 
-    client.user!.setPresence({ activities: [{ name: `github.com/arkaneonline/projectamethyst` }], status: "dnd" })
+    client.user!.setPresence({ activities: [{ name: `lavenza.tk` }], status: "dnd" })
 
 });
 
