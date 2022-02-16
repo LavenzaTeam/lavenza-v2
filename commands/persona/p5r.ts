@@ -50,7 +50,7 @@ export default {
             }
 
             if (!p5r[type][itemname]) {
-                message.reply("Please enter a valid Persona or Shadow name. A list of valid names can be found here: **https://megamitensei.fandom.com/wiki/Megami_Tensei_Wiki**");
+                message.reply(`Search: \`${itemname}\` provided no results. \nPlease enter a valid Persona or Shadow name. A list of valid names can be found here: **https://megamitensei.fandom.com/wiki/Megami_Tensei_Wiki**`);
                 return false;
             }
 
@@ -77,7 +77,7 @@ export default {
                 return false;
             }
             if (!p5r[type][itemname]) {
-                interaction.reply("Please enter a valid Persona or Shadow name. A list of valid names can be found here: **https://megamitensei.fandom.com/wiki/Megami_Tensei_Wiki**");
+                interaction.reply(`Search: \`${itemname}\` provided no results. \nPlease enter a valid Persona or Shadow name. A list of valid names can be found here: **https://megamitensei.fandom.com/wiki/Megami_Tensei_Wiki**`);
                 return false;
             }
             let attachment = new MessageAttachment(p5r[type][itemname].img, "img.png");
@@ -88,7 +88,8 @@ export default {
                 .setDescription("[Report an error!](https://lavenza.tk/discord)")
                 .setImage("attachment://img.png");
 
-            if (type === "fusion") P5REmbed.setDescription("This calculation assumes that you have every DLC persona. If you don't own all DLC personas, please click the link to configure the DLCs you own correctly. \n[Report an error!](https://lavenza.tk/discord)")
+            if (type === "fusion") P5REmbed.setDescription("This calculation assumes that you have every DLC persona. If you don't own all DLC personas, please click the link to configure the DLCs you own correctly. \n[Report an error!](https://lavenza.tk/discord)");
+            if (type === "shadow") P5REmbed.addField("Shadow Name", p5r[type][itemname].altname);
 
             interaction.reply({
                 embeds: [P5REmbed],
