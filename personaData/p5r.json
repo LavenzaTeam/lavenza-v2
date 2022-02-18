@@ -9,6 +9,87 @@
             "name": "Obariyon",
             "url":"https://megamitensei.fandom.com/wiki/Obariyon#Persona_(P5R)",
             "img": "./personaData/assets/p5r/persona/obariyon.png"
+        },
+        "orpheus_(f)": {
+            "name": "Orpheus (F)",
+            "url": "https://megamitensei.fandom.com/wiki/Orpheus#Female_(Royal_only)_",
+            "img": "./personaData/assets/p5r/persona/orpheus_(f).png"
+        },
+        "orpheus_picaro_(f)": {
+            "name": "Orpheus Picaro (F)",
+            "url": "https://megamitensei.fandom.com/wiki/Orpheus#Female_Picaro_(Royal_only)_",
+            "img": "./personaData/assets/p5r/persona/orpheus_picaro_(f).png"
+        },
+        "high_pixie": {
+            "name": "High Pixie",
+            "url": "https://megamitensei.fandom.com/wiki/High_Pixie#Persona",
+            "img": "./personaData/assets/p5r/persona/high_pixie.png"
+        },
+        "izanagi": {
+            "name": "Izanagi",
+            "url": "https://megamitensei.fandom.com/wiki/Izanagi#Persona_5_Royal",
+            "img": "./personaData/assets/p5r/persona/izanagi.png"
+        },
+        "izanagi_picaro": {
+            "name": "Izanagi Picaro",
+            "url": "https://megamitensei.fandom.com/wiki/Izanagi#Picaro",
+            "img": "./personaData/assets/p5r/persona/izanagi_picaro.png"
+        },
+        "orpheus": {
+            "name": "Orpheus",
+            "url": "https://megamitensei.fandom.com/wiki/Orpheus#Persona_5_Royal_",
+            "img": "./personaData/assets/p5r/persona/orpheus.png"
+        },
+        "orpheus_picaro": {
+            "name": "Orpheus Picaro",
+            "url": "https://megamitensei.fandom.com/wiki/Orpheus#Picaro_",
+            "img": "./personaData/assets/p5r/persona/orpheus_picaro.png"
+        },
+        "legion": {
+            "name": "Legion",
+            "url": "https://megamitensei.fandom.com/wiki/Legion#Persona",
+            "img": "./personaData/assets/p5r/persona/legion.png"
+        },
+        "ose": {
+            "name": "Ose",
+            "url": "https://megamitensei.fandom.com/wiki/Ose#Persona",
+            "img": "./personaData/assets/p5r/persona/ose.png"
+        },
+        "bugs": {
+            "name": "Bugs",
+            "url": "https://megamitensei.fandom.com/wiki/Bugbear#Persona_5_Royal",
+            "img": "./personaData/assets/p5r/persona/bugs.png"
+        },
+        "crystal_skull": {
+            "name": "Crystal Skull",
+            "url": "https://megamitensei.fandom.com/wiki/Crystal_Skull_(Treasure_Demon)#Persona",
+            "img": "./personaData/assets/p5r/persona/crystal_skull.png"
+        },
+        "black_frost": {
+            "name": "Black Frost",
+            "url": "https://megamitensei.fandom.com/wiki/Black_Frost#Persona_5_Royal",
+            "img": "./personaData/assets/p5r/persona/black_frost.png"
+        },
+        "raoul": {
+            "name": "Raoul",
+            "url": "https://megamitensei.fandom.com/wiki/Raoul",
+            "img": "./personaData/assets/p5r/persona/raoul.png"
+        },
+        "vishnu": {
+            "name": "Vishnu",
+            "url": "https://megamitensei.fandom.com/wiki/Vishnu#Persona_(P5R)",
+            "img": "./personaData/assets/p5r/persona/vishnu.png"
+        },
+        "satanael": {
+            "name": "Satanael",
+            "url": "https://megamitensei.fandom.com/wiki/Satanael#Persona_5_Royal",
+            "img": "./personaData/assets/p5r/persona/satanael.png"
+        },
+
+
+
+        "magician": {
+            "next": "persona"
         }
     },
     "shadow": {
@@ -17,6 +98,48 @@
             "url":"https://megamitensei.fandom.com/wiki/Obariyon#Shadow_(P5R)",
             "altname": "Piggyback Demon",
             "img": "./personaData/assets/p5r/shadow/obariyon.png"
+        },
+        "high_pixie": {
+            "name": "High Pixie",
+            "url": "https://megamitensei.fandom.com/wiki/High_Pixie#Shadow",
+            "altname": "Prankster Leader",
+            "img": "./personaData/assets/p5r/shadow/high_pixie.png"
+        },
+        "legion": {
+            "name": "Legion",
+            "url": "https://megamitensei.fandom.com/wiki/Legion#Shadow",
+            "altname": "Fused Ghost",
+            "img": "./personaData/assets/p5r/shadow/legion.png"
+        },
+        "legion_(akitsu)": {
+            "name": "Legion (Shadow Akitsu)",
+            "url": "https://megamitensei.fandom.com/wiki/Legion#Shadow_Akitsu",
+            "altname": "Fused Ghost",
+            "img": "./personaData/assets/p5r/shadow/legion_(akitsu).png"
+        },
+        "legion_(amasaki)": {
+            "name": "Legion (Summoned by Shadow Amasaki)",
+            "url": "https://megamitensei.fandom.com/wiki/Legion#Summoned_by_Shadow_Amasaki",
+            "altname": "Fused Ghost",
+            "img": "./personaData/assets/p5r/shadow/legion_(amasaki).png"
+        },
+        "ose": {
+            "name": "Ose",
+            "url": "https://megamitensei.fandom.com/wiki/Ose#Shadow",
+            "altname": "Cruel Leopard",
+            "img": "./personaData/assets/p5r/shadow/ose.png"
+        },
+        "crystal_skull": {
+            "name": "Crystal Skull",
+            "url": "https://megamitensei.fandom.com/wiki/Crystal_Skull_(Treasure_Demon)#Shadow_",
+            "altname": "N/A",
+            "img": "./personaData/assets/p5r/shadow/crystal_skull.png"
+        },
+        
+
+
+        "magician": {
+            "next": "shadow"
         }
     },
     "fusion": {
