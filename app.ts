@@ -33,7 +33,7 @@ client.on("ready", () => {
         ]
     }).setDefaultPrefix(";");
 
-    client.user!.setPresence({ activities: [{ name: `lavenza.tk` }], status: "dnd" })
+    client.user!.setPresence({ activities: [{ name: `Early Dev Build, Most features are unfinished.` }], status: "dnd" })
 
 });
 
